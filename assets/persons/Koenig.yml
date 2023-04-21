@@ -1,0 +1,31 @@
+- id: 'Koenig'
+  title: 'Dr. rer. nat.'
+  name: 'Matthias König'
+  group: 'Koenig'
+  role: 'PI'
+  description: 'The König lab uses Systems Medicine and Systems Biology to study drug metabolism and liver function. We apply computational modeling, data science, data management, bioinformatics analysis and machine learning on biological, medical and clinical data. 
+  The main research topics are (i) predictive modeling of biomedical systems with a special focus on the liver, (ii) development of digital twins using physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open research, and (iv) FAIR data and workflows.
+  Key projects include personalized assessment of liver function tests, multi-scale modeling of the liver, and development of databases and workflows to support reproducible, open and FAIR research. As part of our research, we generate predictive digital twins of individual human physiology. Such models can provide important insights into inter-individual differences and personalized treatments, such as individualized drug dosing or the effect of lifestyle factors on drug metabolism.'
+  affiliations:
+  - 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
+  orcid: '0000-0003-1725-179X'
+  websites:
+    - 'https://livermetabolism.com/cv/'
+    - 'https://github.com/matthiaskoenig/'
+  image: 'Koenig.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - 'Modeling'
+  publications:
+    - 'Berndt2018'
+    - 'Medley2018'
+    - 'Abshagen2015'
+    - 'Somogyi2015'
+    - 'Werner2015'
+    - 'Ricken2015'
+    - 'Koenig2013'
+    - 'Koenig2012'
+    - 'Koenig2012a'
+    - 'Gille2010'

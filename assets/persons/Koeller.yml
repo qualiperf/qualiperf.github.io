@@ -1,0 +1,19 @@
+- id: 'Koeller'
+  role: 'Student assistant'
+  group: 'Koenig'
+  title: 'B. Sc.'
+  name: 'Adrian Koeller'
+  affiliations:
+  - 'Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin'
+  orcid: '0000-0002-4503-5675'
+  websites:
+  image: 'Koeller.png'
+  description: 'Development of pharmacokinetic Models for the quantification of liver function.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - 'Modeling'
+  publications:
+    - 'Koeller2021a'
+    - 'Koeller2021b'

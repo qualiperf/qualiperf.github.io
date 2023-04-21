@@ -1,0 +1,18 @@
+- id: 'Leal Pujol'
+  role: 'Student assistant'
+  group: 'Koenig'
+  title: 'B. Sc.'
+  name: 'Helena Leal Pujol'
+  affiliations: 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
+  orcid: '0000-0003-2919-56XX'
+  websites:
+    - 'https://github.com/lepujolh/'
+  image: 'LealPujol.png'
+  description: 'Helena Leal Pujol is a student assistant in the Koenig group. She works on data curation and on a physiologically based model of pravastatin.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - Data curation
+    - Modeling
+  publications:

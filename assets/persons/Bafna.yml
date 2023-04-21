@@ -1,0 +1,22 @@
+- id: 'Bafna'
+  role: 'Fellow'
+  group: 'Dahmen'
+  title: ''
+  name: 'Mehul Bafna'
+  affiliations:
+    - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery, Experimental Transplantation Surgery'
+  orcid: ''
+  websites:
+    - 'https://github.com/MehulBafna'
+  image: 'Bafna.png'
+  description: 'Data Manager'
+  projects:
+    - 'QuaLiPerF'
+    - 'Coordination'
+    - 'P2'
+    - 'DMP'
+  tags:
+    - Data Modeling
+    - Data Analysis
+    - Data Management
+    - Data integration

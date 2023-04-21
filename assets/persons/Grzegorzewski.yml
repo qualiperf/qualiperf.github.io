@@ -1,0 +1,29 @@
+- id: 'Grzegorzewski'
+  role: 'Alumni'
+  group: 'König'
+  title:
+  name: 'Jan Grzegorzewski'
+  affiliations:
+  - 'Institute for Theoretical Biology, Humboldt-University Berlin, Berlin, Germany'
+  orcid: '0000-0002-4588-4925'
+  websites:
+  - 'https://livermetabolism.com/'
+  - 'https://github.com/janekg89'
+  image: 'Grzegorzewski.png'
+  description: 'Jan Grzegorzewski is a physicist who specializes in mathematical modelling particularly in the field of systems biology. Within "Qualiperf",
+  he has been developing individualized physiological based pharmacokinetic models for rats, swine, and humans, as well as, processing and analyzing histological
+  images of the liver tissue, in order to study various aspects affecting liver function. Additionally, he is interested in machine learning, data science,
+  systematic reviews, data management, and bioinformatics.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - 'Modeling'
+    - 'Data integration'
+  publications:
+    - 'Grzegorzewski2021'
+    - 'Grzegorzewski2022'
+    - 'Grzegorzewski2022a'
+    - 'Koller2021'
+    - 'Koller2021a'
+    - 'Konig2021'

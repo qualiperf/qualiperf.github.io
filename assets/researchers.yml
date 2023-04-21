@@ -1,0 +1,295 @@
+- id: 'Christ'
+  title: 'Prof. Dr. rer. nat.'
+  name: 'Bruno Christ'
+  institute: 'University of Leipzig Medical Center, Department of Visceral, Transplant, Thoracic and Vascular Surgery, Cell Transplantation/ Molecular Hepatology Lab'
+  orcid: '0000-0001-8213-9548'
+  websites: 
+  - https://www.uniklinikum-leipzig.de/einrichtungen/vttg/Seiten/zelltransplantation.aspx
+  image: 'Christ.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P1'
+  tags:
+    - Experiments
+  publications:
+    - Winkler.2019
+    - Christ2017
+    - Tautenhahn2017
+    - Tautenhahn2016
+    - Winkler2016
+    - Hempel2015
+    - Stock2014
+    - Pelz2012
+    - Stock2010
+    - Aurich2008
+
+- id: 'Dahmen'
+  title: 'Dr. med.'
+  name: 'Uta Dahmen'
+  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery, Experimental Transplantation Surgery'
+  orcid: '0000-0003-3483-3388'
+  websites: []
+  image: 'Dahmen.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'Coordination'
+    - 'P2'
+    - 'DMP'
+  tags:
+    - Experiments
+  publications:
+    - Fang2018
+    - Schleicher2017
+    - Xie2016a
+    - Schwen2016
+    - Wei2016
+    - Saenger2015
+    - Homeyer2015
+    - Huang2014
+    - Huang2011
+    - Madrahimov2006
+
+- id: 'Herrmann'
+  title: 'Dr. rer. nat.'
+  name: 'Karl-Heinz Herrmann'
+  institute: 'Jena University Hospital, Institute of Diagnostic and Interventional Radiology, Medical Physics Group'
+  orcid: '0000-0003-0757-3525'
+  websites: []
+  image: 'Herrmann.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P6'
+  tags:
+    - Experiments
+  publications:
+    - Christ2017
+    - Joerk2019
+    - Kentrup2017
+    - Tesch2017
+    - Kraemer2017
+    - Herrmann2016
+    - Grotheer2016
+    - Kraemer2015
+    - Herrmann2014a
+    - Herrmann2012
+
+- id: 'Koenig'
+  title: 'Dr. rer. nat.'
+  name: 'Matthias König'
+  institute: 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
+  orcid: '0000-0003-1725-179X'
+  websites:
+    - 'https://livermetabolism.com/cv/'
+    - 'https://github.com/matthiaskoenig/'
+  image: 'Koenig.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - Modeling
+  publications:
+    - Berndt2018
+    - Medley2018
+    - Abshagen2015
+    - Somogyi2015
+    - Werner2015
+    - Ricken2015
+    - Koenig2013
+    - Koenig2012
+    - Koenig2012a
+    - Gille2010
+
+- id: 'Marz'
+  title: 'Prof. Dr.'
+  name: 'Manja Marz'
+  institute: 'Friedrich Schiller University Jena, Faculty of Mathematics and Computer Science, RNA Bioinformatics and High-Throughput Analysis'
+  orcid: ''
+  websites: []
+  image: 'Marz.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P4'
+  tags:
+    - Experiments
+  publications:
+    - Fricke2015
+    - Marz2015
+    - Marz2014
+    - Lechner2014
+    - Wehner2014
+    - Qi2013
+    - Huang2013
+    - Beckmann2012
+    - Marz2009
+    - Encode2007
+
+- id: 'Rauchfuss'
+  title: 'PD Dr. med., M.Sc.'
+  name: 'Falk Rauchfuß'
+  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  orcid: ''
+  websites: []
+  projects:
+    - 'QuaLiPerF'
+    - 'P9'
+  tags:
+    - Clinics
+  publications:
+    - Rauchfu.2019
+    - Rauchfu.2019b
+    - Klemm.2018
+    - Dondorf.2017
+    - Horn.2016
+    - Rauchfuss.2012
+    - Rauchfuss.2010
+
+- id: 'Radde'
+  title: 'Prof. Dr. rer. nat.'
+  name: 'Nicole Erika Radde'
+  institute: 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
+  orcid: '0000-0002-5145-0058'
+  websites: 
+  - https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de
+  - https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/
+  image: 'Radde.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P5'
+    - 'DMP'
+  tags:
+    - Data integration
+  publications:
+    - Eisenkolb2019
+    - Thomaseth2018
+    - Jensch2018
+    - Jensch2017
+    - Thomaseth2017
+    - Geissen2016
+    - Weber2015
+    - Kramer2014
+    - Heinrich2013
+    - Radde2010
+
+- id: 'Reichenbach'
+  title: 'Prof. Dr. rer. nat. med. habil.'
+  name: 'Jürgen R. Reichenbach'
+  institute: 'Jena University Hospital, Institute of Diagnostic and Interventional Radiology, Medical Physics Group'
+  orcid: ''
+  websites: []
+  image: 'Reichenbach.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P6'
+  tags:
+    - Experiments
+  publications:
+    - Joerk2019
+    - Christ2017
+    - Deistung2017
+    - Herrmann2016
+    - Kraemer2015
+    - deistung_toward_2013
+    - schweser_quantitative_2011
+    - haacke_susceptibility_2004
+    - reichenbach_theory_1997
+    - reichenbach_small_1997
+
+- id: 'Ricken'
+  title: 'Prof. Dr.-Ing.'
+  name: 'Tim Ricken'
+  institute: 'University of Stuttgart, Faculty of Aerospace Engineering and Geodesy, Institute of Mechanics, Structural Analysis and Dynamics'
+  orcid: '0000-0001-8515-5009'
+  websites: 
+  - 'https://scholar.google.de/citations?user=TcWVyg8AAAAJ&hl=de'
+  image: 'Ricken.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P7'
+  tags:
+    - Modeling
+  publications:
+    - Ricken2019a
+    - Pierce2018
+    - Ricken_EA_Liver.2018
+    - Wang.2018
+    - Christ2017
+    - Pierce2016
+    - Ricken2015
+    - Pierce2013
+    - Ateshian2010
+    - Ricken2010
+
+- id: 'Schwen'
+  title: 'Dr. rer. nat.'
+  name: 'Lars Ole Schwen'
+  institute: 'Fraunhofer-Institut für Digitale Medizin MEVIS'
+  orcid: '0000-0003-0195-9603'
+  websites:
+    - 'http://www.oleschwen.de/research'
+    - 'http://www.mevis-research.de/~oschwen/index.html'
+    - 'https://scholar.google.de/citations?user=nO2nhJYAAAAJ'
+  image: 'Schwen.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P8'
+  tags:
+    - Modeling
+  publications:
+    - Preusser2011
+    - Schwen2014
+    - Schwen2015a
+    - Schwen2015
+    - Schwen2016
+    - Schenk2017
+    - Christ2017
+    - Schwen2017
+    - Schwen2018
+    - Schwen2018a
+
+- id: 'Settmacher'
+  title: 'Prof. Dr. med.'
+  name: 'Utz Settmacher'
+  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  orcid: ''
+  websites: []
+  projects:
+    - 'QuaLiPerF'
+    - 'P9'
+  tags:
+    - Clinics
+  publications:
+    - Bauschke.2017
+    - Mothes.2017
+    - Barthel.2013
+    - Schule.2013
+    - Rauchfuss.2012
+    - Settmacher.2011
+    - Settmacher.2011b
+    - Rauchfuss.2010
+    - Kaufmann.2009
+    - Kornberg.2009
+
+- id: 'Tautenhahn'
+  title: 'PD Dr. med.'
+  name: 'Hans-Michael Tautenhahn'
+  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  orcid: ''
+  websites: []
+  image: 'Tautenhahn.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P9'
+    - 'DMP'
+  tags:
+    - Clinics
+  publications:
+    - Tautenhahn2012
+    - Thelen2013
+    - Brueckner2014
+    - Hau2014
+    - Tautenhahn2016
+    - Morgul2016
+    - Tautenhahn2017
+    - Rubin2017
+    - Uder2018
+    - Tautenhahn2018

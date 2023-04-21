@@ -1,0 +1,23 @@
+- id: 'Marz'
+  title: 'Prof. Dr.'
+  name: 'Manja Marz'
+  institute: 'Friedrich Schiller University Jena, Faculty of Mathematics and Computer Science, RNA Bioinformatics and High-Throughput Analysis'
+  orcid: ''
+  websites: []
+  image: 'Marz.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P4'
+  tags:
+    - Experiments
+  publications:
+    - Fricke2015
+    - Marz2015
+    - Marz2014
+    - Lechner2014
+    - Wehner2014
+    - Qi2013
+    - Huang2013
+    - Beckmann2012
+    - Marz2009
+    - Encode2007

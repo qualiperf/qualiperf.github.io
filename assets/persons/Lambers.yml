@@ -1,0 +1,32 @@
+- id: 'Lambers'
+  role: ''Fellow'
+  groups:
+  - 'Ricken'
+  - 'Dahmen'
+  title:
+  name: 'Lena Lambers'
+  affiliations: 
+  - 'University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Digital Liver Lab'
+  - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery, Experimental Transplantation Surgery'
+  orcid: '0000-0003-3964-0526'
+  websites:
+  - 'https://www.isd.uni-stuttgart.de/institute/team/Lambers-00001/'
+  - 'https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/'
+  - 'https://scholar.google.de/citations?user=QoL0pwoAAAAJ'
+  image: 'Lambers.png'
+  description: 'Lena Lambers is working as the scientific coordinator of QuaLiPerF and is providing a bridge between the different disciplines and administration. She supports the achievement of the joint scientific objects, 
+  manages the doctoral program and budget administration and organizes the annual workshops and status reports. Furthermore she is a doctoral researcher working on the continuum-biomechanical modelling of liver lobules 
+  and supports the subproject P7.'
+  projects:
+    - 'QuaLiPerF'
+    - 'Coordination'
+    - 'P7'
+  tags:
+    - 'Modeling'
+    - 'Coordination'
+  publications:
+    - 'Christ2021'
+    - 'Seyedpour2021'
+    - 'Ricken2019'
+    - 'Lambers2021'
+    - 'Lambers2019'

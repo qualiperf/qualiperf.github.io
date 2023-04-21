@@ -1,0 +1,32 @@
+- id: 'Herrmann'
+  role: 'PI'
+  group: 'Reichenbach'
+  title: 'Dr. rer. nat.'
+  name: 'Karl-Heinz Herrmann'
+  affiliations:
+    - 'Jena University Hospital, Institute of Diagnostic and Interventional Radiology, Medical Physics Group'
+  orcid: '0000-0003-0757-3525'
+  websites:
+    - 'https://www.uniklinikum-jena.de/idir/Arbeitsgruppen+im+IDIR/AG+Medizinische+Physik/Mitarbeiter/Dr_+Karl_Heinz+Herrmann-p-2370.html'
+  image: 'Herrmann.png'
+  description: 'Within the research unit QuaLiPerF this project aims for  multi-scale understanding of the interplay between hepatic perfusion and function after extended hepatectomy (ePHx) in rats.  A comprehensive MRI toolbox at 9.4T will provide spatially resolved, multi-parametric quantitative in vivo information under various experimental conditions. The collected data, together with the iterative computational modeling and data integration, will allow a better prediction of the recovery of liver function.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P6'
+  tags:
+    - 'Experiments'
+    - 'MRI'
+    - 'Perfusion Imaging'
+    - 'Anatomical Liver Imaging'
+    - 'Functional Liver Imaging'
+  publications:
+    - 'Christ2017'
+    - 'Joerk2019'
+    - 'Kentrup2017'
+    - 'Tesch2017'
+    - 'Kraemer2017'
+    - 'Herrmann2016'
+    - 'Grotheer2016'
+    - 'Kraemer2015'
+    - 'Herrmann2014a'
+    - 'Herrmann2012'

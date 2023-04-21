@@ -1,0 +1,57 @@
+- id: 'Radde'
+  title: 'Prof. Dr. rer. nat.'
+  name: 'Nicole Erika Radde'
+  institute: 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
+  orcid: '0000-0002-5145-0058'
+  websites: 
+  - https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de
+  - https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/
+  image: 'Radde.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P5'
+    - 'DMP'
+  tags:
+    - Data integration
+  publications:
+    - Eisenkolb2019
+    - Thomaseth2018
+    - Jensch2018
+    - Jensch2017
+    - Thomaseth2017
+    - Geissen2016
+    - Weber2015
+    - Kramer2014
+    - Heinrich2013
+    - Radde2010
+
+- id: 'Radde'
+  role: 'PI'
+  group: 'Radde'
+  title: 'Prof. Dr. rer. nat.'
+  name: 'Nicole Erika Radde'
+  affiliations:
+  - 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
+  orcid: '0000-0002-5145-0058'
+  websites:
+  - 'https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de'
+  - 'https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/'
+  image: 'Radde.png'
+  description: 'Within the research unit QuaLiPerF, I am interested in advanced statistical methods for data integration into kinetic models on different scales. Moreover, I aim to contribute to FAIR model and data principles in a Bayesian framework.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P5'
+    - 'DMP'
+  tags:
+    - 'Data integration
+  publications:
+    - Eisenkolb2019
+    - Thomaseth2018
+    - Jensch2018
+    - Jensch2017
+    - Thomaseth2017
+    - Geissen2016
+    - Weber2015
+    - Kramer2014
+    - Heinrich2013
+    - Radde2010

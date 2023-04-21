@@ -1,0 +1,23 @@
+- id: 'Gerhäusser'
+  role: 'Fellow'
+  group: 'Ricken'
+  title: ''
+  name: 'Steffen Gerhäusser'
+  affiliations:
+  - 'University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Digital Liver Lab'
+  orcid: '0000-0002-0577-7711'
+  websites: 
+  - 'https://www.isd.uni-stuttgart.de/de/institut/team/Gerhaeusser/'
+  - 'https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/'
+  - 'https://scholar.google.de/citations?user=06FexVMAAAAJ&hl=en'
+  image: 'Gerhäusser.png'
+  description: 'Steffen Gerhäusser is a doctoral researcher of the project P7 - "Modeling of function-perfusion-deformation interaction on liver lobulus and cellular scale
+  based on a bi-scale continuum FEM model". He is working under the guidance of Prof. Dr.-Ing Tim Ricken on numercial simulation of liver tissue based on the 
+  theory of porous media (TPM). His main research topic is the coupling of macro perfusion processes on the lobule scale using the Finite Element Method (FEM ) 
+  with reaction networks on the cell scale using an SBML based ODE solver.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P7'
+  tags:
+    - 'Modeling'
+  publications:

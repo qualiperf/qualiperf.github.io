@@ -1,0 +1,24 @@
+- id: 'Tautenhahn'
+  title: 'PD Dr. med.'
+  name: 'Hans-Michael Tautenhahn'
+  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  orcid: ''
+  websites: []
+  image: 'Tautenhahn.png'
+  projects:
+    - 'QuaLiPerF'
+    - 'P9'
+    - 'DMP'
+  tags:
+    - Clinics
+  publications:
+    - Tautenhahn2012
+    - Thelen2013
+    - Brueckner2014
+    - Hau2014
+    - Tautenhahn2016
+    - Morgul2016
+    - Tautenhahn2017
+    - Rubin2017
+    - Uder2018
+    - Tautenhahn2018
