@@ -1,0 +1,31 @@
+persons:
+- id: Albadry
+  firstname: Mohamed
+  lastname: Albadry
+  title: null
+  role: Fellow
+  groups:
+  - Dahmen
+  affiliations:
+  - Experimental Transplantation Surgery, Department of General, Visceral and Vascular
+    Surgery, University Hospital Jena, Jena, Germany 1
+  - Department of Pathology, Faculty of Veterinary Medicine, Menoufia University,
+    Shebin Elkom, Menoufia, Egypt 2
+  orcid: 0000-0002-6192-8713
+  websites:
+  - https://https://www.uniklinikum-jena.de/avc/Team.html
+  image: Albadry.png
+  description: 'I am working on two different projects. (A) Stea-Pk Mod: we study
+    the impact of steatosis on Drug metabolism in mouse. (B) QuaLiPerf: We are interested
+    in studying the impact of hepatic perfusion on drug metabolism in different species
+    and after liver surgery.'
+  projects:
+  - QuaLiPerF
+  - P2
+  - DMP
+  - Stea-PK Mod
+  tags:
+  - Experiments
+  publications:
+  - Albadry2022
+  - MohiElDin2017

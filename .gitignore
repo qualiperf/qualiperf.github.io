@@ -2,6 +2,8 @@
 *~
 *.sw[p_]
 
+__pycache__
+
 # Sublime Text
 *.sublime-project
 *.sublime-workspace

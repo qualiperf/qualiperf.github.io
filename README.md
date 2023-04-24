@@ -6,7 +6,6 @@ bundle install
 ```
 jekyll serve
 ```
-=======
 # qualiperf.github.io
 
 ## Installation
