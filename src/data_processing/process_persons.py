@@ -20,6 +20,7 @@ class Role(YamlStrEnum):
     PI = 'PI'
     FELLOW = 'Fellow'
     STUDENT_ASSISTANT = 'Student assistant'
+    TECHNICAL_ASSISTANT = 'Technical assistant'
     ALUMNI = 'Alumni'
     ASSOCIATED = 'Associated'
 
@@ -46,8 +47,17 @@ class Tag(YamlStrEnum):
     EXPERIMENTS = 'Experiments'
     MODELING = 'Modeling'
     CLINICS = 'Clinics'
+    MRI = 'MRI'
+    PERFUSION_IMAGING = 'Perfusion imaging'
+    ANATOMICAL_IMAGING = 'Anatomical liver imaging'
+    FUNCTIONAL_IMAGING = 'Functional liver imaging'
     DATA_MANAGEMENT = 'Data management'
     DATA_INTEGRATION = 'Data integration'
+    DATA_CURATION = 'Data curation'
+    COORDINATION = 'Coordination'
+    UNCERTAINTY_QUANTIFICATION = 'Uncertainty quantification'
+    BAYESIAN_STATISTICS = 'Bayesian statistics'
+    KIDNEY_IMAGING = 'Kidney imaging'
 
 
 class Person(YamlModel):

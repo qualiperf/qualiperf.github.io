@@ -13,7 +13,7 @@
   description: 'Bruno Christ is the PI in the project P1. His research focusses on metabolic regulation of liver zonation on the cellular and molecular level. His translational research aims at establishing mesenchymal stromal cells as therapeutic support after complex liver surgery and in metabolic liver diseases.'
   projects:
   - 'P1'
-  - 'Qualiperf'
+  - 'QuaLiPerF'
   tags:
     - 'Experiments'
   publications:
