@@ -19,6 +19,7 @@ logger = get_logger(__file__)
 class Role(YamlStrEnum):
     PI = 'PI'
     FELLOW = 'Fellow'
+    STUDENT_ASSISTANT = 'Student assistant'
     ALUMNI = 'Alumni'
     ASSOCIATED = 'Associated'
 
@@ -45,6 +46,7 @@ class Tag(YamlStrEnum):
     EXPERIMENTS = 'Experiments'
     MODELING = 'Modeling'
     CLINICS = 'Clinics'
+    DATA_MANAGEMENT = 'Data management'
     DATA_INTEGRATION = 'Data integration'
 
 
@@ -111,7 +113,6 @@ def process_persons(persons_dir: Path) -> Persons:
             except Exception as err:
                 logger.error(f"error in 'file://{p}'")
                 raise err
-        break
 
     persons = Persons(persons=all_persons)
     return persons

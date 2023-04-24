@@ -17,6 +17,9 @@
   projects:
     - 'QuaLiPerF'
     - 'P3'
+    - 'SimLiVa'
+    - 'ATLAS'
+
   tags:
     - 'Modeling'
   publications:

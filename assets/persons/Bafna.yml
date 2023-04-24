@@ -17,7 +17,5 @@
     - 'P2'
     - 'DMP'
   tags:
-    - Data Modeling
-    - Data Analysis
-    - Data Management
+    - Data management
     - Data integration
