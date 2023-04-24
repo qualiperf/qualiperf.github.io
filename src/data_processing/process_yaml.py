@@ -16,7 +16,7 @@ class Person(BaseModel):
   name: str
   title: Optional[str]
   role: str  # ["PI", "Fellow", "Alumni"]
-  group: str
+  groups: List[str]
   affiliations: List[str]
   orcid: str
   websites: Optional[List[str]]

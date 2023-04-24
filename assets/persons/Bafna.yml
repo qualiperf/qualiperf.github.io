@@ -1,6 +1,7 @@
 - id: 'Bafna'
   role: 'Fellow'
-  group: 'Dahmen'
+  groups:
+  - 'Dahmen'
   title: ''
   name: 'Mehul Bafna'
   affiliations:
