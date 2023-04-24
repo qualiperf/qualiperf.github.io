@@ -3,8 +3,6 @@ Process yaml files for webpage.
 Moves the assets to _data
 """
 from typing import Dict, List, Optional
-from pydantic import BaseModel
-from enum import Enum
 import yaml
 from pathlib import Path
 from data_processing.log import get_logger
@@ -12,8 +10,6 @@ from data_processing.console import console
 from pydantic_yaml import YamlStrEnum, YamlModel
 
 logger = get_logger(__file__)
-
-
 
 
 class Role(YamlStrEnum):
