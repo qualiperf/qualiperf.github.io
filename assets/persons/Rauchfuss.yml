@@ -1,5 +1,5 @@
 - id: 'Rauchfuss'
-  role: ''
+  role: 'Associated'
   groups:
     - 'Tautenhahn'
   title: 'PD Dr. med., M.Sc.'
