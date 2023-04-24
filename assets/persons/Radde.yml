@@ -4,11 +4,12 @@
     - 'Radde'
   title: 'Prof. Dr. rer. nat.'
   name: 'Nicole Erika Radde'
-  affiliations: 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
+  affiliations:
+  - 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
   orcid: '0000-0002-5145-0058'
   websites: 
-  - https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de
-  - https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/
+  - 'https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de'
+  - 'https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/'
   image: 'Radde.png'
   description: 'Within the research unit QuaLiPerF, I am interested in advanced statistical methods for data integration into kinetic models on different scales. Moreover, I aim to contribute to FAIR model and data principles in a Bayesian framework.'
   projects:
