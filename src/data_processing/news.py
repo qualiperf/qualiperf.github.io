@@ -32,17 +32,22 @@ class Publications(YamlModel):
   items: List[Publication]
 
 
-class News(YamlModel):
-  """Class for news information"""
+class Other(YamlModel):
+  """Class for ohter news information"""
 
+  category: str
   title: str
   authors: str
   abstract: str
   journal: str
+  conference: str
   # date: str
   qualiperf_funding: str
-  pubmed: str
-  doi: str
+  projects: str
+
+class Others(YamlModel):
+  """Class for news information"""
+  items: List[Other]
 
 
 def process_news():
@@ -71,6 +76,25 @@ def process_news():
             publications.append(p)
         return publications
 
+    def process_other(df: pd.DataFrame) -> List[Other]:
+        """Process other news items."""
+        others: List[Other] = []
+        for k, row in df.iterrows():
+            p = Other(
+                category=row["Category"].strip(),
+                title=row["Title"].strip(),
+                authors=row["Authors"].strip(),
+                abstract=row["Abstract"].strip(),
+                journal=str(row["Journal"]).strip(),
+                # date=row["Date"],
+                conference=row["Conference"],
+                qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
+                projects=row["Related Project(s)"],
+            )
+            console.print(p)
+            others.append(p)
+        return others
+
     # publications
     publications_yaml = Path(__file__).parent.parent.parent / "assets" / "publications.yml"
     publications_info: List[Publication] = process_publications(
@@ -91,6 +115,15 @@ def process_news():
     preprints: Publications = Publications(items=preprints_info)
     with open(preprints_yaml, "w") as f_yaml:
         yaml_str = preprints.yaml()
+        f_yaml.write(yaml_str)
+
+    # other items
+    others_yaml = Path(__file__).parent.parent.parent / "assets" / "others.yml"
+    others_info: List[Publication] = process_other(
+        df=dfs["Other"]
+    )
+    with open(others_yaml, "w") as f_yaml:
+        yaml_str = Others(items=others_info).yaml()
         f_yaml.write(yaml_str)
 
 
