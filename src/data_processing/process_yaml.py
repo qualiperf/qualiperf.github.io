@@ -53,6 +53,10 @@ class Tag(YamlStrEnum):
     FUNCTIONAL_IMAGING = 'Functional liver imaging'
     DATA_MANAGEMENT = 'Data management'
     DATA_INTEGRATION = 'Data integration'
+    DATA_CURATION = 'Data curation'
+    COORDINATION = 'Coordination'
+    UNCERTAINTY_QUANTIFICATION = 'Uncertainty quantification'
+    BAYESIAN_STATISTICS = 'Bayesian statistics'
 
 
 class Person(YamlModel):
