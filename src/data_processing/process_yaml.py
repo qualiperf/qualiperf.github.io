@@ -47,6 +47,10 @@ class Tag(YamlStrEnum):
     EXPERIMENTS = 'Experiments'
     MODELING = 'Modeling'
     CLINICS = 'Clinics'
+    MRI = 'MRI'
+    PERFUSION_IMAGING = 'Perfusion imaging'
+    ANATOMICAL_IMAGING = 'Anatomical liver imaging'
+    FUNCTIONAL_IMAGING = 'Functional liver imaging'
     DATA_MANAGEMENT = 'Data management'
     DATA_INTEGRATION = 'Data integration'
 
