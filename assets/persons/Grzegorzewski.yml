@@ -1,6 +1,7 @@
 - id: 'Grzegorzewski'
   role: 'Alumni'
-  group: 'König'
+  groups:
+  - 'König'
   title:
   name: 'Jan Grzegorzewski'
   affiliations:

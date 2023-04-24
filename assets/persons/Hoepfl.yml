@@ -1,6 +1,7 @@
 - id: 'Hoepfl'
   role: 'Fellow'
-  group: 'Radde'
+  groups:
+  - 'Radde'
   title:
   name: 'Sebastian Hoepfl'
   affiliations:

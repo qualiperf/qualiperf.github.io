@@ -1,7 +1,8 @@
 - id: 'Koenig'
   title: 'Dr. rer. nat.'
   name: 'Matthias König'
-  group: 'Koenig'
+  groups:
+  - 'Koenig'
   role: 'PI'
   description: 'The König lab uses Systems Medicine and Systems Biology to study drug metabolism and liver function. We apply computational modeling, data science, data management, bioinformatics analysis and machine learning on biological, medical and clinical data. 
   The main research topics are (i) predictive modeling of biomedical systems with a special focus on the liver, (ii) development of digital twins using physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open research, and (iv) FAIR data and workflows.

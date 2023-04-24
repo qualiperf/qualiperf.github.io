@@ -1,6 +1,7 @@
 - id: 'Gerhäusser'
   role: 'Fellow'
-  group: 'Ricken'
+  groups:
+  - 'Ricken'
   title: ''
   name: 'Steffen Gerhäusser'
   affiliations:

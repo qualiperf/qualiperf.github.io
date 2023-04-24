@@ -1,6 +1,7 @@
 - id: 'Herrmann'
   role: 'PI'
-  group: 'Reichenbach'
+  groups:
+  - 'Reichenbach'
   title: 'Dr. rer. nat.'
   name: 'Karl-Heinz Herrmann'
   affiliations:

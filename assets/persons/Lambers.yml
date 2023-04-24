@@ -1,5 +1,5 @@
 - id: 'Lambers'
-  role: ''Fellow'
+  role: 'Fellow'
   groups:
   - 'Ricken'
   - 'Dahmen'

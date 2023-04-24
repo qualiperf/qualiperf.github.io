@@ -1,6 +1,7 @@
 - id: 'Dahmen'
   role: 'PI'
-  group: 'Dahmen'
+  groups:
+  - 'Dahmen'
   title: 'Dr. med.'
   name: 'Uta Dahmen'
   affiliations:

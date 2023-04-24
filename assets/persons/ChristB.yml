@@ -1,6 +1,7 @@
 - id: 'ChristB'
   role: 'PI'
-  group: 'Christ'
+  groups:
+  - 'Christ'
   title: 'Prof. em. Dr. rer. nat.'
   name: 'Bruno Christ'
   affiliations:

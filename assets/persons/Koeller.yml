@@ -1,6 +1,7 @@
 - id: 'Koeller'
   role: 'Student assistant'
-  group: 'Koenig'
+  groups:
+  - 'Koenig'
   title: 'B. Sc.'
   name: 'Adrian Koeller'
   affiliations:

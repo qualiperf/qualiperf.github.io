@@ -1,6 +1,7 @@
 - id: 'ChristM'
   role: 'Technical Assistant'
-  group: 'Christ'
+  groups:
+  - 'Christ'
   title: ''
   name: 'Madlen Christ'
   affiliations:

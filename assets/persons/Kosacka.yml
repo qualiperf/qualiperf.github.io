@@ -1,6 +1,7 @@
 - id: 'Kosacka'
   role: 'Fellow'
-  group: 'Christ'
+  groups:
+  - 'Christ'
   title: 'Dr. rer. nat. habil.'
   name: 'Joanna Kosacka-Esmailpour'
   affiliations:

@@ -1,6 +1,7 @@
 - id: 'Buetow'
   role: 'Fellow'
-  group: 'Tautenhahn'
+  groups:
+  - 'Tautenhahn'
   title: ''
   name: 'Laura Bütow'
   affiliations:

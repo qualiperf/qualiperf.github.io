@@ -1,6 +1,7 @@
   id: 'Mandl'
   role: 'Associated'
-  group: 'Ricken',
+  groups:
+    - 'Ricken'
   title: ''
   name: 'Luis Mandl'
   affiliations:

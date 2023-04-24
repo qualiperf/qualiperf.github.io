@@ -1,6 +1,7 @@
 - id: 'Leal Pujol'
   role: 'Student assistant'
-  group: 'Koenig'
+  groups:
+  - 'Koenig'
   title: 'B. Sc.'
   name: 'Helena Leal Pujol'
   affiliations: 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
