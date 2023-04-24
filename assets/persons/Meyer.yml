@@ -1,6 +1,7 @@
 - id: 'Meyer'
   role: 'Fellow'
-  group: 'Marz'
+  groups:
+  - 'Marz'
   title: ''
   name: 'Daria Meyer'
   affiliations:
@@ -15,6 +16,6 @@
     - 'QuaLiPerF'
     - 'P4'
   tags:
-    - Experiments
+    - 'Experiments'
   publications:
-    - Christ2021
+    - 'Christ2021'
