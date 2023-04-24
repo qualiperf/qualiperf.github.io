@@ -1,23 +1,27 @@
 - id: 'Reichenbach'
+  role: 'PI'
+  groups:
+    - 'Reichenbach'
   title: 'Prof. Dr. rer. nat. med. habil.'
   name: 'Jürgen R. Reichenbach'
-  institute: 'Jena University Hospital, Institute of Diagnostic and Interventional Radiology, Medical Physics Group'
+  affiliations: 'Jena University Hospital, Institute of Diagnostic and Interventional Radiology, Medical Physics Group'
   orcid: ''
   websites: []
   image: 'Reichenbach.png'
+  description: ''
   projects:
     - 'QuaLiPerF'
     - 'P6'
   tags:
-    - Experiments
+    - 'Experiments'
   publications:
-    - Joerk2019
-    - Christ2017
-    - Deistung2017
-    - Herrmann2016
-    - Kraemer2015
-    - deistung_toward_2013
-    - schweser_quantitative_2011
-    - haacke_susceptibility_2004
-    - reichenbach_theory_1997
-    - reichenbach_small_1997
+    - 'Joerk2019'
+    - 'Christ2017'
+    - 'Deistung2017'
+    - 'Herrmann2016'
+    - 'Kraemer2015'
+    - 'deistung_toward_2013'
+    - 'schweser_quantitative_2011'
+    - 'haacke_susceptibility_2004'
+    - 'reichenbach_theory_1997'
+    - 'reichenbach_small_1997'

@@ -1,22 +1,28 @@
 - id: 'Settmacher'
+  role: ''
+  groups:
+    - 'Tautenhahn'
   title: 'Prof. Dr. med.'
   name: 'Utz Settmacher'
-  institute: 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  affiliations:
+  - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
   orcid: ''
   websites: []
+  image: ''
+  description: ''
   projects:
     - 'QuaLiPerF'
     - 'P9'
   tags:
-    - Clinics
+    - 'Clinics'
   publications:
-    - Bauschke.2017
-    - Mothes.2017
-    - Barthel.2013
-    - Schule.2013
-    - Rauchfuss.2012
-    - Settmacher.2011
-    - Settmacher.2011b
-    - Rauchfuss.2010
-    - Kaufmann.2009
-    - Kornberg.2009
+    - 'Bauschke.2017'
+    - 'Mothes.2017'
+    - 'Barthel.2013'
+    - 'Schule.2013'
+    - 'Rauchfuss.2012'
+    - 'Settmacher.2011'
+    - 'Settmacher.2011b'
+    - 'Rauchfuss.2010'
+    - 'Kaufmann.2009'
+    - 'Kornberg.2009'

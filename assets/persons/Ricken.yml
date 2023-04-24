@@ -1,9 +1,11 @@
 - id: 'Ricken'
   role: 'PI'
-  group: 'Ricken'
+  groups:
+  - 'Ricken'
   title: 'Prof. Dr.-Ing.'
   name: 'Tim Ricken'
-  affiliations:  'University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Digital Liver Lab'
+  affiliations:
+  - 'University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Digital Liver Lab'
   orcid: '0000-0001-8515-5009'
   websites:
   - 'https://www.isd.uni-stuttgart.de/de/institut/team/Ricken/'
@@ -11,7 +13,6 @@
   - 'https://scholar.google.de/citations?user=TcWVyg8AAAAJ'
 
   image: 'Ricken.png'
-
   description: 'Tim Ricken is PI of the project P7 - "Modeling of function-perfusion-deformation interaction on liver lobulus and cellular scale
   based on a bi-scale continuum FEM model". He is working on multiscale and multiphase continuum-biomechanical modeling of liver tissue using the
   theory of porous media (TPM). The modeling includes perfusion processes on the lobule scale coupled to systems biology models on the cell scale.
@@ -20,17 +21,17 @@
     - 'QuaLiPerF'
     - 'P7'
   tags:
-    - Modeling
+    - 'Modeling'
   publications:
-    - Christ2021
-    - Seyedpour2021
-    - Ricken2019a
-    - Pierce2018
-    - Ricken_EA_Liver.2018
-    - Wang.2018
-    - Christ2017
-    - Pierce2016
-    - Ricken2015
-    - Pierce2013
-    - Ateshian2010
-    - Ricken2010
+    - 'Christ2021'
+    - 'Seyedpour2021'
+    - 'Ricken2019a'
+    - 'Pierce2018'
+    - 'Ricken_EA_Liver.2018'
+    - 'Wang.2018'
+    - 'Christ2017'
+    - 'Pierce2016'
+    - 'Ricken2015'
+    - 'Pierce2013'
+    - 'Ateshian2010'
+    - 'Ricken2010'

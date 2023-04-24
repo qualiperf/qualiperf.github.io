@@ -1,16 +1,19 @@
 - id: 'Sinden'
   role: 'Fellow'
-  group: 'Schwen'
+  groups:
+    - 'Schwen'
   title: 'Dr.'
   name: 'David Sinden'
-  institute: 'Fraunhofer Institute for Digital Medicine MEVIS, Bremen'
+  affiliations:
+    - 'Fraunhofer Institute for Digital Medicine MEVIS, Bremen'
   orcid: '0000-0002-8514-8279'
   websites:
-    - https://djps.github.io/
+    - 'https://djps.github.io/'
   image: 'Sinden.png'
+  description: ''
   projects:
     - 'QuaLiPerF'
     - 'P8'
   tags:
-    - Modellng
+    - 'Modeling'
   publications:

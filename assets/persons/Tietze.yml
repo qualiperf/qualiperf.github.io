@@ -1,21 +1,22 @@
-id: 'Tietze'
-role: 'Fellow'
-group: 'Christ'
-title: 'Dr. rer. med.'
-name: 'Lysann Tietze'
-affiliations:
-  - 'University of Leipzig Medical Center, Department of Visceral, Transplant, Thoracic and Vascular Surgery, Cell Transplantation/ Molecular Hepatology Lab'
-orcid: '0000-0003-2934-1880'
-websites: []
-image: 'Tietze.jpg'
-description: 'Lysann Tietze received a degree in nutritional sciences and completed her PhD studies on the topic of stem cell therapies for liver diseases. Since 2021, she works as a post-doctoral researcher with Prof. Dr. Bruno Christ at the University of Leipzig. Dr. Tietze is responsible for data management, data analysis and the transfer of P1 project results to other research groups of the QuaLiPerF project.'
-projects:
-  - 'QuaLiPerF'
-  - 'P1'
-tags:
-    - Experiments
-publications:
-    - Nickel2021
-    - Tietze2020
-    - Hartwig2019
-    - Tietze2018
+- id: 'Tietze'
+  role: 'Alumni'
+  groups:
+  - 'Christ'
+  title: 'Dr. rer. med.'
+  name: 'Lysann Tietze'
+  affiliations:
+  - 'University of Leipzig Medical Center, Department of Visceral, Transplant, Thoracic and Vascular Surgery, Cell Transplantation/ Molecular Hepatology Lab'
+  orcid: '0000-0003-2934-1880'
+  websites: []
+  image: 'Tietze.jpg'
+  description: 'Lysann Tietze received a degree in nutritional sciences and completed her PhD studies on the topic of stem cell therapies for liver diseases. Since 2021, she works as a post-doctoral researcher with Prof. Dr. Bruno Christ at the University of Leipzig. Dr. Tietze is responsible for data management, data analysis and the transfer of P1 project results to other research groups of the QuaLiPerF project.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P1'
+  tags:
+    - 'Experiments'
+  publications:
+    - 'Nickel2021'
+    - 'Tietze2020'
+    - 'Hartwig2019'
+    - 'Tietze2018'
