@@ -11,7 +11,7 @@
   websites:
     - 'https://www.rna.uni-jena.de/members/daria-meyer/'
   image: 'Meyer.png'
-  Description: 'In QuaLiPerF I am analyzing liver transcriptome data, to detect differences in gene expression between healthy, steatotic and venous ligated liver samples. Additionally I am trying to computationally detect non-coding RNAs showing differences between the analyzed liver conditions.'
+  description: 'In QuaLiPerF I am analyzing liver transcriptome data, to detect differences in gene expression between healthy, steatotic and venous ligated liver samples. Additionally I am trying to computationally detect non-coding RNAs showing differences between the analyzed liver conditions.'
   projects:
     - 'QuaLiPerF'
     - 'P4'
