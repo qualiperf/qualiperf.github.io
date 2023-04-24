@@ -57,6 +57,7 @@ class Tag(YamlStrEnum):
     COORDINATION = 'Coordination'
     UNCERTAINTY_QUANTIFICATION = 'Uncertainty quantification'
     BAYESIAN_STATISTICS = 'Bayesian statistics'
+    KIDNEY_IMAGING = 'Kidney imaging'
 
 
 class Person(YamlModel):
