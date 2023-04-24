@@ -7,7 +7,7 @@
 ## Setup virtual environment
 ```bash
 cd src
-mkvirtualenv qualiperf-site --python=python3.9
+mkvirtualenv qualiperf-site
 (qualiperf-site) pip install -r requirements.txt
 ```
 
