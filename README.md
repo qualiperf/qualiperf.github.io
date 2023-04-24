@@ -21,7 +21,7 @@ bundle install
 
 Serve local site
 ```
-bundle exec jekyll serve
+bundle exec jekyll serve --livereload
 ```
 This starts a development server at http://127.0.0.1:4000/
 

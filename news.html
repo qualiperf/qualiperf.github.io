@@ -1,0 +1,21 @@
+---
+layout: page
+title: News
+permalink: /news/
+---
+
+<h1>News</h1>
+<div class="row">
+	<table class="table table-hover">
+		{% for item in site.data.news %}
+		<tr>
+			<td>
+				{{ item.category }}</br>
+				<b>{{ item.title }}</b>
+				<i>{{ item.authors }}</i>
+				</br>
+			</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
