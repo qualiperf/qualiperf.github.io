@@ -1,0 +1,28 @@
+- id: 'ChristB'
+  role: 'PI'
+  group: 'Christ'
+  title: 'Prof. em. Dr. rer. nat.'
+  name: 'Bruno Christ'
+  affiliations:
+  - 'Leipzig University Medical Center, Department of Visceral, Transplant, Thoracic and Vascular Surgery, Cell Transplantation/Molecular Hepatology'
+  - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
+  orcid: '0000-0001-8213-9548'
+  website: 'https://www.uniklinikum-leipzig.de/einrichtungen/vttg/forschung/zelltransplantation-molekulare-hepatologie'
+  image: 'ChristB.png'
+  description: 'Bruno Christ is the PI in the project P1. His research focusses on metabolic regulation of liver zonation on the cellular and molecular level. His translational research aims at establishing mesenchymal stromal cells as therapeutic support after complex liver surgery and in metabolic liver diseases.'
+  projects:
+  - 'P1'
+  - 'Qualiperf'
+  tags:
+    - 'Experiments'
+  publications:
+    - 'Nickel2022 doi: 10.3390/cells11111829'
+    - 'Nickel2021 doi: 10.1038/s41536-021-00194-4'
+    - 'Christ2021 doi: 10.3389/fphys.2021.733868'
+    - 'Nickel2021 doi: 10.1038/s41392-021-00850-7'
+    - 'Hsu2020 doi: 10.3390/biomedicines8090350'
+    - 'Brückner2017 doi: 10.1016/j.jcyt.2017.09.006'
+    - 'Tautenhahn2017 doi: 10.1038/s41598-017-02670-8'
+    - 'Stock2017 doi: 10.1016/j.ajpath.2016.11.016'
+    - 'Winkler2016 doi: 10.3390/ijms17071099'
+    - 'Tautenhahn2016 doi: 10.1097/SLA.0000000000001155'

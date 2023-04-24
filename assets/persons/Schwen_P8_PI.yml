@@ -1,0 +1,23 @@
+- id: 'Schwen'
+  role: 'PI'
+  group: 'Schwen',
+  title: 'Dr. rer. nat.'
+  name: 'Lars Ole Schwen'
+  affiliations: 'Fraunhofer-Institut für Digitale Medizin MEVIS'
+  orcid: '0000-0003-0195-9603'
+  websites: 'http://www.mevis-research.de/~oschwen/index.html'
+  image: 'Schwen.png'
+  description: 'Ole is a postdoctoral researcher at Fraunhofer MEVIS, working in the fields of Computational Pathology as well as Modeling and Simulation. His research interests include multiscale liver modeling and spatially resolved pharmacokinetics simulations.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P8'
+  tags:
+    - Modeling
+  publications:
+    - Schwen2014
+    - https://doi.org/10.1371/journal.pone.0133653 (not sure if this is Schwen2015a or Schwen2015)
+    - Schwen2016
+    - Schenk2017
+    - Christ2017
+    - Schwen2017
+    - https://doi.org/10.1038/s41598-022-26483-6 (please replace by your identifier)

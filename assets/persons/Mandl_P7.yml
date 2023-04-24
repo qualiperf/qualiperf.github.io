@@ -1,0 +1,21 @@
+  id: 'Mandl'
+  role: 'Associated'
+  group: 'Ricken',
+  title: ''
+  name: 'Luis Mandl'
+  affiliations:
+  - 'University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace Engineering, Digital Liver Lab'
+  orcid: '0000-0002-5821-6053'
+  websites:
+  - 'https://www.isd.uni-stuttgart.de/institute/team/Mandl/'
+  - 'https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/'
+  - 'https://scholar.google.de/citations?user=sieD_UMAAAAJ'
+  image: 'Mandl.png'
+  description: 'Luis Mandl is a doctoral researcher for physics-informed machine learning in biomechanics of the liver. He is currently working within the associated project “SIMulation supported LIVer Assessment for donor organs (SimLivA) - Continuum-biomechanical modeling for staging of ischemia reperfusion injury during liver transplantation” and supports QuaLiPerF in image analysis for modeling purposes using methods from the field of machine learning.'
+  projects:
+  - 'QuaLiPerF'
+  - 'P7'
+  tags:
+  - Modeling
+  publications:
+  -

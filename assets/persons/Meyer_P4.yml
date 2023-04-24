@@ -1,0 +1,20 @@
+- id: 'Meyer'
+  role: 'Fellow'
+  group: 'Marz'
+  title: ''
+  name: 'Daria Meyer'
+  affiliations:
+    - 'Friedrich Schiller University Jena, Faculty of Mathematics and Computer Science, RNA Bioinformatics and High-Throughput Analysis'
+    - 'Oncgnostics GmbH, Löbstedter Straße 41, Jena, 07749, Germany'
+  orcid: '0000-0003-2006-4610'
+  websites:
+    - 'https://www.rna.uni-jena.de/members/daria-meyer/'
+  image: 'Meyer.png'
+  Description: 'In QuaLiPerF I am analyzing liver transcriptome data, to detect differences in gene expression between healthy, steatotic and venous ligated liver samples. Additionally I am trying to computationally detect non-coding RNAs showing differences between the analyzed liver conditions.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P4'
+  tags:
+    - Experiments
+  publications:
+    - Christ2021

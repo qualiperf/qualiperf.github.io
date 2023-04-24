@@ -1,0 +1,51 @@
+- id: 'QuaLiPerF'
+  project: 'QuaLiPerF'
+  file: 'QuaLiPerF.mp4'
+
+- id: 'Coordination'
+  project: 'QuaLiPerF'
+  file: 'Coordination.mp4'
+
+- id: 'P2'
+  project: 'P2'
+  file: 'P2.mp4'
+
+- id: 'P1'
+  project: 'P1'
+  file: 'P1.mp4'
+
+- id: 'P6'
+  project: 'P6'
+  file: 'P6.mp4'
+
+- id: 'P4'
+  project: 'P4'
+  file: 'P4.mp4'
+
+- id: 'P3'
+  project: 'P3'
+  file: 'P3.mp4'
+
+- id: 'P7'
+  project: 'P7'
+  file: 'P7.mp4'
+
+- id: 'P8'
+  project: 'P8'
+  file: 'P8.mp4'
+
+- id: 'P5'
+  project: 'P5'
+  file: 'P5.mp4'
+
+- id: 'P9'
+  project: 'P9'
+  file: 'P9.mp4'
+
+- id: 'DMP'
+  project: 'DMP'
+  file: 'DMP.mp4'
+
+- id: 'Summary'
+  project: 'QuaLiPerF'
+  file: 'Summary.mp4'

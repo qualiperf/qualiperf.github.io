@@ -1,0 +1,25 @@
+- id: 'Hoepfl'
+  role: 'Fellow'
+  group: 'Radde'
+  title:
+  name: 'Sebastian Hoepfl'
+  affiliations:
+  - 'University of Stuttgart, Faculty of Engineering Design, Production Engineering and Automotive Engineering, Institute for Systems Theory and Automatic Control'
+  orcid: '0000-0002-5300-0915'
+  websites: 
+  - 'https://www.ist.uni-stuttgart.de/de/institut/team/Hoepfl/'
+  - 'https://github.com/shoepfl'
+  image: 'Hoepfl.jpg'
+  description: 'My focus in the research unit QuaLiPerF is to apply statistical methods for data integration into multi-scale models and uncertainty tracking.
+  To achieve this, statistical methods like Markov chain Monte Carlo (MCMC) sampling, Maximum Likelihood parameter estimation and machine learning will be applied.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P5'
+    - 'DMP'
+  tags:
+    - 'Data integration'
+    - 'Uncertainty quantification'
+    - 'Bayesian statistics'
+  publications:
+    - 'Christ2021 (10.3389/fphys.2021.733868)'
+    - 'Albadry2022 (10.1038/s41598-022-26483-6)'

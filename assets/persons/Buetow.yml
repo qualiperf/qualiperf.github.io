@@ -1,0 +1,19 @@
+- id: 'Buetow'
+  role: 'Fellow'
+  group: 'Tautenhahn'
+  title: ''
+  name: 'Laura Bütow'
+  affiliations:
+    - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery, AG Gerontosurgery'
+  orcid: '0000-0002-3270-5908'
+  websites:
+  image: 'Buetow.png'
+  description: 'Laura Bütow is a medical student in the 4th year of her studies at the Friedrich Schiller University of Jena. She is a fellow within a structured doctoral thesis funding program called JSAM (Jena School for Ageing Medicine of Else Kröner-Promotionskolleg). She works on the CYP enzyme expression and activity in Ischemia reperfusion injury in the setting of liver transplantations.'
+  projects:
+  - 'QuaLiPerF'
+  - 'P9'
+  - 'SimLivA'
+  - 'clinical data generation'
+  tags:
+  - 'clinics'
+  publications:

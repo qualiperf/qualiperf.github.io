@@ -1,0 +1,31 @@
+- id: 'Dahmen'
+  role: 'PI'
+  group: 'Dahmen'
+  title: 'Dr. med.'
+  name: 'Uta Dahmen'
+  affiliations:
+    - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery, Experimental Transplantation Surgery'
+  orcid: '0000-0003-3483-3388'
+  websites:
+    - 'https://www.uniklinikum-jena.de/avc/Team.html'
+  image: 'Dahmen.png'
+  description: 'Uta Dahmen is the spokesperson of the research group and thus responsible for the scientific and administrative management of the research group and serves as the central contact person for all projects. In addition, in subproject P2 she assesses of the impact of perfusion perturbation and perfusion impairment on loss and recovery of liver function. Therefore, the project investigates liver perfusion impairments on multiple scales using three different approaches of perfusion perturbation in the rat model: hepatic steatosis, portal vein ligation, and liver resection. Furthermore, she is responsible for the data management project, that ensures an efficient and comprehensive data management adhered to the F.A.I.R principles.'
+  projects:
+    - 'QuaLiPerF'
+    - 'Coordination'
+    - 'P2'
+    - 'DMP'
+  tags:
+    - 'Experiments'
+  publications:
+    - 'Albadry2022 (10.1038/s41598-022-26483-6)'
+    - 'Fang2018'
+    - 'Schleicher2017'
+    - 'Xie2016a'
+    - 'Schwen2016'
+    - 'Wei2016'
+    - 'Saenger2015'
+    - 'Homeyer2015'
+    - 'Huang2014'
+    - 'Huang2011'
+    - 'Madrahimov2006'
