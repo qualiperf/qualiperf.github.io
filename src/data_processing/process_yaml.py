@@ -20,6 +20,7 @@ class Role(YamlStrEnum):
     PI = 'PI'
     FELLOW = 'Fellow'
     STUDENT_ASSISTANT = 'Student assistant'
+    TECHNICAL_ASSISTANT = 'Technical assistant'
     ALUMNI = 'Alumni'
     ASSOCIATED = 'Associated'
 
