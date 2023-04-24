@@ -4,7 +4,8 @@
   - 'Koenig'
   title: 'B. Sc.'
   name: 'Helena Leal Pujol'
-  affiliations: 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
+  affiliations:
+  - 'Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology, Systems Medicine of the Liver Lab'
   orcid: '0000-0003-2919-56XX'
   websites:
     - 'https://github.com/lepujolh/'
