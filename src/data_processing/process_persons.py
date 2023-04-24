@@ -76,7 +76,7 @@ class Person(YamlModel):
 
 class Persons(YamlModel):
   """Class for all person information"""
-  persons: List[Person]
+  items: List[Person]
 
 
 def clean_entry(d: Dict) -> List[Person]:
@@ -87,8 +87,8 @@ def clean_entry(d: Dict) -> List[Person]:
         name_tokens = pdata.pop("name").split(" ")
         firstname = " ".join(name_tokens[:-1])
         lastname = name_tokens[-1]
-        pdata["firstname"] = firstname
-        pdata["lastname"] = lastname
+        pdata["firstname"] = firstname.strip()
+        pdata["lastname"] = lastname.strip()
         p = Person(**pdata)
         console.print(p)
         # console.print(p.yaml())
@@ -120,14 +120,13 @@ def process_persons(persons_dir: Path) -> Persons:
                 logger.error(f"error in 'file://{p}'")
                 raise err
 
-    persons = Persons(persons=all_persons)
-    return persons
+    return Persons(items=all_persons)
 
 
 if __name__ == "__main__":
     persons_dir = Path(__file__).parent.parent.parent / "assets" / "persons"
     persons_yaml = Path(__file__).parent.parent.parent / "assets" / "persons.yml"
-    persons: Persons = process_persons(persons_dir=persons_dir)
-    yaml_str = persons.yaml()
+    items: Persons = process_persons(persons_dir=persons_dir)
+    yaml_str = items.yaml()
     with open(persons_yaml, "w") as f_yaml:
         f_yaml.write(yaml_str)

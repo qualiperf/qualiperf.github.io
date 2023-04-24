@@ -1,0 +1,476 @@
+items:
+- title: Ten Simple Rules for Sharing Experimental and Clinical Data with the Modeling
+    Community
+  authors: "Matthias K\xF6nig*, Jan Grzegorzewski, Martin Golebiewski, Henning Hermjakob,\
+    \ Mike Hucka, Brett Olivier, Sarah M. Keating, David Nickerson, Falk Schreiber,\
+    \ Rahuman Sheriff, Dagmar Waltemath"
+  abstract: Science continues to become more interdisciplinary and to involve increasingly
+    complex data sets. Many projects in the biomedical and health related sciences
+    adhere to the principles of FAIR data sharing, or aim to follow them. Data sharing
+    has been proven to foster collaboration, to lead to better research outcomes,
+    and to help ensure reproducibility of results. Data generated in biomedical and
+    health research are specific in the sense that they are heterogeneous, often big,
+    and highly sensitive in terms of data protection needs and contextuality. Data
+    sharing has to respect these features, but at the same time advances in medical
+    therapy and treatment are time-critical. Modeling and simulation of biomedical
+    processes have become an established tool, and a global community has been developing
+    algorithms, methodologies, and standards for applying biomedical simulation models
+    in clinical research. However, it can be difficult for clinician scientists to
+    follow the specific rules and recommendations for FAIR data sharing within the
+    domain. With this paper, we aim to clarify the standard workflow for sharing experimental
+    and clinical data with the simulation modeling community. By following these recommendations,
+    data sharing will be improved, collaborations will become more effective, and
+    the FAIR publication and subsequent reuse of data will become possible at the
+    level of quality necessary in biomedical and health related sciences.
+  journal: Preprints 2021, 2021080303, https://www.preprints.org/manuscript/202108.0303/v1
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.20944/preprints202108.0303.v1
+  preprint: true
+- title: Physiologically based modeling of the effect of physiological and anthropometric
+    variability on indocyanine green based liver function tests
+  authors: "Adrian K\xF6ller, Jan Grzegorzewski and Matthias K\xF6nig"
+  abstract: 'Accurate evaluation of liver function is a central task in hepatology.
+    Dynamic liver function tests (DLFT) based on the time-dependent elimination of
+    a test substance provide an important tool for such a functional assessment. These
+    tests are used in the diagnosis and monitoring of liver disease as well as in
+    the planning of hepatobiliary surgery. A key challenge in the evaluation of liver
+    function with DLFTs is the large inter-individual variability. Indocyanine green
+    (ICG) is a widely applied test compound used for the evaluation of liver function.
+    After an intravenous administration, pharmacokinetic (PK) parameters are calculated
+    from the plasma disappearance curve of ICG which provide an estimate of liver
+    function. The hepatic elimination of ICG is affected by physiological factors
+    such as hepatic blood flow or binding of ICG to plasma proteins, anthropometric
+    factors such as body weight, age, and sex, or the protein amount of the organic
+    anion-transporting polypeptide 1B3 (OATP1B3) mediating the hepatic uptake of ICG.
+    Being able to account for and better understand these various sources of inter-individual
+    variability would allow to improve the power of ICG based DLFTs and move towards
+    an individualized evaluation of liver function.
+
+    Within this work we systematically analyzed the effect of various factors on ICG
+    elimination by the means of computational modeling. For the analysis, a recently
+    developed and validated physiologically based pharmacokinetics (PBPK) model of
+    ICG distribution and hepatic elimination was utilized. Key results are (i) a systematic
+    analysis of the variability in ICG elimination due to hepatic blood flow, cardiac
+    output, OATP1B3 abundance, liver volume, body weight and plasma bilirubin level;
+    (ii) the evaluation of the inter-individual variability in ICG elimination via
+    a large \emph{in silico} cohort of n=100000 subjects based on the NHANES cohort
+    with special focus on stratification by age, sex, and body weight; (iii) the evaluation
+    of the effect of various degrees of cirrhosis on variability in ICG elimination.
+
+    The presented results are an important step towards individualizing liver function
+    tests by elucidating the effects of confounding physiological and anthropometric
+    parameters in the evaluation of liver function via ICG.'
+  journal: 'bioRxiv 2021.08.11.455999; doi: https://doi.org/10.1101/2021.08.11.455999
+    [Submitted to Frontiers Physiology 2021-08-12]'
+  qualiperf_funding: true
+  pubmed: '34880776'
+  doi: 10.1101/2021.08.11.455999
+  preprint: true
+- title: 'SBMLWebApp: Web-based Simulation, Steady-State Analysis, and Parameter Estimation
+    of Systems Biology Models'
+  authors: "Takahiro G. Yamada, Kaito Ii, Matthias K\xF6nig, Martina Feierabend, Andreas\
+    \ Dr\xE4ger, Akira Funahashi"
+  abstract: "Abstract: In systems biology, biological phenomena are often modeled\
+    \ by Ordinary Differential Equations (ODEs) and distributed in the de facto standard\
+    \ file format SBML. The primary analyses performed with such models are dynamic\
+    \ simulation, steady-state analysis, and parameter estimation. These methodologies\
+    \ are mathematically formalized, and libraries for such analyses have been published.\
+    \ Several tools exist to create, simulate, or visualize models encoded in SBML.\
+    \ However, setting up and establishing analysis environments is a crucial hurdle\
+    \ for non-modelers. Therefore, easy access to perform fundamental analyses of\
+    \ ODE models is a significant challenge. We developed SBMLWebApp, a web-based\
+    \ service to execute SBML-based simulations, steady-state analysis, and parameter\
+    \ estimation directly in the browser without the need for any setup or prior knowledge\
+    \ to address this issue. SBMLWebApp visualizes the result and numerical table\
+    \ of each analysis and provides a download of the results. SBMLWebApp allows users\
+    \ to select and analyze SBML models directly from the BioModels Database. Taken\
+    \ together, SBMLWebApp provides barrier-free access to an SBML analysis environment\
+    \ for simulation, steady-state analysis, and parameter estimation for SBML models.\
+    \ SBMLWebApp is implemented in Java\u2122 based on an Apache Tomcat\xAE web server\
+    \ using COPASI, the Systems Biology Simulation Core Library (SBSCL), and LibSBMLSim\
+    \ as simulation engines. SBMLWebApp is licensed under MIT with source code available\
+    \ from https://github.com/TakahiroYamada/SBMLWebApp. The program runs online at\
+    \ http://simulate-biology.org."
+  journal: 'Preprints 2021, 2021080259 (doi: 10.20944/preprints202108.0259.v1). [Submitted
+    to MDPI, 2021-08-11]'
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.20944/preprints202108.0259.v1
+  preprint: true
+- title: 'Pharmacokinetics of caffeine: A systematic analysis of reported data for
+    application in metabolic phenotyping and liver function testing'
+  authors: "Jan Grzegorzewski, Florian Bartsch, Adrian K\xF6ller, Matthias K\xF6nig"
+  abstract: 'Caffeine is by far the most ubiquitous psychostimulant worldwide found
+    in tea, coffee, cocoa, energy drinks, and many other beverages and food. Caffeine
+    is almost exclusively metabolized in the liver by the cytochrome P-450 enzyme
+    system to the main product paraxanthine and the additional products theobromine
+    and theophylline. Besides its stimulating properties, two important applications
+    of caffeine are metabolic phenotyping of cytochrome P450 1A2 (CYP1A2) and liver
+    function testing. An open challenge in this context is to identify underlying
+    causes of the large inter-individual variability in caffeine pharmacokinetics.
+    Data is urgently needed to understand and quantify confounding factors such as
+    lifestyle (e.g. smoking), the effects of drug-caffeine interactions (e.g. medication
+    metabolized via CYP1A2), and the effect of disease.
+
+    Here we report the first integrative and systematic analysis of data on caffeine
+    pharmacokinetics from 148 publications and provide a comprehensive high-quality
+    data set on the pharmacokinetics of caffeine, caffeine metabolites, and their
+    metabolic ratios in human adults. The data set is enriched by meta-data on the
+    characteristics of studied patient cohorts and subjects (e.g. age, body weight,
+    smoking status, health status), the applied interventions (e.g. dosing, substance,
+    route of application), measured pharmacokinetic time-courses, and pharmacokinetic
+    parameters (e.g. clearance, half-life, area under the curve).
+
+    We demonstrate via multiple applications how the data set can be used to solidify
+    existing knowledge and gain new insights relevant for metabolic phenotyping and
+    liver function testing based on caffeine. Specifically, we analyzed (i) the alteration
+    of caffeine pharmacokinetics with smoking and use of oral contraceptives; (ii)
+    drug-drug interactions with caffeine as possible confounding factors of caffeine
+    pharmacokinetics or source of adverse effects; (iii) alteration of caffeine pharmacokinetics
+    in disease; and (iv) the applicability of caffeine as a salivary test substance
+    by comparison of plasma and saliva data. In conclusion, our data set and analyses
+    provide important resources which could enable more accurate caffeine-based metabolic
+    phenotyping and liver function testing.'
+  journal: 'bioRxiv 2021.07.12.452094; doi: https://doi.org/10.1101/2021.07.12.452094
+    [Submitted to Frontiers Pharmacology, 2021-08-03]'
+  qualiperf_funding: true
+  pubmed: '35280254'
+  doi: 10.1101/2021.07.12.452094
+  preprint: true
+- title: The Systems Biology Simulation Core Library
+  authors: "Panchiwala, H.; Shah, S.; Planatscher, H.; Zakharchuk, M.; K\xF6nig, M.;\
+    \ Dr\xE4ger, A."
+  abstract: "Summary: Studying biological systems generally relies on computational\
+    \ modeling and simulation, e.g., for model-driven discovery and hypothesis testing.\
+    \ Progress in standardization efforts led to the development of interrelated file\
+    \ formats to\nexchange and reuse models in systems biology, such as SBML, the\
+    \ Simulation Experiment Description Markup Language (SED-ML), or the Open Modeling\
+    \ EXchange format (OMEX). Conducting simulation experiments based on these formats\
+    \ requires efficient and reusable implementations to make them accessible to the\
+    \ broader scientific community and to ensure the reproducibility of the results.\
+    \ The Systems Biology Simulation Core Library (SBSCL) provides interpreters and\
+    \ solvers for these standards as a versatile open-source API in Java\u2122. The\
+    \ library simulates even complex bio-models and supports\ndeterministic Ordinary\
+    \ Differential Equations (ODEs); Stochastic Differential Equations (SDEs); constraint-based\
+    \ analyses; recent SBML and SED-ML versions; exchange of results, and visualization\
+    \ of in silico experiments; open modeling exchange\nformats (COMBINE archives);\
+    \ hierarchically structured models; and compatibility with standard testing systems,\
+    \ including the Systems Biology Test Suite and published models from the BioModels\
+    \ and BiGG databases. Availability and implementation: SBSCL is freely available\
+    \ at https://draeger-lab.github.io/SBSCL/."
+  journal: 'Preprints 2020, 2020120296 (doi: 10.20944/preprints202012.0296.v1), [In
+    revision, Bioinformatics]'
+  qualiperf_funding: true
+  pubmed: '34554191'
+  doi: 10.20944/preprints202012.0296.v1
+  preprint: true
+- title: Prediction of survival after hepatectomy using a physiologically based pharmacokinetic
+    model of indocyanine green liver function tests
+  authors: "Adrian K\xF6ller, Jan Grzegorzewski, Michael Tautenhahn, Matthias K\xF6\
+    nig"
+  abstract: The evaluation of hepatic function and functional capacity of the liver
+    are essential tasks in hepatology as well as in hepatobiliary surgery. Indocyanine
+    green (ICG) is a widely applied test compound that is used in clinical routine
+    to evaluate hepatic function. Important questions for the functional evaluation
+    with ICG in the context of hepatectomy are how liver disease such as cirrhosis
+    alters ICG elimination, and if postoperative survival can be predicted from preoperative
+    ICG measurements. Within this work a physiologically based pharmacokinetic (PBPK)
+    model of ICG was developed and applied to the prediction of the effects of a liver
+    resection under various degrees of cirrhosis. For the parametrization of the computational
+    model and validation of model predictions a database of ICG pharmacokinetic data
+    was established. The model was applied (i) to study the effect of liver cirrhosis
+    and liver resection on ICG pharmacokinetics; and (ii) to evaluate the model-based
+    prediction of postoperative ICG-R15 as a measure for postoperative outcome. Key
+    results are the accurate prediction of changes in ICG pharmacokinetics caused
+    by liver cirrhosis and postoperative changes of ICG-elimination after liver resection,
+    as validated with a wide range of data sets. Based on the PBPK model, individual
+    survival after liver resection could be classified, demonstrating its potential
+    value as a clinical tool.
+  journal: 'bioRxiv 2021.06.15.448411; doi: https://doi.org/10.1101/2021.06.15.448411,
+    [Submitted to Frontiers Physiology 2021-06-30]'
+  qualiperf_funding: true
+  pubmed: '34880771'
+  doi: 10.1101/2021.06.15.448411
+  preprint: true
+- title: 'SED-ML Validator: tool for debugging simulation experiments'
+  authors: "Bilal Shaikh, Andrew Philip Freiburger, Matthias K\xF6nig, Frank T. Bergmann,\
+    \ David P. Nickerson, Herbert M. Sauro, Michael L. Blinov, Lucian P. Smith, Ion\
+    \ I. Moraru, Jonathan R. Karr"
+  abstract: "Summary: More sophisticated models are needed to address problems in\
+    \ bioscience, synthetic biology, and precision medicine. To help facilitate the\
+    \ collaboration needed for such models, the community developed the Simulation\
+    \ Experiment Description Markup Language (SED-ML), a common format for describing\
+    \ simulations. However, the utility of SED-ML has been hampered by limited support\
+    \ for SED-ML among modeling software tools and by different interpretations of\
+    \ SED-ML among the tools that support the format. To help modelers debug their\
+    \ simulations and to push the community to use SED-ML consistently, we developed\
+    \ a tool for validating SED-ML files. We have used the validator to correct the\
+    \ official SED-ML example files. We plan to use the validator to correct the files\
+    \ in the BioModels database so that they can be simulated. We anticipate that\
+    \ the validator will be a valuable tool for developing more predictive simulations\
+    \ and that the validator will help increase the adoption and interoperability\
+    \ of SED-ML. \nAvailability: The validator is freely available as a webform, HTTP\
+    \ API, command-line program, and Python package at https://run.biosimulations.org/utils/validate\
+    \ and https://pypi.org/project/biosimulators-utils. The validator is also embedded\
+    \ into interfaces to 11 simulation tools. The source code is openly available\
+    \ as described in the Supplementary data."
+  journal: arXiV, 2021, 2106.00844, [Submitted to Bioinformatics 2021-06-02]
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.48550/arXiv.2106.00844
+  preprint: true
+- title: 'Quasi-Entropy Closure: A Fast and Reliable Approach to Close the Moment
+    Equations of the Chemical Master Equation'
+  authors: Vincent Wagner, Benjamin Castellaz, Marco Oesting, Nicole Radde
+  abstract: 'Motivation The Chemical Master Equation is the most comprehensive stochastic
+    approach to describe the evolution of a (bio-)chemical reaction system. Its solution
+    is a time-dependent probability distribution on all possible configurations of
+    the system. As the number of possible configurations is typically very large,
+    the Master Equation is often practically unsolvable. The Method of Moments reduces
+    the system to the evolution of a few moments of this distribution, which are described
+    by a system of ordinary differential equations. Those equations are not closed,
+    since lower order moments generally depend on higher order moments. Various closure
+    schemes have been suggested to solve this problem, with different advantages and
+    limitations. Two major problems with these approaches are first that they are
+    open loop systems, which can diverge from the true solution, and second, some
+    of them are computationally expensive.
+
+
+    Results Here we introduce Quasi-Entropy Closure, a moment closure scheme for the
+    Method of Moments which estimates higher order moments by reconstructing the distribution
+    that minimizes the distance to a uniform distribution subject to lower order moment
+    constraints. Quasi-Entropy closure is similar to Zero-Information closure, which
+    maximizes the information entropy. Results show that both approaches outperform
+    truncation schemes. Moreover, Quasi-Entropy Closure is computationally much faster
+    than Zero-Information Closure. Finally, our scheme includes a plausibility check
+    for the existence of a distribution satisfying a given set of moments on the feasible
+    set of configurations. Results are evaluated on different benchmark problems.'
+  journal: 'BioRxiv 2021.12.01.470753 doi: https://doi.org/10.1101/2021.12.01.470753'
+  qualiperf_funding: true
+  pubmed: '35916726'
+  doi: 10.1101/2021.12.01.470753
+  preprint: true
+- title: 'Dynamic Flux Balance Analysis Models in
+
+    SBML'
+  authors: "Matthias K\xF6nig* , Leandro H. Watanabe, Jan Grzegorzewski, Chris J.\n\
+    Myers"
+  abstract: 'ABSTRACT2
+
+    Computational models in systems biology and systems medicine are typically simulated
+    using a single formalism such as ordinary differential equations (ODE). However,
+    more complex models require the coupling of multiple formalisms since different
+    biological phenomena are better described by different methods. For example, metabolism
+    in steady state is often modeled using flux-balance analysis (FBA) whereas dynamic
+    changes of model components are better described via ODEs. The coupling of FBA
+    and ODE modeling formalisms results in dynamic FBA models. A major challenge is
+    how to describe such hybrid models that couple multiple formalisms in a standardized
+    way so that they can be exchanged between tools and simulated consistently in
+    a reproducible manner. This paper presents a scheme for encoding and implementation
+    of dynamic FBA models in the Systems Biology Markup Language (SBML), thereby enabling
+    the exchange of multi-framework computational models between software tools. We
+    demonstrate the feasibility of the approach using various example models and show
+    that different tools are able to simulate the hybrid models and agree on the results.
+    As part of this work, two independent implementations of a multi-framework simulation
+    method for dynamic FBA have been developed supporting such models: iBioSim and
+    sbmlutils.'
+  journal: 'bioRxiv doi: https://doi.org/10.1101/245076'
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.1101/245076
+  preprint: true
+- title: FAIR Sharing of Reproducible Models of Epidemic and Pandemic Forecast
+  authors: "Ramachandran K.*, K\xF6nig M.*, Scharm M., Nguyen T.V.N, Hermjakob H.,\
+    \ Waltemath D., Malik Sheriff R.S."
+  abstract: A major challenge for the dissemination, replication, and reuse of epidemiological
+    forecasting studies during COVID-19 pandemics is the lack of clear guidelines
+    and platforms to exchange models in a Findable, Accessible, Interoperable, and
+    Reusable (FAIR) manner, facilitating reproducibility of research outcomes. During
+    the beginning of pandemics, models were developed in diverse tools that were not
+    interoperable, opaque without traceability and semantics, and scattered across
+    various platforms - making them hard to locate, infer and reuse. In this work,
+    we demonstrate that implementing the standards developed by the systems biology
+    community to encode and share COVID-19 epidemiological models can serve as a roadmap
+    to implement models as a tool in medical informatics, in general. As a proof-of-concept,
+    we encoded and shared 24 epidemiological models using the standard format for
+    model exchange in systems biology, annotated them with cross-references to data
+    resources, packed up all associated files in COMBINE archives for easy sharing,
+    and finally, disseminated the models through BioModels repository to significantly
+    enhance their reproducibility and repurposing potential. We recommend the use
+    of systems biology standards to encode and share models of epidemic and pandemic
+    forecasts to improve their findability, accessibility, interoperability, reusability,
+    and reproducibility.
+  journal: 'Preprints 2022, 2022060137 (doi: 10.20944/preprints202206.0137.v1).'
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.20944/preprints202206.0137.v1
+  preprint: true
+- title: Physiologically based pharmacokinetic (PBPK) modeling of the role of CYP2D6
+    polymorphism for metabolic phenotyping with dextromethorphan
+  authors: "Grzegorzewski J., Brandhorst J., K\xF6nig M."
+  abstract: The cytochrome P450 2D6 (CYP2D6) is a key xenobiotic-metabolizing enzyme
+    involved in the clearance of many drugs. Genetic polymorphisms in CYP2D6 contribute
+    to the large inter-individual variability in drug metabolism and could affect
+    metabolic phenotyping of CYP2D6 probe substances such as dextromethorphan (DXM).
+    To study this question, we (i) established an extensive pharmacokinetics dataset
+    for DXM; and (ii) developed and validated a physiologically based pharmacokinetic
+    (PBPK) model of dextromethorphan (DXM) and its metabolites dextrorphan (DXO) and
+    dextrorphan O-glucuronide (DXO-Glu) based on the data. Drug-gene interactions
+    (DGI) were introduced by accounting for changes in CYP2D6 enzyme kinetics depending
+    on activity score (AS), which in combination with AS for individual polymorphisms
+    allowed us to model of CYP2D6 gene variants. Variability in CYP3A4 and CYP2D6
+    activity was modeled based on in vitro data from human liver microsomes. Model
+    predictions are in very good agreement with pharmacokinetics data for CYP2D6 polymorphisms,
+    CYP2D6 activity as measured by AS, and CYP2D6 metabolic phenotypes (UM, EM, IM,
+    PM). The model was applied to investigate the genotype-phenotype association and
+    the role of CYP2D6 polymorphisms for metabolic phenotyping with dextromethorphan
+    using the urinary cumulative metabolic ratio DXM/(DXO+DXO-Glu) (UCMR). The effect
+    of parameters on UCMR was studied via sensitivity analysis. Model predictions
+    indicate very good robustness against the intervention protocol (i.e. application
+    form, dosing amount, dissolution rate, and sampling time) and good robustness
+    against physiological variation. The model is capable of estimating the UCMR dispersion
+    within and across populations depending on activity scores. Moreover, the distribution
+    of UCMR and the risk of genotype-phenotype mismatch could be estimated for populations
+    with known CYP2D6 genotype frequencies. The model can be applied as a tool for
+    individual prediction of UCMR and metabolic phenotype based on CYP2D6 genotype.
+    Both, model and database are freely available for reuse.
+  journal: 'bioRxiv 2022.08.23.504981; doi: https://doi.org/10.1101/2022.08.23.504981'
+  qualiperf_funding: true
+  pubmed: '36353484'
+  doi: 10.1101/2022.08.23.504981
+  preprint: true
+- title: Simvastatin therapy in different subtypes of hypercholesterolemia - a physiologically
+    based modelling approach
+  authors: "Bartsch F. , Grzegorzewski J., Pujol H., Tautenhahn HM., K\xF6nig M."
+  abstract: 'Hypercholesterolemia is a multifaceted plasma lipid disorder with heterogeneous
+    causes including lifestyle and genetic factors. A key feature of hypercholesterolemia
+    is elevated plasma levels of low-density lipoprotein cholesterol (LDL-C). Several
+    genetic variants have been reported to be associated with hypercholesterolemia,
+    known as familial hypercholesterolemia (FH). Important variants affect the LDL
+    receptor (LDLR), which mediates the uptake of LDL-C from the plasma, apoliporotein
+    B (APOB), which is involved in the binding of LDL-C to the LDLR, and proprotein
+    convertase subtilisin/kexin type 9 (PCSK9), which modulates the degradation of
+    the LDLR. A typical treatment for hypercholesterolemia is statin medication, with
+    simvastatin being one of the most commonly prescribed statins. In this work, the
+    LDL-C lowering therapy with simvastatin in hypercholesterolemia was investigated
+    using a computational modeling approach. A physiologically based pharmacokinetic
+    model of simvastatin integrated with a pharmacodynamic model of plasma LDL-C (PBPK/PD)
+    was developed based on extensive data curation. A key component of the model is
+    LDL-C turnover by the liver, consisting of: hepatic cholesterol synthesis with
+    the key enzymes HMG-CoA reductase and HMG-CoA synthase; cholesterol export from
+    the liver as VLDL-C; de novo synthesis of LDLR; transport of LDLR to the membrane;
+    binding of LDL-C by LDLR via APOB; endocytosis of the LDLR-LDL-C complex; recycling
+    of LDLR from the complex. The model was applied to study the effects of simvastatin
+    therapy in hypercholesterolemia due to different causes in the LDLR pathway corresponding
+    to different subtypes of hypercholesterolemia. Model predictions of LDL-C lowering
+    therapy were validated with independent clinical data sets. Key findings are:
+    (i) hepatic LDLR turnover is highly heterogeneous among FH classes; (ii) despite
+    this heterogeneity, simvastatin therapy results in a consistent reduction in plasma
+    LDL-C regardless of class; and (iii) simvastatin therapy shows a dose-dependent
+    reduction in LDL-C. Our model suggests that the underlying cause of hypercholesterolemia
+    does not influence simvastatin therapy. Furthermore, our model supports the treatment
+    strategy of stepwise dose adjustment to achieve target LDL-C levels. Both the
+    model and the database are freely available for reuse.'
+  journal: 'medRxiv 2023.02.01.23285358; doi: https://doi.org/10.1101/2023.02.01.23285358'
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.1101/2023.02.01.23285358
+  preprint: true
+- title: A Consensus Model of Glucose-Stimulated Insulin Secretion in the Pancreatic
+    beta-Cell
+  authors: "Maheshvare MD., Raha S., K\xF6nig M.*, and Pal D.*"
+  abstract: The pancreas plays a critical role in maintaining glucose homeostasis
+    through the secretion of hormones from the islets of Langerhans. Glucose-stimulated
+    insulin secretion (GSIS) by the pancreatic beta-cell is the main mechanism for
+    reducing elevated plasma glucose. Here we present a systematic modeling workflow
+    for the development of kinetic pathway models using the Systems Biology Markup
+    Language (SBML). Steps include retrieval of information from databases, curation
+    of experimental and clinical data for model calibration and validation, integration
+    of heterogeneous data including absolute and relative measurements, unit normalization,
+    data normalization, and model annotation. An important factor was the reproducibility
+    and exchangeability of the model, which allowed the use of various existing tools.
+    The workflow was applied to construct the first consensus model of GSIS in the
+    pancreatic beta-cell based on experimental and clinical data from 39 studies spanning
+    50 years of pancreatic, islet, and beta-cell research in humans, rats, mice, and
+    cell lines. The model consists of detailed glycolysis and equations for insulin
+    secretion coupled to cellular energy state (ATP/ADP ratio). Key findings of our
+    work are that in GSIS there is a glucose-dependent increase in almost all intermediates
+    of glycolysis. This increase in glycolytic metabolites is accompanied by an increase
+    in energy metabolites, especially ATP and NADH. One of the few decreasing metabolites
+    is ADP, which, in combination with the increase in ATP, results in a large increase
+    in ATP/ADP ratios  in the beta-cell with increasing glucose. Insulin secretion
+    is dependent on ATP/ADP, resulting in glucose-stimulated insulin secretion. The
+    observed glucose-dependent increase in glycolytic intermediates and the resulting
+    change in ATP/ADP ratios and insulin secretion is a robust phenomenon observed
+    across data sets, experimental systems and species. Model predictions of the glucose-dependent
+    response of glycolytic intermediates and insulin secretion are in good agreement
+    with experimental measurements. Our model predicts that factors affecting ATP
+    consumption, ATP formation, hexokinase, phosphofructokinase, and ATP/ADP-dependent
+    insulin secretion have a major effect on GSIS. In conclusion, we have developed
+    and applied a systematic modeling workflow for pathway models that allowed us
+    to gain insight into key mechanisms in GSIS in the pancreatic beta-cell.
+  journal: bioRxiv 2023.03.10.532028
+  qualiperf_funding: true
+  pubmed: '36945414'
+  doi: 10.1101/2023.03.10.532028
+  preprint: true
+- title: 'standard-GEM: standardization of open-source genome-scale metabolic models'
+  authors: "Mihail Anton, Eivind Almaas, Rui Benfeitas, Sara Benito-Vaquerizo, Lars\
+    \ M. Blank, Andreas Dr\xE4ger, John M. Hancock, Cheewin Kittikunapong, <b>Matthias\
+    \ K\xF6nig</b>, Feiran Li, Ulf W. Liebal, Hongzhong Lu, Hongwu Ma, Radhakrishnan\
+    \ Mahadevan, Adil Mardinoglu, Jens Nielsen, Juan Nogales, Marco Pagni, Jason A.\
+    \ Papin, Kiran Raosaheb Patil, Nathan D. Price, Jonathan L. Robinson, Benjam\xED\
+    n J. S\xE1nchez, Maria Suarez-Diez, Snorre Sulheim, L. Thomas Svensson, Bas Teusink,\
+    \ Wanwipa Vongsangnak, Hao Wang, Ahmad A. Zeidan, Eduard J. Kerkhoven"
+  abstract: The field of metabolic modelling at the genome-scale continues to grow
+    with more models being created and curated. This comes with an increasing demand
+    for adopting common principles regarding transparency and versioning, in addition
+    to standardisation efforts regarding file formats, annotation and testing. Here,
+    we present a standardised template for git-based and GitHub-hosted genome-scale
+    metabolic models (GEMs) supporting both new models and curated ones, following
+    FAIR principles (findability, accessibility, interoperability, and reusability),
+    and incorporating best-practices. standard-GEM facilitates the reuse of GEMs across
+    web services and platforms in the metabolic modelling field and enables automatic
+    validation of GEMs. The use of this template for new models, and its adoption
+    for existing ones, paves the way for increasing model quality, openness, and accessibility
+    with minimal effort.
+  journal: 'bioRxiv 2023.03.21.512712; doi: https://doi.org/10.1101/2023.03.21.512712'
+  qualiperf_funding: false
+  pubmed: '-'
+  doi: 10.1101/2023.03.21.512712
+  preprint: true
+- title: A physiologically based pharmacokinetic model for CYP2E1 phenotyping via
+    chlorzoxazone
+  authors: "J. K\xFCttner, J. Grzegorzewski, HM. Tautenhahn, M. K\xF6nig"
+  abstract: The cytochrome P450 (CYP) superfamily of enzymes plays a critical role
+    in the metabolism of drugs, toxins, and endogenous and exogenous compounds. The
+    activity of CYP enzymes can be influenced by a variety of factors, including genetics,
+    diet, age, environmental factors, and disease. Among the major isoforms, CYP2E1
+    is of particular interest due to its involvement in the metabolism of various
+    low molecular weight chemicals, including alcohols, pharmaceuticals, industrial
+    solvents, and halogenated anesthetics. Metabolic phenotyping of CYPs based on
+    the elimination of test compounds is a useful method for assessing in vivo activity,
+    with chlorzoxazone being the primary probe drug for phenotyping of CYP2E1. The
+    aim of this work was to investigate the effect of changes in CYP2E1 level and
+    activity, ethanol consumption, ethanol abstinence, and liver impairment on the
+    results of metabolic phenotyping with chlorzoxazone. To accomplish this, an extensive
+    pharmacokinetic dataset for chlorzoxazone was established and a physiologically
+    based pharmacokinetic (PBPK) model of chlorzoxazone and its metabolites, 6-hydroxychlorzoxazone
+    and chlorzoxazone-O-glucuronide, was developed and validated. The model incorporates
+    the effect of ethanol consumption on CYP2E1 levels and activity by extending the
+    model with a core ethanol pharmacokinetic model and a CYP2E1 turnover model. The
+    model accurately predicts pharmacokinetic data from several clinical studies and
+    is able to estimate the effect of changes in CYP2E1 levels and activity on chlorzoxazone
+    pharmacokinetics. Regular ethanol consumption induces CYP2E1 over two to three
+    weeks, resulting in increased conversion of chlorzoxazone to 6-hydroxychlorzoxazone
+    and a higher 6-hydroxychlorzoxazone/chlorzoxazone metabolic ratio. After ethanol
+    withdrawal, CYP2E1 levels return to baseline within one week. Importantly, liver
+    impairment has an opposite effect, resulting in reduced liver function via CYP2E1.
+    In alcoholics with liver impairment who also consume ethanol, these factors will
+    have opposite confounding effects on metabolic phenotyping with chlorzoxazone.
+  journal: 'bioRxiv 2023.04.12.536571; doi: https://doi.org/10.1101/2023.04.12.536571'
+  qualiperf_funding: true
+  pubmed: '-'
+  doi: 10.1101/2023.04.12.536571
+  preprint: true

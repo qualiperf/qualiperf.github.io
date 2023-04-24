@@ -1,4 +1,4 @@
-persons:
+items:
 - id: Albadry
   firstname: Mohamed
   lastname: Albadry
@@ -8,9 +8,9 @@ persons:
   - Dahmen
   affiliations:
   - Experimental Transplantation Surgery, Department of General, Visceral and Vascular
-    Surgery, University Hospital Jena, Jena, Germany 1
+    Surgery, University Hospital Jena, Jena, Germany
   - Department of Pathology, Faculty of Veterinary Medicine, Menoufia University,
-    Shebin Elkom, Menoufia, Egypt 2
+    Shebin Elkom, Menoufia, Egypt
   orcid: 0000-0002-6192-8713
   websites:
   - https://https://www.uniklinikum-jena.de/avc/Team.html
@@ -170,7 +170,7 @@ persons:
   tags:
   - Experiments
   publications:
-  - Albadry2022 (10.1038/s41598-022-26483-6)
+  - Albadry2022
   - Fang2018
   - Schleicher2017
   - Xie2016a
