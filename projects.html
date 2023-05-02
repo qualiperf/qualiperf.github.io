@@ -1,0 +1,20 @@
+---
+layout: page
+title: Projects
+permalink: /projects/
+---
+
+<h1>Projects</h1>
+<div class="row">
+	<table class="table table-hover">
+		{% for item in site.data.projects %}
+		<tr>
+			<td>
+				{{ item.id }}</br>
+				<b>{{ item.title }}</b></br>
+				{{ item.summary }}
+			</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>

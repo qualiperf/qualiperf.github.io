@@ -1,0 +1,1616 @@
+- category: Conference abstract
+  title: "Impact of impaired perfusion on drug metabolism in di\uFB00erent species"
+  authors: "M. Albadry , A. Lupp , O. Dirsch , H. - M. Tautenhahn , R. Klop\uFB02\
+    eisch , V. Li\u0161ka, U. Dahmen"
+  abstract: "Background/Purpose\nHepatobiliary research in clinical and experimental-surgery\
+    \ requires the assessment of liver function. One important parameter of liver\
+    \ function is drug metabolism (DM). DM is a\uFB00ected by the underlying liver\
+    \ disease, liver-surgery, and the subsequent disturbance of hepatic perfusion\
+    \ (HP). However, DM is also a\uFB00ected by the species in question. For translational\
+    \ purposes, it is therefore of importance to compare key aspects of DM in di\uFB00\
+    erent species.\nMethods\nFirst, we assess the impact of species on DM in normal\
+    \ liver-tissue by comparing CYP-expression and\nactivity in three widely used\
+    \ species (mouse, rat, pig) in comparison to human samples.\nSecond, we investigate\
+    \ the impact of HP on DM. Therefore, we use rats and mice with a particular\n\
+    impairment of HP: (1) moderate hepatic steatosis inducing heterogeneous perfusion\
+    \ due to zonal and lobular inhomogeneous fat accumulation in hepatocytes and (2)\
+    \ 70% partial hepatectomy (PH) inducing portal hyperperfusion due to the loss\
+    \ of liver mass.\nCYP-expression is visualized using immunohistochemistry and\
+    \ quanti\uFB01ed by image analysis (Histokat, Fraunhofer Mevis) in whole slide\
+    \ scans (Nanozoomer, Hamamatsu). CYP-activity is assessed in cryo-preserved liver-tissue\
+    \ utilizing model-reactions.\nResults\nPericentral expression of all CYP-isozymes\
+    \ in mice and humans extends to zone2. CYP-expression in rats is limited to 2-3\
+    \ lines of hepatocytes, except CYP1A2 extending to zone2. In pigs, CYP1A2 is expressed\
+    \ in the whole liver lobule.\nIn mice, steatosis induced by feeding a methionine-choline\
+    \ de\uFB01cient but fat-enriched diet for 2-4 weeks did neither a\uFB00ect CYP-activity\
+    \ nor CYP-distribution pattern, with one exception (signi\uFB01cantly higher CYP2E1-\
+    \ activity as revealed by the model reaction p-Nitrophenol-Hydroxylation).\nIn\
+    \ contrast, CYP-expression in the hyperperfused remnant liver was reduced in terms\
+    \ of signal intensity and distribution 24h after 70%PH in both species.\nConclusions\
+    \ \nCYP-expression pattern in normal mouse liver is similar to normal human liver,\
+    \ whereas normal rat and pig liver present with di\uFB00erent distribution patterns.\
+    \ However, surgery-induced substantial hyperperfusion caused similar relative\
+    \ changes in rats and mice.\nIn conclusion, mice seem to be the most suitable\
+    \ species for DM-studies. Rats can be used as well, if relative changes are of\
+    \ importance. However, translation of results into the human setting should be\
+    \ done\nwith caution."
+  journal: nan
+  conference: 24. Chirurgische Forschungstage, CFT2021, https://forschungstage2021.de/
+  qualiperf_funding: 'True'
+  projects: P2 - Dahmen
+- category: Conference abstract
+  title: Bayesian statistics for uncertainty quantification of a physiologically based
+    model of indocyanine green liver function tests
+  authors: "H\xF6pfl Sebastian, K\xF6nig Matthias , Radde Nicole"
+  abstract: 'Quantitative modeling in a medical context is often accompanied by sparse
+    and noisy data, resulting in ill-posed optimization problems for model calibration.
+    In addition, data varies considerably among different samples and subjects, reflecting
+    interindividual heterogeneity. For a personalized medicine approach, the individual
+    differences between patients must be considered to provide reliable predictions
+    which support decisions about treatment options. This can be done via computational
+    modelling, integrating heterogeneous data types and information from various sources
+    into a holistic framework. Our project contributes towards an advanced understanding
+    of liver function in the research unit QuaLiPerF, by providing the statistical
+    methodology for a consistent estimation of uncertainty in kinetic models. This
+    estimation is a prerequisite for the risk assessment of (extended) liver resections
+    and the prediction of accurate recovery courses for individual patients.
+
+
+    We have developed a workflow which uses statistical approaches for uncertainty
+    tracking from heterogeneous and sparse data, via model parameters to model predictions.
+    If computationally feasible, we use Markov Chain Monte Carlo (MCMC) sampling to
+    assess information about the uncertainties in terms of probability distributions.
+    From these, credibility intervals for unobserved parameters and predictions are
+    derived, which can aid clinical decisions.
+
+
+    In a first approach, we apply methodology to a physiologically based model of
+    the Indocyanine Green (ICG) liver function test. The model allows to predict postoperative
+    liver function after hepatectomy as well as survival and includes data from multiple
+    curated clinical studies. The data reflects a large heterogeneity due to individual
+    differences in the patients and different reporting protocols. To ensure compliance
+    with the FAIR principles, we make use of standard exchange formats such as the
+    Systems Biology Markup Language (SBML) and PEtab. Parameter estimation and further
+    uncertainty analysis is performed with advanced tools such as the Parameter EStimation
+    TOolbox for python (pyPESTO), which ultimately allows to integrate these analysis
+    steps into modeling workflows.
+
+    Our analysis shows how statistical methodology for uncertainty quantification
+    can be implemented in systems medicine modeling approaches. This contributes to
+    personalized medicine by linking predictions for individual patients with their
+    confidence, an important prerequisite for the application of predictive computational
+    models in clinical decision workflows.'
+  journal: nan
+  conference: 24te Chirurgische Forschungstage, CFT2021, https://forschungstage2021.de/
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Poster
+  title: Differential gene expression analysis to determine liver perfusion and liver
+    function
+  authors: Daria Meyer, Manja Marz
+  abstract: 'Differential gene expression analysis to determine liver perfusion and
+    liver function
+
+
+    Background/Purpose
+
+    For the understanding of the quantitative and spatial relationship between hepatic
+    perfusion and function in healthy, steatotic and regenerating livers using a systems
+    surgery approach, we focus on analyzing the transcriptome differences of healthy
+    liver, steatotic liver, venous ligated liver lobe and during regeneration.
+
+
+    Methods
+
+    The transcriptome gives insights into the state of the cells from that the genetic
+    material was sequenced. For each liver condition, we specifically distinguish
+    spatial information between perivenous and periportal liver and compare it to
+    whole liver. For both periportal and perivenous liver cells the differences between
+    healthy liver to steatotic liver and healthy liver to venous ligated liver lobe
+    and non-ligated liver lobe can be analyzed. The observed genes (with a focus on
+    non-coding RNAs and isoforms) serve as potential marker genes for regeneration
+    capacity and potential therapeutic targets. Additionally, by analyzing differentially
+    expressed genes pathways can be detected, that are activated during liver perfusion
+    restriction, liver function restriction and liver regeneration.
+
+
+    Results
+
+    The results of this analysis can be input for the metabolic and multiscale computational
+    models to limit the parameter space of models used to describe the function and
+    perfusion restricted liver more accurately.
+
+
+    Conclusions
+
+    Thus RNA-Sequencing analysis contributes essentially to the understanding of the
+    liver perfusion and function.'
+  journal: nan
+  conference: 24. Chirurgische Forschungstage, CFT2021, https://forschungstage2021.de/
+  qualiperf_funding: 'True'
+  projects: P4 - Marz
+- category: Poster
+  title: An In-silico Model of Coupled Function-Perfusion Processes in the Human Liver
+    with Application to Steatosis and Tumor Growth
+  authors: Lambers L, Ricken T
+  abstract: "Computational multiphase and multiscale continuum-biomechanical modeling\
+    \ of biological tissue can simulate the complex hepatic deformationperfusion-function\
+    \ relationship and allow patient-specific prediction of\nliver surgery [1]. Our\
+    \ goal is the precise mathematical description and\nnumerical simulation of the\
+    \ liver lobules coupled to metabolic processes\nin the liver cells.\nFor the description\
+    \ of liver tissue we apply a poro-visco-elastic homogenization approach using\
+    \ the Theory of Porous Media [2] with an\nanisotropic blood flow [4, 5]. We consider\
+    \ the control body \u03D5, which\nconsists of \u03BA main phases \u03D5\n\u03B1\
+    . Each phase contains one carrier phase\n\u03D5\n\u03B1 and \u03BD \u2212 1 miscible\
+    \ substances \u03D5\n\u03B1\u03B2. In detail, we account for a\nporous solid structure\
+    \ representing healthy tissue (S), a liquid phase\ndescribing the blood (F), and\
+    \ two solid phases with the ability of growth\nand depletion representing the\
+    \ fat tissue (T) and the tumor tissue (C) as\nwell as substances like nutrients\
+    \ or therapeutics.\nThe liver tissue stress and deformation as well as blood perfusion\
+    \ and\npressure on the lobular scale are described with partial-differential equations\
+    \ (PDEs), that are coupled to ordinary differential equations (ODEs)\non the cellular\
+    \ scale for the calculation of hepatic processes as well as\nthe production, utilization\
+    \ and storage of the involved metabolites.\nThe results show a zonated accumulation\
+    \ of fat in the liver lobule. The\nstorage of fat causes tissue growth with a\
+    \ negative impact on the blood\nflow wFS, shown by the relation between the change\
+    \ of blood velocity and\nfat fraction in Figure 2 b). Furthermore, the development\
+    \ of a liver tumor\ncan be calculated dependent on nutrients, see Figure 2 c).\
+    \ The kinetics of tumor development follows the Monod kinetics, whereby glucose\
+    \ is\nconsumed during the process.\nTo investigate the dependence of microscopic\
+    \ perfusion on the geometry\nof liver lobules, the locations of central veins\
+    \ and portal triads from histological sections are identified, meshed and used\
+    \ as input of the simulation. The resulting pressure distribution shown in Figure\
+    \ 3 b) thus allows\nfor a real velocity distribution.\nThe calculation of steatotic\
+    \ livers requires identification and quantification of the existing fat content.\
+    \ Therefore, a convolutional neural network\n(CNN) was trained on previously manually\
+    \ annotated fat content in histological images [3], see Figure 4.\nThe coupled\
+    \ multiphasic model enables the simulation of the complex\nhepatic deformation-function-perfusion\
+    \ processes with application to\nsteatosis and tumor development and the simulation\
+    \ is able to depict\nchanges in metabolism caused by altered perfusion or fat\
+    \ accumulation."
+  journal: nan
+  conference: ' 24te Chirurgische Forschungstage, CFT2021, https://forschungstage2021.de/'
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken
+- category: Conference abstract
+  title: Comparison of pCASL, DSC and FAIR for Cerebral Perfusion in Rats @9.4T
+  authors: Hung LY1, Herrmann KH, Renat Sibgatulin1, Hirschler L2,3, Warnking Jan3,
+    Barbier EL3, Witte EL4, Holthoff K4, Reichenbach JR1, and Joerk A4.
+  abstract: "Synopsis:\nAttaining reproducible, time-efficient, high spatial resolution\
+    \ and quantitative MRI perfusion images in small animal MRI @9.4T is still challenging.\
+    \ To take a step toward this goal, perfusion data from arterial spin labeling\
+    \ (ASL), Flow-sensitive Alternating Inversion Recovery (FAIR), dynamic susceptibility\
+    \ contrast (DSC), and pseudo-continuous arterial spin labeling (pCASL) sequences\
+    \ are compared by assessing cerebral perfusion in 5 rats, each scanned 3 times.\
+    \ Differences in CBF in major brain regions were analyzed, and the repeatability\
+    \ of perfusion MRI was assessed. \n\n\nIntroduction:\nPerfusion MRI is widely\
+    \ used clinically to evaluate cerebral perfusion in numerous neurological disorders\xB9\
+    . However, cerebral perfusion of small rodents on ultra-high-field scanners is\
+    \ much less established, and although most methods such as pCASL\xB2, FAIR\xB3\
+    , or contrast agent-based DSC\xB3 have been implemented on small animal MRIs,\
+    \ there are few evaluations of existing methods in rodents \xB2\u207B\u2074. This\
+    \ work compares cerebral blood flow (CBF) obtained with pCASL, FAIR, and DSC in\
+    \ a group of 5 healthy rats in 3 repetitions to evaluate systematic differences\
+    \ between the techniques as well as their individual reproducibility. \n\nMethods:\
+    \ \nAnimals: 5 adult Wistar rats were scanned on 3 separate days. Rats were pre-anesthetized\
+    \ with a bolus injection followed by a continuous infusion of Medetomidine in\
+    \ combination with 0.5% isoflurane to minimize the vasodilative effects of isoflurane.\
+    \ Respiration was maintained at 75 bpm\xB110bpm, and rectal temperature was 36.5\xB1\
+    0.5\xB0C at baseline and increased to 38.5\xB10.5\xB0C during the course of the\
+    \ examination due to the high SAR of the pCASL sequence. All scans were performed\
+    \ on a 9.4T Bruker BioSpec MRI system with a 4 channel-head array. \nAcquisition\
+    \ Protocol: pCASL acquisition followed published protocols\xB2 including calibration\
+    \ scans. pCASL and FAIR used the same spin-echo EPI: matrix 96x96 with partial\
+    \ Fourier 1.5, bandwidth of 300kHz, and spatial resolution of (0.22x0.22x1) mm3.\
+    \ The pCASL specific parameters were TE=16ms, TR=4000ms, labeling duration 3000ms,\
+    \ 60 repetitions, and TA=8min. The FAIR specific parameters were TE=13.6ms, TR=10000ms,\
+    \  2 averages, 16 different inversion times each for global and selective inversion,\
+    \ and TA=11min.\nFor the DSC acquisition, a matrix of 90x56 with partial Fourier\
+    \ of 1.2, resolution (0.26x0.26x1) mm3, TE=9.46ms, TR=150ms, BW 300kHz, 800 repetitions,\
+    \ and TA 2min was used.  A bolus of 1ml/kg of 1:5 diluted Gd-DTPA was administered\
+    \ via the lateral tail vein after 25s with a bolus length of 2s and flushed with\
+    \ saline.  \nPost-processing: For pCASL, the measured inversion efficiency and\
+    \ a T1map were used for calibration. FAIR perfusion maps were calculated using\
+    \ Bruker Paravision 6, and pCASL evaluation was performed in Matlab\xB2. For DSC\
+    \ the cerebral blood flow (CBF) maps were calculated via deconvolution with an\
+    \ arterial input function.\nRegions of interest (ROI) were manually drawn in Freeview5\
+    \ (see Fig 1a) for each rat and repeat scan and separately for DSC and ASL. DSC-based\
+    \ CBF maps represent relative CBF values in arbitrary units, ASL CBF values are\
+    \ quantitative. \n\nResults: \nFig. 1b-d show example parameter maps for DSC,\
+    \ pCASL, and FAIR. The pCASL sequence yields lower noise in the derived CBF maps\
+    \ compared with FAIR, and the visual perfusion contrast between the tissues is\
+    \ best in the pCASL-CBF maps. \nThe cumulative distribution (eCDF) of the perfusion\
+    \ values in each ROI is shown in Fig. 2. The eCDF shows the value range and distribution\
+    \ of the different methods and how well the ROI-areas are separated with respect\
+    \ to perfusion. The distributions obtained with pCASL and FAIR are in fair  agreement\
+    \ and show CBF increasing from white matter and hippocampus followed by cortex\
+    \ and thalamus. This ranking is, however, changed in the data obtained from DSC,\
+    \ where the hippocampus shows the lowest perfusion of the 4 ROIs. \nFigure 3 examines\
+    \ the CBF correlation of pCASL with FAIR and DSC, comparing the median CBF value\
+    \ in each ROI in each animal. In general, CBF was most highly correlated for pCASL\
+    \ and FAIR (Spearman\u2019s r = 0.63 across all animals, compared to r = 0.42\
+    \ for pCASL vs DSC). \nFigure 4 compares the relative agreement between pCASL\
+    \ and FAIR and pCASL and DSC using Bland-Altman plots. FAIR and pCASL agree well\
+    \ across the range of values, but white matter shows much less variation than\
+    \ the other tissues, particularly thalamus and cortex. The lower plot comparing\
+    \ DSC-CBF and pCASL again shows the deviating behavior of white matter with higher\
+    \ apparent perfusion in the DSC-based values. \nFigure 5 analyses the 3 re-scans\
+    \ of each animal using boxplots with outliers. The FAIR plot (c) has a very wide\
+    \ distribution and many outliers to the right (some even cut off). DSC-CBF is\
+    \ scaled differently and therefore difficult to compare directly, but the distributions\
+    \ are narrow compared with the differences between ROIs. \n\n\nDiscussion: \n\
+    All three perfusion MRI methods presented provided CBF maps of rat brains, but\
+    \ their comparison did not result in a clear winner. While FAIR shows noisier\
+    \ CBF maps and the distinction between the tissue types is less clear, the method\
+    \ is robust and easy to use. pCASL causes significant SAR heating and requires\
+    \ multiple calibration scans2 to achieve accurate results. This requires practice\
+    \ and a smooth workflow, possibly also indicated by the lower perfusion values\
+    \ in Fig. 5b for the first repetition.  The presented DSC-CBF maps currently do\
+    \ not provide absolute quantitative values, but this may be possible in future\
+    \ studies. The time resolution of 150ms was sufficient to extract arterial input\
+    \ functions for deconvolution. However, in the DSC-CBF maps, the low-perfused\
+    \ white matter showed higher perfusion than hippocampus, although ASL did. Although\
+    \ this may be a known issue with FAIR3, the effect was quite strong in our data\
+    \ and hence requires further, more detailed investigation.\n\nSummary: \nThe ideal\
+    \ MRI perfusion sequence is dependent on the pre-clinical question. In rats, pCASL\
+    \ and DSC are more suitable for reproducibility of CBF but do not entirely agree,\
+    \ whereas FAIR is noisier but easier to use."
+  journal: nan
+  conference: ISMRM
+  qualiperf_funding: 'True'
+  projects: P6 - Reichenbach
+- category: Conference abstract
+  title: 'Fast 3D Isotropic High-Resolution MRI of Mouse Brain Using a Variable Flip
+    Angle RARE
+
+    Sequence With T2 Compensation @9.4T'
+  authors: Herrman KH , Hung LY, and Reichenbach JR
+  abstract: "Synopsis\nSome applications require T2-weighted mouse brain MRI with\
+    \ isotropic high resolution (100\xB5m3), but at 9.4T the short T2 of mouse brain\
+    \ limits the echo train length of RARE sequences and exacerbates T2-decay artifacts.\
+    \ Adapting a RARE sequence by using variable \uFB02ip-angles allows a reduction\
+    \ in scan time from 19min to 7-9min with similar image quality. However, long\
+    \ RARE echo trains and strong imaging gradients can unintentionally cause substantial\
+    \ di\uFB00usion weighting. To minimize the di\uFB00usion e\uFB00ects crusher gradients\
+    \ were optimized and the variable \uFB02ip angles were kept above 40\xB0.\n\n\
+    Introduction\nWe aim to achieve artifact-free, isotropic high-resolution images\
+    \ of the mouse brain for neurological applications1. While 9.4T renders T1-based\
+    \ grey-white-matter contrast mostly useless, T2-weighted images achieve excellent\
+    \ anatomical contrast and can be e\uFB03ciently acquired by 2D-RARE sequences.\
+    \ However, 2D acquisitions limit the achievable isotropic resolution due to minimal\
+    \ slice thickness and SAR. Using 3D acquisitions increases the acquisition time\
+    \ (TA), particularly since at 9.4T the short T2 of brain tissue limits echo train\
+    \ length with standard 180\xB0 refocusing pulses. The use of refocusing pulses\
+    \ with constant reduced \uFB02ip angles was shown2 to prolong the echo train to\
+    \ facilitate anatomic mouse brain scans within 20-40min.\nOur aim here was to\
+    \ reduce the acquisition time for T2w-3D-RARE by applying variable \uFB02ip angles\
+    \ (VFAs) to shape the echoes' signal envelope3,4 while preserving the image quality.\n\
+    \nMaterial & Methods\nAll data were acquired on a Bruker BioSpec 94/20USR with\
+    \ 660mT/m gradients using a helium-cooled 2-channel transceiver quadrature surface\
+    \ coil (CryoProbe, Bruker Biopsin, Ettlingen). All mice were scanned in vivo under\
+    \ Iso\uFB02urane anesthesia.\nThe proposed varFlipRARE sequence uses three initialization\
+    \ RF pulses4 to drive the magnetization into a pseudo-steady-state matching the\n\
+    target FA<<90\xB0. Subsequently, three acquisition phases can be adjusted separately,\
+    \ each allowing for a linear transition from one FA to another within a given\
+    \ number of echoes (Figure 3). Typically, the \uFB01rst phase comprised the \uFB01\
+    rst 1/3 of echoes, repeating the target FA or slightly increasing it. In the second\
+    \ phase, the FA increased to ~90\xB0 over 1/2 of the total echoes, followed by\
+    \ the last phase, which ramped the FA up to 160-180\xB0. Usually, k0 was acquired\
+    \ at the center of the echo train.\nThe general scan parameters for all varFlipRARE\
+    \ acquisitions were TA=7min 15s, TR=2200ms, isotropic resolution 100\xB5m3, \u0394\
+    TE=2.45ms,\nTF=70, BW=150kHz. The excitation and refocusing pulses were non-selective\
+    \ hard pulses with duration 128\xB5s (exc) and 80\xB5s (rfc) corresponding to\
+    \ 10kHz bandwidth to minimize echo spacing. The phase encoding gradients were\
+    \ 430\xB5s long and the read and slice crusher gradients were played out during\
+    \ the same time frame at 10% (approx. 66mT/m).\nTo explore further possibilities\
+    \ of applying VFAs, a faster sequence with RARE factor TF=140 with TA=4min was\
+    \ used, setting the target FA to 30-35\xB0, following similar VFA increase patterns\
+    \ as stated above. The second variation aimed to increase the resolution to 76\xB5\
+    m3 with TF=86 and TA=24min, \u0394TE=3ms, TR=2700ms, and 2 averages.\nFor reference,\
+    \ a RARE acquisition2 with slab-selective 90\xB0 excitation and 125\xB0 refocusing\
+    \ RF pulses was used with TA=19min, TR=1600ms,\nisotropic resolution 100\xB5m3,\
+    \ \u0394TE=5ms, TF=20, BW=150kHz.\nAll sequences used full Nyquist sampling of\
+    \ the 18x14x10mm3 FoV and were acquired in coronal orientation, i.e. read out\
+    \ head-feet, phase left-right, and slice ventral-dorsal direction. All shown images\
+    \ were reconstructed with T2-compensation and Gibbs-ringing-\uFB01lter for basic\
+    \ artifact reduction2. SNR and CNR values were calculated from the mean signal\
+    \ in ROIs and the standard deviation in artifact-free background areas.\n\nResults\n\
+    Figure 1 presents the reference image (a) and images acquired with the faster\
+    \ varFlipRARE sequence (b-i) for di\uFB00erent FA schemes. With a low target FA=30\xB0\
+    \ (h, i) a distinctly lower signal for the ventricles(Vs) was observed. For a\
+    \ higher target, FA\u224840\xB0 (f) or when k0 was shifted to 120ms (FA\u2248\
+    35\xB0, e) the T2- and ventricle-contrast was improved. The contrast could be\
+    \ further enhanced by immediately ramping up to ~50\xB0 from the target FA\u2248\
+    40\xB0 (c,d) in the \uFB01rst phase. To further improve ventricle signal TR was\
+    \ increased to 2700ms (TA=9min, b). The SNR grey matter (GM)=35, white matter(WM)=27,\
+    \ V=51 and CNR CGM-WM=9, CV-GW=15, CV-WM=24 in Fig 1b and c both match the reference\
+    \ image in GM and WM, the ventricle contrast is 15-20% lower. The signal envelope\
+    \ along the echo train is given below each MR image for the 2 channels of the\
+    \ CryoProbe, providing more insights into the actual signal behavior.\nTo assess\
+    \ the e\uFB00ect of the crusher gradients in read and slice direction Figure 2\
+    \ shows an image comparison. In 2b) no crusher was used at all, leading to some\
+    \ ripple artifacts in the frontal olfactory bulb. Increasing the slice-crusher\
+    \ to 10% amplitude doesn't create a visual di\uFB00erence.\nIncreasing the read-crusher\
+    \ to 10% removes the ripple artifacts, but at 20% the frontal bulbous and ventricles\
+    \ lose signal.\nFigure 2e-f shows the resulting images using TF=140. The low ventricle\
+    \ contrast in e) was improved by a faster increase of the target FA (f). The higher\
+    \ resolution scans with 76\xB5m are shown in Figure 2g-h.\n\nDiscussion \nThe\
+    \ use of VFAs together with faster non-selective acquisitions reduced the scan\
+    \ time from 19min to 7-9min achieving similar image contrast and quality as the\
+    \ reference. Reducing the scan time further to TA=4min leads to SNR below 10 due\
+    \ to unintentional di\uFB00usion weighting as has been described before5. Simulations5\
+    \ showed that the use of FAs lower than 40\xB0 strongly enhances the e\uFB00ective\
+    \ b-value and 99% of the\nb-contribution arises from the readout gradients, leading\
+    \ to water-signal suppression. Increasing the read crushers to remove artifacts\
+    \ will further increase the di\uFB00usion weighting and has to be carefully chosen.\n\
+    \nSummary \nIn summary, variable \uFB02ip angles enable faster 3D RARE acquisitions\
+    \ without compromising image quality, and even resolutions of isotropic 76\xB5\
+    m3 are feasible in less than 30min with rich anatomic details."
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'True'
+  projects: P6 - reichenbach
+- category: Editoring
+  title: Computational Modeling for Liver Surgery and Interventions
+  authors: Bruno Christ, Uta Dahmen, Nicole Radde, Tim Ricken
+  abstract: 'In the context of severe liver diseases, the prediction of the treatment
+    outcome mainly relies on observational clinical data reflecting liver function
+    as a whole at best. These, however, are impacted by the individual situation of
+    the patient comprising age, gender, comorbidities, pre-treatment medication, and
+    general physical conditions. In hepatology and gastroenterology disciplines, algorithms
+    have been developed to grade acute liver failure emerging on the ground of chronic
+    diseases like cirrhosis. However, in liver surgery, a reliable risk assessment
+    for postoperative liver failure, a severe complication with often fatal consequences
+    for the patient, is still lacking. Yet, to improve the therapeutic and/or surgical
+    outcome of patients suffering from liver diseases, both in internal medicine and
+    surgery disciplines, concrete guidelines based on reliable clinical data and predictive
+    algorithms are urgently needed.
+
+
+    The liver represents a multiscale network comprising three levels: organ, lobe,
+    and cell level. In addition, hepatic functions are distributed heterogeneously
+    throughout the parenchyma, rendering the hepatocytes surrounding the portal tracts
+    to execute, e.g., ammonia fixation by ureagenesis, and hepatocytes surrounding
+    the hepatic vein to fix ammonia via the glutamine synthetase reaction. Thus, multiscale
+    models describing liver function may unequivocally help to design predictive tools
+    for assessing the surgical risk and the probability of therapeutic success.
+
+    Recent developments of computational models make it possible to describe organ
+    functions on different scales. It is the goal of this Research Topic, to collect
+    papers involving cutting-edge approaches of multiscale computational modeling
+    in the context of liver surgery and interventions. We invite authors to send their
+    latest and highly innovative research or comprehensive review articles related
+    to the scope of this Research Topic.
+
+
+    To predict post-treatment liver function before surgical, radiological, or pharmacological
+    interventions is the most challenging task for clinicians when treating severe
+    liver diseases. Based on the individual unique situation of the patient, novel
+    therapy concepts are warranted in order to stratify therapy outcome. In order
+    to open the perspective for the development of predictive tools anticipating liver
+    function post-treatment, we invite submissions entailing computational approaches
+    of liver modeling or methodology for a data-based patient-specific risk assessment
+    in the context of liver surgery and interventions. Research should address, but
+    is not restricted to modeling and data-based analysis of hepatic metabolism, liver
+    perfusion, regeneration, and communication with other organs. Research dealing
+    with multiscale modeling is specifically encouraged. We also greatly appreciate
+    research comprising machine learning/artificial intelligence methods including
+    knowledge-driven approaches and consideration of uncertainty.'
+  journal: Frontiers in Physiology
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P1, P2, P5, P7
+- category: Organization Minisymposium
+  title: Computational Continuum Biomechanics
+  authors: "Tim Ricken, Oliver R\xF6hrle, Silvia Budday"
+  abstract: 'The minisymposium aims to bring together researchers in mechanical modelling,
+    numerics, data science and clinical applications and share recent advances in
+    theoretical and computational methods with particular emphasis on clinical application.
+    This minisymposium especially focuses on mechanical models and numerical solution
+    methods to simulate various scales of living systems with regard to clinical application.
+    New approaches for growth and remodelling of biological tissue and its effect
+    on blood perfusion with its nutrient supply as well as impairment of organ function
+    will be discussed.
+
+
+    We will promote a multidisciplinary discussion to identify open problems that
+    merit increased attention in multi-field, multi-scale, multi-phase, coupled problem
+    techniques and patient-specific simulation.
+
+
+    The goal of this minisymposium is to create valuable synergies between researchers
+    working on different biological systems, potentially on different scales, to bring
+    computational modelling one step closer to clinical practice.'
+  journal: nan
+  conference: World Congress of Computational Mechanics WCCM XV - APCOM VII, in Yokohama
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken
+- category: Organization Minisymposium
+  title: CONTINUUM BIOMECHANICS OF ACTIVE SYSTEMS
+  authors: "Tim Ricken, Oliver R\xF6hrle, Silvia Budday"
+  abstract: "The minisymposium aims to bring together researchers in mechanical modelling,\
+    \ numerics, data science and clinical applications and share recent advances in\
+    \ theoretical and computational methods with particular emphasis on clinical application.\
+    \ This minisymposium especially focuses on mechanical models and numerical solution\
+    \ methods to simulate various scales of living active systems with regard to clinical\
+    \ application.\n\n \n\nWe will promote a multidisciplinary discussion to identify\
+    \ open problems that merit increased attention in multi-field, multi-scale, multi-phase,\
+    \ coupled problem techniques and patient-specific simulation.\n\nThe goal of this\
+    \ minisymposium is to create valuable synergies between researchers working on\
+    \ different biological systems, potentially on different scales, to bring computational\
+    \ modelling one step closer to clinical practice."
+  journal: nan
+  conference: ECCOMAS CONGRESS 2022 in Oslo
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken
+- category: Editoring
+  title: "Frontiers Research Topic \u201CMultiscale Modeling for the Liver\u201D"
+  authors: Ho H, Rezaina V, Schwen LO
+  abstract: 'The liver is the central metabolic organ in the mammalian body. Numerous
+    in silico models have been constructed to simulate liver functions such as circulation,
+    drug transport, metabolism, and clearance at the organism, organ, lobular, cellular,
+    and molecular levels. Adding to the complexity of the spatial dimension are the
+    vastly different temporal scales: from the membrane transport of drug molecules
+    within milliseconds to viral infection of liver tissues in days or months. In
+    recent years there has been a growing trend in the liver modeling community to
+    integrate models at different spatial and temporal scales. For example, a model
+    for the transport of drugs in sinusoids could be coupled with metabolic kinetics
+    models in hepatocytes, whilst incorporating the heterogeneous distribution of
+    metabolic enzymes and transporters along the metabolic zones in liver lobules.
+    Multiscale liver modeling will benefit from recent developments in Systems Biology
+    and/or Systems Medicine.
+
+
+    This Research Topic is to provide a venue for showcasing the concepts, methodology,
+    experimental data, and computational tools associated with multiscale liver modeling.
+    The main challenge in multiscale modeling is to bridge models at different scales.
+    For example, surgical intervention drastically changes perfusion at the organism
+    level, leading to elevated shear stress at the sinusoidal level, which in turn
+    stimulates liver regeneration. Liver diseases progressing over the course of months
+    affect clearance processes at the time scale of hours. Toxic liver injury occurs
+    at the cellular level but affects the circulation of metabolites at the organism
+    level. In addition to models spanning the different scales, integrating cellular
+    and molecular level models and experimental data are the very core of multiscale
+    liver modeling.
+
+
+    The contributions to the Research Topic include Original Research papers, (Mini)
+    Reviews, and Opinions on liver modeling. The specific topics include:
+
+
+    - Blood flow models for large hepatic vessels and/or sinusoids;
+
+    - Liver tissue models and virtual lobule models;
+
+    - Imaging and image analysis techniques for revealing microstructure and processes
+    at multiple scales;
+
+    - Mechanistic factors underlying liver diseases (e.g., steatosis, fibrosis, cirrhosis,
+    cancer)
+
+
+    Projects at the interface of Biomechanics and Computational Biology can also be
+    considered, including:
+
+    - Drug uptake, metabolism, and clearance models;
+
+    - Numerical/mathematical methods for bridging models at different temporal and
+    spatial scales;
+
+    - Application of Systems Biology and Physiome to multiscale liver modeling.'
+  journal: https://www.frontiersin.org/research-topics/28431/multiscale-modeling-for-the-liver
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P8 - Schwen
+- category: Awards
+  title: 1. Poster Price at 24th chirurgische Forschungstage 2021, Leipzig
+  authors: Lena Lambers
+  abstract: "\"Computational multiphase and multiscale continuum-biomechanical modeling\
+    \ of biological tissue can simulate the complex hepatic deformationperfusion-function\
+    \ relationship and allow patient-specific prediction of\nliver surgery [1]. Our\
+    \ goal is the precise mathematical description and\nnumerical simulation of the\
+    \ liver lobules coupled to metabolic processes\nin the liver cells.\nFor the description\
+    \ of liver tissue we apply a poro-visco-elastic homogenization approach using\
+    \ the Theory of Porous Media [2] with an\nanisotropic blood flow [4, 5]. We consider\
+    \ the control body \u03D5, which\nconsists of \u03BA main phases \u03D5\n\u03B1\
+    . Each phase contains one carrier phase\n\u03D5\n\u03B1 and \u03BD \u2212 1 miscible\
+    \ substances \u03D5\n\u03B1\u03B2. In detail, we account for a\nporous solid structure\
+    \ representing healthy tissue (S), a liquid phase\ndescribing the blood (F), and\
+    \ two solid phases with the ability of growth\nand depletion representing the\
+    \ fat tissue (T) and the tumor tissue (C) as\nwell as substances like nutrients\
+    \ or therapeutics.\nThe liver tissue stress and deformation as well as blood perfusion\
+    \ and\npressure on the lobular scale are described with partial-differential equations\
+    \ (PDEs), that are coupled to ordinary differential equations (ODEs)\non the cellular\
+    \ scale for the calculation of hepatic processes as well as\nthe production, utilization\
+    \ and storage of the involved metabolites.\nThe results show a zonated accumulation\
+    \ of fat in the liver lobule. The\nstorage of fat causes tissue growth with a\
+    \ negative impact on the blood\nflow wFS, shown by the relation between the change\
+    \ of blood velocity and\nfat fraction in Figure 2 b). Furthermore, the development\
+    \ of a liver tumor\ncan be calculated dependent on nutrients, see Figure 2 c).\
+    \ The kinetics of tumor development follows the Monod kinetics, whereby glucose\
+    \ is\nconsumed during the process.\nTo investigate the dependence of microscopic\
+    \ perfusion on the geometry\nof liver lobules, the locations of central veins\
+    \ and portal triads from histological sections are identified, meshed and used\
+    \ as input of the simulation. The resulting pressure distribution shown in Figure\
+    \ 3 b) thus allows\nfor a real velocity distribution.\nThe calculation of steatotic\
+    \ livers requires identification and quantification of the existing fat content.\
+    \ Therefore, a convolutional neural network\n(CNN) was trained on previously manually\
+    \ annotated fat content in histological images [3], see Figure 4.\nThe coupled\
+    \ multiphasic model enables the simulation of the complex\nhepatic deformation-function-perfusion\
+    \ processes with application to\nsteatosis and tumor development and the simulation\
+    \ is able to depict\nchanges in metabolism caused by altered perfusion or fat\
+    \ accumulation.\n\n\""
+  journal: nan
+  conference: 24th chirurgische Forschungstage 2021, Leipzig
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Conference abstract
+  title: A Multiscale and Multiphase, Data- and Knowledge-Driven Simulation of Function-Perfusion
+    Processes in the Human Liver
+  authors: "Lena Lambers, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9 Mielke, Tim\
+    \ Ricken"
+  abstract: Modeling active biological systems, such as the human liver, with a complex
+    interaction between cellular metabolism and perfusion in the functional units,
+    requires a multiscale and multiphase approach to the tissue. Changes in hepatic
+    perfusion and tissue morphol-ogy induced by surgical interventions or liver disease,
+    directly influence the coupled liver function [1]. To better understand the interplay
+    between hepatic perfusion, metabolism and tissue in the hierarchically organized
+    liver structure, we have developed a multicom-ponent, poro-elastic multiphase
+    and multiscale function-perfusion model, cf. [2], using a multicomponent mixture
+    theory based on the Theory of Porous Media (TPM, see [3]). The multiscale approach
+    considers the different functional units of the liver, the so-called liver lobules,
+    with an anisotropic blood flow, and the hepatocytes, where the biochemical metabolic
+    reactions take place. On the lobular scale, we assume a homogenized tetra-phasic
+    mixture body, composed of a porous solid structure representing healthy tissue,
+    a liquid phase describing the blood, and two solid phases with the ability of
+    growth and depletion representing the fat and the tumor tissue. The phases consist
+    of a carrier phase, called solvent, and solutes, representing microscopic components
+    dissolved in the solvent. To describe the metabolic processes in the cells, the
+    describing PDEs on the lobule scale are coupled with ODEs on the cell scale, resulting
+    in a bi-scale PDE-ODE approach. To enable patient-specific simulations and increase
+    the robustness of the model, data-driven approaches will be implemented for computationally
+    critical parts of the model. We use experimental, clinical and in silico data
+    such as stained histological liver sec-tions, perfusion measures or imaging data
+    [4] for parametrization and validation of the multiphase model. The overarching
+    goal is to define and develop an accurate decision-supporting framework for clinical
+    applications.
+  journal: nan
+  conference: The 8th European Congress on Computational Methods in Applied Sciences
+    and Engineering ECCOMAS Congress 2022
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken, Coordination
+- category: Conference abstract
+  title: Data- and Knowledge-Driven Multiphase and Multiscale Simulation of Growth
+    and Remodeling Processes in the Human Liver
+  authors: "Lena Lambers, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9 Mielke, Tim\
+    \ Ricken"
+  abstract: As a central organ for metabolic processes in the human body, the liver
+    has a complex perfusion-function relationship defined by microcirculation through
+    the capillaries coupled to function processes in liver cells. Numerical multiscale
+    simulations can describe this relation and thus support the diagnosis as well
+    as the prediction of hepatic diseases [1]. Surgical interventions and the development
+    of various liver diseases lead to growth and remodeling processes in liver tissue
+    as well as changes of the perfusion, which directly affects the coupled liver
+    function [2]. To better understand the interplay between hepatic perfusion, metabolism
+    and tissue in the hierarchically organized liver structure, we have developed
+    a multicomponent, poro-elastic multiphasic and multiscale function-perfusion model,
+    cf. [3], using a mul-ticomponent mixture theory based on the Theory of Porous
+    Media (TPM, see [4]). The multiscale ap-proach considers the different functional
+    units of the liver, the so-called liver lobules, with an anisotropic blood flow,
+    and the hepatocytes, where the biochemical metabolic reactions take place. On
+    the lobular scale, we assume a homogenized tetra-phasic mixture body, composed
+    of a porous solid structure rep-resenting healthy tissue, a liquid phase describing
+    the blood, and two solid phases with the ability of growth and depletion representing
+    the fat tissue and the tumor tissue. The phases consist of a carrier phase, called
+    solvent, and solutes, representing microscopic components, e.g. nutrients, dissolved
+    in the solvent. To describe the metabolic processes as well as the production,
+    utilization and storage of the metabolites in the cells, the describing PDEs on
+    the lobule scale are coupled with ODEs on the cell scale resulting in a bi-scale
+    PDE-ODE approach. To increase the robustness of the model and allow for near real-time
+    patient-specific simulations, com-putationally critical parts of the model are
+    enhanced by data-driven methods through the integration of experimental, clinical
+    and in silico data, such as the zonated quantification of steatosis or the realistic
+    geometry of the liver lobules by image segmentation from stained histological
+    liver sections. The over-arching goal is the definition and development of an
+    accurate decision-supporting framework for clinical applications.
+  journal: nan
+  conference: '15th World Congress on Computational Mechanics (WCCM-XV)
+
+    8th Asian Pacific Congress on Computational Mechanics (APCOM-VIII)'
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken, Coordination
+- category: Organization Minisymposium
+  title: "Computational biomechanics and biomedical engineering of active\nbiological\
+    \ systems \u2013 from methods to clinical application"
+  authors: Christian Bleiler, Lena Lambers, Renate Sachse
+  abstract: "Active mechanisms are found across multiple scales in biological systems\
+    \ and are responsible for a variety of basic functions of living organisms, such\
+    \ as the simulation-driven conversion of chemical to mechanical energy in muscle\
+    \ tissue, metabolic processes, growth and remodeling, or adaptive movements of\
+    \ plants. In this minisymposium, we aim to generate a fruitful interdisciplinary\
+    \ exchange as well as to synergize various aspects\nrelated to the modeling of\
+    \ active biomechanical systems and interfaces between model and clinical application.\
+    \ Therefore, we welcome contributions from all topics in the context of biomechanics\
+    \ having any type of active component. These may range from material models for\
+    \ biological tissues, the simulation of biological systems of any type, and biomechanical\
+    \ models for various applications in biomimetics, biomedicine, or others\u2013\
+    from the microscale to the organ scale. The minisymposium is intended to span\
+    \ a wide range from basic methods to clinical applications and thus provides an\
+    \ insight into the state of the art across the entire spectrum of active biological\
+    \ systems modeling. We welcome contributions on modeling methodologies of active\
+    \ materials as well as those that\u2013possibly as a first step towards a longer-term\
+    \ goal\u2013specialize in passive properties of active materials."
+  journal: nan
+  conference: 'GACM Congress, Essen, https://colloquia.gacm.de/organisation '
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken, Coordination
+- category: Editoring
+  title: Progress in Liver Stem Cell Therapy
+  authors: Christ B, Oertel M
+  abstract: not available
+  journal: MDPI
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P1
+- category: Bachelor Thesis
+  title: A physiologically based model of pravastatin - The role of genotypes and
+    hepatic or renal impairment on the pharmacokinetics of pravastatin
+  authors: "Helen Leal Pujol, Matthias K\xF6nig"
+  abstract: Hypercholesterolaemia, i.e., elevated plasma levels of cholesterol, is
+    a major risk factor for cardio- vascular disease, the leading cause of death globally.
+    Hypercholesterolaemia can be treated using statins, a class of medications which
+    inhibit HMG-CoA reductase, a major enzyme in cholesterol synthesis. Pravastatin
+    is a statin used to reduce total and low-density plasma cholesterol levels and
+    increase high-density plasma cholesterol levels in hypercholesterolaemic patients.
+    Pravastatin is absorbed from the small intestine by the transporter OATP2B1 and
+    subsequently transported in the liver via OATP1B1 from where it can be exported
+    in the bile via the enzymatic exporter MRP2. Pravastatin can be excreted either
+    in the urine via the kidneys or in the faeces due to incomplete absorption. Hepatic
+    and renal impairment could have a large impact on the pharmacokinetics of statins
+    as could have genetic variants of the transporters OATP2B1, OATP1B1 and MRP2.
+    Within this thesis the pharmacokinetics of pravastatin were analysed by developing
+    a physio- logically-based pharmacokinetics model based on extensive data curation
+    of pravastatin data. The model allows to simulate the time-concentration courses
+    of pravastatin in various tissues and to calculate the pharmacokinetic parameters
+    for pravastatin. Furthermore, the model was applied to investigate the effects
+    of genotypes of the enzymatic transporters and hepatic and renal im- pairment
+    on the pharmacokinetics of pravastatin. Thus, key questions such as, how pravastatin
+    therapy would be affected in renal or hepatic disease, as well as how pravastatin
+    therapy should be adapted based on genotypes, find an answer in this work.
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig"
+- category: Poster
+  title: F.A.I.R. Workflows for Bayesian Inference in Systems Medicine
+  authors: "H\xF6pfl Sebastian, Radde Nicole E."
+  abstract: 'Modelling is becoming increasingly essential to gain insights into biomedical
+    systems, resulting in a large number of published models, data and results. A
+    problem is that some of these are not available or can only be reproduced with
+    a great deal of effort. However, this is essential as model predictions must be
+    reliable and models should be easily expandable in a fast-moving field like systems
+    medicine. This rises the need for comprehensive F.A.I.R. workflows.
+
+    Especially Bayesian workflows, which provide a comprehensive description of uncertainties
+    for all quantities of a model, produce a lot of data and need proper documentation
+    to be reproducible. In particular, prior distributions must be specified and documented
+    and the whole posterior should be reported (van de Schoot et al. 2021). Visualizations
+    of the convergence and statistical tests which complement the analysis can also
+    help others to understand the work. From a practitioners viewpoint, we aim to
+    establish F.A.I.R. workflows that are build on existing standards particularly
+    in a Bayesian learning context, thus simplifying and promoting reproducible work.
+    Therefore, we combine the PEtab format, a format that contains an SBML model and
+    the complete parameter estimation problem, with all information of our Bayesian
+    analysis. Furthermore, visualizations that promote understanding are added and
+    uploaded in a FAIRDOMHub project that can be accessed via a DOI. This helps biologists
+    and clinicians to understand our work and promotes further research as other computational
+    scientists can easily extend our models and make further analyses.'
+  journal: nan
+  conference: 8th international conference on Systems Biology of Mammalian Cells SBMC
+    2022, https://sbmc2022.de/
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Accepted project proposal
+  title: Michael Stifel grant
+  authors: Lena Lambers, Uta Dahmen
+  abstract: Support of young researchers
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'True'
+  projects: P2 - Dahmen, Coordination
+- category: Poster
+  title: Data and Model Driven Multiscale Simulation of Tumor Growth in the Human
+    Liver
+  authors: "Lena Lambers, Tim Ricken, Arndt Wagner, Andr\xE9 Mielke, Marlon Suditsch"
+  abstract: 'Computational multiphase and multiscale continuum-biomechanical modeling
+    of biological
+
+    tissue can simulate the hepatic deformation-perfusion-function relationship
+
+    and allow patient-specific prediction of liver surgery [1, 2]. Our goal is the
+    precise
+
+    mathematical description and numerical simulation of the liver lobules coupled
+    to
+
+    metabolic processes in the liver cells using a multiscale and multiphase continuumbiomechanical
+    model based on the Theory of Porous Media (TPM), see [4, 5].'
+  journal: nan
+  conference: 'SimTech Status Seminar '
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Workshop
+  title: Workshop on Computational Models in Biology and Medicine
+  authors: "Nicole Radde, Sebastian H\xF6pfl"
+  abstract: N.A
+  journal: nan
+  conference: "G\xF6ttingen, 23-24 June "
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Poster
+  title: Data- and Model-Driven Multiscale Simulation of Tumor Growth in the Human
+    Liver
+  authors: "Lena Lambers, Tim Ricken, Steffen Gerh\xE4usser, Luis Mandl"
+  abstract: 'Computational multiphase and multiscale continuum-biomechanical modelling
+
+    of biological tissue can simulate the hepatic deformationperfusion-
+
+    function relationship and allow patient-specific prediction of liver
+
+    surgery [1, 2]. Our goal is the precise mathematical description and numerical
+
+    simulation of the liver lobules coupled to metabolic processes in
+
+    the liver cells using a coupled continuum-biomechanical PDE-ODE model
+
+    based on the Theory of Porous Media (TPM), see [4, 5].'
+  journal: nan
+  conference: SimTech Status Seminar 2022, Bad Boll
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Poster
+  title: Data- and model-driven multiscale liver modelling function-perfusion interqaction
+    during liver resction
+  authors: "Gerh\xE4usser S., Ricken T., Lambers L., Mandl L."
+  abstract: 'Computational multiphase and multiscale continuum-biomechanical modelling
+    of biological tissue can simulate the hepatic deformation-perfusionfunction relationship
+    and allow patient-specific prediction of liver surgery. Our goal is the precise
+    mathematical description and numerical
+
+    simulation of the liver lobules coupled to metabolic processes in the liver
+
+    cells using a coupled continuum-biomechanical PDE-ODE model based
+
+    on the theory of porous media (TPM).'
+  journal: nan
+  conference: Simtech Status Seminar 2022
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Poster
+  title: Data- and Model-Driven Multiscale Liver Modelling - Staging Ischemia Reperfusion
+    Injury During Liver Transplantation
+  authors: "Luis Mandl, Tim Ricken, Lena Lambers, Steffen Gerh\xE4usser"
+  abstract: Computational multiphase and multiscale continuum-biomechanical modelling
+    of biological tissue can simulate the hepatic deformation-perfusion-function relationship
+    and allow patient-specific prediction of liver surgery. Our goal is the precise
+    mathematical description and numerical simulation of the liver lobules coupled
+    to metabolic processes in the liver cells using a coupled continuum-biomechanical
+    PDE-ODE model based on the theory of porous media (TPM).
+  journal: nan
+  conference: SimTech Status-Seminar Bad Boll 2022
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Awards
+  title: 'Einfluss des Alters auf das Serum-
+
+    Zytokinprofil nach ausgedehnter
+
+    Leberteilresektion'
+  authors: Kindler EM, Nickel S, Dahmen U, Tautenhahn HM & Settmacher U
+  abstract: "Hintergrund/Zielsetzung \nEine Leberteilresektion ist oft die einzig\
+    \ kurative Therapieoption bei prim\xE4ren und sekund\xE4ren Lebertumoren. Um den\
+    \ Verlust an Leberzellmasse und Funktion auszugleichen, verf\xFCgt die Leber \xFC\
+    ber ein beeindruckendes Regenerationspotential. Die Leberregeneration ist ein\
+    \ komplexer Prozess, der das orchestrierte Zusammenspiel zahlreicher Signalfaktoren\
+    \ und Mechanismen, wie beispielsweise Zytokinen, erfordert. Bei alten Menschen\
+    \ ist jedoch das Zytokinprofil bereits physiologisch ver\xE4ndert und betrachtet\
+    \ man den postoperativen Verlauf gerontochirurgischer Patienten im Allgemeinen,\
+    \ so weisen diese eine erh\xF6hte postoperative Komplikationsrate auf. Ziel dieser\
+    \ Arbeit war es, anhand altersbedingter Unterschiede im Serum-Zytokinprofil nach\
+    \ Leberteilresektionen, das Verst\xE4ndnis um Abl\xE4ufe der Leberregeneration\
+    \ zu verbessern und fr\xFChe prognostische Marker im Serum zu identifizieren.\n\
+    \ \nMethoden\nEs handelt sich um eine zweiarmige prospektive unizentrische Studie.\
+    \ Eingeschlossen wurden PatientInnen am Universit\xE4tsklinikum Jena, bei denen\
+    \ eine erweiterte Leberteilresektion durchgef\xFChrt wurde. (I) junge Patienten\
+    \ zwischen 18 und 45 Jahren (n=7) und (II)\xE4ltere Patienten \u226565 Jahre (n=15).\
+    \ Serumproben wurden pr\xE4operativ, sowie am 1. und 2. postoperativen Tag entnommen.\
+    \ Das Zytokinprofil umfasst 105 Zytokine und Wachstumsfaktoren und wurde mit dem\
+    \ semiquantitativen Human XL Cytokine Array (R&D Systems\xAE) bestimmt. Um die\
+    \ Beziehungen und Interaktionen zwischen den Zytokinen darzustellen, wird eine\
+    \ bioinformatische Analyse durchgef\xFChrt. Klinische Parameter wie Komorbidit\xE4\
+    ten und der pr\xE4operative LiMAx\xAE Assay wurden in die Analysen mit einbezogen\
+    \ und mithilfe einer SQL-Datenbank ausgewertet. Abschlie\xDFend wurde eine Korrelation\
+    \ der Daten mit dem Auftreten postoperativer Komplikationen \xFCberpr\xFCft.\n\
+    \nErgebnisse \nVorl\xE4ufige Ergebnisse zeigen eine vom patientenalter unabh\xE4\
+    ngige, deutliche Hochregulation von ST2 (l\xF6slicher IL-33 Rezeptor) und eine\
+    \ Herabregulation von EGF am ersten und zweiten postoperativen Tag. Trotz einer\
+    \ hohen interindividuellen Variabilit\xE4t im pr\xE4- und postoperativen Zytokinprofil,\
+    \ zeichnen sich altersabh\xE4ngige Unterschiede vor allem bei HGF und IL-6 ab.\
+    \ Bei HGF konnten wir einen st\xE4rkeren postoperativen Anstieg\u2013 bei IL6\
+    \ einen verz\xF6gerten und abgeschw\xE4chten Anstieg in der Gruppe der alten Patienten\
+    \ zeigen.\n\nSchlussfolgerung\nSowohl IL6 als auch HGF spielen eine entscheidende\
+    \ Rolle bei der Leberregeneration. Die ver\xE4nderte Dynamik dieser Zytokine k\xF6\
+    nnte eine Erkl\xE4rung f\xFCr die beeintr\xE4chtigte Leberregeneration nach Leberteilresektion\
+    \ bei \xE4lteren Patienten darstellen. Die hohe interindividuelle Variabilit\xE4\
+    t legt nahe, dass Zytokine nur im Zusammenhang mit klinischen Daten interpretiert\
+    \ werden k\xF6nnen. Perspektivisch kann diese Studie dazu beitragen, fr\xFChzeitig\
+    \ Behandlungsstrategien einzuleiten, die gezielt Dysregulationen adressieren."
+  journal: nan
+  conference: Gemeinsamen Jahrestagung der MGG, der MCV und der TGC, https://www.mdcv-mgg.de
+  qualiperf_funding: 'True'
+  projects: P2, P9
+- category: Conference abstract
+  title: Prehabilitation in geriatric surgery
+  authors: Hans-Michael Tautenhahn
+  abstract: tbd
+  journal: nan
+  conference: Jahrestagung der mitteldeutschen Viszeralmedizin
+  qualiperf_funding: 'False'
+  projects: P9 - Tautenhahn
+- category: Miscellaneous
+  title: "Kongresssekret\xE4r der Jahrestagung der mittelseutschen Viszeralmedizin"
+  authors: Hans-Michael Tautenhahn
+  abstract: --
+  journal: nan
+  conference: Jahrestagung der mittelseutschen Viszeralmedizin
+  qualiperf_funding: 'False'
+  projects: P9 - Tautenhahn
+- category: Miscellaneous
+  title: "Vorstandsmitglied der Th\xFCringischen Gesellschaft f\xFCr Chirurgie"
+  authors: Hans-Michael Tautenhahn
+  abstract: --
+  journal: nan
+  conference: "Th\xFCringischen Gesellschaft f\xFCr Chirurgie"
+  qualiperf_funding: 'False'
+  projects: P9 - Tautenhahn
+- category: Miscellaneous
+  title: New Project Assistant
+  authors: Hans-Michael Tautenhahn
+  abstract: from the beginning of August a new project assistance will join the AG
+    Gerontochirurgie in Jena
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P9 - Tautenhahn
+- category: Poster
+  title: Data- and Model-Driven Multiscale Liver Modelling
+  authors: Lena Lambers, Tim Ricken
+  abstract: n.a.
+  journal: nan
+  conference: Pints&Posters, 15.07.2022, University of Stuttgart
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Conference presentation/ abstract
+  title: A Multiscale and Multiphase, Data- and Knowledge-Driven Simulation of Function-Perfusion
+    Processes in the Human Liver
+  authors: "Lena Lambers, Tim Ricken, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9\
+    \ Mielke"
+  abstract: n.a.
+  journal: nan
+  conference: "BioMechBW Symposium, 19.07.2022, T\xFCbingen"
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Workshop Leader
+  title: GmdS/IBS Arbeitsgruppe Mathematical Models in Medicine and Biology
+  authors: Nicole Radde, Ingmar Glauche
+  abstract: '-'
+  journal: nan
+  conference: "j\xE4hrlicher Workshop in Dresden "
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Accepted project proposal
+  title: Methodology for the calibration and analysis of stochastic models for heterogeneous
+    intracellular processes with applications in cancer development
+  authors: Nicole Radde
+  abstract: na
+  journal: EXC 2075 - SimTech
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Accepted project proposal
+  title: Data-enhanced prediction of organ-specific tumor growth in the liver - a
+    hybrid knowledge and data-driven approach
+  authors: Tim Ricken
+  abstract: na
+  journal: EXC 2075 - SimTech
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken
+- category: Editoring
+  title: "Editor-in-Chief der Zeitschrift \"Zeitschrift f\xFCr Medizinische Physik\"\
+    \ (Journal of Medical Physics) (ISSN 0939-3889)"
+  authors: "J\xFCrgen Reichenbach"
+  abstract: na
+  journal: "\"Zeitschrift f\xFCr Medizinische Physik\" (Journal of Medical Physics)\
+    \ (ISSN 0939-3889)"
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P6 - Reichenbach
+- category: Conference presentation/ abstract
+  title: Data- and Knowledge-Driven Multiphase and Multiscale Simulation of
+  authors: "Lena Lambers, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9 Mielke\nand\
+    \ Tim Ricken"
+  abstract: see pdf
+  journal: nan
+  conference: 92nd Annual Meeting of the International Association of Applied Mathematics
+    and Mechanics (GAMM)
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken
+- category: Conference presentation/ abstract
+  title: Numerical Data- and Knowledge-Driven Simulation of Function-Perfusion Processes
+    in Liver Cell, Tissue and Organ
+  authors: "Lena Lambers, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9 Mielke, Tim\
+    \ Ricken"
+  abstract: see pdf
+  journal: nan
+  conference: GACM Congress, Essen
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken
+- category: Conference presentation/ abstract
+  title: Physiologically based pharmacokinetic (PBPK) models for metabolic phenotyping
+    and evaluation of liver function
+  authors: "K\xF6nig M, Grzegorzewski J"
+  abstract: 'Physiologically-based pharmacokinetic models (PBPK) are digital twins
+    of human physiology which allow the study of individual drug metabolism in silico.
+    PBPK models can simulate the absorption, distribution, metabolization and elimination
+    of substances and when coupled to pharmacodynamics models also the effect of the
+    substance on the body.
+
+
+    Here we present our work on PBPK models for metabolic phenotyping and evaluation
+    of liver function [1-5]. For the development and validation we established the
+    first open pharmacokinetics database PB-PK with data from over 600 curated clinical
+    studies [1]. The database allows to integrate data for given test substances and
+    study the effect of lifestyle factors or co-administration such as smoking or
+    oral contraceptives [2]. Based on the curated data individualized and stratified
+    computational models have been established and applied to various clinical questions
+    [3-5]. A model of indocyanine green allowed to simulate individual outcome after
+    hepatectomy by building patient-specific models using data such as anthropometric
+    information (e.g. sex, weight, age) and pre-existing liver disease [3]. Combining
+    the data with information on study cohorts allowed to simulate virtual populations
+    [4]. Using a model of dextromethorphan coupled to drug-gene interactions accounting
+    for changes in CYP2D6 enzyme kinetics depending on activity score (AS), allowed
+    in combination with AS for individual polymorphisms to study the effect of CYP2D6
+    gene variants [5]. The model was applied to investigate the genotype-phenotype
+    association and the role of CYP2D6 polymorphisms for metabolic phenotyping using
+    the urinary cumulative metabolic ratio (UCMR). The model is capable of estimating
+    the UCMR dispersion within and across populations depending on activity scores.
+    The model can be applied for individual prediction of UCMR and metabolic phenotype
+    based on CYP2D6 genotype. A model of omeprazole allowed to study the effect of
+    omeprazole therapy on stomach pH, a model of simvastatin to study the LDL-C lowering
+    effect of statins, and a model of pravastatin the effect of genetic variants and
+    hepato-renal impairment on pravastatin pharmacokinetics. All models and data are
+    available for reuse with models encoded in SBML.
+
+
+    We end the talk with an outlook on how such PBPK models can be applied to predict
+    liver function in liver cancer and how coupling of such models to AI could help
+    in clinical decision support.
+
+
+    [1] https://doi.org/10.1093/nar/gkaa990 [2] https://doi.org/10.3389/fphar.2021.752826
+    [3] https://doi.org/10.3389/fphys.2021.730418 [4] https://doi.org/10.3389/fphys.2021.757293
+    [5] https://doi.org/10.1101/2022.08.23.504981'
+  journal: nan
+  conference: ICSB2022, The 21st International Conference on Systems Biology
+  qualiperf_funding: 'True'
+  projects: "P3 - K\xF6nig"
+- category: Poster
+  title: F.A.I.R. Workflows for Bayesian Inference in Systems Medicine
+  authors: "H\xF6pfl Sebastian, Radde Nicole"
+  abstract: "The research unit \u2018Quantifying Liver Perfusion-Function Relationship\u2019\
+    \ (QuaLiPerF) aims at a holistic understanding of liver function in the context\
+    \ of liver resections. We use Bayesian methods for data integration and estimation\
+    \ of certainties for model predictions, which can be used for a risk stratification\
+    \ for liver surgery patients."
+  journal: nan
+  conference: SimTech Status Seminar 2022, Bad Boll
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Poster
+  title: F.A.I.R. Workflows for Bayesian Inference in Systems Medicine
+  authors: "Sebastian H\xF6pfl, Nicole E. Radde"
+  abstract: F.A.I.R. Workflows for Bayesian Inference in Systems Medicine
+  journal: nan
+  conference: Current Trends in Systems and Control Theory, June 7 2022 Stuttgart
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Submission
+  title: Bayesian hypothesis testing reveals that reproducible models in Systems Biology
+    get more citations
+  authors: "Sebastian H\xF6pfl, J\xFCrgen Pleiss, Nicole E. Radde"
+  abstract: Many measures have been taken to develop data and modeling standards towards
+    a F.A.I.R. data and model management by the Systems Biology community. Still,
+    there is an ongoing debate about incentives and merits for the individual researcher
+    to make their research results reproducible. Here, we pose the specific question
+    whether reproducible models have higher impact in terms of citations. Therefore,
+    we statistically analyze 328 published models which were recently classified by
+    Tiwari et al. based on their reproducibility. For hypotheses testing, we use a
+    flexible Bayesian approach that provides full distributional information for all
+    quantities of interest and can handle outliers. The results show that in the period
+    from 2013, i.e. 10 years after the introduction of SBML, to 2020, the group of
+    reproducible models is significantly more cited than the non-reproducible group.
+    We show that this effect is not explained by differences in journal impact factors
+    and that it increases with additional standardization of data and error model
+    integration via PEtab. Overall, our statistical analysis demonstrates long-term
+    merits of reproducible modeling for the individual researcher in terms of citations.
+    Moreover, it provides evidences for an increased use of reproducible models in
+    the scientific community.
+  journal: Scientific Reports, Springer Nature
+  conference: nan
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Poster
+  title: Differences in gene expression are stronger influenced by patient's sex than
+    by biological conditions like fat content or disease
+  authors: Meyer D, Barth E, Marz M
+  abstract: '-'
+  journal: nan
+  conference: German Conference on Bioinformatics 2022, https://gcb2022.de/
+  qualiperf_funding: 'True'
+  projects: P4 - Marz
+- category: Awards
+  title: Detection of EVEs that were integrated by L1-mediated TPRT
+  authors: Daria M
+  abstract: '-'
+  journal: "Urkunde im Rahmen des ILW F\xF6rderpreises 2020/2021"
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P4 - Marz
+- category: Poster
+  title: Digital Liver Twin
+  authors: "Ricken Tim, Gerh\xE4usser Steffen, Lambers Lena, Mandl Luis"
+  abstract: 'Computational multiphase and multiscale continuum-biomechanical
+
+    modelling of biological tissue.
+
+    Precise mathematical description and numerical simulation of
+
+    function-perfusion processes in the human liver.
+
+    Patient-specific prediction of liver disease and therapy.
+
+    Coupled continuum-biomechanical PDE-ODE model based on the
+
+    Theory of Porous Media.'
+  journal: nan
+  conference: Inventing the Future - University of Stuttgart meets Bosch
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken
+- category: Internship
+  title: "Computational Modeling of Drug Detoxification \u2013 A Systems Medicine\
+    \ Approach"
+  authors: "Matthias K\xF6nig"
+  abstract: The liver is the main organ involved in the clearance of most drugs, e.g.,
+    acetaminophen. The function of the liver can be evaluated using information about
+    the clearance of test drugs (pharmacokinetics data) in combination with computational
+    models describing the absorption, distribution, metabolism, and elimination (ADME)
+    of these substances in the human body. Within this lab project a physiologically
+    based model of the elimination of an example drug in the human body will be established
+    based on existing literature data. Such a model allows us to simulate in silico
+    the pharmacokinetics of the example drugs and evaluate hypotheses, for instance,
+    on drug-drug interactions or alterations in drug metabolism in disease or with
+    age. The project will focus on acetylsalicylic acid or omeprazole (but other drugs
+    could be used). The project is a computational project requiring basic programming
+    skills, no wet lab work will be performed.
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig"
+- category: Conference presentation/ abstract
+  title: Modeling of function-perfusion interaction in the human liver based on a
+    multiscale porous media model
+  authors: "Steffen Gerh\xE4usser, Tim Ricken, Lena Lambers, Luis Mandl, Matthias\
+    \ K\xF6nig"
+  abstract: The liver is the central organ of metabolic homeostasis in the whole body
+    and and is the first line for the detoxification of drugs and toxins. Due to our
+    diet and lifestyle choices, liver diseases such as non-alcoholic fatty liver disease
+    (NAFLD) or liver cancer are among the most common diseases in industrial countries.
+    In the context of clinical treatment, digital models offer an enormous potential
+    to assess the risk of surgical intervention in liver resections [1]. Here we present
+    a multiscale mathematical model based on the coupling of the tissue and the cellular
+    scale. Within a continuum biomechanical approach the hepatic lobule can be modeled
+    as a multiphasic, porous solid body saturated with blood using a multicomponent
+    mixture theory based on the Theory of Porous Media (TPM, see [2]). The deformation,
+    blood flow and transport processes within the lobule are modeled using a system
+    of coupled partial differential equations (PDE). Microscopic components like nutrients
+    or xenobiotics are represented as solutes solved in the carrier phase (blood),
+    which are transported through the lobule domain by advection and diffusion. On
+    the cell scale underneath, metabolic processes take place in the form of chemical
+    reaction networks influencing the local concentration of the solutes. Those processes
+    are modelled using a system of coupled ordinary differential equations (ODE).
+    In the context of a systems biology approach, the elimination rate of the contaminant
+    within the cell is depends on many factors, such as the zonation of CYP2E1 or
+    the necrosis state of the cell. In our PDE-ODE approach the cell model is embedded
+    in every integration point of the finite element providing source/sink terms for
+    the balance equations of the macro model. Using a one-way coupling scheme, the
+    macro model provides the solute concentration and the volume fractions for the
+    cell model. A peculiarity of the coupling is the integration of domain specific
+    solvers, combining a software tool for finite element analysis with a software
+    library for high-performance simulation of Systems Biology Markup Language (SBML)
+    based models. The described model is used to simulate paracetamol degradation
+    as a showcase for the liver function. In addition, the coupling of the multiscale
+    lobule model to an ODE-based physiological-based pharmacokinetics models on the
+    whole body scale is also addressed. The developed model can pave the way to simulate
+    patient-specific data and ultimately drive the development of an accurate decision-supporting
+    framework for everyday clinical use.
+  journal: nan
+  conference: GAMM Annual Meeting 2022 ,https://jahrestagung.gamm-ev.de/
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken
+- category: Accepted project proposal
+  title: SIMulation supported LIVer Assessment for donor organs (SimLivA) - Continuum-biomechanical
+    modeling for staging of ischemia reperfusion injury during liver transplantation
+  authors: "Professorin Dr. Uta Dahmen, Professor Dr.-Ing. Tim Ricken, Privatdozent\
+    \ Dr. Hans-Michael Tautenhahn, Dr. Matthias K\xF6nig"
+  abstract: "Background: Liver transplantation (LTx) is the only curative treatment\
+    \ option for acute and chronic end-stage liver disease. Demographic change and\
+    \ western lifestyle result in an increasing rate of elderly multi-morbid potential\
+    \ recipients and donors. Liver grafts from such donors, so-called marginal liver\
+    \ grafts, are often affected by hepatic steatosis compromising the quality of\
+    \ the donor organ substantially. One reason is the alteration of the tissue structure,\
+    \ resulting in an impaired perfusion, which in turn affects hepatic metabolism\
+    \ and organ function. In case of a marginal graft, the surgeon is faced with the\
+    \ clinical decision to either accept or reject the organ, significantly increasing\
+    \ the postoperative risk for the recipient or increasing the risk of death on\
+    \ the waiting list, respectively. Two major challenges for marginal grafts are\
+    \ the storage between procurement of the organ and transplantation (cold ischemia\
+    \ time) and damage after reperfusion (ischemia reperfusion injury or IRI).Goal:\
+    \ Our co-designed interdisciplinary project \u201CSIMulation supported LIVer Assessment\
+    \ for donor organs (SimLivA)\u201D aims to mathematically model the impact of\
+    \ mechanical alterations of the (steatotic) marginal liver graft and cold ischemia\
+    \ on early IRI. We address the following research questions: (i) How to co-design\
+    \ computational methods, experimental studies, clinical processes, and technical\
+    \ workflows? (ii) How to improve the multiscale continuum-biomechanical model\
+    \ for prediction of IRI? (iii) How to obtain experimental and clinical data that\
+    \ are essential to quantify the relationship between steatosis, ischemia and reperfusion\
+    \ injury? (iv) How to evaluate the clinical usability of the model?Methods: To\
+    \ achieve these goals, we will extend and adapt our coupled continuum-biomechanical\
+    \ multiphase and multi-scale PDE-ODE model of the liver lobule to numerically\
+    \ simulate IRI in dependence of the degree of steatosis and ischemia duration.\
+    \ Experimental and clinical data acquisition for model parameterization and validation\
+    \ is designed in close collaboration with modeling. A proof-of-concept trial for\
+    \ clinical applicability will be performed. Our model couples structure, perfusion\
+    \ and function of the liver via the interplay between mechanical properties of\
+    \ the graft, hepatic sinusoidal perfusion and the affected molecular pathways,\
+    \ which might facilitate these decision processes and is urgently needed. This\
+    \ will be the first step towards an in-silico clinical decision support tool to\
+    \ reach a better decision pro or contra the marginal organ by in-silico predicting\
+    \ hepatic damage and early graft function."
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P2 - Dahmen, P3 - K\xF6nig, P7 - Ricken, P9 - Tautenhahn"
+- category: Master thesis
+  title: Coupling of macro and micro scale in a continuum-biomechanical model of the
+    human liver using preCICE
+  authors: "Fritz Otlinghaus, Steffen Gerh\xE4usser, Ishaan Desai, Tim Ricken, Benjamin\
+    \ Uekermann"
+  abstract: 'As the human liver is one of the most important organs in the human body,
+    the scientific community aims to improve our understanding of its internal processes
+    to enable better planning for individual liver surgeries. This includes the complex
+    relationship between hepatic tissue and metabolic cell processes.
+
+    This work is based on the modeling approach proposed by [RWH+14] where the hepatic
+    tissue is modeled by partial differential equations (PDEs) in a homogenization
+    approach based on the extended Theory of Porous Media (eTPM). These equations
+    are then coupled with ordinary differential equations (ODEs), representing the
+    metabolic processes in the liver cells. These models are solved by the FEM-solver
+    FEBio for the hepatic tissue, and the ODEs on the cell scale are solved by the
+    biochemical software library libRoadRunner.
+
+    This work introduces a new two scale coupling using the coupling library preCICE
+    and the Micro Manager. A new FEBio-preCICE adapter is implemented and compared
+    to an existing coupling. To evaluate the differences in the couplings, three test
+    cases are defined and simulation time, quality and memory usage for each test
+    case is compared. This is followed up by discussing and comparing advantages and
+    disadvantages for each coupling.'
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: P7 - Ricken
+- category: Accepted project proposal
+  title: "031L0304X - CompLS - Runde 5 -\nVerbundprojekt: ATLAS - Al and Simulation\
+    \ for Tumor Liver Assessment - Entwicklung eines Systems zur klinischen Entscheidungsunterst\xFC\
+    tzung in der Diagnose und Behandlung von Lebertumoren auf Basis von k\xFCnstlicher\
+    \ Intelligenz und Simulationen"
+  authors: "Professor Dr.-Ing. Tim Ricken, Professor Dr. Steffen Staab, Privatdozent\
+    \ Dr. Hans-Michael Tautenhahn, Dr. Matthias K\xF6nig"
+  abstract: 'Liver cancer is the second leading cause of cancer-related death. Diagnosis
+    and treatment are time-critical and require highly patient-specific diagnostic
+    and treatment pathways. Medical decision-making is based on a multitude of interdependent
+    factors related to various medical disciplines, past experiences and clinical
+    guidelines. The consideration of all decision factors in combination with the
+    possible therapy approaches is a major challenge for the physicians and often
+    cannot be solved in an optimal way even in the interdisciplinary tumor board.
+    In this project, we develop ATLAS, a decision support tool, which will significantly
+    assist clinicians with this challenge. Based on AI methods, ATLAS processes all
+    relevant patient data from databases, systems medicine and continuum biomechanical
+    in silico prognoses modeling data as well as individual patient data. The tool
+    will be developed in a co-design approach by experts in surgical oncology, mathematical
+    modeling, and machine learning.
+
+    Chosen technologies integrate the automated understanding of a highly complex
+    patient situation through the simulation of liver functions with expert knowledge
+    and ontology-guided learning with knowledge graphs from retrospective cases of
+    liver tumors.
+
+    ATLAS will be based on detailed historical data cohort from over 6,000 patients
+    with liver tumors and will be evaluated on case studies at the Jena University
+    Hospital. The integration of medical expert knowledge, mathematical modeling and
+    artificial intelligence constitutes a highly original and most promising approach
+    for high-quality diagnoses and treatments of liver tumors resulting in patient-specific
+    prognosis improvement.
+
+    Scientific insights from this projects will offer exploitation possibilities for
+    the transfer to malignancies in other organs, such as lungs, kidneys or the brain.
+
+    Tool and demonstrator development will provide for sustainable exploitation pathways
+    for future commercial applications.'
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig, P7 - Ricken, P9 - Tautenhahn"
+- category: Conference presentation/ abstract
+  title: F.A.I.R. Bayesian workflows and F.A.I.R. model citation analysis
+  authors: Nicole Radde
+  abstract: n.a.
+  journal: nan
+  conference: Combine Meeting, Satellite Event to the ICSB Conference, October 6-7,
+    2022, Berlin
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Conference presentation/ abstract
+  title: Bayesian modelling of enzymatic processes and model-based design of experiments
+  authors: Nicole Radde
+  abstract: n.a.
+  journal: nan
+  conference: "3rd EnzymeML Workshop, October 18-19, 2022, R\xFCdesheim"
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Poster
+  title: Asymmetric echo variable flip angle RARE for n-echo Dixon based PDFF @ 9.4T
+  authors: Zhao WT, Herrmann KH, Sibgatulin R, Arlt J, Wei WW, Dahmen U, and Reichenbach
+    JR.
+  abstract: "Introduction\nConventional fat fraction quantification relies on gradient\
+    \ echo based sequences1-4, which has the advantage of fast acquisition, while\
+    \ being vulnerable to motion and susceptibility artifacts. At 9.4T not only the\
+    \ susceptibility artifacts are much stronger, but also the echo time of a FLASH\
+    \ sequence can\u2019t resolve the in-phase to opposed-phase progression which\
+    \ corresponds to an echo time difference of 0.357 ms. Additionally, at such high\
+    \ field, a spin- echo based sequence has the benefit to suppress R2* effects while\
+    \ echo shifting can be used to sample the spin echo asymmetrically at arbitrarily\
+    \ small echo differences to induce well defined phase shifts between fat and water\
+    \ signal components. To reduce the required scan time, the echo shifting was implemented\
+    \ into a 3D variable flip angle RARE sequence (Rapid Acquisition with Refocused\
+    \ Echoes, ES-VFA-RARE) which allows high RARE factors with excellent image quality5.\
+    \ Using this sequence, the abstract attempts to bridge the typical MRI mm scale\
+    \ to the histological microscale by recovering super high resolution fat signal\
+    \ fraction maps in ex vivo liver tissue at 100\u03BCm.\nMaterials and methods\n\
+    MRI data were acquired on a Bruker BioSpec 94/20USR AVIII scanner using a 72mm\
+    \ (phantom) or 60mm (ex vivo sample) quadrature transceiver coil. To assess the\
+    \ phase shift created by progressively changing the echo shift value, ES-VFA-RARE\
+    \ images were acquired on a kerosene gel (a.k.a. paraffin or lamp oil) - water\
+    \ phantom with the 41 echo times = [-0.72:0.036:0.72] ms, fig. 1). The scan parameters\
+    \ of ES-VFA-RARE for phantom study were TA=6.5min for each echo shift, TR=1500ms,\
+    \ TE=63ms, BW=200kHz, resolution 0.44 x 0.44 x 0.55 mm3.Ex vivo acquisition was\
+    \ performed on a liver sample, harvested from a rat which received high fat diet\
+    \ for 12 weeks. The scan parameters were TA=4h 10min per echo shift, TR=1000ms,\
+    \ echo shifts= [-0.367,-0.357,-0.129,-0.059,0,0.059,0.178,0.367,0.397,0.416] ms,\
+    \ echo spacing 3.6ms, TE=18ms, RARE factor=60, 10 averages, BW=400kHz, isotropic\
+    \ resolution of (0.1mm)3. Fat-water separation was performed by fitting the following\
+    \ signal model:\n\nS(T_E) = S_0\u2022(1 + f exp(i \u2022 \u03C9_\u0394fw\u2022\
+    \ T_E))\u2022 exp(i \u2022 (\u03C9_\u0394B0\u2022 T_E+\u03C6_0))\n\nwhere $\\\
+    omega_{\\Delta fw} = \\gamma \u0392_0 \\sigma = 8.8\\times 10^3$ rad / s, assumed\
+    \ to be the fat-water frequency shift; Optimisation was performed with respect\
+    \ to $S_0$, signal fat fraction f, off-resonance frequency \u03C9_{\u0394B0},\
+    \ and phase after the RF pulse $\\phi_0$. It was implemented in JAX6 to leverage\
+    \ automatic differentiation and is performed using a variable projection method,\
+    \ VARPRO7,8, with nonlinear parameters \u03C9_{\u0394B0} and \u03C60 optimised\
+    \ using AdaBelief optimiser9,10.\nResults\nFig. 1 displays a clear boundary between\
+    \ kerosene and water. The phase difference across the boundary changes linearly\
+    \ with the applied echo shift. Fig. 2 shows the original MRI images and the results\
+    \ of the fat-water signal fraction separation. The calculated fat signal fraction\
+    \ ranges to approx. 22% in the areas with highest fat concentration. The B0 map\
+    \ shows primarily the residual linear gradient along the readout direction, together\
+    \ with a characteristic dipole field from, most likely an air bubble. The \u03C6\
+    0 map shows the effects of the initial RF pulse for different tissue properties\
+    \ (e.g. electric conductivity). In Fig. 3 two large landmarks could be matched,\
+    \ in a first step, between MR images and low magnification histology. Following\
+    \ deeper inspection a small area of an MRI-derived fat distribution could be matched\
+    \ to a small area in the histology slide at higher magnification.\nDiscussion\n\
+    Pieces of an entire rat liver were scanned with a very high isotropic resolution\
+    \ of 100mm3 using a large 60mm volume coil. To achieve sufficient SNR for voxelwise\
+    \ fat separation, rather long scan times were necessary, which would have been\
+    \ prohibitively long without the high RARE factors possible with the ES-VFA-RARE\
+    \ sequence. Complex non-linear optimisation is facilitated by the VARPRO algorithm,\
+    \ leveraging the separable nature of the problem, as well as by a total of 10\
+    \ different echo shifts, providing high SNR for the fat-water separation. The\
+    \ very high resolution of the MR acquisitions allows to bridge the gap between\
+    \ the reconstructed fat fraction maps and \u03BCm histological images, showing\
+    \ qualitative agreement between the spatial distributions. Quantification of the\
+    \ fat proton density fraction, however, requires further calibrations to remove\
+    \ different signal weighting of fat and water due to their different T1 and T2\
+    \ times.\nConclusion\nEcho shifting was successfully incorporated into a scan-time\
+    \ efficient ES-VFA-RARE sequence, allowing high resolution acquisition of liver\
+    \ samples and subsequent Dixon based fat signal separation. The MRI images at\
+    \ 100\u03BCm resolution started to resolve the enhanced periportal fat depositions\
+    \ and fine structures in the local liver lobe as well as the larger scale differences\
+    \ within the liver lobe or between different liver parts."
+  journal: nan
+  conference: International Society for Magnetic Resonance in Medicine 2023, https://www.ismrm.org/23m/
+  qualiperf_funding: 'True'
+  projects: P2 - Dahmen, P6 - Reichenbach
+- category: Editoring
+  title: Elected PEtab editor from March 2023 until March 2026
+  authors: "K\xF6nig Matthias"
+  abstract: PEtab is a data format for specifying parameter estimation problems in
+    systems biology.
+  journal: https://petab.readthedocs.io/en/latest/index.html
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig, P5 - Radde"
+- category: Conference presentation/ abstract
+  title: 'Bayesian estimation shows the merits of reproducible and reusable modeling
+    in systems
+
+    biology'
+  authors: "H\xF6pfl Sebastian, Radde Nicole"
+  abstract: one page abstract
+  journal: nan
+  conference: BioSB 2023, https://www.aanmelder.nl/biosb2023, Egmond aan Zee
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Conference presentation/ abstract
+  title: Journals in Systems Biology could improve their impact factor by enforcing
+    reproducibility
+  authors: "H\xF6pfl Sebastian, Radde Nicole"
+  abstract: "Systems Biology is at the forefront of developing and using modeling\
+    \ standards to improve the reproducibility and reuse of models. Still, a recent\
+    \ study by Tiwari et al. showed that only every second model out of a set of 455\
+    \ models could be directly reproduced (Tiwari et al. 2021). This limited reproducibility\
+    \ shows the need for further efforts or mechanisms that promote reproducibility.\
+    \ Reproducibility of scientific results fosters collaborations and leads ultimately\
+    \ to faster progress in the whole field and increased trust in science. Since\
+    \ these merits are mainly long-term and not immediate for the publishing researcher,\
+    \ it seems crucial that third parties like publishing companies or funding organizations\
+    \ foster reproducibility. For example, the largest German research funding organization\
+    \ (German Research Foundation, DFG) signed 2003 the \"Berlin Declaration on Open\
+    \ Access to Knowledge in the Sciences and Humanities\" and has since been engaged\
+    \ in promoting open source and reusable data and publications.\nHere, we applied\
+    \ Bayesian Estimation to analyze the citation count of reproducible against non-reproducible\
+    \ models of the periods 1985-2020 and 2013-2020. The Bayesian Estimation Supersedes\
+    \ the t-Test method of J. Kruschke uses the Non-Central T-distribution to handle\
+    \ outliers in the data and estimates the distribution parameters via Markow-Chain-Monte-Carlo\
+    \ sampling (Kruschke 2013). The parameters are mean and sigma parameters for each\
+    \ dataset and a shape parameter that is jointly sampled for both datasets. Posterior\
+    \ predictive distributions for the difference of means and standard deviations\
+    \ and the effect size can be calculated from the posterior distributions of the\
+    \ parameters. From these, decisions are made via the 95% Highest Density Interval\
+    \ (HDI) of the difference of means posterior predictive distribution. Specifically,\
+    \ a decision can be made if the 95% values with the highest credibility (95% HDI)\
+    \ indicate a difference above or below zero.\nFrom 1985 to 2020, there was no\
+    \ credible difference between reproducible and non-reproducible models. However,\
+    \ reproducible models got more citations, starting in 2013, ten years after the\
+    \ introduction of Systems Biology Markup Language (SBML) (H\xF6pfl et al. 2023).\
+    \ There seems to be a tilting point between 2010 and 2013, from a tendency of\
+    \ more citations for reproducible papers to more than 95% credibility for higher\
+    \ citation rates for reproducible papers. 2013 seems to be a reasonable time when\
+    \ the efforts of the Systems Biology community towards reproducibility pay off,\
+    \ i.e. it needed about ten years from the introduction of the de facto model standards\
+    \ SBML and CellML until the difference in citations became significant.\nOn the\
+    \ one hand, this shows an immediate benefit for the individual researcher. On\
+    \ the other hand, this only pays off over the years and is, for example, for Ph.D.\
+    \ researchers who want to go into industry after their doctorate not relevant.\
+    \ However, journals could benefit directly and in the long run from an increased\
+    \ citation rate. At the same time, stricter reproducibility guidelines of journals\
+    \ would promote reproducibility and could thus strengthen trust in science. Our\
+    \ analysis shows that the higher citation numbers of reproducible models cannot\
+    \ be explained by the fact that they were published in journals with a higher\
+    \ Journal Impact Factor (JIF). For this purpose, the citation counts were normalized\
+    \ to the respective JIF, and\nthe normalized groups were compared. It was found\
+    \ that reproducibility leads to an increase\nin the number of citations independent\
+    \ of the respective JIF. The data indicate that, on\naverage, journals in the\
+    \ field of Systems Biology could potentially increase their impact factor\nby\
+    \ about 30% by only forcing reproducibility.\nReproducibility can be substantially\
+    \ improved with little effort. The authors of Tiwari et al.\nhave assembled eight\
+    \ points to improve model reproducibility in a scorecard, whereby\nreproducibility\
+    \ is already significantly increased if only four of them are fulfilled. It is\
+    \ our\nappeal that everyone can do something for better scientific work through\
+    \ reproducible work.\nOn the one hand, the individual researchers. On the other\
+    \ hand, the journals and funding\norganizations. In the end, the joint effort\
+    \ could pay off for the entire scientific community."
+  journal: nan
+  conference: Workshop on Computational Models in Biology and Medicine 2023, http://www.biometrische-gesellschaft.de/arbeitsgruppen/statistische-methoden-i-d-bioinformatik/workshop2023.html
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Conference presentation/ abstract
+  title: Outlier Detection in Steatosis Data using Bayesian Uncertainty Quantification
+    via FAIR Modelling Tools
+  authors: "H\xF6pfl Sebastian, Albadry Mohamed, Dahmen Uta, B\xF6ttcher Michael and\
+    \ Radde Nicole"
+  abstract: "Finding outliers in experimental data is important because they can mask\
+    \ differences between different experimental conditions. Often this is done by\
+    \ applying a rigid Z-score, independently for each sample time. The Z-score (\U0001D44D\
+    =\U0001D465\U0001D456\u2212\U0001D465\U0001D460) calculates for each data point\
+    \ \U0001D465\U0001D456 the distance between the data point and the population\
+    \ mean \U0001D465 and normalizes this distance to the standard deviation of the\
+    \ dataset \U0001D460. A data point with a Z-score of two is often considered an\
+    \ outlier, as this is outside the 95.45% highest density interval of a normal\
+    \ distribution. The disadvantages of this method are a rigid decision threshold\
+    \ and that a possible inherent dynamic of time series data cannot be included.\
+    \ Here, we applied a Findable, Accessible, Interoperable and Reusable (FAIR) Bayesian\
+    \ uncertainty quantification to include the inherent dynamics of the system and\
+    \ thus use the complete time course information. Bayesian uncertainty quantification\
+    \ allows making probability statements about outlier classification and differences\
+    \ in the dynamics across various experimental conditions.\nHere, we use experimental\
+    \ data derived from a pharmacokinetic experiment in steatotic mice (Albadry et\
+    \ al. 2022). Animals received a drug cocktail consisting of Caffeine, Codeine\
+    \ and Midazolam. Drug levels were determined throughout 6h. Since the data were\
+    \ obtained from living animals, they are naturally subject to considerable uncertainties\
+    \ and are therefore well suited for the analysis. Here, the Bayesian analysis\
+    \ takes the differences in the dynamics between poor and rapid metabolizers into\
+    \ account. The pharmacokinetics of these drugs can be described by a peaked concentration\
+    \ upon injection, followed by an exponential decay. This knowledge was used to\
+    \ set up an ordinary differential equation \U0001D465\u0307=(1\u2212\U0001D434\
+    \u22C5\U0001D461)\u22C5\U0001D452\U0001D435\u2212\U0001D434\u22C5\U0001D461, which\
+    \ was implemented in the SBML format. PEtab, a standard format for the integration\
+    \ of biological data into models was used to make state-of-the-art sampling algorithms\
+    \ applicable.\nBayesian uncertainty quantification classifies outliers according\
+    \ to the 95% credibility interval of the posterior predictive distribution. Experimental\
+    \ data points outside of this interval were considered outliers. Furthermore,\
+    \ the consideration of the 95% credibility intervals for the different fat diets\
+    \ (experimental conditions) allowed us to credibly detect differences in the metabolization\
+    \ dynamics of the drugs. This revealed in our dataset, that the severity and pattern\
+    \ of periportal steatosis were associated with changes in the pharmacokinetics\
+    \ of Caffeine, but not of Codeine.\nIn summary, we applied FAIR modeling tools\
+    \ for experimental data analysis in systems medicine. This gives access to efficient,\
+    \ state-of-the-art algorithms that are developed and maintained by the active\
+    \ modeling community. Furthermore, the use of standard formats ensures a reproducible\
+    \ and reusable data analysis. Therefore, data, code and the SBML and PEtab files\
+    \ were uploaded to Fairdomhub."
+  journal: nan
+  conference: International Conference on Systems Biology of Human Disease, https://www.sbhdberlin.org/index.html
+  qualiperf_funding: 'False'
+  projects: P5 - Radde
+- category: Conference presentation/ abstract
+  title: Reproducible models in Systems Biology are higher cited
+  authors: "H\xF6pfl Sebastian, Radde Nicole"
+  abstract: 'The Systems Biology community was among the first scientific communities
+    to recognize the need for reproducible models. Still, many published models are
+    not reproducible. Tiwari et al. currently classified 328 published models by their
+    reproducibility. They found out that only every second model was directly reproducible.
+    We use this classification to analyze if reproducible models in Systems Biology
+    have a higher impact in terms of citation numbers. For the analysis, we use Bayesian
+    Estimation, which provides complete distributional information for group means
+    and standard deviations. Outliers are handled via a non-central t-distribution.
+    Beginning about ten years after the introduction of SBML (2013), reproducibility
+    gained broad awareness in the Systems Biology community. Since then, reproducible
+    models have gotten significantly more citations than non-reproducible ones. Our
+    analysis shows 95% credibility for higher citation rates of reproducible models
+    for 2013-2020, and all investigated sub-periods after 2013 to 2020.
+
+    Further, normalization to the journal impact factor showed that journals of all
+    ranks could profit by forcing reproducibility. In conclusion, reproducible models
+    offer long-term benefits for journals and individual researchers in terms of more
+    citations. The higher citation count provides evidence for increased reuse of
+    these models and could promote progress in Systems Biology.'
+  journal: nan
+  conference: 31st Conference on Intelligent Systems for Molecular Biology (ISMB),
+    https://www.iscb.org/ismbeccb2023
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Conference presentation/ abstract
+  title: FAIR Bayesian Optimal Experimental Design in Systems Biology
+  authors: "H\xF6pfl Sebastian, Pleiss J\xFCrgen, Range Jan, Radde Nicole"
+  abstract: two page abstract
+  journal: nan
+  conference: International Conference on Data-Integrated Simulation Science (SimTech2023),
+    https://www.simtech2023.uni-stuttgart.de/
+  qualiperf_funding: 'True'
+  projects: P5 - Radde
+- category: Accepted project proposal
+  title: 'X-Research Group: Physiologically based digital twins for the treatment
+    of hypertension with ACE inhibitors and diuretics'
+  authors: "K\xF6nig Matthias"
+  abstract: "Understanding a drugs pharmacokinetics - how it is absorbed, distributed,\
+    \ metabolised and excreted by the body - and its pharmacodynamics - how it affects\
+    \ the body - is a key challenge in treating people. Angiotensin converting enzyme\
+    \ (ACE) inhibitors and diuretics are two classes of drugs used to treat high blood\
+    \ pressure. Both are among the most commonly prescribed drugs due to the high\
+    \ prevalence of hypertension in an ageing society.\n\nIn this X-student research\
+    \ group we will develop physiologically based pharmacokinetic models of the diuretic\
+    \ hydrochlorothiazide and the ACE inhibitor lisinopril. The methodological approach\
+    \ is a combination of lectures, tutorials and practical work by the students.\
+    \ The research project is aimed at students with a STEM (science, technology,\
+    \ engineering, mathematics) background, including biology, computer science and\
+    \ medical students. Basic programming skills in Python are required.\n\nWith the\
+    \ X-Student Research Groups, the Berlin University Alliance supports research\
+    \ teams consisting of young researchers and students. The goal is to involve students\
+    \ in current research projects of the alliance partners and to enable them to\
+    \ participate in (cutting-edge) research already during their studies.\n\nFunded\
+    \ under the Excellence Strategy of the Federal Government and the L\xE4nder by\
+    \ the Berlin University Alliance."
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig"
+- category: Editoring
+  title: "M. K\xF6nig has been elected as PEtab editor (2023-2026)"
+  authors: "K\xF6nig Matthias"
+  abstract: "Proud to be elected editor for PEtab, a data format for specifying parameter\
+    \ estimation problems in systems biology.\n\nPEtab is a data format for specifying\
+    \ parameter estimation problems in systems biology. PEtab is built around SBML\
+    \ and is based on tab-separated values (TSV) files. It is intended as a standardized\
+    \ way to provide information for parameter estimation that is beyond the current\
+    \ scope of SBML. This includes, for example: (1) specifying and linking measurements\
+    \ to models; (2) defining model outputs; (3) specifying noise models; (4) specifying\
+    \ parameter bounds for optimization; (5) specifying multiple simulation conditions\
+    \ with potentially shared parameters. Matthias K\xF6nig has been elected PEtab\
+    \ Editor from March 2023 to March 2026.\n\nhttps://petab.readthedocs.io/en/latest/"
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'False'
+  projects: "P3 - K\xF6nig"
+- category: Conference presentation/ abstract
+  title: Hybrid Data- and Knowledge-Driven Multiscale and Multiphase Simulation of
+    the Human Liver
+  authors: "Lena Lambers, Tim Ricken, Steffen Gerh\xE4usser, Luis Mandl, Andr\xE9\
+    \ Mielke"
+  abstract: na
+  journal: nan
+  conference: SIAM CSE, Amsterdam, 26.02.2023 - 03.03.2023
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Conference presentation/ abstract
+  title: 'Multiscale and Multiphase Modeling of Function-Perfusion Processes in the
+    Liver
+
+    on Organ, Lobule and Cell Scale'
+  authors: "Lena Lambers, Tim Ricken, Steffen Gerh\xE4usser, Luis Mandl"
+  abstract: na
+  journal: nan
+  conference: "GAMM Fachausschuss Computational Biomechanics, 13.-14.02.2023 in Saarbr\xFC\
+    cken"
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Poster
+  title: Digital Liver Twin
+  authors: "Lena Lambers, Tim Ricken, Steffen Gerh\xE4usser, Luis Mandl"
+  abstract: na
+  journal: nan
+  conference: Treffen der Joachim-Herz-Stiftung, 10.-11.20.2023 in Hamburg
+  qualiperf_funding: 'True'
+  projects: P7 - Ricken, Coordination
+- category: Awards
+  title: "M. Albadry, S. H\xF6pfl, and M. K\xF6nig won the QuaLiPerF Michael Stifel\
+    \ Price for interdisciplinary, data-driven research."
+  authors: "M. Albadry, S. H\xF6pfl, M. K\xF6nig"
+  abstract: "M. Albadry, S. H\xF6pfl, and M. K\xF6nig won the QuaLiPerF Michael Stifel\
+    \ Price for interdisciplinary, data-driven research for the study\n\nAlbadry M,\
+    \ H\xF6pfl S, Ehteshamzad N, K\xF6nig M, B\xF6ttcher M, Neumann J, Lupp A, Dirsch\
+    \ O, Radde N, Christ B, Christ M, Schwen LO, Laue H, Klopfleisch R, Dahmen U.\
+    \ Periportal steatosis in mice affects distinct parameters of pericentral drug\
+    \ metabolism. Sci Rep. 2022 Dec 17;12(1):21825. doi: 10.1038/s41598-022-26483-6.\n\
+    \nThe study was conducted as part of a project to model the pharmacokinetics of\
+    \ steatotic mice and explore the impact of periportal steatosis on drug metabolism\
+    \ parameters. With the interdisciplinary approach of QuaLiPerF, we collaborated\
+    \ with three fields within life sciences: Mohamed Albadry for data generation,\
+    \ Matthias K\xF6nig for data analysis, and Sebastian H\xF6pfl for uncertainty\
+    \ quantification. The data generation involved performing animal experiments,\
+    \ pharmacokinetic studies, and analyzing steatosis by quantifying its spatial\
+    \ distribution, zonated expression, and activity of drug metabolism enzymes (CYP)."
+  journal: nan
+  conference: nan
+  qualiperf_funding: 'True'
+  projects: "P2 - Dahmen, P3 - K\xF6nig, P5 - Radde"

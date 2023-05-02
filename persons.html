@@ -1,0 +1,20 @@
+---
+layout: page
+title: Persons
+permalink: /persons/
+---
+
+<h1>Persons</h1>
+<div class="row">
+	<table class="table table-hover">
+		{% for item in site.data.persons %}
+		<tr>
+			<td>
+				{{ item.firstname }} {{ item.lastname }}</br>
+				<b>{{ item.role }}</b>
+				</br>
+			</td>
+		</tr>
+		{% endfor %}
+	</table>
+</div>
