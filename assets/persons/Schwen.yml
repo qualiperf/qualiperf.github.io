@@ -17,10 +17,10 @@
   tags:
     - 'Modeling'
   publications:
-    - 'Schwen2014'
-    - 'https://doi.org/10.1371/journal.pone.0133653 (not sure if this is Schwen2015a or Schwen2015)'
-    - 'Schwen2016'
-    - 'Schenk2017'
-    - 'Christ2017'
-    - 'Schwen2017'
-    - 'https://doi.org/10.1038/s41598-022-26483-6 (please replace by your identifier)'
+    - 'Schwen2014 doi: 10.1371/journal.pcbi.1003499'
+    - 'Schwen 2015 doi: 10.1371/journal.pone.0133653'
+    - 'Schwen2016 doi: 10.1007/978-3-319-28329-6_11'
+    - 'Schenk2017 doi: 10.1038/s41598-017-04574-z'
+    - 'Christ2017 doi: 10.3389/fphys.2017.00906'
+    - 'Schwen2017 doi: 10.1016/j.ddmod.2017.09.002'
+    - 'Albadry2022 doi: 10.1038/s41598-022-26483-6'
