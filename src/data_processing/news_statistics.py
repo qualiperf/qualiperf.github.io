@@ -154,9 +154,12 @@ def visualize_publications(df: pd.DataFrame, fig_path: Path):
     ax1.set_xlabel("Date", fontdict={"weight": "bold"})
     ax1.set_ylabel("Impact Factor", fontdict={"weight": "bold"})
 
+    # FIXME: add preprints in different symbol
+
     dfs = [
-        df[df.Qualiperf == "Yes"],
-        df[df.Qualiperf == "No"]
+        # Filter IF = 0
+        df[(df.Qualiperf == "Yes") & (df.IF > 0)],
+        df[(df.Qualiperf == "No") & (df.IF > 0)]
     ]
     colors = ["tab:blue", "tab:orange"]
     labels = ["Qualiperf: Yes", "Qualiperf: No"]
@@ -167,10 +170,12 @@ def visualize_publications(df: pd.DataFrame, fig_path: Path):
             linestyle="",
             marker="o",
             markersize=12,
+            alpha=0.7,
             markeredgecolor="black",
             color=colors[k],
             label=labels[k],
         )
+        ax1.set_yscale("log")
         # annotate Jornals
         for index, row in df.iterrows():
             ax1.annotate(
@@ -182,7 +187,7 @@ def visualize_publications(df: pd.DataFrame, fig_path: Path):
     # rotate labels
     ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45)
 
-    ax1.legend()
+    ax1.legend(loc=2, prop={'size': 8}, frameon=True)
     plt.show()
     fig.savefig(fig_path, bbox_inches="tight")
 
@@ -194,3 +199,5 @@ if __name__ == "__main__":
 
     fig_publications = Path(__file__).parent.parent.parent / "assets" / "news" / "qualiperf_publications.png"
     visualize_publications(df=dfs["publications"], fig_path=fig_publications)
+
+    # FIXME: cumulative count diagrams for achievements
