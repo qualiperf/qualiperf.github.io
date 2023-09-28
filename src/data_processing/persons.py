@@ -57,7 +57,7 @@ class Tag(YamlStrEnum):
 
 
 class Person(YamlModel):
-  """Class for person information"""
+  """Class for person information."""
 
   id: str
   firstname: str
