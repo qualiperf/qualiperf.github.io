@@ -13,6 +13,7 @@ import datetime
 logger = get_logger(__file__)
 
 
+
 class Publication(YamlModel):
   """Class for publication information"""
 
