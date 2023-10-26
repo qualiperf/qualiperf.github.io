@@ -8,7 +8,8 @@
   - 'Leipzig University Medical Center, Department of Visceral, Transplant, Thoracic and Vascular Surgery, Cell Transplantation/Molecular Hepatology'
   - 'Jena University Hospital, Department of General, Visceral and Vascular Surgery'
   orcid: '0000-0001-8213-9548'
-  website: 'https://www.uniklinikum-leipzig.de/einrichtungen/vttg/forschung/zelltransplantation-molekulare-hepatologie'
+  websites:
+  - 'https://www.uniklinikum-leipzig.de/einrichtungen/vttg/forschung/zelltransplantation-molekulare-hepatologie'
   image: 'ChristB.png'
   description: 'Bruno Christ is the PI in the project P1. His research focusses on metabolic regulation of liver zonation on the cellular and molecular level. His translational research aims at establishing mesenchymal stromal cells as therapeutic support after complex liver surgery and in metabolic liver diseases.'
   projects:

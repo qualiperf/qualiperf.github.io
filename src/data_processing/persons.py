@@ -7,7 +7,8 @@ import yaml
 from pathlib import Path
 from data_processing.log import get_logger
 from data_processing.console import console
-from pydantic_yaml import YamlStrEnum, YamlModel
+from pydantic import BaseModel
+from pydantic_yaml import YamlStrEnum, to_yaml_str
 
 logger = get_logger(__file__)
 
@@ -56,7 +57,7 @@ class Tag(YamlStrEnum):
     KIDNEY_IMAGING = 'Kidney imaging'
 
 
-class Person(YamlModel):
+class Person(BaseModel):
   """Class for person information."""
 
   id: str
@@ -74,7 +75,8 @@ class Person(YamlModel):
   tags: List[Tag]
   publications: Optional[List[str]]
 
-class Persons(YamlModel):
+
+class Persons(BaseModel):
   """Class for all person information"""
   items: List[Person]
 
@@ -122,11 +124,18 @@ def process_persons(persons_dir: Path) -> Persons:
 
     return Persons(items=all_persons)
 
-
-if __name__ == "__main__":
+def create_persons_yaml() -> None:
+    """Create the persons yaml."""
     persons_dir = Path(__file__).parent.parent.parent / "assets" / "persons"
     persons_yaml = Path(__file__).parent.parent.parent / "assets" / "persons.yml"
     items: Persons = process_persons(persons_dir=persons_dir)
-    yaml_str = items.yaml()
+
+    yaml_str = to_yaml_str(items)
     with open(persons_yaml, "w") as f_yaml:
         f_yaml.write(yaml_str)
+
+    console.print(f"{persons_yaml=}")
+
+
+if __name__ == "__main__":
+    create_persons_yaml()

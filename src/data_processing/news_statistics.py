@@ -20,6 +20,7 @@ matplotlib.rc('ytick', labelsize=SMALL_SIZE)    # fontsize of the tick labels
 matplotlib.rc('legend', fontsize=SMALL_SIZE)    # legend fontsize
 matplotlib.rc('figure', titlesize=BIGGER_SIZE)  # fontsize of the figure title
 
+
 def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     """Creates tables for presentation."""
     dfs: Dict[str, pd.DataFrame] = pd.read_excel(
@@ -192,12 +193,20 @@ def visualize_publications(df: pd.DataFrame, fig_path: Path):
     fig.savefig(fig_path, bbox_inches="tight")
 
 
-if __name__ == "__main__":
+def run_all() -> None:
+    """Create all tables and figures."""
+    results_dir: Path = Path(__file__).parent.parent.parent / "assets" / "news" / "results"
     xlsx_in = Path(__file__).parent.parent.parent / "assets" / "news" / "qualiperf_news.xlsx"
-    xlsx_out = Path(__file__).parent.parent.parent / "assets" / "news" / "qualiperf_statistics.xlsx"
+    xlsx_out = results_dir / "qualiperf_statistics.xlsx"
     dfs: Dict[str, pd.DataFrame] = create_statistics(xlsx_in=xlsx_in, xlsx_out=xlsx_out)
 
-    fig_publications = Path(__file__).parent.parent.parent / "assets" / "news" / "qualiperf_publications.png"
+    fig_publications = results_dir / "qualiperf_publications.png"
     visualize_publications(df=dfs["publications"], fig_path=fig_publications)
 
     # FIXME: cumulative count diagrams for achievements
+    # FIXME: graph for interactions between publications/preprints
+
+
+if __name__ == "__main__":
+    run_all()
+
