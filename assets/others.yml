@@ -1,0 +1,429 @@
+items:
+- abstract: "In the context of severe liver diseases, the prediction of the treatment
+    outcome mainly relies on observational clinical data reflecting liver function
+    as a whole at best. These, however, are impacted by the individual situation of
+    the patient comprising age, gender, comorbidities, pre-treatment medication, and
+    general physical conditions. In hepatology and gastroenterology disciplines, algorithms
+    have been developed to grade acute liver failure emerging on the ground of chronic
+    diseases like cirrhosis. However, in liver surgery, a reliable risk assessment
+    for postoperative liver failure, a severe complication with often fatal consequences
+    for the patient, is still lacking. Yet, to improve the therapeutic and/or surgical
+    outcome of patients suffering from liver diseases, both in internal medicine and
+    surgery disciplines, concrete guidelines based on reliable clinical data and predictive
+    algorithms are urgently needed.\n\nThe liver represents a multiscale network comprising
+    three levels: organ, lobe, and cell level. In addition, hepatic functions are
+    distributed heterogeneously throughout the parenchyma, rendering the hepatocytes
+    surrounding the portal tracts to execute, e.g., ammonia fixation by ureagenesis,
+    and hepatocytes surrounding the hepatic vein to fix ammonia via the glutamine
+    synthetase reaction. Thus, multiscale models describing liver function may unequivocally
+    help to design predictive tools for assessing the surgical risk and the probability
+    of therapeutic success.\nRecent developments of computational models make it possible
+    to describe organ functions on different scales. It is the goal of this Research
+    Topic, to collect papers involving cutting-edge approaches of multiscale computational
+    modeling in the context of liver surgery and interventions. We invite authors
+    to send their latest and highly innovative research or comprehensive review articles
+    related to the scope of this Research Topic.\n\nTo predict post-treatment liver
+    function before surgical, radiological, or pharmacological interventions is the
+    most challenging task for clinicians when treating severe liver diseases. Based
+    on the individual unique situation of the patient, novel therapy concepts are
+    warranted in order to stratify therapy outcome. In order to open the perspective
+    for the development of predictive tools anticipating liver function post-treatment,
+    we invite submissions entailing computational approaches of liver modeling or
+    methodology for a data-based patient-specific risk assessment in the context of
+    liver surgery and interventions. Research should address, but is not restricted
+    to modeling and data-based analysis of hepatic metabolism, liver perfusion, regeneration,
+    and communication with other organs. Research dealing with multiscale modeling
+    is specifically encouraged. We also greatly appreciate research comprising machine
+    learning/artificial intelligence methods including knowledge-driven approaches
+    and consideration of uncertainty."
+  authors: Bruno Christ, Uta Dahmen, Nicole Radde, Tim Ricken
+  category: Editoring
+  conference: nan
+  journal: Frontiers in Physiology
+  projects: P1, P2, P5, P7
+  qualiperf_funding: false
+  title: Computational Modeling for Liver Surgery and Interventions
+- abstract: "The minisymposium aims to bring together researchers in mechanical modelling,
+    numerics, data science and clinical applications and share recent advances in
+    theoretical and computational methods with particular emphasis on clinical application.
+    This minisymposium especially focuses on mechanical models and numerical solution
+    methods to simulate various scales of living systems with regard to clinical application.
+    New approaches for growth and remodelling of biological tissue and its effect
+    on blood perfusion with its nutrient supply as well as impairment of organ function
+    will be discussed.\n\nWe will promote a multidisciplinary discussion to identify
+    open problems that merit increased attention in multi-field, multi-scale, multi-phase,
+    coupled problem techniques and patient-specific simulation.\n\nThe goal of this
+    minisymposium is to create valuable synergies between researchers working on different
+    biological systems, potentially on different scales, to bring computational modelling
+    one step closer to clinical practice."
+  authors: Tim Ricken, Oliver Röhrle, Silvia Budday
+  category: Organization Minisymposium
+  conference: World Congress of Computational Mechanics WCCM XV - APCOM VII, in Yokohama
+  journal: nan
+  projects: P7 - Ricken
+  qualiperf_funding: false
+  title: Computational Continuum Biomechanics
+- abstract: "The minisymposium aims to bring together researchers in mechanical modelling,
+    numerics, data science and clinical applications and share recent advances in
+    theoretical and computational methods with particular emphasis on clinical application.
+    This minisymposium especially focuses on mechanical models and numerical solution
+    methods to simulate various scales of living active systems with regard to clinical
+    application.\n\n \n\nWe will promote a multidisciplinary discussion to identify
+    open problems that merit increased attention in multi-field, multi-scale, multi-phase,
+    coupled problem techniques and patient-specific simulation.\n\nThe goal of this
+    minisymposium is to create valuable synergies between researchers working on different
+    biological systems, potentially on different scales, to bring computational modelling
+    one step closer to clinical practice."
+  authors: Tim Ricken, Oliver Röhrle, Silvia Budday
+  category: Organization Minisymposium
+  conference: ECCOMAS CONGRESS 2022 in Oslo
+  journal: nan
+  projects: P7 - Ricken
+  qualiperf_funding: false
+  title: CONTINUUM BIOMECHANICS OF ACTIVE SYSTEMS
+- abstract: "The liver is the central metabolic organ in the mammalian body. Numerous
+    in silico models have been constructed to simulate liver functions such as circulation,
+    drug transport, metabolism, and clearance at the organism, organ, lobular, cellular,
+    and molecular levels. Adding to the complexity of the spatial dimension are the
+    vastly different temporal scales: from the membrane transport of drug molecules
+    within milliseconds to viral infection of liver tissues in days or months. In
+    recent years there has been a growing trend in the liver modeling community to
+    integrate models at different spatial and temporal scales. For example, a model
+    for the transport of drugs in sinusoids could be coupled with metabolic kinetics
+    models in hepatocytes, whilst incorporating the heterogeneous distribution of
+    metabolic enzymes and transporters along the metabolic zones in liver lobules.
+    Multiscale liver modeling will benefit from recent developments in Systems Biology
+    and/or Systems Medicine.\n\nThis Research Topic is to provide a venue for showcasing
+    the concepts, methodology, experimental data, and computational tools associated
+    with multiscale liver modeling. The main challenge in multiscale modeling is to
+    bridge models at different scales. For example, surgical intervention drastically
+    changes perfusion at the organism level, leading to elevated shear stress at the
+    sinusoidal level, which in turn stimulates liver regeneration. Liver diseases
+    progressing over the course of months affect clearance processes at the time scale
+    of hours. Toxic liver injury occurs at the cellular level but affects the circulation
+    of metabolites at the organism level. In addition to models spanning the different
+    scales, integrating cellular and molecular level models and experimental data
+    are the very core of multiscale liver modeling.\n\nThe contributions to the Research
+    Topic include Original Research papers, (Mini) Reviews, and Opinions on liver
+    modeling. The specific topics include:\n\n- Blood flow models for large hepatic
+    vessels and/or sinusoids;\n- Liver tissue models and virtual lobule models;\n
+    - Imaging and image analysis techniques for revealing microstructure and processes
+    at multiple scales;\n- Mechanistic factors underlying liver diseases (e.g., steatosis,
+    fibrosis, cirrhosis, cancer)\n\nProjects at the interface of Biomechanics and
+    Computational Biology can also be considered, including:\n- Drug uptake, metabolism,
+    and clearance models;\n- Numerical/mathematical methods for bridging models at
+    different temporal and spatial scales;\n- Application of Systems Biology and Physiome
+    to multiscale liver modeling."
+  authors: Ho H, Rezaina V, Schwen LO
+  category: Editoring
+  conference: nan
+  journal: 
+    https://www.frontiersin.org/research-topics/28431/multiscale-modeling-for-the-liver
+  projects: P8 - Schwen
+  qualiperf_funding: false
+  title: Frontiers Research Topic “Multiscale Modeling for the Liver”
+- abstract: "Active mechanisms are found across multiple scales in biological systems
+    and are responsible for a variety of basic functions of living organisms, such
+    as the simulation-driven conversion of chemical to mechanical energy in muscle
+    tissue, metabolic processes, growth and remodeling, or adaptive movements of plants.
+    In this minisymposium, we aim to generate a fruitful interdisciplinary exchange
+    as well as to synergize various aspects\nrelated to the modeling of active biomechanical
+    systems and interfaces between model and clinical application. Therefore, we welcome
+    contributions from all topics in the context of biomechanics having any type of
+    active component. These may range from material models for biological tissues,
+    the simulation of biological systems of any type, and biomechanical models for
+    various applications in biomimetics, biomedicine, or others–from the microscale
+    to the organ scale. The minisymposium is intended to span a wide range from basic
+    methods to clinical applications and thus provides an insight into the state of
+    the art across the entire spectrum of active biological systems modeling. We welcome
+    contributions on modeling methodologies of active materials as well as those that–possibly
+    as a first step towards a longer-term goal–specialize in passive properties of
+    active materials."
+  authors: Christian Bleiler, Lena Lambers, Renate Sachse
+  category: Organization Minisymposium
+  conference: 'GACM Congress, Essen, https://colloquia.gacm.de/organisation '
+  journal: nan
+  projects: P7 - Ricken, Coordination
+  qualiperf_funding: false
+  title: "Computational biomechanics and biomedical engineering of active\nbiological
+    systems – from methods to clinical application"
+- abstract: not available
+  authors: Christ B, Oertel M
+  category: Editoring
+  conference: nan
+  journal: MDPI
+  projects: P1
+  qualiperf_funding: false
+  title: Progress in Liver Stem Cell Therapy
+- abstract: Support of young researchers
+  authors: Lena Lambers, Uta Dahmen
+  category: Accepted project proposal
+  conference: nan
+  journal: nan
+  projects: P2 - Dahmen, Coordination
+  qualiperf_funding: true
+  title: Michael Stifel grant
+- abstract: N.A
+  authors: Nicole Radde, Sebastian Höpfl
+  category: Workshop
+  conference: 'Göttingen, 23-24 June '
+  journal: nan
+  projects: P5 - Radde
+  qualiperf_funding: false
+  title: Workshop on Computational Models in Biology and Medicine
+- abstract: --
+  authors: Hans-Michael Tautenhahn
+  category: Miscellaneous
+  conference: Jahrestagung der mitteldeutschen Viszeralmedizin
+  journal: nan
+  projects: P9 - Tautenhahn
+  qualiperf_funding: false
+  title: Kongresssekretär der Jahrestagung der mittelseutschen Viszeralmedizin
+- abstract: --
+  authors: Hans-Michael Tautenhahn
+  category: Miscellaneous
+  conference: Thüringischen Gesellschaft für Chirurgie
+  journal: nan
+  projects: P9 - Tautenhahn
+  qualiperf_funding: false
+  title: Vorstandsmitglied der Thüringischen Gesellschaft für Chirurgie
+- abstract: from the beginning of August a new project assistance will join the AG
+    Gerontochirurgie in Jena
+  authors: Hans-Michael Tautenhahn
+  category: Miscellaneous
+  conference: nan
+  journal: nan
+  projects: P9 - Tautenhahn
+  qualiperf_funding: false
+  title: New Project Assistant
+- abstract: '-'
+  authors: Nicole Radde, Ingmar Glauche
+  category: Workshop Leader
+  conference: 'jährlicher Workshop in Dresden '
+  journal: nan
+  projects: P5 - Radde
+  qualiperf_funding: false
+  title: GmdS/IBS Arbeitsgruppe Mathematical Models in Medicine and Biology
+- abstract: na
+  authors: Nicole Radde
+  category: Accepted project proposal
+  conference: nan
+  journal: EXC 2075 - SimTech
+  projects: P5 - Radde
+  qualiperf_funding: false
+  title: Methodology for the calibration and analysis of stochastic models for heterogeneous
+    intracellular processes with applications in cancer development
+- abstract: na
+  authors: Tim Ricken
+  category: Accepted project proposal
+  conference: nan
+  journal: EXC 2075 - SimTech
+  projects: P7 - Ricken
+  qualiperf_funding: false
+  title: Data-enhanced prediction of organ-specific tumor growth in the liver - a
+    hybrid knowledge and data-driven approach
+- abstract: na
+  authors: Jürgen Reichenbach
+  category: Editoring
+  conference: nan
+  journal: '"Zeitschrift für Medizinische Physik" (Journal of Medical Physics) (ISSN
+    0939-3889)'
+  projects: P6 - Reichenbach
+  qualiperf_funding: false
+  title: Editor-in-Chief der Zeitschrift "Zeitschrift für Medizinische Physik" (Journal
+    of Medical Physics) (ISSN 0939-3889)
+- abstract: The liver is the main organ involved in the clearance of most drugs, e.g.,
+    acetaminophen. The function of the liver can be evaluated using information about
+    the clearance of test drugs (pharmacokinetics data) in combination with computational
+    models describing the absorption, distribution, metabolism, and elimination (ADME)
+    of these substances in the human body. Within this lab project a physiologically
+    based model of the elimination of an example drug in the human body will be established
+    based on existing literature data. Such a model allows us to simulate in silico
+    the pharmacokinetics of the example drugs and evaluate hypotheses, for instance,
+    on drug-drug interactions or alterations in drug metabolism in disease or with
+    age. The project will focus on acetylsalicylic acid or omeprazole (but other drugs
+    could be used). The project is a computational project requiring basic programming
+    skills, no wet lab work will be performed.
+  authors: Matthias König
+  category: Internship
+  conference: nan
+  journal: nan
+  projects: P3 - König
+  qualiperf_funding: false
+  title: Computational Modeling of Drug Detoxification – A Systems Medicine Approach
+- abstract: 'Background: Liver transplantation (LTx) is the only curative treatment
+    option for acute and chronic end-stage liver disease. Demographic change and western
+    lifestyle result in an increasing rate of elderly multi-morbid potential recipients
+    and donors. Liver grafts from such donors, so-called marginal liver grafts, are
+    often affected by hepatic steatosis compromising the quality of the donor organ
+    substantially. One reason is the alteration of the tissue structure, resulting
+    in an impaired perfusion, which in turn affects hepatic metabolism and organ function.
+    In case of a marginal graft, the surgeon is faced with the clinical decision to
+    either accept or reject the organ, significantly increasing the postoperative
+    risk for the recipient or increasing the risk of death on the waiting list, respectively.
+    Two major challenges for marginal grafts are the storage between procurement of
+    the organ and transplantation (cold ischemia time) and damage after reperfusion
+    (ischemia reperfusion injury or IRI).Goal: Our co-designed interdisciplinary project
+    “SIMulation supported LIVer Assessment for donor organs (SimLivA)” aims to mathematically
+    model the impact of mechanical alterations of the (steatotic) marginal liver graft
+    and cold ischemia on early IRI. We address the following research questions: (i)
+    How to co-design computational methods, experimental studies, clinical processes,
+    and technical workflows? (ii) How to improve the multiscale continuum-biomechanical
+    model for prediction of IRI? (iii) How to obtain experimental and clinical data
+    that are essential to quantify the relationship between steatosis, ischemia and
+    reperfusion injury? (iv) How to evaluate the clinical usability of the model?Methods:
+    To achieve these goals, we will extend and adapt our coupled continuum-biomechanical
+    multiphase and multi-scale PDE-ODE model of the liver lobule to numerically simulate
+    IRI in dependence of the degree of steatosis and ischemia duration. Experimental
+    and clinical data acquisition for model parameterization and validation is designed
+    in close collaboration with modeling. A proof-of-concept trial for clinical applicability
+    will be performed. Our model couples structure, perfusion and function of the
+    liver via the interplay between mechanical properties of the graft, hepatic sinusoidal
+    perfusion and the affected molecular pathways, which might facilitate these decision
+    processes and is urgently needed. This will be the first step towards an in-silico
+    clinical decision support tool to reach a better decision pro or contra the marginal
+    organ by in-silico predicting hepatic damage and early graft function.'
+  authors: Professorin Dr. Uta Dahmen, Professor Dr.-Ing. Tim Ricken, Privatdozent
+    Dr. Hans-Michael Tautenhahn, Dr. Matthias König
+  category: Accepted project proposal
+  conference: nan
+  journal: nan
+  projects: P2 - Dahmen, P3 - König, P7 - Ricken, P9 - Tautenhahn
+  qualiperf_funding: false
+  title: SIMulation supported LIVer Assessment for donor organs (SimLivA) - Continuum-biomechanical
+    modeling for staging of ischemia reperfusion injury during liver transplantation
+- abstract: "Liver cancer is the second leading cause of cancer-related death. Diagnosis
+    and treatment are time-critical and require highly patient-specific diagnostic
+    and treatment pathways. Medical decision-making is based on a multitude of interdependent
+    factors related to various medical disciplines, past experiences and clinical
+    guidelines. The consideration of all decision factors in combination with the
+    possible therapy approaches is a major challenge for the physicians and often
+    cannot be solved in an optimal way even in the interdisciplinary tumor board.
+    In this project, we develop ATLAS, a decision support tool, which will significantly
+    assist clinicians with this challenge. Based on AI methods, ATLAS processes all
+    relevant patient data from databases, systems medicine and continuum biomechanical
+    in silico prognoses modeling data as well as individual patient data. The tool
+    will be developed in a co-design approach by experts in surgical oncology, mathematical
+    modeling, and machine learning.\nChosen technologies integrate the automated understanding
+    of a highly complex patient situation through the simulation of liver functions
+    with expert knowledge and ontology-guided learning with knowledge graphs from
+    retrospective cases of liver tumors.\nATLAS will be based on detailed historical
+    data cohort from over 6,000 patients with liver tumors and will be evaluated on
+    case studies at the Jena University Hospital. The integration of medical expert
+    knowledge, mathematical modeling and artificial intelligence constitutes a highly
+    original and most promising approach for high-quality diagnoses and treatments
+    of liver tumors resulting in patient-specific prognosis improvement.\nScientific
+    insights from this projects will offer exploitation possibilities for the transfer
+    to malignancies in other organs, such as lungs, kidneys or the brain.\nTool and
+    demonstrator development will provide for sustainable exploitation pathways for
+    future commercial applications."
+  authors: Professor Dr.-Ing. Tim Ricken, Professor Dr. Steffen Staab, Privatdozent
+    Dr. Hans-Michael Tautenhahn, Dr. Matthias König
+  category: Accepted project proposal
+  conference: nan
+  journal: nan
+  projects: P3 - König, P7 - Ricken, P9 - Tautenhahn
+  qualiperf_funding: false
+  title: "031L0304X - CompLS - Runde 5 -\nVerbundprojekt: ATLAS - Al and Simulation
+    for Tumor Liver Assessment - Entwicklung eines Systems zur klinischen Entscheidungsunterstützung
+    in der Diagnose und Behandlung von Lebertumoren auf Basis von künstlicher Intelligenz
+    und Simulationen"
+- abstract: PEtab is a data format for specifying parameter estimation problems in
+    systems biology.
+  authors: König Matthias
+  category: Editoring
+  conference: nan
+  journal: https://petab.readthedocs.io/en/latest/index.html
+  projects: P3 - König, P5 - Radde
+  qualiperf_funding: false
+  title: Elected PEtab editor from March 2023 until March 2026
+- abstract: "Understanding a drugs pharmacokinetics - how it is absorbed, distributed,
+    metabolised and excreted by the body - and its pharmacodynamics - how it affects
+    the body - is a key challenge in treating people. Angiotensin converting enzyme
+    (ACE) inhibitors and diuretics are two classes of drugs used to treat high blood
+    pressure. Both are among the most commonly prescribed drugs due to the high prevalence
+    of hypertension in an ageing society.\n\nIn this X-student research group we will
+    develop physiologically based pharmacokinetic models of the diuretic hydrochlorothiazide
+    and the ACE inhibitor lisinopril. The methodological approach is a combination
+    of lectures, tutorials and practical work by the students. The research project
+    is aimed at students with a STEM (science, technology, engineering, mathematics)
+    background, including biology, computer science and medical students. Basic programming
+    skills in Python are required.\n\nWith the X-Student Research Groups, the Berlin
+    University Alliance supports research teams consisting of young researchers and
+    students. The goal is to involve students in current research projects of the
+    alliance partners and to enable them to participate in (cutting-edge) research
+    already during their studies.\n\nFunded under the Excellence Strategy of the Federal
+    Government and the Länder by the Berlin University Alliance."
+  authors: König Matthias
+  category: Accepted project proposal
+  conference: nan
+  journal: nan
+  projects: P3 - König
+  qualiperf_funding: false
+  title: 'X-Research Group: Physiologically based digital twins for the treatment
+    of hypertension with ACE inhibitors and diuretics'
+- abstract: "Proud to be elected editor for PEtab, a data format for specifying parameter
+    estimation problems in systems biology.\n\nPEtab is a data format for specifying
+    parameter estimation problems in systems biology. PEtab is built around SBML and
+    is based on tab-separated values (TSV) files. It is intended as a standardized
+    way to provide information for parameter estimation that is beyond the current
+    scope of SBML. This includes, for example: (1) specifying and linking measurements
+    to models; (2) defining model outputs; (3) specifying noise models; (4) specifying
+    parameter bounds for optimization; (5) specifying multiple simulation conditions
+    with potentially shared parameters. Matthias König has been elected PEtab Editor
+    from March 2023 to March 2026.\n\nhttps://petab.readthedocs.io/en/latest/"
+  authors: König Matthias
+  category: Editoring
+  conference: nan
+  journal: nan
+  projects: P3 - König
+  qualiperf_funding: false
+  title: M. König has been elected as PEtab editor (2023-2026)
+- abstract: Datasets and results for the manuscript “Automated Detection of Portal
+    Fields and Central Veins in Whole-Slide Images of Liver Tissue” (Journal of Pathology
+    Informatics 13 (2022) 100001, https://doi.org/10.1016/j.jpi.2022.100001)
+  authors: Budelmann D, Laue H, Weis N, Dahmen U, D’Alessandro LA, Biermayer I, Klingmüller
+    U, Ghallab A, Hassan R, Begher-Tibbe B, Hengstler JG, Schwen LO
+  category: Dataset
+  conference: nan
+  journal: 'Zenodo 2022, doi: 10.5281/zenodo.5726769'
+  projects: Stea-PK Mod
+  qualiperf_funding: false
+  title: Datasets for "Automated Detection of Portal Fields and Central Veins in Whole-Slide
+    Images of Liver Tissue"
+- abstract: Datasets for the publication "Segmentation of Lipid Droplets in Histological
+    Images" (submitted)
+  authors: Budelmann D, Cao Q, Laue H, Albadry M, Dahmen U, Schwen LO
+  category: Dataset
+  conference: nan
+  journal: 'Zenodo 2023, doi: 10.5281/zenodo.7802211'
+  projects: Stea-PK Mod
+  qualiperf_funding: false
+  title: Dataset for "Segmentation of Lipid Droplets in Histological Images"
+- abstract: none
+  authors: Radde Nicole, Waltemath Dagmar, Höpfl Sebastian
+  category: Hosting and organization of COMBINE 2024
+  conference: nan
+  journal: nan
+  projects: P5 - Radde
+  qualiperf_funding: true
+  title: Hosting and organiztion of the Computational Modeling in Biology” Network
+    (COMBINE) meeting 2024 in Stuttgart
+- abstract: The overarching goal of our project network is the development of detailed
+    in silico models for complex biological systems that couple different scales and
+    heterogeneous data. We concentrate our research on the neuromuscular system and
+    on proliferative and degenerative diseases. We aim to support personalized healthcare
+    and the development of tailor-made biomedical products by using predictive computational
+    models that advance our understanding about the biological system via simulations
+    and model analysis. A particular focus is thereby on models that capture heterogeneity
+    on the cellular level which is related to differences in phenotypes on higher
+    scales, and on building individualized models which allow to derive predictions
+    and hypotheses for the individual patient. This becomes feasible by integrating
+    system-specific data from various sources.
+  authors: Radde Nicole
+  category: Organization Minisymposium
+  conference: International Conference on Data-Integrated Simulation Science (SimTech2023)
+  journal: nan
+  projects: P5 - Radde
+  qualiperf_funding: true
+  title: In-silico Models of Coupled Biological Systems

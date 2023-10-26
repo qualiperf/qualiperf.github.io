@@ -1,21 +1,17 @@
 """Process news items as YAML."""
-from typing import Dict, List, Optional
+from typing import Dict, List, Any, Optional
 from pydantic import BaseModel
-from enum import Enum
-import yaml
 import pandas as pd
 from pathlib import Path
 from data_processing.log import get_logger
 from data_processing.console import console
-from pydantic_yaml import YamlStrEnum, YamlModel
-import datetime
+from pydantic_yaml import to_yaml_str
 
 logger = get_logger(__file__)
 
 
-
-class Publication(YamlModel):
-  """Class for publication information"""
+class Publication(BaseModel):
+  """Class for publication information."""
 
   title: str
   authors: str
@@ -28,12 +24,12 @@ class Publication(YamlModel):
   preprint: bool
 
 
-class Publications(YamlModel):
+class Publications(BaseModel):
   """Class for all publications information"""
   items: List[Publication]
 
 
-class Other(YamlModel):
+class Other(BaseModel):
   """Class for ohter news information"""
 
   category: str
@@ -41,17 +37,17 @@ class Other(YamlModel):
   authors: str
   abstract: str
   journal: str
-  conference: str
+  conference: Optional[str]
   # date: str
-  qualiperf_funding: str
+  qualiperf_funding: bool
   projects: str
 
-class Others(YamlModel):
+class Others(BaseModel):
   """Class for news information"""
   items: List[Other]
 
 
-def process_news():
+def create_news_yaml() -> None:
     """Process the cleaned news information in yaml entries."""
     news_xlsx = Path(__file__).parent.parent.parent / "assets" / "news" / "qualiperf_news.xlsx"
     dfs: Dict[str, pd.DataFrame] = pd.read_excel(
@@ -62,6 +58,7 @@ def process_news():
         # FIXME: remove '\n' in abstracts
         publications: List[Publication] = []
         for k, row in df.iterrows():
+            # console.print(row)
             p = Publication(
                 title=row["Title"].strip(),
                 authors=row["Authors"].strip(),
@@ -69,7 +66,7 @@ def process_news():
                 journal=row["Journal"].strip(),
                 # date=row["Date"],
                 qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
-                pubmed=row["Pubmed"],
+                pubmed=str(row["Pubmed"]),
                 doi=row["DOI"].strip(),
                 preprint=is_preprint,
             )
@@ -81,6 +78,7 @@ def process_news():
         """Process other news items."""
         others: List[Other] = []
         for k, row in df.iterrows():
+            console.print(row)
             p = Other(
                 category=row["Category"].strip(),
                 title=row["Title"].strip(),
@@ -88,7 +86,7 @@ def process_news():
                 abstract=row["Abstract"].strip(),
                 journal=str(row["Journal"]).strip(),
                 # date=row["Date"],
-                conference=row["Conference"],
+                conference=str(row["Conference"]),
                 qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
                 projects=row["Related Project(s)"],
             )
@@ -97,36 +95,26 @@ def process_news():
         return others
 
     # publications
-    publications_yaml = Path(__file__).parent.parent.parent / "assets" / "publications.yml"
-    publications_info: List[Publication] = process_publications(
-        df=dfs["Publications"],
-        is_preprint=False,
-    )
-    publications: Publications = Publications(items=publications_info)
-    with open(publications_yaml, "w") as f_yaml:
-        yaml_str = publications.yaml()
-        f_yaml.write(yaml_str)
+    for key in ["publication", "preprint", "other"]:
 
-    # preprint
-    preprints_yaml = Path(__file__).parent.parent.parent / "assets" / "preprints.yml"
-    preprints_info: List[Publication] = process_publications(
-        df=dfs["Preprints"],
-        is_preprint=True,
-    )
-    preprints: Publications = Publications(items=preprints_info)
-    with open(preprints_yaml, "w") as f_yaml:
-        yaml_str = preprints.yaml()
-        f_yaml.write(yaml_str)
+        yaml_path = Path(__file__).parent.parent.parent / "assets" / f"{key}s.yml"
 
-    # other items
-    others_yaml = Path(__file__).parent.parent.parent / "assets" / "others.yml"
-    others_info: List[Publication] = process_other(
-        df=dfs["Other"]
-    )
-    with open(others_yaml, "w") as f_yaml:
-        yaml_str = Others(items=others_info).yaml()
-        f_yaml.write(yaml_str)
+        if key in {"publication", "preprint"}:
+            items_info: List[Any] = process_publications(
+                df=dfs[f"{key.title()}s"],
+                is_preprint=(key == "preprint"),
+            )
+            items: Publications = Publications(items=items_info)
+        elif key == "other":
+            items_info: List[Any] = process_other(
+                df=dfs[f"{key.title()}s"],
+            )
+            items: Others = Others(items=items_info)
+
+        with open(yaml_path, "w") as f_yaml:
+            yaml_str = to_yaml_str(items)
+            f_yaml.write(yaml_str)
 
 
 if __name__ == "__main__":
-    process_news()
+    create_news_yaml()

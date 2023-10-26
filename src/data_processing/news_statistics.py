@@ -82,7 +82,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     console.print(df_submissions)
 
     # FIXME: process after updated excel sheet
-    df_others = dfs["Other"]
+    df_others = dfs["Others"]
     df_others.rename(columns=columns_dict, inplace=True)
     df_others = df_others[[
         "Title",
