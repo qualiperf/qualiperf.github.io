@@ -1,0 +1,18 @@
+- id: 'Bartsch'
+  role: 'Student assistant'
+  groups:
+  - 'Koenig'
+  title: 'B. Sc.'
+  name: 'Florian Bartsch'
+  affiliations:
+  - 'Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin'
+  orcid:
+  websites:
+  image:
+  description: 'Development of pharmacokinetic Models for the quantification of liver function.'
+  projects:
+    - 'QuaLiPerF'
+    - 'P3'
+  tags:
+    - 'Modeling'
+  publications:
