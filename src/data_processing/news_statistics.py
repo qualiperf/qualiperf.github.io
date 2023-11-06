@@ -8,6 +8,7 @@ from data_processing.console import console
 
 import matplotlib
 from matplotlib import pyplot as plt
+import numpy as np
 
 SMALL_SIZE = 12
 MEDIUM_SIZE = 15
@@ -30,7 +31,6 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
 
     columns_dict = {
         "QuaLiPerf funding/support is acknowledged?": "Qualiperf",
-        "Related Project(s)": "Projects",
         "Related Project(s)": "Projects",
         "Authors from QuaLiPerF": "Authors Qualiperf",
     }
@@ -211,7 +211,8 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
             "Asset": types,
             "Count": counts,
             "Qualiperf acknowledged": qualiperf_acknowledge,
-            # "Qualiperf not acknowledged": qualiperf_no,
+            "Yes": qualiperf_yes,
+            "No": qualiperf_no,
         }
     )
     console.print(df_statistics)
@@ -280,6 +281,35 @@ def visualize_publications_matplotlib(df: pd.DataFrame, fig_path: Path):
     fig.savefig(fig_path, bbox_inches="tight")
 
 
+def visualize_statistics_matplotlib(df: pd.DataFrame, fig_path: Path):
+    """Visualize statistics."""
+
+    assets = df["Asset"].values
+    weight_counts = {
+        "Qualiperf: Yes": df["Yes"].values,
+        "Qualiperf: No": df["No"].values,
+    }
+    width = 0.5
+
+    fig, ax1 = plt.subplots(nrows=1, ncols=1, figsize=(5, 5), dpi=300)
+    fig.suptitle(f"Statistics")
+
+    bottom = np.zeros(len(assets))
+    for boolean, weight_count in weight_counts.items():
+        p = ax1.bar(assets, weight_count, width, label=boolean, bottom=bottom, alpha=0.7)
+        bottom += weight_count
+
+    ax1.set_xlabel("Category", fontdict={"weight": "bold"})
+    ax1.set_ylabel("Count", fontdict={"weight": "bold"})
+
+    # rotate labels
+    ax1.set_xticklabels(ax1.get_xticklabels(), rotation=45)
+
+    ax1.legend(loc=2, prop={'size': 8}, frameon=True)
+    plt.show()
+    fig.savefig(fig_path, bbox_inches="tight")
+
+
 def create_html_report(output_dir: Path, dfs: Dict[str, pd.DataFrame]) -> None:
     """Write all tables as interactive DataTables in HTML.
 
@@ -332,6 +362,9 @@ def run_all() -> None:
     report_dir = Path(__file__).parent / "report"
     fig_publications = report_dir / "fig_publications.png"
     visualize_publications_matplotlib(df=dfs["publications"], fig_path=fig_publications)
+    fig_statistics = report_dir / "fig_statistics.png"
+    visualize_statistics_matplotlib(df=dfs["statistics"], fig_path=fig_statistics)
+
     create_html_report(
         output_dir=report_dir,
         dfs=dfs,
