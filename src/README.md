@@ -33,8 +33,11 @@ src/data_processing/update_data.py
 ``
 
 ## TODO
+- [ ] deploy newspage
 - [ ] create category figure (barplot with categories)
-- [ ] make links clickable: DOI & https links
+- [ ] make pubmeds integers with links
+
+- [ ] fix NaN in Journals and pubmeds
 - [ ] interactive figures for report (https://altair-viz.github.io/gallery/index.html#example-gallery)
 
 - [ ] webpage with figures and tables

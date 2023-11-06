@@ -156,9 +156,21 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         df_others,
     ]
     for df in dataframes:
-        for column in ["Title", "Abstract", "Journal", "Author"]:
+        for column in ["Title", "Abstract", "Journal", "Authors", "Conference", "DOI"]:
             if column in df:
                 df[column] = df[column].str.replace("\n", " ")
+                df[column] = df[column].str.replace("NaN", "")
+
+                # DOIs
+                if column == "DOI":
+                    df[column] = '<a href="https://doi.org/' + df[column] + '">' + df[column] + '</a>'
+                    #
+                    # pat = r"(<one>)"
+                    # repl = lambda m: f"https://doi.org/{m.group('one')}"
+                    # df[column] = df[column].str.replace(pat, repl, regex=True)
+                    # print(df[column])
+
+                # df[column] = df[column].str.replace("NaN", "")
 
     results: Dict[str, pd.DataFrame] = {
         "publications": df_publications,
@@ -173,25 +185,26 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     # calculate statistics
     console.rule(title="statistics", style="white")
     types = [
-        "publications",
-        "preprints",
-        "submissions",
-        "theses",
-        "posters",
-        "presentations",
-        "others",
+        "Publications",
+        "Preprints",
+        "Submissions",
+        "Theses",
+        "Posters",
+        "Presentations",
+        "Others",
     ]
 
     counts = [len(df.Qualiperf) for df in dataframes]
     qualiperf_yes = [(df.Qualiperf == "Yes").values.sum() for df in dataframes]
+    qualiperf_acknowledge = [f"{qualiperf_yes[k]} ({qualiperf_yes[k]/counts[k]*100:.1f} %)" for k in range(len(counts))]
     qualiperf_no = [(df.Qualiperf != "Yes").values.sum() for df in dataframes]
 
     df_statistics = pd.DataFrame(
         data={
-            "type": types,
-            "count": counts,
-            "qualiperf acknowledged": qualiperf_yes,
-            "qualiperf not acknowledged": qualiperf_no,
+            "Asset": types,
+            "Count": counts,
+            "Qualiperf acknowledged": qualiperf_acknowledge,
+            # "Qualiperf not acknowledged": qualiperf_no,
         }
     )
     console.print(df_statistics)
@@ -287,7 +300,8 @@ def create_html_report(output_dir: Path, dfs: Dict[str, pd.DataFrame]) -> None:
             table_id=key,
             border=0,
             index=False,
-            render_links=True
+            render_links=True,
+            escape=False,
         )
         context[f"table_{key}"] = table
         context[f"count_{key}"] = len(df)
