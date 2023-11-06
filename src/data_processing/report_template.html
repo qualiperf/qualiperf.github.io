@@ -1,0 +1,58 @@
+<html>
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.13.6/css/jquery.dataTables.css" />
+    <script
+          src="https://code.jquery.com/jquery-3.7.1.min.js"
+          integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
+          crossorigin="anonymous"></script>
+    <script src="https://cdn.datatables.net/1.13.6/js/jquery.dataTables.js"></script>
+</head>
+<body>
+
+<h1>Qualiperf News & Achievments</h1>
+
+<h2>Statistics</h2>
+{{ table_statistics }}
+
+<h2>Publications</h2>
+{{ table_publications }}
+
+<image src="./fig_publications.png" width="500px"></image>
+
+
+<h2>Submissions (n={{ count_submissions }})</h2>
+{{ table_submissions }}
+
+<h2>Preprints (n={{ count_preprints }})</h2>
+{{ table_preprints }}
+
+<h2>Theses (n={{ count_theses }})</h2>
+{{ table_theses }}
+
+<h2>Presentations (n={{ count_presentations }})</h2>
+{{ table_presentations }}
+
+<h2>Posters (n={{ count_posters }})</h2>
+{{ table_posters }}
+
+<h2>Others (n={{ count_others }})</h2>
+{{ table_others }}
+
+
+<script>
+    new DataTable('#statistics');
+    new DataTable('#publications');
+    new DataTable('#submissions');
+    new DataTable('#preprints');
+    new DataTable('#theses');
+    new DataTable('#presentations');
+    new DataTable('#posters');
+    new DataTable('#others');
+
+</script>
+
+</body>
+
+</html>
+

@@ -32,23 +32,9 @@ Based on these files the webpage can be updated via
 src/data_processing/update_data.py
 ``
 
-
-
-
-
-## TODO
-- [ ] interactive tables for report (interactive tables (https://datatables.net/))
-    - [ ] publications
-    - [ ] preprints
-    - [ ] submissions
-    - [ ] theses
-    - [ ] posters
-    - [ ] presentations
-
-    
+## TODO    
 - [ ] interactive figures for report (https://altair-viz.github.io/gallery/index.html#example-gallery)
+
 - [ ] webpage with figures and tables
-
-
 - [ ] deploy webpage
 

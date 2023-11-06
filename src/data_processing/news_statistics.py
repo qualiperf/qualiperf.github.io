@@ -1,7 +1,8 @@
 """Calculates statistics of news for presentation."""
 from pathlib import Path
-from typing import Dict, List
+from typing import Dict, List, Any
 import pandas as pd
+import jinja2
 
 from data_processing.console import console
 
@@ -42,7 +43,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_publications = df_publications[[
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Journal",
         "IF",
         "Date",
@@ -62,7 +63,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_preprints = df_preprints[[
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Journal",
         "Date",
         "Qualiperf",
@@ -79,7 +80,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_submissions = df_submissions[[
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Journal",
         "Date",
         "Qualiperf",
@@ -95,7 +96,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "Category",
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Date",
         "Qualiperf",
         "Authors Qualiperf",
@@ -109,7 +110,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_posters = df_posters[[
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Conference",
         "Date",
         "Qualiperf",
@@ -124,7 +125,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_presentations = df_presentations[[
         "Title",
         "Authors",
-        "Abstract",
+        # "Abstract",
         "Conference",
         "Date",
         "Qualiperf",
@@ -177,7 +178,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     ]
     counts = [len(df.Qualiperf) for df in dataframes]
     qualiperf_yes = [(df.Qualiperf == "Yes").values.sum() for df in dataframes]
-    qualiperf_no = [(df.Qualiperf != "No").values.sum() for df in dataframes]
+    qualiperf_no = [(df.Qualiperf != "Yes").values.sum() for df in dataframes]
 
     df_statistics = pd.DataFrame(
         data={
@@ -188,6 +189,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         }
     )
     console.print(df_statistics)
+    results["statistics"] = df_statistics
 
     # serialize to excel
     with pd.ExcelWriter(xlsx_out) as writer:
@@ -199,6 +201,8 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         df_posters.to_excel(writer, sheet_name="posters", index=False)
         df_presentations.to_excel(writer, sheet_name="presentations", index=False)
         df_others.to_excel(writer, sheet_name="other", index=False)
+
+    console.print(f"News: file://{xlsx_out}")
 
     return results
 
@@ -250,6 +254,46 @@ def visualize_publications_matplotlib(df: pd.DataFrame, fig_path: Path):
     fig.savefig(fig_path, bbox_inches="tight")
 
 
+def create_html_report(output_dir: Path, dfs: Dict[str, pd.DataFrame]) -> None:
+    """Write all tables as interactive DataTables in HTML.
+
+    Use Jinja2 for rendering.
+    """
+    # create output directory
+    output_dir.mkdir(parents=True, exist_ok=True)
+
+    # template environment
+    template_dir = Path(__file__).parent
+    template_file = "report_template.html"
+    env = jinja2.Environment(
+        loader=jinja2.FileSystemLoader(template_dir),
+        extensions=[],
+        trim_blocks=True,
+        lstrip_blocks=True,
+    )
+    template = env.get_template(template_file)
+
+    # resolve contexts
+    context: Dict[str, Any] = {}
+    console.print(dfs.keys())
+    for key, df in dfs.items():
+        table = df.to_html(
+            table_id=key,
+            border=0,
+            index=False,
+        )
+        context[f"table_{key}"] = table
+        context[f"count_{key}"] = len(df)
+
+    # render all contexts:
+    out_path = output_dir / f"qualiperf_report.html"
+    html_str = str(template.render(context))
+    with open(out_path, "w") as f_html:
+        f_html.write(html_str)
+
+    console.print(f"News: file://{out_path}")
+
+
 def run_all() -> None:
     """Create all tables and figures."""
     results_dir: Path = Path(__file__).parent.parent.parent / "assets" / "news" / "results"
@@ -257,13 +301,13 @@ def run_all() -> None:
     xlsx_out = results_dir / "qualiperf_statistics.xlsx"
     dfs: Dict[str, pd.DataFrame] = create_statistics(xlsx_in=xlsx_in, xlsx_out=xlsx_out)
 
-    df_publication = dfs["publications"]
-    html = df_publication.to_html(table_id="publications")
-    console.print(html)
-
-
-    fig_publications = results_dir / "qualiperf_publications.png"
+    report_dir = Path(__file__).parent / "report"
+    fig_publications = report_dir / "fig_publications.png"
     visualize_publications_matplotlib(df=dfs["publications"], fig_path=fig_publications)
+    create_html_report(
+        output_dir=report_dir,
+        dfs=dfs,
+    )
 
     # FIXME: cumulative count diagrams for achievements
     # FIXME: graph for interactions between publications/preprints

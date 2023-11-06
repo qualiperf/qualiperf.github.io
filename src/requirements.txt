@@ -8,3 +8,4 @@ pydantic-yaml>=1.2.0
 pandas>=2.1.1
 openpyxl>=3.1.2
 matplotlib>=3.8.0
+jinja2>=3.1.2
