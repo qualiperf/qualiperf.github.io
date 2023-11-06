@@ -6,9 +6,9 @@
   name: 'Florian Bartsch'
   affiliations:
   - 'Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin'
-  orcid:
+  orcid: '0000-0002-8285-9964'
   websites:
-  image:
+  image: 'Bartsch.png'
   description: 'Development of pharmacokinetic Models for the quantification of liver function.'
   projects:
     - 'QuaLiPerF'

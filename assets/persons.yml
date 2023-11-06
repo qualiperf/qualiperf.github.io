@@ -54,6 +54,26 @@ items:
   websites:
   - https://github.com/MehulBafna
 - affiliations:
+  - Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin
+  description: Development of pharmacokinetic Models for the quantification of liver
+    function.
+  firstname: Florian
+  groups:
+  - Koenig
+  id: Bartsch
+  image: Bartsch.png
+  lastname: Bartsch
+  orcid: 0000-0002-8285-9964
+  projects:
+  - QuaLiPerF
+  - P3
+  publications: null
+  role: Student assistant
+  tags:
+  - Modeling
+  title: B. Sc.
+  websites: null
+- affiliations:
   - Jena University Hospital, Department of General, Visceral and Vascular Surgery,
     AG Gerontosurgery
   description: Laura Bütow is a medical student in the 4th year of her studies at

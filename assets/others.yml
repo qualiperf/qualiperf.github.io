@@ -40,7 +40,7 @@ items:
   category: Editoring
   conference: nan
   journal: Frontiers in Physiology
-  projects: P1, P2, P5, P7
+  projects: P1 - Christ, P2 - Dahmen, P5 - Radde, P7 - Ricken
   qualiperf_funding: false
   title: Computational Modeling for Liver Surgery and Interventions
 - abstract: "The minisymposium aims to bring together researchers in mechanical modelling,
@@ -152,7 +152,7 @@ items:
   category: Editoring
   conference: nan
   journal: MDPI
-  projects: P1
+  projects: P1 - Christ
   qualiperf_funding: false
   title: Progress in Liver Stem Cell Therapy
 - abstract: Support of young researchers
@@ -427,3 +427,39 @@ items:
   projects: P5 - Radde
   qualiperf_funding: true
   title: In-silico Models of Coupled Biological Systems
+- abstract: "Marginale Organe sind häufig von Steatose betroffen, welche die Qualität
+    des Spenderorgans erheblich beeinträchtigt. Grund dafür ist die Veränderung der
+    Gewebestruktur, die zu einer Beeinträchtigung der Perfusion führt, was wiederum
+    den hepatischen Stoffwechsel und die Organfunktion beeinflusst. Das DFG-geförderte
+    Projekt \"Simulationsgestützte Bewertung von Spenderorganen vor Lebertransplantation
+    (SimLivA) - kontinuums-biomechanische Modellierung für die Beurteilung von Ischämie-Reperfusionsschäden\"\
+    \ modelliert den Einfluss von mechanischen Veränderungen marginaler Spenderlebern
+    und kalter Ischämiedauer auf den frühen Ischämie-Reperfusionsschaden.\nZu diesem
+    Zweck beschreiben wir die funktionellen Lebereinheiten (Leberläppchen) als homogenisiertes
+    poröses Medium auf Basis der Theorie poröser Medien (TPM, vgl. [1]). Unter Berücksichtigung
+    eines anisotropen Blutflusses und durch Kopplung des Metabolismus auf zellulärer
+    Ebene erhält man so ein Mehrphasen- und Mehrskalen-Modell zur Beschreibung der
+    Funktions-Perfusions-Deformations-Interaktion (vgl. [2, 3]). Dieser Ansatz kombiniert
+    partielle mit gewöhnlichen Differentialgleichungen auf der lobulären bzw. zellulären
+    Skala. Auf dieser Grundlage können die Funktionalität, Energiebilanz und Zelltod
+    jeder Zelle durch systembiologische Ansätze modelliert werden. Dieses Modell wird
+    zur Beschreibung der ischämischen Schädigung unter Nährstoffmangel verwendet,
+    welche sich wiederum auf die Durchblutung auf der lobulären Ebene auswirkt.\n
+    Neben der Verwendung von Tier- und Humandaten zur Modellparametrisierung und -validierung
+    ist eine Proof-of-Concept-Studie zur klinischen Anwendbarkeit geplant. Ein solches
+    Modell, das die Wechselwirkung zwischen den mechanischen Eigenschaften des Transplantats,
+    der Leberperfusion und dem betroffenen Stoffwechsel berücksichtigt, könnte die
+    klinische Entscheidungsfindung erleichtern (vgl. [4]).\n[1] Ehlers. Foundations
+    of multiphasic and porous materials (2002)\n[2] Ricken et al. BMMB (2015) 14:515–536\n
+    [3] Lambers. Multiscale and multiphase modeling and numerical simulation of function-perfusion
+    processes in the liver (2023)\n[4] Christ et al. Front. Physiol. (2021) 12:733868"
+  authors: Mandl L., Gerhäusser S., Lambers L., König M., Tautenhahn H.-M., Dahmen
+    U., Ricken T.
+  category: Invited Speaker
+  conference: 32. Jahrestagung der Deutschen Transplantationsgesellschaft, DTG2023,
+    https://www.dtg2023.org
+  journal: nan
+  projects: P2 - Dahmen, P3 - König, P7 - Ricken, P9 - Tautenhahn, SimLivA
+  qualiperf_funding: true
+  title: Mathematische Modellbildung des Ischämie-Reperfusionsschadens zur Entscheidungsunterstützung
+    bei Lebertransplantationen

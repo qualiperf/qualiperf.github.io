@@ -29,11 +29,11 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
 
     columns_dict = {
         "QuaLiPerf funding/support is acknowledged?": "Qualiperf",
-        "Related Project(s)": "Projects"
+        "Related Project(s)": "Projects",
+        "Related Project(s)": "Projects",
+        "Authors from QuaLiPerF": "Authors Qualiperf",
     }
 
-    # Process publications
-    # ---------------------
     console.rule(title="publications", style="white")
     df_publications = dfs["Publications"]
     df_ifs = dfs["IF"]
@@ -42,10 +42,12 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_publications = df_publications[[
         "Title",
         "Authors",
+        "Abstract",
         "Journal",
         "IF",
         "Date",
         "Qualiperf",
+        "Authors Qualiperf",
         "Projects",
         "Pubmed",
         "DOI",
@@ -56,12 +58,15 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     console.rule(title="preprints", style="white")
     df_preprints = dfs["Preprints"]
     df_preprints.rename(columns=columns_dict, inplace=True)
+    df_preprints = df_preprints[df_preprints.Published == "No"]
     df_preprints = df_preprints[[
         "Title",
         "Authors",
+        "Abstract",
         "Journal",
         "Date",
         "Qualiperf",
+        "Authors Qualiperf",
         "Projects",
         "Pubmed",
         "DOI",
@@ -74,12 +79,59 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_submissions = df_submissions[[
         "Title",
         "Authors",
+        "Abstract",
         "Journal",
         "Date",
         "Qualiperf",
+        "Authors Qualiperf",
         "Projects",
     ]]
     console.print(df_submissions)
+
+    console.rule(title="theses", style="white")
+    df_theses = dfs["Theses"]
+    df_theses.rename(columns=columns_dict, inplace=True)
+    df_theses = df_theses[[
+        "Category",
+        "Title",
+        "Authors",
+        "Abstract",
+        "Date",
+        "Qualiperf",
+        "Authors Qualiperf",
+        "Projects",
+    ]]
+    console.print(df_theses)
+
+    console.rule(title="posters", style="white")
+    df_posters = dfs["Posters"]
+    df_posters.rename(columns=columns_dict, inplace=True)
+    df_posters = df_posters[[
+        "Title",
+        "Authors",
+        "Abstract",
+        "Conference",
+        "Date",
+        "Qualiperf",
+        "Authors Qualiperf",
+        "Projects",
+    ]]
+    console.print(df_posters)
+
+    console.rule(title="presentations", style="white")
+    df_presentations = dfs["Presentations"]
+    df_presentations.rename(columns=columns_dict, inplace=True)
+    df_presentations = df_presentations[[
+        "Title",
+        "Authors",
+        "Abstract",
+        "Conference",
+        "Date",
+        "Qualiperf",
+        "Authors Qualiperf",
+        "Projects",
+    ]]
+    console.print(df_presentations)
 
     # FIXME: process after updated excel sheet
     df_others = dfs["Others"]
@@ -92,10 +144,14 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "Qualiperf",
         "Projects",
     ]]
+
     results: Dict[str, pd.DataFrame] = {
         "publications": df_publications,
         "preprints": df_preprints,
         "submissions": df_submissions,
+        "theses": df_theses,
+        "posters": df_posters,
+        "presentations": df_presentations,
         "others": df_others,
     }
 
@@ -105,26 +161,24 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "publications",
         "preprints",
         "submissions",
+        "theses",
+        "posters",
+        "presentations",
         "others",
     ]
-    counts = [
-        len(df_publications.Qualiperf),
-        len(df_preprints.Qualiperf),
-        len(df_submissions.Qualiperf),
-        len(df_others.Qualiperf),
+    dataframes = [
+        df_publications,
+        df_preprints,
+        df_submissions,
+        df_theses,
+        df_posters,
+        df_presentations,
+        df_others,
     ]
-    qualiperf_yes = [
-        (df_publications.Qualiperf == "Yes").values.sum(),
-        (df_preprints.Qualiperf == "Yes").values.sum(),
-        (df_submissions.Qualiperf == "Yes").values.sum(),
-        (df_others.Qualiperf == "Yes").values.sum(),
-    ]
-    qualiperf_no = [
-        (df_publications.Qualiperf == "No").values.sum(),
-        (df_preprints.Qualiperf == "No").values.sum(),
-        (df_submissions.Qualiperf == "No").values.sum(),
-        (df_others.Qualiperf == "No").values.sum(),
-    ]
+    counts = [len(df.Qualiperf) for df in dataframes]
+    qualiperf_yes = [(df.Qualiperf == "Yes").values.sum() for df in dataframes]
+    qualiperf_no = [(df.Qualiperf != "No").values.sum() for df in dataframes]
+
     df_statistics = pd.DataFrame(
         data={
             "type": types,
@@ -141,12 +195,15 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         df_publications.to_excel(writer, sheet_name="publications", index=False)
         df_preprints.to_excel(writer, sheet_name="preprints", index=False)
         df_submissions.to_excel(writer, sheet_name="submissions", index=False)
+        df_theses.to_excel(writer, sheet_name="theses", index=False)
+        df_posters.to_excel(writer, sheet_name="posters", index=False)
+        df_presentations.to_excel(writer, sheet_name="presentations", index=False)
         df_others.to_excel(writer, sheet_name="other", index=False)
 
     return results
 
 
-def visualize_publications(df: pd.DataFrame, fig_path: Path):
+def visualize_publications_matplotlib(df: pd.DataFrame, fig_path: Path):
     """Visualize publications."""
 
     fig, ax1 = plt.subplots(nrows=1, ncols=1, figsize=(5, 5), dpi=300)
@@ -200,8 +257,13 @@ def run_all() -> None:
     xlsx_out = results_dir / "qualiperf_statistics.xlsx"
     dfs: Dict[str, pd.DataFrame] = create_statistics(xlsx_in=xlsx_in, xlsx_out=xlsx_out)
 
+    df_publication = dfs["publications"]
+    html = df_publication.to_html(table_id="publications")
+    console.print(html)
+
+
     fig_publications = results_dir / "qualiperf_publications.png"
-    visualize_publications(df=dfs["publications"], fig_path=fig_publications)
+    visualize_publications_matplotlib(df=dfs["publications"], fig_path=fig_publications)
 
     # FIXME: cumulative count diagrams for achievements
     # FIXME: graph for interactions between publications/preprints

@@ -8,12 +8,20 @@ You can then create a new environment with name from the anaconda prompt via:
 ```bash
 conda create -n qualiperf-site python=3.11
 ```
+```bash
+mkvirtualenv qualiperf-site --python=python3.11
+```
 
 The dependencies can be installed in a virtual environment via:
 ```bash
-cd src
 conda activate qualiperf-site
-(qualiperf-site) pip install -r requirements.txt --upgrade
+```
+```bash
+```
+
+```bash
+cd src
+pip install -r requirements.txt --upgrade
 ```
 
 ## Update information
@@ -29,9 +37,18 @@ src/data_processing/update_data.py
 
 
 ## TODO
-- [ ] process all assets in standardized format for webpage & reports
-- [ ] deploy webpage
-
 - [ ] interactive tables for report (interactive tables (https://datatables.net/))
+    - [ ] publications
+    - [ ] preprints
+    - [ ] submissions
+    - [ ] theses
+    - [ ] posters
+    - [ ] presentations
+
+    
 - [ ] interactive figures for report (https://altair-viz.github.io/gallery/index.html#example-gallery)
 - [ ] webpage with figures and tables
+
+
+- [ ] deploy webpage
+

@@ -1,4 +1,59 @@
 items:
+- abstract: A standardized approach to annotating computational biomedical models
+    and their associated files can facilitate model reuse and reproducibility among
+    research groups, enhance search and retrieval of models and data, and enable semantic
+    comparisons between models. Motivated by these potential benefits and guided by
+    consensus across the COmputational Modeling in BIology NEtwork (COMBINE) community,
+    we have developed a specification for encoding annotations in Open Modeling and
+    EXchange (OMEX)-formatted archives. This document details version 1.2 of the specification,
+    which builds on version 1.0 published last year in this journal. In particular,
+    this version includes a set of initial model-level annotations (whereas v 1.0
+    described exclusively annotations at a smaller scale). Additionally, this version
+    uses best practices for namespaces, and introduces omex-library.org as a common
+    root for all annotations. Distributing modeling projects within an OMEX archive
+    is a best practice established by COMBINE, and the OMEX metadata specification
+    presented here provides a harmonized, community-driven approach for annotating
+    a variety of standardized model representations. This specification acts as a
+    technical guideline for developing software tools that can support this standard,
+    and thereby encourages broad advances in model reuse, discovery, and semantic
+    analyses.
+  authors: John Gennari, Matthias König, Goskel Misirli, Maxwell Neal, David Nickerson,
+    Dagmar Waltemath
+  doi: 10.1515/jib-2021-0020
+  journal: 'J Integr Bioinform. 2021 Oct 20;18(3):20210020. doi: 10.1515/jib-2021-0020.
+    PMID: 34668356; PMCID: PMC8560343.'
+  preprint: false
+  pubmed: '34668356.0'
+  qualiperf_funding: false
+  title: OMEX Metadata Specification Version 1.2
+- abstract: Computational simulation experiments increasingly inform modern biological
+    research, and bring with them the need to provide ways to annotate, archive, share
+    and reproduce the experiments performed. These simulations increasingly require
+    extensive collaboration among modelers, experimentalists, and engineers. The Minimum
+    Information About a Simulation Experiment (MIASE) guidelines outline the information
+    needed to share simulation experiments. SED-ML is a computer-readable format for
+    the information outlined by MIASE, created as a community project and supported
+    by many investigators and software tools. The first versions of SED-ML focused
+    on deterministic and stochastic simulations of models. Level 1 Version 4 of SED-ML
+    substantially expands these capabilities to cover additional types of models,
+    model languages, parameter estimations, simulations and analyses of models, and
+    analyses and visualizations of simulation results. To facilitate consistent practices
+    across the community, Level 1 Version 4 also more clearly describes the use of
+    SED-ML constructs, and includes numerous concrete validation rules. SED-ML is
+    supported by a growing ecosystem of investigators, model languages, and software
+    tools, including eight languages for constraint-based, kinetic, qualitative, rule-based,
+    and spatial models, over 20 simulation tools, visual editors, model repositories,
+    and validators. Additional information about SED-ML is available at https://sed-ml.org/.
+  authors: Lucian P. Smith, Frank T. Bergmann, Alan Garny, Thomas Helikar, Jonathan
+    Karr, David Nickerson, Herbert Sauro, Dagmar Waltemath, and Matthias König
+  doi: 10.1515/jib-2021-0021
+  journal: 'J Integr Bioinform. 2021 Oct 5;18(3):20210021. doi: 10.1515/jib-2021-0021.
+    PMID: 35330701; PMCID: PMC8560344'
+  preprint: false
+  pubmed: '35330701.0'
+  qualiperf_funding: false
+  title: 'The Simulation Experiment Description Markup Language (SED-ML): Language
+    Specification for Level 1 Version 4'
 - abstract: MRI-based biomechanical studies can provide a deep understanding of the
     mechanisms governing liver function, its mechanical performance but also liver
     diseases. In addition, comprehensive modeling of the liver can help improve liver
@@ -779,58 +834,3 @@ items:
   qualiperf_funding: true
   title: Affine transformations accelerate the training of physics-informed neural
     networks of a one-dimensional consolidation problem
-- abstract: A standardized approach to annotating computational biomedical models
-    and their associated files can facilitate model reuse and reproducibility among
-    research groups, enhance search and retrieval of models and data, and enable semantic
-    comparisons between models. Motivated by these potential benefits and guided by
-    consensus across the COmputational Modeling in BIology NEtwork (COMBINE) community,
-    we have developed a specification for encoding annotations in Open Modeling and
-    EXchange (OMEX)-formatted archives. This document details version 1.2 of the specification,
-    which builds on version 1.0 published last year in this journal. In particular,
-    this version includes a set of initial model-level annotations (whereas v 1.0
-    described exclusively annotations at a smaller scale). Additionally, this version
-    uses best practices for namespaces, and introduces omex-library.org as a common
-    root for all annotations. Distributing modeling projects within an OMEX archive
-    is a best practice established by COMBINE, and the OMEX metadata specification
-    presented here provides a harmonized, community-driven approach for annotating
-    a variety of standardized model representations. This specification acts as a
-    technical guideline for developing software tools that can support this standard,
-    and thereby encourages broad advances in model reuse, discovery, and semantic
-    analyses.
-  authors: John Gennari, Matthias König, Goskel Misirli, Maxwell Neal, David Nickerson,
-    Dagmar Waltemath
-  doi: 10.1515/jib-2021-0020
-  journal: 'J Integr Bioinform. 2021 Oct 20;18(3):20210020. doi: 10.1515/jib-2021-0020.
-    PMID: 34668356; PMCID: PMC8560343.'
-  preprint: false
-  pubmed: '34668356.0'
-  qualiperf_funding: false
-  title: OMEX Metadata Specification Version 1.2
-- abstract: Computational simulation experiments increasingly inform modern biological
-    research, and bring with them the need to provide ways to annotate, archive, share
-    and reproduce the experiments performed. These simulations increasingly require
-    extensive collaboration among modelers, experimentalists, and engineers. The Minimum
-    Information About a Simulation Experiment (MIASE) guidelines outline the information
-    needed to share simulation experiments. SED-ML is a computer-readable format for
-    the information outlined by MIASE, created as a community project and supported
-    by many investigators and software tools. The first versions of SED-ML focused
-    on deterministic and stochastic simulations of models. Level 1 Version 4 of SED-ML
-    substantially expands these capabilities to cover additional types of models,
-    model languages, parameter estimations, simulations and analyses of models, and
-    analyses and visualizations of simulation results. To facilitate consistent practices
-    across the community, Level 1 Version 4 also more clearly describes the use of
-    SED-ML constructs, and includes numerous concrete validation rules. SED-ML is
-    supported by a growing ecosystem of investigators, model languages, and software
-    tools, including eight languages for constraint-based, kinetic, qualitative, rule-based,
-    and spatial models, over 20 simulation tools, visual editors, model repositories,
-    and validators. Additional information about SED-ML is available at https://sed-ml.org/.
-  authors: Lucian P. Smith, Frank T. Bergmann, Alan Garny, Thomas Helikar, Jonathan
-    Karr, David Nickerson, Herbert Sauro, Dagmar Waltemath, and Matthias König
-  doi: 10.1515/jib-2021-0021
-  journal: 'J Integr Bioinform. 2021 Oct 5;18(3):20210021. doi: 10.1515/jib-2021-0021.
-    PMID: 35330701; PMCID: PMC8560344'
-  preprint: false
-  pubmed: '35330701.0'
-  qualiperf_funding: false
-  title: 'The Simulation Experiment Description Markup Language (SED-ML): Language
-    Specification for Level 1 Version 4'
