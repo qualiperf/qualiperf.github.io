@@ -32,7 +32,9 @@ Based on these files the webpage can be updated via
 src/data_processing/update_data.py
 ``
 
-## TODO    
+## TODO
+- [ ] create category figure (barplot with categories)
+- [ ] make links clickable: DOI & https links
 - [ ] interactive figures for report (https://altair-viz.github.io/gallery/index.html#example-gallery)
 
 - [ ] webpage with figures and tables

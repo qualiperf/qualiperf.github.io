@@ -134,17 +134,31 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     ]]
     console.print(df_presentations)
 
-    # FIXME: process after updated excel sheet
     df_others = dfs["Others"]
     df_others.rename(columns=columns_dict, inplace=True)
     df_others = df_others[[
+        "Category",
         "Title",
         "Authors",
-        "Journal",
         "Date",
         "Qualiperf",
         "Projects",
     ]]
+
+    # cleanup newlines
+    dataframes = [
+        df_publications,
+        df_preprints,
+        df_submissions,
+        df_theses,
+        df_posters,
+        df_presentations,
+        df_others,
+    ]
+    for df in dataframes:
+        for column in ["Title", "Abstract", "Journal", "Author"]:
+            if column in df:
+                df[column] = df[column].str.replace("\n", " ")
 
     results: Dict[str, pd.DataFrame] = {
         "publications": df_publications,
@@ -167,15 +181,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "presentations",
         "others",
     ]
-    dataframes = [
-        df_publications,
-        df_preprints,
-        df_submissions,
-        df_theses,
-        df_posters,
-        df_presentations,
-        df_others,
-    ]
+
     counts = [len(df.Qualiperf) for df in dataframes]
     qualiperf_yes = [(df.Qualiperf == "Yes").values.sum() for df in dataframes]
     qualiperf_no = [(df.Qualiperf != "Yes").values.sum() for df in dataframes]
@@ -211,7 +217,7 @@ def visualize_publications_matplotlib(df: pd.DataFrame, fig_path: Path):
     """Visualize publications."""
 
     fig, ax1 = plt.subplots(nrows=1, ncols=1, figsize=(5, 5), dpi=300)
-    fig.suptitle("Qualiperf publications")
+    fig.suptitle(f"Publications (n={len(df)})")
 
     ax1.set_xlabel("Date", fontdict={"weight": "bold"})
     ax1.set_ylabel("Impact Factor", fontdict={"weight": "bold"})
@@ -281,6 +287,7 @@ def create_html_report(output_dir: Path, dfs: Dict[str, pd.DataFrame]) -> None:
             table_id=key,
             border=0,
             index=False,
+            render_links=True
         )
         context[f"table_{key}"] = table
         context[f"count_{key}"] = len(df)
