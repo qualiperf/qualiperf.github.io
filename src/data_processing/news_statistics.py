@@ -54,6 +54,10 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "DOI",
         "Journal_ID",
     ]]
+    df_publications = df_publications.astype({"Pubmed": str})
+    df_publications["Pubmed"] = df_publications["Pubmed"].str.replace("nan", "")
+    df_publications["Pubmed"] = df_publications["Pubmed"].str.replace(".0", "")
+
     console.print(df_publications)
 
     console.rule(title="preprints", style="white")
@@ -69,9 +73,9 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "Qualiperf",
         "Authors Qualiperf",
         "Projects",
-        "Pubmed",
         "DOI",
     ]]
+
     console.print(df_preprints)
 
     console.rule(title="submissions", style="white")
@@ -81,7 +85,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         "Title",
         "Authors",
         # "Abstract",
-        "Journal",
+        # "Journal",
         "Date",
         "Qualiperf",
         "Authors Qualiperf",
@@ -156,14 +160,17 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
         df_others,
     ]
     for df in dataframes:
-        for column in ["Title", "Abstract", "Journal", "Authors", "Conference", "DOI"]:
+        for column in ["Title", "Abstract", "Journal", "Authors", "Conference", "DOI", "Pubmed"]:
             if column in df:
                 df[column] = df[column].str.replace("\n", " ")
                 df[column] = df[column].str.replace("NaN", "")
 
+
                 # DOIs
                 if column == "DOI":
                     df[column] = '<a href="https://doi.org/' + df[column] + '">' + df[column] + '</a>'
+                if column == "Pubmed":
+                    df[column] = '<a href="https://pubmed.ncbi.nlm.nih.gov/' + df[column] + '/">' + df[column] + '</a>'
                     #
                     # pat = r"(<one>)"
                     # repl = lambda m: f"https://doi.org/{m.group('one')}"
