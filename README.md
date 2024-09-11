@@ -36,4 +36,4 @@ For setup of the python environment see
 [`./src/README.md`](./src/README.md).
 
 
-
+(c) Matthias König
