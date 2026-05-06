@@ -92,7 +92,7 @@ def clean_entry(d: Dict) -> List[Person]:
         pdata["firstname"] = firstname.strip()
         pdata["lastname"] = lastname.strip()
         p = Person(**pdata)
-        console.print(p)
+        # console.print(p)
         # console.print(p.yaml())
 
         persons.append(p)

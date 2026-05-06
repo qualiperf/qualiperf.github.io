@@ -58,19 +58,23 @@ def create_news_yaml() -> None:
         # FIXME: remove '\n' in abstracts
         publications: List[Publication] = []
         for k, row in df.iterrows():
-            # console.print(row)
-            p = Publication(
-                title=row["Title"].strip(),
-                authors=row["Authors"].strip(),
-                abstract=row["Abstract"].strip(),
-                journal=row["Journal"].strip(),
-                # date=row["Date"],
-                qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
-                pubmed=str(row["Pubmed"]),
-                doi=row["DOI"].strip(),
-                preprint=is_preprint,
-            )
-            console.print(p)
+            try:
+                p = Publication(
+                    title=row["Title"].strip(),
+                    authors=row["Authors"].strip(),
+                    abstract=str(row["Abstract"]).strip(),
+                    journal=str(row["Journal"]).strip(),
+                    # date=row["Date"],
+                    qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
+                    pubmed=str(row["Pubmed"]),
+                    doi=row["DOI"].strip(),
+                    preprint=is_preprint,
+                )
+            except Exception as e:
+                console.print(row)
+                raise e
+
+            # console.print(p)
             publications.append(p)
         return publications
 
@@ -78,7 +82,7 @@ def create_news_yaml() -> None:
         """Process other news items."""
         others: List[Other] = []
         for k, row in df.iterrows():
-            console.print(row)
+            # console.print(row)
             p = Other(
                 category=row["Category"].strip(),
                 title=row["Title"].strip(),
@@ -90,7 +94,7 @@ def create_news_yaml() -> None:
                 qualiperf_funding=row["QuaLiPerf funding/support is acknowledged?"] == "Yes",
                 projects=row["Related Project(s)"],
             )
-            console.print(p)
+            # console.print(p)
             others.append(p)
         return others
 

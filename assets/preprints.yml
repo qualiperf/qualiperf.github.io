@@ -1,191 +1,35 @@
 items:
-- abstract: Science continues to become more interdisciplinary and to involve increasingly
-    complex data sets. Many projects in the biomedical and health related sciences
-    adhere to the principles of FAIR data sharing, or aim to follow them. Data sharing
-    has been proven to foster collaboration, to lead to better research outcomes,
-    and to help ensure reproducibility of results. Data generated in biomedical and
-    health research are specific in the sense that they are heterogeneous, often big,
-    and highly sensitive in terms of data protection needs and contextuality. Data
-    sharing has to respect these features, but at the same time advances in medical
-    therapy and treatment are time-critical. Modeling and simulation of biomedical
-    processes have become an established tool, and a global community has been developing
-    algorithms, methodologies, and standards for applying biomedical simulation models
-    in clinical research. However, it can be difficult for clinician scientists to
-    follow the specific rules and recommendations for FAIR data sharing within the
-    domain. With this paper, we aim to clarify the standard workflow for sharing experimental
-    and clinical data with the simulation modeling community. By following these recommendations,
-    data sharing will be improved, collaborations will become more effective, and
-    the FAIR publication and subsequent reuse of data will become possible at the
-    level of quality necessary in biomedical and health related sciences.
-  authors: Matthias König*, Jan Grzegorzewski, Martin Golebiewski, Henning Hermjakob,
-    Mike Hucka, Brett Olivier, Sarah M. Keating, David Nickerson, Falk Schreiber,
-    Rahuman Sheriff, Dagmar Waltemath
+- abstract: Science continues to become more interdisciplinary and to involve 
+    increasingly complex data sets. Many projects in the biomedical and health 
+    related sciences adhere to the principles of FAIR data sharing, or aim to 
+    follow them. Data sharing has been proven to foster collaboration, to lead 
+    to better research outcomes, and to help ensure reproducibility of results. 
+    Data generated in biomedical and health research are specific in the sense 
+    that they are heterogeneous, often big, and highly sensitive in terms of 
+    data protection needs and contextuality. Data sharing has to respect these 
+    features, but at the same time advances in medical therapy and treatment are
+    time-critical. Modeling and simulation of biomedical processes have become 
+    an established tool, and a global community has been developing algorithms, 
+    methodologies, and standards for applying biomedical simulation models in 
+    clinical research. However, it can be difficult for clinician scientists to 
+    follow the specific rules and recommendations for FAIR data sharing within 
+    the domain. With this paper, we aim to clarify the standard workflow for 
+    sharing experimental and clinical data with the simulation modeling 
+    community. By following these recommendations, data sharing will be 
+    improved, collaborations will become more effective, and the FAIR 
+    publication and subsequent reuse of data will become possible at the level 
+    of quality necessary in biomedical and health related sciences.
+  authors: Matthias König*, Jan Grzegorzewski, Martin Golebiewski, Henning 
+    Hermjakob, Mike Hucka, Brett Olivier, Sarah M. Keating, David Nickerson, 
+    Falk Schreiber, Rahuman Sheriff, Dagmar Waltemath
   doi: 10.20944/preprints202108.0303.v1
-  journal: Preprints 2021, 2021080303, https://www.preprints.org/manuscript/202108.0303/v1
+  journal: Preprints 2021, 2021080303, 
+    https://www.preprints.org/manuscript/202108.0303/v1
   preprint: true
   pubmed: nan
   qualiperf_funding: true
-  title: Ten Simple Rules for Sharing Experimental and Clinical Data with the Modeling
-    Community
-- abstract: "Accurate evaluation of liver function is a central task in hepatology.
-    Dynamic liver function tests (DLFT) based on the time-dependent elimination of
-    a test substance provide an important tool for such a functional assessment. These
-    tests are used in the diagnosis and monitoring of liver disease as well as in
-    the planning of hepatobiliary surgery. A key challenge in the evaluation of liver
-    function with DLFTs is the large inter-individual variability. Indocyanine green
-    (ICG) is a widely applied test compound used for the evaluation of liver function.
-    After an intravenous administration, pharmacokinetic (PK) parameters are calculated
-    from the plasma disappearance curve of ICG which provide an estimate of liver
-    function. The hepatic elimination of ICG is affected by physiological factors
-    such as hepatic blood flow or binding of ICG to plasma proteins, anthropometric
-    factors such as body weight, age, and sex, or the protein amount of the organic
-    anion-transporting polypeptide 1B3 (OATP1B3) mediating the hepatic uptake of ICG.
-    Being able to account for and better understand these various sources of inter-individual
-    variability would allow to improve the power of ICG based DLFTs and move towards
-    an individualized evaluation of liver function.\nWithin this work we systematically
-    analyzed the effect of various factors on ICG elimination by the means of computational
-    modeling. For the analysis, a recently developed and validated physiologically
-    based pharmacokinetics (PBPK) model of ICG distribution and hepatic elimination
-    was utilized. Key results are (i) a systematic analysis of the variability in
-    ICG elimination due to hepatic blood flow, cardiac output, OATP1B3 abundance,
-    liver volume, body weight and plasma bilirubin level; (ii) the evaluation of the
-    inter-individual variability in ICG elimination via a large \\emph{in silico}
-    cohort of n=100000 subjects based on the NHANES cohort with special focus on stratification
-    by age, sex, and body weight; (iii) the evaluation of the effect of various degrees
-    of cirrhosis on variability in ICG elimination.\nThe presented results are an
-    important step towards individualizing liver function tests by elucidating the
-    effects of confounding physiological and anthropometric parameters in the evaluation
-    of liver function via ICG."
-  authors: Adrian Köller, Jan Grzegorzewski and Matthias König
-  doi: 10.1101/2021.08.11.455999
-  journal: 'bioRxiv 2021.08.11.455999; doi: https://doi.org/10.1101/2021.08.11.455999
-    [Submitted to Frontiers Physiology 2021-08-12]'
-  preprint: true
-  pubmed: '34880776.0'
-  qualiperf_funding: true
-  title: Physiologically based modeling of the effect of physiological and anthropometric
-    variability on indocyanine green based liver function tests
-- abstract: 'Abstract: In systems biology, biological phenomena are often modeled
-    by Ordinary Differential Equations (ODEs) and distributed in the de facto standard
-    file format SBML. The primary analyses performed with such models are dynamic
-    simulation, steady-state analysis, and parameter estimation. These methodologies
-    are mathematically formalized, and libraries for such analyses have been published.
-    Several tools exist to create, simulate, or visualize models encoded in SBML.
-    However, setting up and establishing analysis environments is a crucial hurdle
-    for non-modelers. Therefore, easy access to perform fundamental analyses of ODE
-    models is a significant challenge. We developed SBMLWebApp, a web-based service
-    to execute SBML-based simulations, steady-state analysis, and parameter estimation
-    directly in the browser without the need for any setup or prior knowledge to address
-    this issue. SBMLWebApp visualizes the result and numerical table of each analysis
-    and provides a download of the results. SBMLWebApp allows users to select and
-    analyze SBML models directly from the BioModels Database. Taken together, SBMLWebApp
-    provides barrier-free access to an SBML analysis environment for simulation, steady-state
-    analysis, and parameter estimation for SBML models. SBMLWebApp is implemented
-    in Java™ based on an Apache Tomcat® web server using COPASI, the Systems Biology
-    Simulation Core Library (SBSCL), and LibSBMLSim as simulation engines. SBMLWebApp
-    is licensed under MIT with source code available from https://github.com/TakahiroYamada/SBMLWebApp.
-    The program runs online at http://simulate-biology.org.'
-  authors: Takahiro G. Yamada, Kaito Ii, Matthias König, Martina Feierabend, Andreas
-    Dräger, Akira Funahashi
-  doi: 10.20944/preprints202108.0259.v1
-  journal: 'Preprints 2021, 2021080259 (doi: 10.20944/preprints202108.0259.v1). [Submitted
-    to MDPI, 2021-08-11]'
-  preprint: true
-  pubmed: nan
-  qualiperf_funding: true
-  title: 'SBMLWebApp: Web-based Simulation, Steady-State Analysis, and Parameter Estimation
-    of Systems Biology Models'
-- abstract: "Caffeine is by far the most ubiquitous psychostimulant worldwide found
-    in tea, coffee, cocoa, energy drinks, and many other beverages and food. Caffeine
-    is almost exclusively metabolized in the liver by the cytochrome P-450 enzyme
-    system to the main product paraxanthine and the additional products theobromine
-    and theophylline. Besides its stimulating properties, two important applications
-    of caffeine are metabolic phenotyping of cytochrome P450 1A2 (CYP1A2) and liver
-    function testing. An open challenge in this context is to identify underlying
-    causes of the large inter-individual variability in caffeine pharmacokinetics.
-    Data is urgently needed to understand and quantify confounding factors such as
-    lifestyle (e.g. smoking), the effects of drug-caffeine interactions (e.g. medication
-    metabolized via CYP1A2), and the effect of disease.\nHere we report the first
-    integrative and systematic analysis of data on caffeine pharmacokinetics from
-    148 publications and provide a comprehensive high-quality data set on the pharmacokinetics
-    of caffeine, caffeine metabolites, and their metabolic ratios in human adults.
-    The data set is enriched by meta-data on the characteristics of studied patient
-    cohorts and subjects (e.g. age, body weight, smoking status, health status), the
-    applied interventions (e.g. dosing, substance, route of application), measured
-    pharmacokinetic time-courses, and pharmacokinetic parameters (e.g. clearance,
-    half-life, area under the curve).\nWe demonstrate via multiple applications how
-    the data set can be used to solidify existing knowledge and gain new insights
-    relevant for metabolic phenotyping and liver function testing based on caffeine.
-    Specifically, we analyzed (i) the alteration of caffeine pharmacokinetics with
-    smoking and use of oral contraceptives; (ii) drug-drug interactions with caffeine
-    as possible confounding factors of caffeine pharmacokinetics or source of adverse
-    effects; (iii) alteration of caffeine pharmacokinetics in disease; and (iv) the
-    applicability of caffeine as a salivary test substance by comparison of plasma
-    and saliva data. In conclusion, our data set and analyses provide important resources
-    which could enable more accurate caffeine-based metabolic phenotyping and liver
-    function testing."
-  authors: Jan Grzegorzewski, Florian Bartsch, Adrian Köller, Matthias König
-  doi: 10.1101/2021.07.12.452094
-  journal: 'bioRxiv 2021.07.12.452094; doi: https://doi.org/10.1101/2021.07.12.452094
-    [Submitted to Frontiers Pharmacology, 2021-08-03]'
-  preprint: true
-  pubmed: '35280254.0'
-  qualiperf_funding: true
-  title: 'Pharmacokinetics of caffeine: A systematic analysis of reported data for
-    application in metabolic phenotyping and liver function testing'
-- abstract: "Summary: Studying biological systems generally relies on computational
-    modeling and simulation, e.g., for model-driven discovery and hypothesis testing.
-    Progress in standardization efforts led to the development of interrelated file
-    formats to\nexchange and reuse models in systems biology, such as SBML, the Simulation
-    Experiment Description Markup Language (SED-ML), or the Open Modeling EXchange
-    format (OMEX). Conducting simulation experiments based on these formats requires
-    efficient and reusable implementations to make them accessible to the broader
-    scientific community and to ensure the reproducibility of the results. The Systems
-    Biology Simulation Core Library (SBSCL) provides interpreters and solvers for
-    these standards as a versatile open-source API in Java™. The library simulates
-    even complex bio-models and supports\ndeterministic Ordinary Differential Equations
-    (ODEs); Stochastic Differential Equations (SDEs); constraint-based analyses; recent
-    SBML and SED-ML versions; exchange of results, and visualization of in silico
-    experiments; open modeling exchange\nformats (COMBINE archives); hierarchically
-    structured models; and compatibility with standard testing systems, including
-    the Systems Biology Test Suite and published models from the BioModels and BiGG
-    databases. Availability and implementation: SBSCL is freely available at https://draeger-lab.github.io/SBSCL/."
-  authors: Panchiwala, H.; Shah, S.; Planatscher, H.; Zakharchuk, M.; König, M.; Dräger,
-    A.
-  doi: 10.20944/preprints202012.0296.v1
-  journal: 'Preprints 2020, 2020120296 (doi: 10.20944/preprints202012.0296.v1), [In
-    revision, Bioinformatics]'
-  preprint: true
-  pubmed: '34554191.0'
-  qualiperf_funding: true
-  title: The Systems Biology Simulation Core Library
-- abstract: The evaluation of hepatic function and functional capacity of the liver
-    are essential tasks in hepatology as well as in hepatobiliary surgery. Indocyanine
-    green (ICG) is a widely applied test compound that is used in clinical routine
-    to evaluate hepatic function. Important questions for the functional evaluation
-    with ICG in the context of hepatectomy are how liver disease such as cirrhosis
-    alters ICG elimination, and if postoperative survival can be predicted from preoperative
-    ICG measurements. Within this work a physiologically based pharmacokinetic (PBPK)
-    model of ICG was developed and applied to the prediction of the effects of a liver
-    resection under various degrees of cirrhosis. For the parametrization of the computational
-    model and validation of model predictions a database of ICG pharmacokinetic data
-    was established. The model was applied (i) to study the effect of liver cirrhosis
-    and liver resection on ICG pharmacokinetics; and (ii) to evaluate the model-based
-    prediction of postoperative ICG-R15 as a measure for postoperative outcome. Key
-    results are the accurate prediction of changes in ICG pharmacokinetics caused
-    by liver cirrhosis and postoperative changes of ICG-elimination after liver resection,
-    as validated with a wide range of data sets. Based on the PBPK model, individual
-    survival after liver resection could be classified, demonstrating its potential
-    value as a clinical tool.
-  authors: Adrian Köller, Jan Grzegorzewski, Michael Tautenhahn, Matthias König
-  doi: 10.1101/2021.06.15.448411
-  journal: 'bioRxiv 2021.06.15.448411; doi: https://doi.org/10.1101/2021.06.15.448411,
-    [Submitted to Frontiers Physiology 2021-06-30]'
-  preprint: true
-  pubmed: '34880771.0'
-  qualiperf_funding: true
-  title: Prediction of survival after hepatectomy using a physiologically based pharmacokinetic
-    model of indocyanine green liver function tests
+  title: Ten Simple Rules for Sharing Experimental and Clinical Data with the 
+    Modeling Community
 - abstract: "Summary: More sophisticated models are needed to address problems in
     bioscience, synthetic biology, and precision medicine. To help facilitate the
     collaboration needed for such models, the community developed the Simulation Experiment
@@ -203,44 +47,15 @@ items:
     at https://run.biosimulations.org/utils/validate and https://pypi.org/project/biosimulators-utils.
     The validator is also embedded into interfaces to 11 simulation tools. The source
     code is openly available as described in the Supplementary data."
-  authors: Bilal Shaikh, Andrew Philip Freiburger, Matthias König, Frank T. Bergmann,
-    David P. Nickerson, Herbert M. Sauro, Michael L. Blinov, Lucian P. Smith, Ion
-    I. Moraru, Jonathan R. Karr
+  authors: Bilal Shaikh, Andrew Philip Freiburger, Matthias König, Frank T. 
+    Bergmann, David P. Nickerson, Herbert M. Sauro, Michael L. Blinov, Lucian P.
+    Smith, Ion I. Moraru, Jonathan R. Karr
   doi: 10.48550/arXiv.2106.00844
   journal: arXiV, 2021, 2106.00844, [Submitted to Bioinformatics 2021-06-02]
   preprint: true
   pubmed: nan
   qualiperf_funding: true
   title: 'SED-ML Validator: tool for debugging simulation experiments'
-- abstract: "Motivation The Chemical Master Equation is the most comprehensive stochastic
-    approach to describe the evolution of a (bio-)chemical reaction system. Its solution
-    is a time-dependent probability distribution on all possible configurations of
-    the system. As the number of possible configurations is typically very large,
-    the Master Equation is often practically unsolvable. The Method of Moments reduces
-    the system to the evolution of a few moments of this distribution, which are described
-    by a system of ordinary differential equations. Those equations are not closed,
-    since lower order moments generally depend on higher order moments. Various closure
-    schemes have been suggested to solve this problem, with different advantages and
-    limitations. Two major problems with these approaches are first that they are
-    open loop systems, which can diverge from the true solution, and second, some
-    of them are computationally expensive.\n\nResults Here we introduce Quasi-Entropy
-    Closure, a moment closure scheme for the Method of Moments which estimates higher
-    order moments by reconstructing the distribution that minimizes the distance to
-    a uniform distribution subject to lower order moment constraints. Quasi-Entropy
-    closure is similar to Zero-Information closure, which maximizes the information
-    entropy. Results show that both approaches outperform truncation schemes. Moreover,
-    Quasi-Entropy Closure is computationally much faster than Zero-Information Closure.
-    Finally, our scheme includes a plausibility check for the existence of a distribution
-    satisfying a given set of moments on the feasible set of configurations. Results
-    are evaluated on different benchmark problems."
-  authors: Vincent Wagner, Benjamin Castellaz, Marco Oesting, Nicole Radde
-  doi: 10.1101/2021.12.01.470753
-  journal: 'BioRxiv 2021.12.01.470753 doi: https://doi.org/10.1101/2021.12.01.470753'
-  preprint: true
-  pubmed: '35916726.0'
-  qualiperf_funding: true
-  title: 'Quasi-Entropy Closure: A Fast and Reliable Approach to Close the Moment
-    Equations of the Chemical Master Equation'
 - abstract: "ABSTRACT2\nComputational models in systems biology and systems medicine
     are typically simulated using a single formalism such as ordinary differential
     equations (ODE). However, more complex models require the coupling of multiple
@@ -265,66 +80,33 @@ items:
   pubmed: nan
   qualiperf_funding: true
   title: Dynamic Flux Balance Analysis Models in SBML
-- abstract: A major challenge for the dissemination, replication, and reuse of epidemiological
-    forecasting studies during COVID-19 pandemics is the lack of clear guidelines
-    and platforms to exchange models in a Findable, Accessible, Interoperable, and
-    Reusable (FAIR) manner, facilitating reproducibility of research outcomes. During
-    the beginning of pandemics, models were developed in diverse tools that were not
-    interoperable, opaque without traceability and semantics, and scattered across
-    various platforms - making them hard to locate, infer and reuse. In this work,
-    we demonstrate that implementing the standards developed by the systems biology
-    community to encode and share COVID-19 epidemiological models can serve as a roadmap
-    to implement models as a tool in medical informatics, in general. As a proof-of-concept,
-    we encoded and shared 24 epidemiological models using the standard format for
-    model exchange in systems biology, annotated them with cross-references to data
-    resources, packed up all associated files in COMBINE archives for easy sharing,
-    and finally, disseminated the models through BioModels repository to significantly
-    enhance their reproducibility and repurposing potential. We recommend the use
-    of systems biology standards to encode and share models of epidemic and pandemic
-    forecasts to improve their findability, accessibility, interoperability, reusability,
-    and reproducibility.
-  authors: Ramachandran K.*, König M.*, Scharm M., Nguyen T.V.N, Hermjakob H., Waltemath
-    D., Malik Sheriff R.S.
+- abstract: A major challenge for the dissemination, replication, and reuse of 
+    epidemiological forecasting studies during COVID-19 pandemics is the lack of
+    clear guidelines and platforms to exchange models in a Findable, Accessible,
+    Interoperable, and Reusable (FAIR) manner, facilitating reproducibility of 
+    research outcomes. During the beginning of pandemics, models were developed 
+    in diverse tools that were not interoperable, opaque without traceability 
+    and semantics, and scattered across various platforms - making them hard to 
+    locate, infer and reuse. In this work, we demonstrate that implementing the 
+    standards developed by the systems biology community to encode and share 
+    COVID-19 epidemiological models can serve as a roadmap to implement models 
+    as a tool in medical informatics, in general. As a proof-of-concept, we 
+    encoded and shared 24 epidemiological models using the standard format for 
+    model exchange in systems biology, annotated them with cross-references to 
+    data resources, packed up all associated files in COMBINE archives for easy 
+    sharing, and finally, disseminated the models through BioModels repository 
+    to significantly enhance their reproducibility and repurposing potential. We
+    recommend the use of systems biology standards to encode and share models of
+    epidemic and pandemic forecasts to improve their findability, accessibility,
+    interoperability, reusability, and reproducibility.
+  authors: Ramachandran K.*, König M.*, Scharm M., Nguyen T.V.N, Hermjakob H., 
+    Waltemath D., Malik Sheriff R.S.
   doi: 10.20944/preprints202206.0137.v1
   journal: 'Preprints 2022, 2022060137 (doi: 10.20944/preprints202206.0137.v1).'
   preprint: true
   pubmed: nan
   qualiperf_funding: true
   title: FAIR Sharing of Reproducible Models of Epidemic and Pandemic Forecast
-- abstract: The cytochrome P450 2D6 (CYP2D6) is a key xenobiotic-metabolizing enzyme
-    involved in the clearance of many drugs. Genetic polymorphisms in CYP2D6 contribute
-    to the large inter-individual variability in drug metabolism and could affect
-    metabolic phenotyping of CYP2D6 probe substances such as dextromethorphan (DXM).
-    To study this question, we (i) established an extensive pharmacokinetics dataset
-    for DXM; and (ii) developed and validated a physiologically based pharmacokinetic
-    (PBPK) model of dextromethorphan (DXM) and its metabolites dextrorphan (DXO) and
-    dextrorphan O-glucuronide (DXO-Glu) based on the data. Drug-gene interactions
-    (DGI) were introduced by accounting for changes in CYP2D6 enzyme kinetics depending
-    on activity score (AS), which in combination with AS for individual polymorphisms
-    allowed us to model of CYP2D6 gene variants. Variability in CYP3A4 and CYP2D6
-    activity was modeled based on in vitro data from human liver microsomes. Model
-    predictions are in very good agreement with pharmacokinetics data for CYP2D6 polymorphisms,
-    CYP2D6 activity as measured by AS, and CYP2D6 metabolic phenotypes (UM, EM, IM,
-    PM). The model was applied to investigate the genotype-phenotype association and
-    the role of CYP2D6 polymorphisms for metabolic phenotyping with dextromethorphan
-    using the urinary cumulative metabolic ratio DXM/(DXO+DXO-Glu) (UCMR). The effect
-    of parameters on UCMR was studied via sensitivity analysis. Model predictions
-    indicate very good robustness against the intervention protocol (i.e. application
-    form, dosing amount, dissolution rate, and sampling time) and good robustness
-    against physiological variation. The model is capable of estimating the UCMR dispersion
-    within and across populations depending on activity scores. Moreover, the distribution
-    of UCMR and the risk of genotype-phenotype mismatch could be estimated for populations
-    with known CYP2D6 genotype frequencies. The model can be applied as a tool for
-    individual prediction of UCMR and metabolic phenotype based on CYP2D6 genotype.
-    Both, model and database are freely available for reuse.
-  authors: Grzegorzewski J., Brandhorst J., König M.
-  doi: 10.1101/2022.08.23.504981
-  journal: 'bioRxiv 2022.08.23.504981; doi: https://doi.org/10.1101/2022.08.23.504981'
-  preprint: true
-  pubmed: '36353484.0'
-  qualiperf_funding: true
-  title: Physiologically based pharmacokinetic (PBPK) modeling of the role of CYP2D6
-    polymorphism for metabolic phenotyping with dextromethorphan
 - abstract: 'Hypercholesterolemia is a multifaceted plasma lipid disorder with heterogeneous
     causes including lifestyle and genetic factors. A key feature of hypercholesterolemia
     is elevated plasma levels of low-density lipoprotein cholesterol (LDL-C). Several
@@ -360,151 +142,335 @@ items:
   preprint: true
   pubmed: nan
   qualiperf_funding: true
-  title: Simvastatin therapy in different subtypes of hypercholesterolemia - a physiologically
-    based modelling approach
-- abstract: The pancreas plays a critical role in maintaining glucose homeostasis
-    through the secretion of hormones from the islets of Langerhans. Glucose-stimulated
-    insulin secretion (GSIS) by the pancreatic beta-cell is the main mechanism for
-    reducing elevated plasma glucose. Here we present a systematic modeling workflow
-    for the development of kinetic pathway models using the Systems Biology Markup
-    Language (SBML). Steps include retrieval of information from databases, curation
-    of experimental and clinical data for model calibration and validation, integration
-    of heterogeneous data including absolute and relative measurements, unit normalization,
-    data normalization, and model annotation. An important factor was the reproducibility
-    and exchangeability of the model, which allowed the use of various existing tools.
-    The workflow was applied to construct the first consensus model of GSIS in the
-    pancreatic beta-cell based on experimental and clinical data from 39 studies spanning
-    50 years of pancreatic, islet, and beta-cell research in humans, rats, mice, and
-    cell lines. The model consists of detailed glycolysis and equations for insulin
-    secretion coupled to cellular energy state (ATP/ADP ratio). Key findings of our
-    work are that in GSIS there is a glucose-dependent increase in almost all intermediates
-    of glycolysis. This increase in glycolytic metabolites is accompanied by an increase
-    in energy metabolites, especially ATP and NADH. One of the few decreasing metabolites
-    is ADP, which, in combination with the increase in ATP, results in a large increase
-    in ATP/ADP ratios  in the beta-cell with increasing glucose. Insulin secretion
-    is dependent on ATP/ADP, resulting in glucose-stimulated insulin secretion. The
-    observed glucose-dependent increase in glycolytic intermediates and the resulting
-    change in ATP/ADP ratios and insulin secretion is a robust phenomenon observed
-    across data sets, experimental systems and species. Model predictions of the glucose-dependent
-    response of glycolytic intermediates and insulin secretion are in good agreement
-    with experimental measurements. Our model predicts that factors affecting ATP
-    consumption, ATP formation, hexokinase, phosphofructokinase, and ATP/ADP-dependent
-    insulin secretion have a major effect on GSIS. In conclusion, we have developed
-    and applied a systematic modeling workflow for pathway models that allowed us
-    to gain insight into key mechanisms in GSIS in the pancreatic beta-cell.
+  title: Simvastatin therapy in different subtypes of hypercholesterolemia - a 
+    physiologically based modelling approach
+- abstract: The pancreas plays a critical role in maintaining glucose 
+    homeostasis through the secretion of hormones from the islets of Langerhans.
+    Glucose-stimulated insulin secretion (GSIS) by the pancreatic beta-cell is 
+    the main mechanism for reducing elevated plasma glucose. Here we present a 
+    systematic modeling workflow for the development of kinetic pathway models 
+    using the Systems Biology Markup Language (SBML). Steps include retrieval of
+    information from databases, curation of experimental and clinical data for 
+    model calibration and validation, integration of heterogeneous data 
+    including absolute and relative measurements, unit normalization, data 
+    normalization, and model annotation. An important factor was the 
+    reproducibility and exchangeability of the model, which allowed the use of 
+    various existing tools. The workflow was applied to construct the first 
+    consensus model of GSIS in the pancreatic beta-cell based on experimental 
+    and clinical data from 39 studies spanning 50 years of pancreatic, islet, 
+    and beta-cell research in humans, rats, mice, and cell lines. The model 
+    consists of detailed glycolysis and equations for insulin secretion coupled 
+    to cellular energy state (ATP/ADP ratio). Key findings of our work are that 
+    in GSIS there is a glucose-dependent increase in almost all intermediates of
+    glycolysis. This increase in glycolytic metabolites is accompanied by an 
+    increase in energy metabolites, especially ATP and NADH. One of the few 
+    decreasing metabolites is ADP, which, in combination with the increase in 
+    ATP, results in a large increase in ATP/ADP ratios  in the beta-cell with 
+    increasing glucose. Insulin secretion is dependent on ATP/ADP, resulting in 
+    glucose-stimulated insulin secretion. The observed glucose-dependent 
+    increase in glycolytic intermediates and the resulting change in ATP/ADP 
+    ratios and insulin secretion is a robust phenomenon observed across data 
+    sets, experimental systems and species. Model predictions of the 
+    glucose-dependent response of glycolytic intermediates and insulin secretion
+    are in good agreement with experimental measurements. Our model predicts 
+    that factors affecting ATP consumption, ATP formation, hexokinase, 
+    phosphofructokinase, and ATP/ADP-dependent insulin secretion have a major 
+    effect on GSIS. In conclusion, we have developed and applied a systematic 
+    modeling workflow for pathway models that allowed us to gain insight into 
+    key mechanisms in GSIS in the pancreatic beta-cell.
   authors: Maheshvare MD., Raha S., König M.*, and Pal D.*
   doi: 10.1101/2023.03.10.532028
   journal: bioRxiv 2023.03.10.532028
   preprint: true
-  pubmed: '36945414.0'
+  pubmed: '36945414'
   qualiperf_funding: true
-  title: A Consensus Model of Glucose-Stimulated Insulin Secretion in the Pancreatic
-    beta-Cell
-- abstract: The field of metabolic modelling at the genome-scale continues to grow
-    with more models being created and curated. This comes with an increasing demand
-    for adopting common principles regarding transparency and versioning, in addition
-    to standardisation efforts regarding file formats, annotation and testing. Here,
-    we present a standardised template for git-based and GitHub-hosted genome-scale
-    metabolic models (GEMs) supporting both new models and curated ones, following
-    FAIR principles (findability, accessibility, interoperability, and reusability),
-    and incorporating best-practices. standard-GEM facilitates the reuse of GEMs across
-    web services and platforms in the metabolic modelling field and enables automatic
-    validation of GEMs. The use of this template for new models, and its adoption
-    for existing ones, paves the way for increasing model quality, openness, and accessibility
-    with minimal effort.
-  authors: Mihail Anton, Eivind Almaas, Rui Benfeitas, Sara Benito-Vaquerizo, Lars
-    M. Blank, Andreas Dräger, John M. Hancock, Cheewin Kittikunapong, <b>Matthias
-    König</b>, Feiran Li, Ulf W. Liebal, Hongzhong Lu, Hongwu Ma, Radhakrishnan Mahadevan,
-    Adil Mardinoglu, Jens Nielsen, Juan Nogales, Marco Pagni, Jason A. Papin, Kiran
-    Raosaheb Patil, Nathan D. Price, Jonathan L. Robinson, Benjamín J. Sánchez, Maria
-    Suarez-Diez, Snorre Sulheim, L. Thomas Svensson, Bas Teusink, Wanwipa Vongsangnak,
-    Hao Wang, Ahmad A. Zeidan, Eduard J. Kerkhoven
+  title: A Consensus Model of Glucose-Stimulated Insulin Secretion in the 
+    Pancreatic beta-Cell
+- abstract: The field of metabolic modelling at the genome-scale continues to 
+    grow with more models being created and curated. This comes with an 
+    increasing demand for adopting common principles regarding transparency and 
+    versioning, in addition to standardisation efforts regarding file formats, 
+    annotation and testing. Here, we present a standardised template for 
+    git-based and GitHub-hosted genome-scale metabolic models (GEMs) supporting 
+    both new models and curated ones, following FAIR principles (findability, 
+    accessibility, interoperability, and reusability), and incorporating 
+    best-practices. standard-GEM facilitates the reuse of GEMs across web 
+    services and platforms in the metabolic modelling field and enables 
+    automatic validation of GEMs. The use of this template for new models, and 
+    its adoption for existing ones, paves the way for increasing model quality, 
+    openness, and accessibility with minimal effort.
+  authors: Mihail Anton, Eivind Almaas, Rui Benfeitas, Sara Benito-Vaquerizo, 
+    Lars M. Blank, Andreas Dräger, John M. Hancock, Cheewin Kittikunapong, 
+    Matthias König, Feiran Li, Ulf W. Liebal, Hongzhong Lu, Hongwu Ma, 
+    Radhakrishnan Mahadevan, Adil Mardinoglu, Jens Nielsen, Juan Nogales, Marco 
+    Pagni, Jason A. Papin, Kiran Raosaheb Patil, Nathan D. Price, Jonathan L. 
+    Robinson, Benjamín J. Sánchez, Maria Suarez-Diez, Snorre Sulheim, L. Thomas 
+    Svensson, Bas Teusink, Wanwipa Vongsangnak, Hao Wang, Ahmad A. Zeidan, 
+    Eduard J. Kerkhoven
   doi: 10.1101/2023.03.21.512712
   journal: 'bioRxiv 2023.03.21.512712; doi: https://doi.org/10.1101/2023.03.21.512712'
   preprint: true
   pubmed: nan
   qualiperf_funding: false
   title: 'standard-GEM: standardization of open-source genome-scale metabolic models'
-- abstract: The cytochrome P450 (CYP) superfamily of enzymes plays a critical role
-    in the metabolism of drugs, toxins, and endogenous and exogenous compounds. The
-    activity of CYP enzymes can be influenced by a variety of factors, including genetics,
-    diet, age, environmental factors, and disease. Among the major isoforms, CYP2E1
-    is of particular interest due to its involvement in the metabolism of various
-    low molecular weight chemicals, including alcohols, pharmaceuticals, industrial
-    solvents, and halogenated anesthetics. Metabolic phenotyping of CYPs based on
-    the elimination of test compounds is a useful method for assessing in vivo activity,
-    with chlorzoxazone being the primary probe drug for phenotyping of CYP2E1. The
-    aim of this work was to investigate the effect of changes in CYP2E1 level and
-    activity, ethanol consumption, ethanol abstinence, and liver impairment on the
-    results of metabolic phenotyping with chlorzoxazone. To accomplish this, an extensive
-    pharmacokinetic dataset for chlorzoxazone was established and a physiologically
-    based pharmacokinetic (PBPK) model of chlorzoxazone and its metabolites, 6-hydroxychlorzoxazone
-    and chlorzoxazone-O-glucuronide, was developed and validated. The model incorporates
-    the effect of ethanol consumption on CYP2E1 levels and activity by extending the
-    model with a core ethanol pharmacokinetic model and a CYP2E1 turnover model. The
-    model accurately predicts pharmacokinetic data from several clinical studies and
-    is able to estimate the effect of changes in CYP2E1 levels and activity on chlorzoxazone
-    pharmacokinetics. Regular ethanol consumption induces CYP2E1 over two to three
-    weeks, resulting in increased conversion of chlorzoxazone to 6-hydroxychlorzoxazone
-    and a higher 6-hydroxychlorzoxazone/chlorzoxazone metabolic ratio. After ethanol
-    withdrawal, CYP2E1 levels return to baseline within one week. Importantly, liver
-    impairment has an opposite effect, resulting in reduced liver function via CYP2E1.
-    In alcoholics with liver impairment who also consume ethanol, these factors will
-    have opposite confounding effects on metabolic phenotyping with chlorzoxazone.
+- abstract: The cytochrome P450 (CYP) superfamily of enzymes plays a critical 
+    role in the metabolism of drugs, toxins, and endogenous and exogenous 
+    compounds. The activity of CYP enzymes can be influenced by a variety of 
+    factors, including genetics, diet, age, environmental factors, and disease. 
+    Among the major isoforms, CYP2E1 is of particular interest due to its 
+    involvement in the metabolism of various low molecular weight chemicals, 
+    including alcohols, pharmaceuticals, industrial solvents, and halogenated 
+    anesthetics. Metabolic phenotyping of CYPs based on the elimination of test 
+    compounds is a useful method for assessing in vivo activity, with 
+    chlorzoxazone being the primary probe drug for phenotyping of CYP2E1. The 
+    aim of this work was to investigate the effect of changes in CYP2E1 level 
+    and activity, ethanol consumption, ethanol abstinence, and liver impairment 
+    on the results of metabolic phenotyping with chlorzoxazone. To accomplish 
+    this, an extensive pharmacokinetic dataset for chlorzoxazone was established
+    and a physiologically based pharmacokinetic (PBPK) model of chlorzoxazone 
+    and its metabolites, 6-hydroxychlorzoxazone and chlorzoxazone-O-glucuronide,
+    was developed and validated. The model incorporates the effect of ethanol 
+    consumption on CYP2E1 levels and activity by extending the model with a core
+    ethanol pharmacokinetic model and a CYP2E1 turnover model. The model 
+    accurately predicts pharmacokinetic data from several clinical studies and 
+    is able to estimate the effect of changes in CYP2E1 levels and activity on 
+    chlorzoxazone pharmacokinetics. Regular ethanol consumption induces CYP2E1 
+    over two to three weeks, resulting in increased conversion of chlorzoxazone 
+    to 6-hydroxychlorzoxazone and a higher 6-hydroxychlorzoxazone/chlorzoxazone 
+    metabolic ratio. After ethanol withdrawal, CYP2E1 levels return to baseline 
+    within one week. Importantly, liver impairment has an opposite effect, 
+    resulting in reduced liver function via CYP2E1. In alcoholics with liver 
+    impairment who also consume ethanol, these factors will have opposite 
+    confounding effects on metabolic phenotyping with chlorzoxazone.
   authors: J. Küttner, J. Grzegorzewski, HM. Tautenhahn, M. König
   doi: 10.1101/2023.04.12.536571
   journal: 'bioRxiv 2023.04.12.536571; doi: https://doi.org/10.1101/2023.04.12.536571'
   preprint: true
   pubmed: nan
   qualiperf_funding: true
-  title: A physiologically based pharmacokinetic model for CYP2E1 phenotyping via
-    chlorzoxazone
-- abstract: 'Across disciplines, researchers increasingly recognize that open science
-    and reproducible research practices may accelerate scientific progress by allowing
-    others to reuse research outputs and by promoting rigorous research that is more
-    likely to yield trustworthy results. While initiatives, training programs, and
-    funder policies encourage researchers to adopt reproducible research and open
-    science practices, these practices are uncommon in many fields. Researchers need
-    training to integrate these practices into their daily work. We organized a virtual
-    brainstorming event, in collaboration with the German Reproducibility Network,
-    to discuss strategies for making reproducible research and open science training
-    the norm at research institutions. Here, we outline eleven strategies, concentrated
-    in three areas: (1) offering training, (2) adapting research assessment criteria
-    and program requirements, and (3) building communities. We provide a brief overview
-    of each strategy, offer tips for implementation, and provide links to resources.
-    Our goal is to encourage members of the research community to think creatively
-    about the many ways they can contribute and collaborate to build communities,
-    and make reproducible research and open science training the norm. Researchers
-    may act in their roles as scientists, supervisors, mentors, instructors, and members
-    of curriculum, hiring or evaluation committees. Institutional leadership and research
-    administration and support staff can accelerate progress by implementing change
-    across their institutions.'
-  authors: Friederike E. Kohrs, Susann Auer, Alexandra Bannach-Brown, Susann Fiedler,
-    Tamarinde Haven, Verena Heise, Constance Holman, Flavio Azevedo, René Bernard,
-    Arnim Bleier, Nicole Bössel, Brian Cahill, Leyla Jael Castro, Adrian Ehrenhofer,
-    Kristina Eichel, Maximilian Frank, Claudia Frick, Malte Friese, Anne Gärtner,
-    Kerstin Gierend, David Joachim Grüning, Lena Hahn, Maren Hülsemann, Malika Ihle,
-    Sabrina Illius, Laura König, Matthias König, Louisa Kulke, Anton Kutlin, Fritjof
-    Lammers, David M.A. Mehler, Christoph Miehl, Anett Müller-Alcazar, Claudia Neuendorf,
-    Helen Niemeyer, Florian Pargent, Aaron Peikert, Christina U. Pfeuffer, Robert
-    Reinecke, Jan Philipp Röer, Jessica L. Rohmann, Alfredo Sánchez-Tójar, Stefan
-    Scherbaum, Elena Sixtus, Lisa Spitzer, Vera Maren Straßburger, Marcel Weber, Clarissa
-    Whitmire, Josephine Zerna, Dilara Zorbek, Philipp Zumstein, Tracey L. Weissgerber
-  doi: 10.31219/osf.io/kcvra
-  journal: 'osfpreprints 2023.04.12.536571 doi: 10.31219/osf.io/kcvra'
-  preprint: true
-  pubmed: nan
-  qualiperf_funding: false
-  title: Eleven Strategies for Making Reproducible Research and Open Science Training
-    the Norm at Research Institutions
-- abstract: see preprint
-  authors: Lena Lambers, Navina Waschinsky, Jana Schleicher, Matthias König, Hans-Michael
-    Tautenhahn, Mohamed Albadry, Uta Dahmen and Tim Ricken
-  doi: 10.21203/rs.3.rs-3348101/v1
-  journal: Research Square
+  title: A physiologically based pharmacokinetic model for CYP2E1 phenotyping 
+    via chlorzoxazone
+- abstract: 'Talinolol is a cardioselective beta-blocker used in the treatment of
+    various cardiovascular diseases and tachyarrhythmias. Its intestinal absorption
+    is determined by uptake by the organic anion transporting polypeptide 2B1 (OATP2B1)
+    and efflux via P-glycoprotein (P-gp). Talinolol can be taken up via OATP1B1 in
+    the liver, where it enters the enterohepatic circulation. Talinolol is excreted
+    unchanged in the urine and feces. Talinolol is widely used as a probe drug for
+    the intestinal efflux transporter P-gp, which plays a critical role in protecting
+    against potentially toxic substances and facilitating the elimination of xenobiotics.
+    In this work, an extensive database of talinolol pharmacokinetics was established
+    and used to develop and validate a physiologically based pharmacokinetic (PBPK)
+    model of talinolol for P-gp phenotyping. The model was used to investigate the
+    influence of several factors on talinolol pharmacokinetics: (i) inhibition of
+    P-gp via drug-drug interaction; (i) genetic polymorphisms of P-gp; (iii) activity
+    of OATP2B1 and OATP1B1; (iv) effect of disease, namely hepatic and renal impairment;
+    and (v) site-specific distribution of P-gp and OATP2B1 in the intestine. The model
+    accurately predicts the concentration-time profile of talinolol after oral and
+    intravenous administration of single and multiple dosing. Furthermore, the model
+    accurately describes the effect of genetic variants of P-gp on the pharmacokinetics
+    of talinolol, the effect of inhibition of P-gp, the effect of renal impairment,
+    as well as site-specific infusion of talinolol in the intestine. The detailed
+    description of the intestinal absorption of talinolol and the predictions of talinolol
+    pharmacokinetics as a function of hepatorenal impairment provide valuable clinical
+    insights for metabolic phenotyping with talinolol. Both the model and the database
+    are freely available for reuse.'
+  authors: Beatrice Stemmer Mallol, Jan Grzegorzewski, Matthias König
+  doi: '-'
+  journal: 'bioRxiv 2023.11.21.568168; doi: https://doi.org/10.1101/2023.11.21.568168'
   preprint: true
   pubmed: nan
   qualiperf_funding: true
-  title: 'Quantifying Fat Zonation in Liver Lobules: An Integrated Multiscale In-silico
-    Model Combining Disturbed Microperfusion and Fat Metabolism via a Continuum-Biomechanical
-    Bi-scale, Tri-phasic Approach'
+  title: 'Insights into Intestinal P-glycoprotein Function using Talinolol: A PBPK
+    Modeling Approach'
+- abstract: Multiscale modeling requires the coupling of models on different 
+    scales, often based on different mathematical approaches and developed by 
+    different research teams. This poses many challenges, such as defining 
+    interfaces for coupling, reproducible exchange of submodels, efficient 
+    simulation of the models, or reproducibility of results. Here, we present a 
+    multiscale digital twin of the liver that couples a partial differential 
+    equation (PDE)-based porous media approach for the hepatic lobule with 
+    cellular-scale ordinary differential equation (ODE)-based models. The models
+    based on the theory of porous media describe transport, tissue mechanical 
+    properties, and deformations at the lobular scale, while the cellular models
+    describe hepatic metabolism in terms of drug metabolism and damage in terms 
+    of necrosis. The resulting multiscale model of the liver was used to 
+    simulate perfusion-zonation-function relationships in the liver spanning 
+    scales from single cell to the lobulus. The model was applied to study the 
+    effects of (i) protein zonation patterns (metabolic zonation) and (ii) drug 
+    concentration dependence on spatially heterogeneous liver damage in the form
+    of necrosis. Depending on the zonation pattern, different liver damage 
+    patterns could be reproduced, including periportal and pericentral necrosis 
+    as seen in drug-induced liver injury (DILI). Increasing the drug 
+    concentration led to an increase in the observed damage pattern. A key point
+    for the success was the integration of domain-specific simulators based on 
+    standard exchange formats, i.e., libroadrunner for the high-performance 
+    simulation of ODE-based systems and FEBio for the simulation of the 
+    continuum-biomechanical part. This allows a standardized and reproducible 
+    exchange of cellular scale models in the Systems Biology Markup Language 
+    (SBML) between research groups.
+  authors: Steffen Gerhäusser, Lena Lambers, Luis Mandl, Julian Franquinet, Tim 
+    Ricken, Matthias König
+  doi: '-'
+  journal: 'bioRxiv 2024.03.26.586870; doi: https://doi.org/10.1101/2024.03.26.586870'
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: true
+  title: 'Simulation of zonation-function relationships in the liver using coupled
+    multiscale models: Application to drug-induced liver injury'
+- abstract: Reproducibility is a foundational standard for validating scientific
+    claims in computational research. Stochastic computational models are 
+    employed across diverse fields such as systems biology, financial modelling 
+    and environmental sciences. Existing infrastructure and software tools 
+    support various aspects of reproducible model development, application, and 
+    dissemination, but do not adequately address independently reproducing 
+    simulation results that form the basis of scientific conclusions. To bridge 
+    this gap, we introduce the Empirical Characteristic Function Equality 
+    Convergence Test (EFECT), a data-driven, statistically robust method to 
+    quantify the reproducibility of stochastic simulation results. EFECT employs
+    empirical characteristic functions to compare reported results with those 
+    independently generated by assessing distributional inequality, termed EFECT
+    error, a metric to quantify the likelihood of equality. Additionally, we 
+    establish the EFECT convergence point, a quantitative metric for determining
+    the required number of simulation runs to achieve an EFECT error value of a 
+    priori statistical significance, setting a reproducibility benchmark. EFECT 
+    supports all real-valued and bounded results irrespective of the model or 
+    method that produced them, and accommodates stochasticity from intrinsic 
+    model variability and random sampling of model inputs. We tested EFECT with 
+    stochastic differential equations, agent-based models, and Boolean networks,
+    demonstrating its broad applicability and effectiveness. EFECT standardizes 
+    stochastic simulation reproducibility, establishing a workflow that 
+    guarantees reliable results, supporting a wide range of stakeholders, and 
+    thereby enhancing validation of stochastic simulation studies, across a 
+    model's lifecycle. To promote future standardization efforts, we are 
+    developing open source Stochastic Simulation Reproducibility software 
+    library (libSSR) in diverse programming languages for easy integration of 
+    EFECT.
+  authors: T.J. Sego, Matthias König, Luis L. Fonseca, Baylor Fain, Adam C. 
+    Knapp, Krishna Tiwari, Henning Hermjakob, Herbert M. Sauro, James A. 
+    Glazier, Reinhard C. Laubenbacher, Rahuman S. Malik-Sheriff
+  doi: 10.48550/arXiv.2406.16820
+  journal: arXiv:2406.16820; 10.48550/arXiv.2406.16820
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: false
+  title: EFECT – A Method and Metric to Assess the Reproducibility of Stochastic
+    Simulation Studies
+- abstract: "Metabolic processes in the hepatic lobule are spatially organized. Consequently,
+    many liver diseases have a distinct zonation pattern. Understanding the interplay
+    between a zonated disease pattern and its impact on liver function requires the
+    joint quantification of both phenomena.\nOur study presents an image analysis
+    workflow for the joint zonated quantification of multiple parameters from whole-slide
+    images of conventionally stained serial sections. Portal fields and central veins
+    are annotated and transferred to adjacent slide images via image registration.
+    This allows identifying the same lobules and zones in multiple slides, where zones
+    are obtained by dividing the distance between portal fields and central veins
+    in twelve intralobular zonal distributions of various parameter combinations quantified
+    from multiple slides can then be plotted as scatter diagrams or visualized in
+    the lobule/zone geometry.\nAs a proof-of-concept, we quantify the distribution
+    of periportal steatosis and pericentral cytochrome P-450 (CYP) expression using
+    HE and immunohistochemically stained WSI. The data can be used to parameterize
+    computational simulations of physiological processes in the lobules and zones
+    more accurately."
+  authors: Laue* HOA, Budelmann* D, Albadry* M, Engel C, Weiss N, Dahmen* U, 
+    Schwen* LO
+  doi: 10.21203/rs.3.rs-4764718/v1
+  journal: 'ResearchSquare, doi: 10.21203/rs.3.rs-4764718/v1, 2024'
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: true
+  title: Joint zonated quantification of multiple parameters in hepatic lobules
+- abstract: Genome scale metabolic models (GEMs) and other constraint-based 
+    models (CBMs) play a pivotal role in understanding biological phenotypes and
+    advancing research in areas like metabolic engineering, human disease 
+    modelling, drug discovery, and personalized medicine. Despite their growing 
+    application, a significant challenge remains in ensuring the reproducibility
+    of GEMs, primarily due to inconsistent reporting and inadequate model 
+    documentation of model results. Addressing this gap, we introduce FROG 
+    analysis, a community driven initiative aimed at standardizing 
+    reproducibility assessments of CBMs and GEMs. The FROG framework encompasses
+    four key analyses including Flux variability, Reaction deletion, Objective 
+    function, and Gene deletion to produce standardized, numerically 
+    reproducible FROG reports. These reports serve as reference datasets, 
+    enabling model evaluators, curators, and independent researchers to verify 
+    the reproducibility of GEMs systematically. BioModels, a leading repository 
+    of systems biology models, has integrated FROG analysis into its curation 
+    workflow, enhancing the reproducibility and reusability of submitted GEMs. 
+    In our study evaluating 65 GEM submissions from the community, approximately
+    40% reproduced without intervention, 28% requiring minor adjustments, and 
+    32% needing input from authors. The standardization introduced by FROG 
+    analysis facilitated the detection and resolution of issues, ultimately 
+    leading to the successful reproduction of all models. By establishing a 
+    standardized and comprehensive approach to evaluating GEM reproducibility, 
+    FROG analysis significantly contributes to making CBMs and GEMs more 
+    transparent, reusable, and reliable for the broader scientific community.
+  authors: Karthik Raman, Miroslav Kratochvil, Brett G. Olivier, Matthias König,
+    Pratyay Sengupta, Dinesh Kumar Kuppa Baskaran, Tung V N Nguyen, Daniel Lobo,
+    St Elmo Wilken, Krishna Kumar Tiwari, Aswathy K. Raghu, Indumathi 
+    Palanikumar, Lavanya Raajaraam, Maziya Ibrahim, Sanjaay Balakrishnan, 
+    Shreyansh Umale, Frank Bergmann, Tanisha Malpani, Venkata P Satagopam, 
+    Reinhard Schneider, Moritz E. Beber, Sarah Keating, Mihail Anton, Alina 
+    Renz, Meiyappan Lakshmanan, Dong-Yup Lee, Lokanand Koduru, Reihaneh 
+    Mostolizadeh, Oscar Dias, Emanuel Cunha, Alexandre Oliveira, Yi Qing Lee, 
+    Karsten Zengler, Rodrigo Santibanez-Palominos, Manish Kumar, Matteo 
+    Barberis, Bhanwar Lal Puniya, Tomas Helikar, Hoang V. Dinh, Patrick F. 
+    Suthers, Costas D. Maranas, Isabella Casini, Seyed Babak Loghmani, Nadine 
+    Veith, Nantia Leonidou, Feiran Li, Yu Chen, Jens Nielsen, GaRyoung Lee, Sang
+    Mi Lee, Gi Bae Kim, Pedro T. Monteiro, Miguel C. Teixeira, Hyun Uk Kim, Sang
+    Yup Lee, Ulf W. Liebal, Lars M. Blank, Christian Lieven, Chaimaa Tarzi, 
+    Claudio Angione, Manga Enuh Blaise, Celik Pinar Aytar, Mikhail Kulyashov, 
+    llya Akberdin, Dohyeon Kim, Sung Ho Yoon, Zhaohui Xu, Jyotshana Gautam, 
+    William T. Scott Jr., Peter J. Schaap, Jasper J. Koehorst, Cristal Zuniga, 
+    Gabriela Canto-Encalada, Sara Benito-Vaquerizo, Ivette Parera Olm, Maria 
+    Suarez-Diez, Qianqian Yuan, Hongwu Ma, Mohammad Mazharul Islam, Jason A. 
+    Papin, Francisco Zorrilla, Kiran Raosaheb Patil, Arianna Basile, Juan 
+    Nogales, Granado San Leon, Freddy Castillo-Alfonso, Roberto 
+    Olivares-Hernandez, Gabriel Vigueras-Ramirez, Henning Hermjakob, Andreas 
+    Drager, Rahuman S Malik-Sheriff
+  doi: 10.1101/2024.09.24.614797
+  journal: bioRxiv 2024.09.24.614797; 10.1101/2024.09.24.614797
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: true
+  title: FROG Analysis Ensures the Reproducibility of Genome Scale Metabolic 
+    Models
+- abstract: "Advances in measurement technology have led to the generation of increasingly\n\
+    large data sets across various scientific fields. Data that capture the variability\n\
+    of the underlying system or process, such as single-cell or imaging data, are\n\
+    particularly interesting. However, calibrating computational models to explain\n\
+    this type of data remains challenging.\nWe interpret the model calibration as
+    a Stochastic Inverse Problem (SIP), where\nthe measurements are interpreted as
+    probabilistic samples. Our new SIP solu-\ntion approach, Eulerian Parameter Inference
+    (EPI), only requires data with high\nvariability and a deterministic simulation
+    model that maps model parameters\nto simulation results. EPI solves the SIP through
+    a change of variables. This\ncomputationally efficient approach allows for direct
+    and point-wise evaluation\nof parameter densities without ever inverting the simulation
+    model. The result-\ning parameter distribution captures data variability completely,
+    enabling full\ndata reconstruction. Further, estimating multivariate model parameters
+    can be\nreduced to a series of one-dimensional problems under the assumption of
+    stochas-\ntically independent parameters. Particularly for complex simulation
+    models and\ninvolved problems, this property is vital.\nWith EPI, we explain 1)
+    annual average temperature data of 3 168 weather sta-\ntions around the world
+    with an arithmetic model, 2) German district-specific\nCOVID-19 infection data
+    through a differential equation model, and 3) artificial\ndata generated via a
+    partial differential equation model with independent param-\neters. With a robust
+    mathematical foundation and an easily accessible Python\npackage, we provide a
+    versatile solution framework for integrating data with high\nvariability into
+    simulation models that promotes application to various research\nquestions."
+  authors: Wagner Vincent, Castellaz Benjamin, Kaiser Lars, Höpfl Sebastian, 
+    Radde Nicole
+  doi: '-'
+  journal: ResearchSquare
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: true
+  title: 'Eulerian Parameter Inference: A Probabilistic Change of Variables for Model-Based
+    Inference with High-Variability Data Sets'
+- abstract: nan
+  authors: Höpfl et al.
+  doi: '-'
+  journal: nan
+  preprint: true
+  pubmed: '-'
+  qualiperf_funding: false
+  title: Integrated mathematical and experimental modeling uncovers enhanced EMT
+    plasticity upon loss of the DLC1 tumor suppressor

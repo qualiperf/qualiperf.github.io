@@ -38,8 +38,11 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     console.rule(title="publications", style="white")
     df_publications = dfs["Publications"]
     df_ifs = dfs["IF"]
+    df_ifs.rename(columns={"IF (2024)": "IF"}, inplace=True)
     df_publications = df_publications.merge(df_ifs, how="left", on="Journal_ID")
     df_publications.rename(columns=columns_dict, inplace=True)
+    console.print(df_publications.columns)
+
     df_publications = df_publications[[
         "Title",
         "Authors",
@@ -58,7 +61,7 @@ def create_statistics(xlsx_in: Path, xlsx_out: Path) -> Dict[str, pd.DataFrame]:
     df_publications["Pubmed"] = df_publications["Pubmed"].str.replace("nan", "")
     df_publications["Pubmed"] = df_publications["Pubmed"].str.replace(".0", "")
 
-    console.print(df_publications)
+    # console.print(df_publications)
 
     console.rule(title="preprints", style="white")
     df_preprints = dfs["Preprints"]

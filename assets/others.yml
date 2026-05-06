@@ -58,7 +58,8 @@ items:
     one step closer to clinical practice."
   authors: Tim Ricken, Oliver Röhrle, Silvia Budday
   category: Organization Minisymposium
-  conference: World Congress of Computational Mechanics WCCM XV - APCOM VII, in Yokohama
+  conference: World Congress of Computational Mechanics WCCM XV - APCOM VII, in 
+    Yokohama
   journal: nan
   projects: P7 - Ricken
   qualiperf_funding: false
@@ -106,7 +107,7 @@ items:
     are the very core of multiscale liver modeling.\n\nThe contributions to the Research
     Topic include Original Research papers, (Mini) Reviews, and Opinions on liver
     modeling. The specific topics include:\n\n- Blood flow models for large hepatic
-    vessels and/or sinusoids;\n- Liver tissue models and virtual lobule models;\n
+    vessels and/or sinusoids;\n- Liver tissue models and virtual lobule models;\n\
     - Imaging and image analysis techniques for revealing microstructure and processes
     at multiple scales;\n- Mechanistic factors underlying liver diseases (e.g., steatosis,
     fibrosis, cirrhosis, cancer)\n\nProjects at the interface of Biomechanics and
@@ -187,8 +188,8 @@ items:
   projects: P9 - Tautenhahn
   qualiperf_funding: false
   title: Vorstandsmitglied der Thüringischen Gesellschaft für Chirurgie
-- abstract: from the beginning of August a new project assistance will join the AG
-    Gerontochirurgie in Jena
+- abstract: from the beginning of August a new project assistance will join the 
+    AG Gerontochirurgie in Jena
   authors: Hans-Michael Tautenhahn
   category: Miscellaneous
   conference: nan
@@ -198,7 +199,7 @@ items:
   title: New Project Assistant
 - abstract: '-'
   authors: Nicole Radde, Ingmar Glauche
-  category: Workshop Leader
+  category: Workshop
   conference: 'jährlicher Workshop in Dresden '
   journal: nan
   projects: P5 - Radde
@@ -211,8 +212,9 @@ items:
   journal: EXC 2075 - SimTech
   projects: P5 - Radde
   qualiperf_funding: false
-  title: Methodology for the calibration and analysis of stochastic models for heterogeneous
-    intracellular processes with applications in cancer development
+  title: Methodology for the calibration and analysis of stochastic models for 
+    heterogeneous intracellular processes with applications in cancer 
+    development
 - abstract: na
   authors: Tim Ricken
   category: Accepted project proposal
@@ -220,8 +222,8 @@ items:
   journal: EXC 2075 - SimTech
   projects: P7 - Ricken
   qualiperf_funding: false
-  title: Data-enhanced prediction of organ-specific tumor growth in the liver - a
-    hybrid knowledge and data-driven approach
+  title: Data-enhanced prediction of organ-specific tumor growth in the liver - 
+    a hybrid knowledge and data-driven approach
 - abstract: na
   authors: Jürgen Reichenbach
   category: Editoring
@@ -230,27 +232,30 @@ items:
     0939-3889)'
   projects: P6 - Reichenbach
   qualiperf_funding: false
-  title: Editor-in-Chief der Zeitschrift "Zeitschrift für Medizinische Physik" (Journal
-    of Medical Physics) (ISSN 0939-3889)
-- abstract: The liver is the main organ involved in the clearance of most drugs, e.g.,
-    acetaminophen. The function of the liver can be evaluated using information about
-    the clearance of test drugs (pharmacokinetics data) in combination with computational
-    models describing the absorption, distribution, metabolism, and elimination (ADME)
-    of these substances in the human body. Within this lab project a physiologically
-    based model of the elimination of an example drug in the human body will be established
-    based on existing literature data. Such a model allows us to simulate in silico
-    the pharmacokinetics of the example drugs and evaluate hypotheses, for instance,
-    on drug-drug interactions or alterations in drug metabolism in disease or with
-    age. The project will focus on acetylsalicylic acid or omeprazole (but other drugs
-    could be used). The project is a computational project requiring basic programming
-    skills, no wet lab work will be performed.
+  title: Editor-in-Chief der Zeitschrift "Zeitschrift für Medizinische Physik" 
+    (Journal of Medical Physics) (ISSN 0939-3889)
+- abstract: The liver is the main organ involved in the clearance of most drugs,
+    e.g., acetaminophen. The function of the liver can be evaluated using 
+    information about the clearance of test drugs (pharmacokinetics data) in 
+    combination with computational models describing the absorption, 
+    distribution, metabolism, and elimination (ADME) of these substances in the 
+    human body. Within this lab project a physiologically based model of the 
+    elimination of an example drug in the human body will be established based 
+    on existing literature data. Such a model allows us to simulate in silico 
+    the pharmacokinetics of the example drugs and evaluate hypotheses, for 
+    instance, on drug-drug interactions or alterations in drug metabolism in 
+    disease or with age. The project will focus on acetylsalicylic acid or 
+    omeprazole (but other drugs could be used). The project is a computational 
+    project requiring basic programming skills, no wet lab work will be 
+    performed.
   authors: Matthias König
   category: Internship
   conference: nan
   journal: nan
   projects: P3 - König
   qualiperf_funding: false
-  title: Computational Modeling of Drug Detoxification – A Systems Medicine Approach
+  title: Computational Modeling of Drug Detoxification – A Systems Medicine 
+    Approach
 - abstract: 'Background: Liver transplantation (LTx) is the only curative treatment
     option for acute and chronic end-stage liver disease. Demographic change and western
     lifestyle result in an increasing rate of elderly multi-morbid potential recipients
@@ -283,15 +288,16 @@ items:
     processes and is urgently needed. This will be the first step towards an in-silico
     clinical decision support tool to reach a better decision pro or contra the marginal
     organ by in-silico predicting hepatic damage and early graft function.'
-  authors: Professorin Dr. Uta Dahmen, Professor Dr.-Ing. Tim Ricken, Privatdozent
-    Dr. Hans-Michael Tautenhahn, Dr. Matthias König
+  authors: Professorin Dr. Uta Dahmen, Professor Dr.-Ing. Tim Ricken, 
+    Privatdozent Dr. Hans-Michael Tautenhahn, Dr. Matthias König
   category: Accepted project proposal
   conference: nan
   journal: nan
   projects: P2 - Dahmen, P3 - König, P7 - Ricken, P9 - Tautenhahn
   qualiperf_funding: false
-  title: SIMulation supported LIVer Assessment for donor organs (SimLivA) - Continuum-biomechanical
-    modeling for staging of ischemia reperfusion injury during liver transplantation
+  title: SIMulation supported LIVer Assessment for donor organs (SimLivA) - 
+    Continuum-biomechanical modeling for staging of ischemia reperfusion injury 
+    during liver transplantation
 - abstract: "Liver cancer is the second leading cause of cancer-related death. Diagnosis
     and treatment are time-critical and require highly patient-specific diagnostic
     and treatment pathways. Medical decision-making is based on a multitude of interdependent
@@ -317,8 +323,8 @@ items:
     to malignancies in other organs, such as lungs, kidneys or the brain.\nTool and
     demonstrator development will provide for sustainable exploitation pathways for
     future commercial applications."
-  authors: Professor Dr.-Ing. Tim Ricken, Professor Dr. Steffen Staab, Privatdozent
-    Dr. Hans-Michael Tautenhahn, Dr. Matthias König
+  authors: Professor Dr.-Ing. Tim Ricken, Professor Dr. Steffen Staab, 
+    Privatdozent Dr. Hans-Michael Tautenhahn, Dr. Matthias König
   category: Accepted project proposal
   conference: nan
   journal: nan
@@ -328,8 +334,8 @@ items:
     for Tumor Liver Assessment - Entwicklung eines Systems zur klinischen Entscheidungsunterstützung
     in der Diagnose und Behandlung von Lebertumoren auf Basis von künstlicher Intelligenz
     und Simulationen"
-- abstract: PEtab is a data format for specifying parameter estimation problems in
-    systems biology.
+- abstract: PEtab is a data format for specifying parameter estimation problems 
+    in systems biology.
   authors: König Matthias
   category: Editoring
   conference: nan
@@ -379,20 +385,21 @@ items:
   projects: P3 - König
   qualiperf_funding: false
   title: M. König has been elected as PEtab editor (2023-2026)
-- abstract: Datasets and results for the manuscript “Automated Detection of Portal
-    Fields and Central Veins in Whole-Slide Images of Liver Tissue” (Journal of Pathology
-    Informatics 13 (2022) 100001, https://doi.org/10.1016/j.jpi.2022.100001)
-  authors: Budelmann D, Laue H, Weis N, Dahmen U, D’Alessandro LA, Biermayer I, Klingmüller
-    U, Ghallab A, Hassan R, Begher-Tibbe B, Hengstler JG, Schwen LO
+- abstract: Datasets and results for the manuscript “Automated Detection of 
+    Portal Fields and Central Veins in Whole-Slide Images of Liver Tissue” 
+    (Journal of Pathology Informatics 13 (2022) 100001, 
+    https://doi.org/10.1016/j.jpi.2022.100001)
+  authors: Budelmann D, Laue H, Weis N, Dahmen U, D’Alessandro LA, Biermayer I, 
+    Klingmüller U, Ghallab A, Hassan R, Begher-Tibbe B, Hengstler JG, Schwen LO
   category: Dataset
   conference: nan
   journal: 'Zenodo 2022, doi: 10.5281/zenodo.5726769'
   projects: Stea-PK Mod
   qualiperf_funding: false
-  title: Datasets for "Automated Detection of Portal Fields and Central Veins in Whole-Slide
-    Images of Liver Tissue"
-- abstract: Datasets for the publication "Segmentation of Lipid Droplets in Histological
-    Images" (submitted)
+  title: Datasets for "Automated Detection of Portal Fields and Central Veins in
+    Whole-Slide Images of Liver Tissue"
+- abstract: Datasets for the publication "Segmentation of Lipid Droplets in 
+    Histological Images" (submitted)
   authors: Budelmann D, Cao Q, Laue H, Albadry M, Dahmen U, Schwen LO
   category: Dataset
   conference: nan
@@ -407,22 +414,24 @@ items:
   journal: nan
   projects: P5 - Radde
   qualiperf_funding: true
-  title: Hosting and organiztion of the Computational Modeling in Biology” Network
-    (COMBINE) meeting 2024 in Stuttgart
-- abstract: The overarching goal of our project network is the development of detailed
-    in silico models for complex biological systems that couple different scales and
-    heterogeneous data. We concentrate our research on the neuromuscular system and
-    on proliferative and degenerative diseases. We aim to support personalized healthcare
-    and the development of tailor-made biomedical products by using predictive computational
-    models that advance our understanding about the biological system via simulations
-    and model analysis. A particular focus is thereby on models that capture heterogeneity
-    on the cellular level which is related to differences in phenotypes on higher
-    scales, and on building individualized models which allow to derive predictions
-    and hypotheses for the individual patient. This becomes feasible by integrating
-    system-specific data from various sources.
+  title: Hosting and organiztion of the Computational Modeling in Biology” 
+    Network (COMBINE) meeting 2024 in Stuttgart
+- abstract: The overarching goal of our project network is the development of 
+    detailed in silico models for complex biological systems that couple 
+    different scales and heterogeneous data. We concentrate our research on the 
+    neuromuscular system and on proliferative and degenerative diseases. We aim 
+    to support personalized healthcare and the development of tailor-made 
+    biomedical products by using predictive computational models that advance 
+    our understanding about the biological system via simulations and model 
+    analysis. A particular focus is thereby on models that capture heterogeneity
+    on the cellular level which is related to differences in phenotypes on 
+    higher scales, and on building individualized models which allow to derive 
+    predictions and hypotheses for the individual patient. This becomes feasible
+    by integrating system-specific data from various sources.
   authors: Radde Nicole
   category: Organization Minisymposium
-  conference: International Conference on Data-Integrated Simulation Science (SimTech2023)
+  conference: International Conference on Data-Integrated Simulation Science 
+    (SimTech2023)
   journal: nan
   projects: P5 - Radde
   qualiperf_funding: true
@@ -444,22 +453,75 @@ items:
     Skala. Auf dieser Grundlage können die Funktionalität, Energiebilanz und Zelltod
     jeder Zelle durch systembiologische Ansätze modelliert werden. Dieses Modell wird
     zur Beschreibung der ischämischen Schädigung unter Nährstoffmangel verwendet,
-    welche sich wiederum auf die Durchblutung auf der lobulären Ebene auswirkt.\n
+    welche sich wiederum auf die Durchblutung auf der lobulären Ebene auswirkt.\n\
     Neben der Verwendung von Tier- und Humandaten zur Modellparametrisierung und -validierung
     ist eine Proof-of-Concept-Studie zur klinischen Anwendbarkeit geplant. Ein solches
     Modell, das die Wechselwirkung zwischen den mechanischen Eigenschaften des Transplantats,
     der Leberperfusion und dem betroffenen Stoffwechsel berücksichtigt, könnte die
     klinische Entscheidungsfindung erleichtern (vgl. [4]).\n[1] Ehlers. Foundations
-    of multiphasic and porous materials (2002)\n[2] Ricken et al. BMMB (2015) 14:515–536\n
+    of multiphasic and porous materials (2002)\n[2] Ricken et al. BMMB (2015) 14:515–536\n\
     [3] Lambers. Multiscale and multiphase modeling and numerical simulation of function-perfusion
     processes in the liver (2023)\n[4] Christ et al. Front. Physiol. (2021) 12:733868"
-  authors: Mandl L., Gerhäusser S., Lambers L., König M., Tautenhahn H.-M., Dahmen
-    U., Ricken T.
+  authors: Mandl L., Gerhäusser S., Lambers L., König M., Tautenhahn H.-M., 
+    Dahmen U., Ricken T.
   category: Invited Speaker
-  conference: 32. Jahrestagung der Deutschen Transplantationsgesellschaft, DTG2023,
-    https://www.dtg2023.org
+  conference: 32. Jahrestagung der Deutschen Transplantationsgesellschaft, 
+    DTG2023, https://www.dtg2023.org
   journal: nan
   projects: P2 - Dahmen, P3 - König, P7 - Ricken, P9 - Tautenhahn, SimLivA
   qualiperf_funding: true
-  title: Mathematische Modellbildung des Ischämie-Reperfusionsschadens zur Entscheidungsunterstützung
-    bei Lebertransplantationen
+  title: Mathematische Modellbildung des Ischämie-Reperfusionsschadens zur 
+    Entscheidungsunterstützung bei Lebertransplantationen
+- abstract: Liver cancer ranks second in cancer-related deaths thereby making 
+    timely diagnosis and personalized treatment crucial. Hepatocellular 
+    carcinoma (HCC) patients often get diagnosed at advanced stages, hindering 
+    curative options like resection and ablation. Systemic treatment has become 
+    the standard therapy and sorafenib has been the primary systemic treatment 
+    for advanced HCC for the last ten years, being the first approved drug for 
+    this purpose. Sorafenib (Nexavar), is a multi-kinase inhibitor medication 
+    approved for primarily treating advanced renal cell carcinoma, 
+    hepatocellular carcinoma or other cancers. After oral administration, 
+    sorafenib enters hepatocytes via OATP1B-type carriers. It undergoes 
+    CYP3A4-mediated oxidative metabolism to sorafenib-N-oxide (M2) and 
+    UGT1A9-mediated glucuronidation forming sorafenib-glucuronide (SG). SG is 
+    secreted into bile mainly by ABCC2, with a fraction reuptaken by ABCC3, 
+    preventing ABCC2 saturation. In bile, SG can be excreted via the feces or 
+    converted back to sorafenib by a bacterial β-glucuronidase. Sorafenib is 
+    absorbed in the intestine, reentering the systemic circulation, contributing
+    to elimination and detoxification. Sorafenib is excreted mainly by the feces
+    (77%) and urine (19%). Hepatic and renal impairment could have a large 
+    impact on the pharmacokinetics of sorafenib. Within this work the 
+    pharmacokinetics of sorafenib were analyzed by developing a 
+    physiologically-based pharmacokinetic (PBPK) model based on extensive data 
+    curation of sorafenib data. The model allowed to simulate the 
+    time-concentration courses of sorafenib in various tissues and to calculate 
+    the pharmacokinetic parameters for sorafenib under single and multiple 
+    dosing regimes. The model was applied to study the dose-dependency of 
+    sorafenib treatment and to investigate the effect of hepatic and renal 
+    impairment on sorafenib pharmacokinetics.
+  authors: Frances Okibedi, Matthias König
+  category: Internship report
+  conference: nan
+  journal: nan
+  projects: P3 - König, ATLAS
+  qualiperf_funding: true
+  title: A physiologically-based pharmacokinetic (PBPK) model of sorafenib for 
+    investigating the effect of sorafenib parameters in hepatorenal impairment
+- abstract: (see corresponding publication)
+  authors: Laue HOA, Budelmann D, Albadry M, Engel C, Weiss N, Dahmen U, Schwen 
+    LO
+  category: Dataset
+  conference: nan
+  journal: 'Zenodo, doi: 10.5281/zenodo.12818566, 2024'
+  projects: P2 - Dahmen, P8 - Schwen, Stea-PK Mod
+  qualiperf_funding: true
+  title: Dataset for "Joint zonated quantification of multiple parameters in 
+    hepatic lobules"
+- abstract: n.a.
+  authors: Radde Nicole, Höpfl Sebastian
+  category: Organization and hosting COMBINE 2024 Meeting in Stuttgart
+  conference: COMBINE 2024, https://co.mbine.org/author/combine-2024/
+  journal: nan
+  projects: P5 - Radde
+  qualiperf_funding: false
+  title: COMBINE 2024

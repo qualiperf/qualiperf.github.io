@@ -1,264 +1,412 @@
 items:
-- abstract: A standardized approach to annotating computational biomedical models
-    and their associated files can facilitate model reuse and reproducibility among
-    research groups, enhance search and retrieval of models and data, and enable semantic
-    comparisons between models. Motivated by these potential benefits and guided by
-    consensus across the COmputational Modeling in BIology NEtwork (COMBINE) community,
-    we have developed a specification for encoding annotations in Open Modeling and
-    EXchange (OMEX)-formatted archives. This document details version 1.2 of the specification,
-    which builds on version 1.0 published last year in this journal. In particular,
-    this version includes a set of initial model-level annotations (whereas v 1.0
-    described exclusively annotations at a smaller scale). Additionally, this version
-    uses best practices for namespaces, and introduces omex-library.org as a common
-    root for all annotations. Distributing modeling projects within an OMEX archive
-    is a best practice established by COMBINE, and the OMEX metadata specification
-    presented here provides a harmonized, community-driven approach for annotating
-    a variety of standardized model representations. This specification acts as a
-    technical guideline for developing software tools that can support this standard,
-    and thereby encourages broad advances in model reuse, discovery, and semantic
+- abstract: A standardized approach to annotating computational biomedical 
+    models and their associated files can facilitate model reuse and 
+    reproducibility among research groups, enhance search and retrieval of 
+    models and data, and enable semantic comparisons between models. Motivated 
+    by these potential benefits and guided by consensus across the COmputational
+    Modeling in BIology NEtwork (COMBINE) community, we have developed a 
+    specification for encoding annotations in Open Modeling and EXchange 
+    (OMEX)-formatted archives. This document details version 1.2 of the 
+    specification, which builds on version 1.0 published last year in this 
+    journal. In particular, this version includes a set of initial model-level 
+    annotations (whereas v 1.0 described exclusively annotations at a smaller 
+    scale). Additionally, this version uses best practices for namespaces, and 
+    introduces omex-library.org as a common root for all annotations. 
+    Distributing modeling projects within an OMEX archive is a best practice 
+    established by COMBINE, and the OMEX metadata specification presented here 
+    provides a harmonized, community-driven approach for annotating a variety of
+    standardized model representations. This specification acts as a technical 
+    guideline for developing software tools that can support this standard, and 
+    thereby encourages broad advances in model reuse, discovery, and semantic 
     analyses.
-  authors: John Gennari, Matthias König, Goskel Misirli, Maxwell Neal, David Nickerson,
-    Dagmar Waltemath
+  authors: John Gennari, Matthias König, Goskel Misirli, Maxwell Neal, David 
+    Nickerson, Dagmar Waltemath
   doi: 10.1515/jib-2021-0020
   journal: 'J Integr Bioinform. 2021 Oct 20;18(3):20210020. doi: 10.1515/jib-2021-0020.
     PMID: 34668356; PMCID: PMC8560343.'
   preprint: false
-  pubmed: '34668356.0'
+  pubmed: '34668356'
   qualiperf_funding: false
   title: OMEX Metadata Specification Version 1.2
-- abstract: Computational simulation experiments increasingly inform modern biological
-    research, and bring with them the need to provide ways to annotate, archive, share
-    and reproduce the experiments performed. These simulations increasingly require
-    extensive collaboration among modelers, experimentalists, and engineers. The Minimum
-    Information About a Simulation Experiment (MIASE) guidelines outline the information
-    needed to share simulation experiments. SED-ML is a computer-readable format for
-    the information outlined by MIASE, created as a community project and supported
-    by many investigators and software tools. The first versions of SED-ML focused
-    on deterministic and stochastic simulations of models. Level 1 Version 4 of SED-ML
-    substantially expands these capabilities to cover additional types of models,
-    model languages, parameter estimations, simulations and analyses of models, and
-    analyses and visualizations of simulation results. To facilitate consistent practices
-    across the community, Level 1 Version 4 also more clearly describes the use of
-    SED-ML constructs, and includes numerous concrete validation rules. SED-ML is
-    supported by a growing ecosystem of investigators, model languages, and software
-    tools, including eight languages for constraint-based, kinetic, qualitative, rule-based,
-    and spatial models, over 20 simulation tools, visual editors, model repositories,
-    and validators. Additional information about SED-ML is available at https://sed-ml.org/.
-  authors: Lucian P. Smith, Frank T. Bergmann, Alan Garny, Thomas Helikar, Jonathan
-    Karr, David Nickerson, Herbert Sauro, Dagmar Waltemath, and Matthias König
+- abstract: Computational simulation experiments increasingly inform modern 
+    biological research, and bring with them the need to provide ways to 
+    annotate, archive, share and reproduce the experiments performed. These 
+    simulations increasingly require extensive collaboration among modelers, 
+    experimentalists, and engineers. The Minimum Information About a Simulation 
+    Experiment (MIASE) guidelines outline the information needed to share 
+    simulation experiments. SED-ML is a computer-readable format for the 
+    information outlined by MIASE, created as a community project and supported 
+    by many investigators and software tools. The first versions of SED-ML 
+    focused on deterministic and stochastic simulations of models. Level 1 
+    Version 4 of SED-ML substantially expands these capabilities to cover 
+    additional types of models, model languages, parameter estimations, 
+    simulations and analyses of models, and analyses and visualizations of 
+    simulation results. To facilitate consistent practices across the community,
+    Level 1 Version 4 also more clearly describes the use of SED-ML constructs, 
+    and includes numerous concrete validation rules. SED-ML is supported by a 
+    growing ecosystem of investigators, model languages, and software tools, 
+    including eight languages for constraint-based, kinetic, qualitative, 
+    rule-based, and spatial models, over 20 simulation tools, visual editors, 
+    model repositories, and validators. Additional information about SED-ML is 
+    available at https://sed-ml.org/.
+  authors: Lucian P. Smith, Frank T. Bergmann, Alan Garny, Thomas Helikar, 
+    Jonathan Karr, David Nickerson, Herbert Sauro, Dagmar Waltemath, and 
+    Matthias König
   doi: 10.1515/jib-2021-0021
   journal: 'J Integr Bioinform. 2021 Oct 5;18(3):20210021. doi: 10.1515/jib-2021-0021.
     PMID: 35330701; PMCID: PMC8560344'
   preprint: false
-  pubmed: '35330701.0'
+  pubmed: '35330701'
   qualiperf_funding: false
   title: 'The Simulation Experiment Description Markup Language (SED-ML): Language
     Specification for Level 1 Version 4'
-- abstract: MRI-based biomechanical studies can provide a deep understanding of the
-    mechanisms governing liver function, its mechanical performance but also liver
-    diseases. In addition, comprehensive modeling of the liver can help improve liver
-    disease treatment. Furthermore, such studies demonstrate the beginning of an engineering-level
-    approach to how the liver disease affects material properties and liver function.
-    Aimed at researchers in the field of MRI-based liver simulation, research articles
-    pertinent to MRI-based liver modeling were identified, reviewed, and summarized
-    systematically. Various MRI applications for liver biomechanics are highlighted,
-    and the limitations of different viscoelastic models used in magnetic resonance
-    elastography are addressed. The clinical application of the simulations and the
-    diseases studied are also discussed. Based on the developed questionnaire, the
-    papers' quality was assessed, and of the 46 reviewed papers, 32 papers were determined
-    to be of high-quality. Due to the lack of the suitable material models for different
-    liver diseases studied by magnetic resonance elastography, researchers may consider
-    the effect of liver diseases on constitutive models. In the future, research groups
-    may incorporate various aspects of machine learning (ML) into constitutive models
-    and MRI data extraction to further refine the study methodology. Moreover, researchers
-    should strive for further reproducibility and rigorous model validation and verification.
-  authors: Seyedpour S, Nabati M,  Lambers L, Nafisi S, Tautenhahn HM, Sack I, Reichenbach
-    J, Ricken T.
+- abstract: MRI-based biomechanical studies can provide a deep understanding of 
+    the mechanisms governing liver function, its mechanical performance but also
+    liver diseases. In addition, comprehensive modeling of the liver can help 
+    improve liver disease treatment. Furthermore, such studies demonstrate the 
+    beginning of an engineering-level approach to how the liver disease affects 
+    material properties and liver function. Aimed at researchers in the field of
+    MRI-based liver simulation, research articles pertinent to MRI-based liver 
+    modeling were identified, reviewed, and summarized systematically. Various 
+    MRI applications for liver biomechanics are highlighted, and the limitations
+    of different viscoelastic models used in magnetic resonance elastography are
+    addressed. The clinical application of the simulations and the diseases 
+    studied are also discussed. Based on the developed questionnaire, the 
+    papers' quality was assessed, and of the 46 reviewed papers, 32 papers were 
+    determined to be of high-quality. Due to the lack of the suitable material 
+    models for different liver diseases studied by magnetic resonance 
+    elastography, researchers may consider the effect of liver diseases on 
+    constitutive models. In the future, research groups may incorporate various 
+    aspects of machine learning (ML) into constitutive models and MRI data 
+    extraction to further refine the study methodology. Moreover, researchers 
+    should strive for further reproducibility and rigorous model validation and 
+    verification.
+  authors: Seyedpour S, Nabati M,  Lambers L, Nafisi S, Tautenhahn HM, Sack I, 
+    Reichenbach J, Ricken T.
   doi: 10.3389/fphys.2021.733393
   journal: 'Front Physiol. 2021 Sep 22;12:733393. doi: 10.3389/fphys.2021.733393.
     PMID: 34630152; PMCID: PMC8493836'
   preprint: false
-  pubmed: '34630152.0'
+  pubmed: '34630152'
   qualiperf_funding: true
   title: 'Application of magnetic resonance imaging in liver biomechanics: a systematic
     review'
-- abstract: We study fluid-saturated porous materials that undergo poro-elastic deformations
-    in thin domains. The mechanics in such materials are described using a biphasic
-    model based on the theory of porous media (TPM) and consisting of a system of
-    differential equations for material’s displacement and fluid’s pressure. These
-    equations are in general strongly coupled and nonlinear, such that exact solutions
-    are hard to obtain and numerical solutions are computationally expensive. This
-    paper reduces the complexity of the biphasic model in thin domains with a scale
-    separation between domain’s width and length. Based on standard asymptotic analysis,
-    we derive a reduced model that combines two sub-models. Firstly, a limit model
-    consists of averaged equations that describe the fluid pore pressure and displacement
-    in the longitudinal direction of the domain. Secondly, a corrector model re-captures
-    the mechanics in the transverse direction. The validity of the reduced model is
-    finally tested using a set of numerical examples. These demonstrate the computational
-    efficiency of the reduced model, while maintaining reliable solutions in comparison
-    with original biphasic TPM model in thin domain.
+- abstract: We study fluid-saturated porous materials that undergo poro-elastic 
+    deformations in thin domains. The mechanics in such materials are described 
+    using a biphasic model based on the theory of porous media (TPM) and 
+    consisting of a system of differential equations for material’s displacement
+    and fluid’s pressure. These equations are in general strongly coupled and 
+    nonlinear, such that exact solutions are hard to obtain and numerical 
+    solutions are computationally expensive. This paper reduces the complexity 
+    of the biphasic model in thin domains with a scale separation between 
+    domain’s width and length. Based on standard asymptotic analysis, we derive 
+    a reduced model that combines two sub-models. Firstly, a limit model 
+    consists of averaged equations that describe the fluid pore pressure and 
+    displacement in the longitudinal direction of the domain. Secondly, a 
+    corrector model re-captures the mechanics in the transverse direction. The 
+    validity of the reduced model is finally tested using a set of numerical 
+    examples. These demonstrate the computational efficiency of the reduced 
+    model, while maintaining reliable solutions in comparison with original 
+    biphasic TPM model in thin domain.
   authors: Armiti-Juber, Ricken T
   doi: 10.1007/s00419-021-01907-3
   journal: Arch Appl Mech (2021). https://doi.org/10.1007/s00419-021-01907-3
   preprint: false
-  pubmed: nan
+  pubmed: '-'
   qualiperf_funding: true
-  title: Model order reduction for deformable porous materials in thin domains via
-    asymptotic analysis
-- abstract: Liver resection causes marked perfusion alterations in the liver remnant
-    both on the organ scale (vascular anatomy) and on the microscale (sinusoidal blood
-    flow on tissue level). These changes in perfusion affect hepatic functions via
-    direct alterations in blood supply and drainage, followed by indirect changes
-    of biomechanical tissue properties and cellular function. Changes in blood flow
-    impose compression, tension and shear forces on the liver tissue. These forces
-    are perceived by mechanosensors on parenchymal and non-parenchymal cells of the
-    liver and regulate cell-cell and cell-matrix interactions as well as cellular
-    signaling and metabolism. These interactions are key players in tissue growth
-    and remodeling, a prerequisite to restore tissue function after PHx. Their dysregulation
-    is associated with metabolic impairment of the liver eventually leading to liver
-    failure, a serious post-hepatectomy complication with high morbidity and mortality.
-    Though certain links are known, the overall functional change after liver surgery
-    is not understood due to complex feedback loops, non-linearities, spatial heterogeneities
-    and different time-scales of events. Computational modeling is a unique approach
-    to gain a better understanding of complex biomedical systems. This approach allows
-    (i) integration of heterogeneous data and knowledge on multiple scales into a
-    consistent view of how perfusion is related to hepatic function; (ii) testing
-    and generating hypotheses based on predictive models, which must be validated
-    experimentally and clinically. In the long term, computational modeling will (iii)
-    support surgical planning by predicting surgery-induced perfusion perturbations
-    and their functional (metabolic) consequences; and thereby (iv) allow minimizing
-    surgical risks for the individual patient. Here, we review the alterations of
-    hepatic perfusion, biomechanical properties and function associated with hepatectomy.
-    Specifically, we provide an overview over the clinical problem, preoperative diagnostics,
-    functional imaging approaches, experimental approaches in animal models, mechanoperception
-    in the liver and impact on cellular metabolism, omics approaches with a focus
-    on transcriptomics, data integration and uncertainty analysis, and computational
-    modeling on multiple scales. Finally, we provide a perspective on how multi-scale
-    computational models, which couple perfusion changes to hepatic function, could
-    become part of clinical workflows to predict and optimize patient outcome after
-    complex liver surgery.
-  authors: Bruno Christ, Maximilian Collatz, Uta Dahmen, Karl-Heinz Herrmann, Sebastian
-    Höpfl, Matthias König, Lena Lambers, Manja Marz, Daria Meyer, Nicole Radde, Jürgen
-    R. Reichenbach, Tim Ricken and Hans-Michael Tautenhahn
+  title: Model order reduction for deformable porous materials in thin domains 
+    via asymptotic analysis
+- abstract: 'Abstract: In systems biology, biological phenomena are often modeled
+    by Ordinary Differential Equations (ODEs) and distributed in the de facto standard
+    file format SBML. The primary analyses performed with such models are dynamic
+    simulation, steady-state analysis, and parameter estimation. These methodologies
+    are mathematically formalized, and libraries for such analyses have been published.
+    Several tools exist to create, simulate, or visualize models encoded in SBML.
+    However, setting up and establishing analysis environments is a crucial hurdle
+    for non-modelers. Therefore, easy access to perform fundamental analyses of ODE
+    models is a significant challenge. We developed SBMLWebApp, a web-based service
+    to execute SBML-based simulations, steady-state analysis, and parameter estimation
+    directly in the browser without the need for any setup or prior knowledge to address
+    this issue. SBMLWebApp visualizes the result and numerical table of each analysis
+    and provides a download of the results. SBMLWebApp allows users to select and
+    analyze SBML models directly from the BioModels Database. Taken together, SBMLWebApp
+    provides barrier-free access to an SBML analysis environment for simulation, steady-state
+    analysis, and parameter estimation for SBML models. SBMLWebApp is implemented
+    in Java™ based on an Apache Tomcat® web server using COPASI, the Systems Biology
+    Simulation Core Library (SBSCL), and LibSBMLSim as simulation engines. SBMLWebApp
+    is licensed under MIT with source code available from https://github.com/TakahiroYamada/SBMLWebApp.
+    The program runs online at http://simulate-biology.org.'
+  authors: Takahiro G. Yamada, Kaito Ii, Matthias König, Martina Feierabend, 
+    Andreas Dräger, Akira Funahashi
+  doi: https://doi.org/10.3390/pr9101830
+  journal: 'Preprints 2021, 2021080259 (doi: 10.20944/preprints202108.0259.v1). [Submitted
+    to MDPI, 2021-08-11]'
+  preprint: false
+  pubmed: '-'
+  qualiperf_funding: true
+  title: 'SBMLWebApp: Web-based Simulation, Steady-State Analysis, and Parameter Estimation
+    of Systems Biology Models'
+- abstract: Liver resection causes marked perfusion alterations in the liver 
+    remnant both on the organ scale (vascular anatomy) and on the microscale 
+    (sinusoidal blood flow on tissue level). These changes in perfusion affect 
+    hepatic functions via direct alterations in blood supply and drainage, 
+    followed by indirect changes of biomechanical tissue properties and cellular
+    function. Changes in blood flow impose compression, tension and shear forces
+    on the liver tissue. These forces are perceived by mechanosensors on 
+    parenchymal and non-parenchymal cells of the liver and regulate cell-cell 
+    and cell-matrix interactions as well as cellular signaling and metabolism. 
+    These interactions are key players in tissue growth and remodeling, a 
+    prerequisite to restore tissue function after PHx. Their dysregulation is 
+    associated with metabolic impairment of the liver eventually leading to 
+    liver failure, a serious post-hepatectomy complication with high morbidity 
+    and mortality. Though certain links are known, the overall functional change
+    after liver surgery is not understood due to complex feedback loops, 
+    non-linearities, spatial heterogeneities and different time-scales of 
+    events. Computational modeling is a unique approach to gain a better 
+    understanding of complex biomedical systems. This approach allows (i) 
+    integration of heterogeneous data and knowledge on multiple scales into a 
+    consistent view of how perfusion is related to hepatic function; (ii) 
+    testing and generating hypotheses based on predictive models, which must be 
+    validated experimentally and clinically. In the long term, computational 
+    modeling will (iii) support surgical planning by predicting surgery-induced 
+    perfusion perturbations and their functional (metabolic) consequences; and 
+    thereby (iv) allow minimizing surgical risks for the individual patient. 
+    Here, we review the alterations of hepatic perfusion, biomechanical 
+    properties and function associated with hepatectomy. Specifically, we 
+    provide an overview over the clinical problem, preoperative diagnostics, 
+    functional imaging approaches, experimental approaches in animal models, 
+    mechanoperception in the liver and impact on cellular metabolism, omics 
+    approaches with a focus on transcriptomics, data integration and uncertainty
+    analysis, and computational modeling on multiple scales. Finally, we provide
+    a perspective on how multi-scale computational models, which couple 
+    perfusion changes to hepatic function, could become part of clinical 
+    workflows to predict and optimize patient outcome after complex liver 
+    surgery.
+  authors: Bruno Christ, Maximilian Collatz, Uta Dahmen, Karl-Heinz Herrmann, 
+    Sebastian Höpfl, Matthias König, Lena Lambers, Manja Marz, Daria Meyer, 
+    Nicole Radde, Jürgen R. Reichenbach, Tim Ricken and Hans-Michael Tautenhahn
   doi: 10.3389/fphys.2021.733868
   journal: 'Front Physiol. 2021 Nov 18;12:733868. doi: 10.3389/fphys.2021.733868.
     PMID: 34867441; PMCID: PMC8637208'
   preprint: false
-  pubmed: '34867441.0'
+  pubmed: '34867441'
   qualiperf_funding: true
-  title: Hepatectomy-Induced Alterations in Hepatic Perfusion and Function - Toward
-    Multi-Scale Computational Modeling for a Better Prediction of Post-hepatectomy
-    Liver Function
-- abstract: Post-surgery liver failure is a serious complication for patients after
-    extended partial hepatectomies (ePHx). Previously, we demonstrated in the pig
-    model that transplantation of mesenchymal stromal cells (MSC) improved circulatory
-    maintenance and supported multi-organ functions after 70% liver resection. Mechanisms
-    behind the beneficial MSC effects remained unknown. Here we performed 70% liver
-    resection in pigs with and without MSC treatment, and animals were monitored for
-    24 h post surgery. Gene expression profiles were determined in the lung and liver.
-    Bioinformatics analysis predicted organ-independent MSC targets, importantly a
-    role for thrombospondin-1 linked to transforming growth factor-β (TGF-β) and downstream
-    signaling towards providing epithelial plasticity and epithelial-mesenchymal transition
-    (EMT). This prediction was supported histologically and mechanistically, the latter
-    with primary hepatocyte cell cultures. MSC attenuated the surgery-induced increase
-    of tissue damage, of thrombospondin-1 and TGF-β, as well as of epithelial plasticity
-    in both the liver and lung. This suggests that MSC ameliorated surgery-induced
-    hepatocellular stress and EMT, thus supporting epithelial integrity and facilitating
-    regeneration. MSC-derived soluble factor(s) did not directly interfere with intracellular
-    TGF-β signaling, but inhibited thrombospondin-1 secretion from thrombocytes and
-    non-parenchymal liver cells, therewith obviously reducing the availability of
-    active TGF-β.
-  authors: Nickel S*, Vlaic S*, Christ M*, Schubert K, Henschler R, Tautenhahn F,
-    Burger C, Kühne H, Erler S, Roth A, Wild C, Brach J, Hammad S, Gittel C, Baunack
-    M, Lange U, Broschewitz J, Stock P, Metelmann I, Bartels M, Pietsch U-C, Krämer
-    S, Eichfeld U, von Bergen M, Dooley S*, Tautenhahn H-M*, Christ B*
+  title: Hepatectomy-Induced Alterations in Hepatic Perfusion and Function - 
+    Toward Multi-Scale Computational Modeling for a Better Prediction of 
+    Post-hepatectomy Liver Function
+- abstract: The evaluation of hepatic function and functional capacity of the 
+    liver are essential tasks in hepatology as well as in hepatobiliary surgery.
+    Indocyanine green (ICG) is a widely applied test compound that is used in 
+    clinical routine to evaluate hepatic function. Important questions for the 
+    functional evaluation with ICG in the context of hepatectomy are how liver 
+    disease such as cirrhosis alters ICG elimination, and if postoperative 
+    survival can be predicted from preoperative ICG measurements. Within this 
+    work a physiologically based pharmacokinetic (PBPK) model of ICG was 
+    developed and applied to the prediction of the effects of a liver resection 
+    under various degrees of cirrhosis. For the parametrization of the 
+    computational model and validation of model predictions a database of ICG 
+    pharmacokinetic data was established. The model was applied (i) to study the
+    effect of liver cirrhosis and liver resection on ICG pharmacokinetics; and 
+    (ii) to evaluate the model-based prediction of postoperative ICG-R15 as a 
+    measure for postoperative outcome. Key results are the accurate prediction 
+    of changes in ICG pharmacokinetics caused by liver cirrhosis and 
+    postoperative changes of ICG-elimination after liver resection, as validated
+    with a wide range of data sets. Based on the PBPK model, individual survival
+    after liver resection could be classified, demonstrating its potential value
+    as a clinical tool.
+  authors: Adrian Köller, Jan Grzegorzewski, Michael Tautenhahn, Matthias König
+  doi: doi.org/10.3389/fphys.2021.730418
+  journal: 'bioRxiv 2021.06.15.448411; doi: https://doi.org/10.1101/2021.06.15.448411,
+    [Submitted to Frontiers Physiology 2021-06-30]'
+  preprint: false
+  pubmed: '34880771'
+  qualiperf_funding: true
+  title: Prediction of survival after hepatectomy using a physiologically based 
+    pharmacokinetic model of indocyanine green liver function tests
+- abstract: Post-surgery liver failure is a serious complication for patients 
+    after extended partial hepatectomies (ePHx). Previously, we demonstrated in 
+    the pig model that transplantation of mesenchymal stromal cells (MSC) 
+    improved circulatory maintenance and supported multi-organ functions after 
+    70% liver resection. Mechanisms behind the beneficial MSC effects remained 
+    unknown. Here we performed 70% liver resection in pigs with and without MSC 
+    treatment, and animals were monitored for 24 h post surgery. Gene expression
+    profiles were determined in the lung and liver. Bioinformatics analysis 
+    predicted organ-independent MSC targets, importantly a role for 
+    thrombospondin-1 linked to transforming growth factor-β (TGF-β) and 
+    downstream signaling towards providing epithelial plasticity and 
+    epithelial-mesenchymal transition (EMT). This prediction was supported 
+    histologically and mechanistically, the latter with primary hepatocyte cell 
+    cultures. MSC attenuated the surgery-induced increase of tissue damage, of 
+    thrombospondin-1 and TGF-β, as well as of epithelial plasticity in both the 
+    liver and lung. This suggests that MSC ameliorated surgery-induced 
+    hepatocellular stress and EMT, thus supporting epithelial integrity and 
+    facilitating regeneration. MSC-derived soluble factor(s) did not directly 
+    interfere with intracellular TGF-β signaling, but inhibited thrombospondin-1
+    secretion from thrombocytes and non-parenchymal liver cells, therewith 
+    obviously reducing the availability of active TGF-β.
+  authors: Nickel S*, Vlaic S*, Christ M*, Schubert K, Henschler R, Tautenhahn 
+    F, Burger C, Kühne H, Erler S, Roth A, Wild C, Brach J, Hammad S, Gittel C, 
+    Baunack M, Lange U, Broschewitz J, Stock P, Metelmann I, Bartels M, Pietsch 
+    U-C, Krämer S, Eichfeld U, von Bergen M, Dooley S*, Tautenhahn H-M*, Christ 
+    B*
   doi: 10.1038/s41536-021-00194-4
   journal: 'NPJ Regen Med. 2021 Dec 3;6(1):84. doi: 10.1038/s41536-021-00194-4. PMID:
     34862411; PMCID: PMC8642541'
   preprint: false
-  pubmed: '34862411.0'
+  pubmed: '34862411'
   qualiperf_funding: true
-  title: Mesenchymal stromal cells mitigate liver damage after extended resection
-    in the pig by modulating thrombospondin-1/TGF-β
-- abstract: Biomechanical modeling enables a better understanding and prediction of
-    various processes in the human body. To make thissimulation more patient-specific,
-    realistic geometries of liver lobules are included in an existing knowledge-based
-    model forthe simulation of hepatic function-perfusion processes in the human liver.
-    This model allows the simulation of liver diseasessuch as the non-alcoholic fatty
-    liver disease (NAFLD) or tumor development.  The basis of this calculation is
-    a continuum-biomechanical multiscale and multiphase model based on the Theory
-    of Porous Media.  To capture the function-perfusionand growth processes in the
-    liver, partial differential equations (PDEs) on the lobule scale are coupled to
-    ordinary differentialequations (ODEs) describing metabolic processes on the cellular
-    scale.  Additionally, we used manifold learning techniqueson in silico data for
-    the identification of inverted fat zonation during NAFLD.
+  title: Mesenchymal stromal cells mitigate liver damage after extended 
+    resection in the pig by modulating thrombospondin-1/TGF-β
+- abstract: Biomechanical modeling enables a better understanding and prediction
+    of various processes in the human body. To make thissimulation more 
+    patient-specific, realistic geometries of liver lobules are included in an 
+    existing knowledge-based model forthe simulation of hepatic 
+    function-perfusion processes in the human liver. This model allows the 
+    simulation of liver diseasessuch as the non-alcoholic fatty liver disease 
+    (NAFLD) or tumor development.  The basis of this calculation is a 
+    continuum-biomechanical multiscale and multiphase model based on the Theory 
+    of Porous Media.  To capture the function-perfusionand growth processes in 
+    the liver, partial differential equations (PDEs) on the lobule scale are 
+    coupled to ordinary differentialequations (ODEs) describing metabolic 
+    processes on the cellular scale.  Additionally, we used manifold learning 
+    techniqueson in silico data for the identification of inverted fat zonation 
+    during NAFLD.
   authors: Lambers Lena, Mielke Andre, Ricken Tim
   doi: 10.1002/pamm.202100190
   journal: 'PAMM·Proc. Appl. Math. Mech.2021;21:1 e202100190. doi: 10.1002/pamm.202100190'
   preprint: false
-  pubmed: nan
+  pubmed: '-'
   qualiperf_funding: true
-  title: Semi-automated Data-driven FE Mesh Generation and InverseParameter Identification
-    for a Multiscale and Multiphase Model ofFunction-Perfusion Processes in the Liver
-- abstract: In their article, Choa et al. open the perspective to loose fat by increasing
-    sebogenesis. Envisioning a T cell-dependent mechanism, they suggest that stimulation
-    of sebum production by thymic stromal lymphopeietin (TSLP) “pulls” lipids out
-    of the adipose tissue.
+  title: Semi-automated Data-driven FE Mesh Generation and InverseParameter 
+    Identification for a Multiscale and Multiphase Model ofFunction-Perfusion 
+    Processes in the Liver
+- abstract: In their article, Choa et al. open the perspective to loose fat by 
+    increasing sebogenesis. Envisioning a T cell-dependent mechanism, they 
+    suggest that stimulation of sebum production by thymic stromal lymphopeietin
+    (TSLP) “pulls” lipids out of the adipose tissue.
   authors: Nickel S, Christ B
   doi: 10.1038/s41392-021-00850-7
-  journal: Signal Transduction and Targeted Therapy (2021)6:429; https://doi.org/10.1038/s41392-021-00850-7
+  journal: Signal Transduction and Targeted Therapy (2021)6:429; 
+    https://doi.org/10.1038/s41392-021-00850-7
   preprint: false
-  pubmed: '34921132.0'
+  pubmed: '34921132'
   qualiperf_funding: true
   title: Greasy hair against obesity
-- abstract: The focus of this investigation lies on the development of a two-scale
-    homogenization scheme for poro-elastic fluid-saturated porous media. For this
-    purpose, the general concepts of the Theory of Porous Media (TPM) are combined
-    with the FE method. After an introduction of the basics of TPM, the weak forms
-    for the macroscopic and the microscopic scale will be formulated and the averaged
-    macroscopic tangent moduli considering the microscale will be derived. Additionally,
-    the formulation of lower level boundary conditions, which refer to the quantities
-    that will be transmitted from the macro- to the microscale, in strict compliance
-    with the Hill–Mandel homogeneity condition, is derived. Finally, a numerical example
-    will be presented, pointing out the gained features of the methodology.
+- abstract: The focus of this investigation lies on the development of a 
+    two-scale homogenization scheme for poro-elastic fluid-saturated porous 
+    media. For this purpose, the general concepts of the Theory of Porous Media 
+    (TPM) are combined with the FE method. After an introduction of the basics 
+    of TPM, the weak forms for the macroscopic and the microscopic scale will be
+    formulated and the averaged macroscopic tangent moduli considering the 
+    microscale will be derived. Additionally, the formulation of lower level 
+    boundary conditions, which refer to the quantities that will be transmitted 
+    from the macro- to the microscale, in strict compliance with the Hill–Mandel
+    homogeneity condition, is derived. Finally, a numerical example will be 
+    presented, pointing out the gained features of the methodology.
   authors: Ricken Tim, Schröder Jörg, Bluhm Joachim, Maike Simon, Bartel Florian
   doi: 10.1016/j.ijsolstr.2021.111412
   journal: International Journal of Solid and Structures
   preprint: false
-  pubmed: nan
+  pubmed: '-'
   qualiperf_funding: true
-  title: Theoretical formulation and computational aspects of a two-scale homogenization
-    scheme combining the TPM and FE2 method for poro-elastic fuid-saturated porous
-    media
-- abstract: The angiotensin-converting enzyme 2 (ACE2) receptor has been identified
-    as the entry receptor for the severe acute respiratory syndrome coronavirus 2
-    (SARS-CoV-2) that is abundantly expressed in many organs. With respect to the
-    role of circulating ACE2 and its receptor expression in the pathogenesis of the
-    SARS-CoV-2 infection, it is still debated whether diseases such as hypertension
-    or pharmacotherapies, including ACE inhibitors and angiotensin receptor blockers
-    that affect ACE2 receptor expression, may modulate the severity and outcome of
-    the coronavirus disease 2019 (COVID-19). We therefore tested the hypothesis that
-    treatment with the ACE inhibitor Ramipril affects organ-specific ACE2 receptor
-    mRNA and protein expression as well as the serum metabolome in BioBreeding (BB)
-    rats. Twelve male BioBreeding rats were randomly divided into a Ramipril (10 mg/kg
-    body weight) treatment group or a control group (N = 12; n = 6 per group) over
-    a period of seven days. Ramipril treatment resulted in the reduction of acylcarnitines
-    (C3–C6) out of 64 metabolites. Among the different organs studied, only in the
-    lungs did Ramipril treatment significantly increase both Ace2 mRNA and ACE2 receptor
-    membrane protein levels. Increased ACE2 receptor lung expression after Ramipril
-    treatment was not associated with differences in ACE2 serum concentrations between
-    experimental groups. Our data provide experimental in vivo evidence that the ACE
-    inhibitor Ramipril selectively increases pulmonary ACE2 receptor mRNA and protein
-    levels and reduces acylcarnitines.
+  title: Theoretical formulation and computational aspects of a two-scale 
+    homogenization scheme combining the TPM and FE2 method for poro-elastic 
+    fuid-saturated porous media
+- abstract: "Summary: Studying biological systems generally relies on computational
+    modeling and simulation, e.g., for model-driven discovery and hypothesis testing.
+    Progress in standardization efforts led to the development of interrelated file
+    formats to\nexchange and reuse models in systems biology, such as SBML, the Simulation
+    Experiment Description Markup Language (SED-ML), or the Open Modeling EXchange
+    format (OMEX). Conducting simulation experiments based on these formats requires
+    efficient and reusable implementations to make them accessible to the broader
+    scientific community and to ensure the reproducibility of the results. The Systems
+    Biology Simulation Core Library (SBSCL) provides interpreters and solvers for
+    these standards as a versatile open-source API in Java™. The library simulates
+    even complex bio-models and supports\ndeterministic Ordinary Differential Equations
+    (ODEs); Stochastic Differential Equations (SDEs); constraint-based analyses; recent
+    SBML and SED-ML versions; exchange of results, and visualization of in silico
+    experiments; open modeling exchange\nformats (COMBINE archives); hierarchically
+    structured models; and compatibility with standard testing systems, including
+    the Systems Biology Test Suite and published models from the BioModels and BiGG
+    databases. Availability and implementation: SBSCL is freely available at https://draeger-lab.github.io/SBSCL/."
+  authors: Panchiwala, H.; Shah, S.; Planatscher, H.; Zakharchuk, M.; König, M.;
+    Dräger, A.
+  doi: doi.org/10.1093/bioinformatics/btab669
+  journal: 'Preprints 2020, 2020120296 (doi: 10.20944/preprints202012.0296.v1), [In
+    revision, Bioinformatics]'
+  preprint: false
+  pubmed: '34554191'
+  qualiperf_funding: true
+  title: The Systems Biology Simulation Core Library
+- abstract: "Caffeine is by far the most ubiquitous psychostimulant worldwide found
+    in tea, coffee, cocoa, energy drinks, and many other beverages and food. Caffeine
+    is almost exclusively metabolized in the liver by the cytochrome P-450 enzyme
+    system to the main product paraxanthine and the additional products theobromine
+    and theophylline. Besides its stimulating properties, two important applications
+    of caffeine are metabolic phenotyping of cytochrome P450 1A2 (CYP1A2) and liver
+    function testing. An open challenge in this context is to identify underlying
+    causes of the large inter-individual variability in caffeine pharmacokinetics.
+    Data is urgently needed to understand and quantify confounding factors such as
+    lifestyle (e.g. smoking), the effects of drug-caffeine interactions (e.g. medication
+    metabolized via CYP1A2), and the effect of disease.\nHere we report the first
+    integrative and systematic analysis of data on caffeine pharmacokinetics from
+    148 publications and provide a comprehensive high-quality data set on the pharmacokinetics
+    of caffeine, caffeine metabolites, and their metabolic ratios in human adults.
+    The data set is enriched by meta-data on the characteristics of studied patient
+    cohorts and subjects (e.g. age, body weight, smoking status, health status), the
+    applied interventions (e.g. dosing, substance, route of application), measured
+    pharmacokinetic time-courses, and pharmacokinetic parameters (e.g. clearance,
+    half-life, area under the curve).\nWe demonstrate via multiple applications how
+    the data set can be used to solidify existing knowledge and gain new insights
+    relevant for metabolic phenotyping and liver function testing based on caffeine.
+    Specifically, we analyzed (i) the alteration of caffeine pharmacokinetics with
+    smoking and use of oral contraceptives; (ii) drug-drug interactions with caffeine
+    as possible confounding factors of caffeine pharmacokinetics or source of adverse
+    effects; (iii) alteration of caffeine pharmacokinetics in disease; and (iv) the
+    applicability of caffeine as a salivary test substance by comparison of plasma
+    and saliva data. In conclusion, our data set and analyses provide important resources
+    which could enable more accurate caffeine-based metabolic phenotyping and liver
+    function testing."
+  authors: Jan Grzegorzewski, Florian Bartsch, Adrian Köller, Matthias König
+  doi: 10.1101/2021.07.12.452094
+  journal: 'bioRxiv 2021.07.12.452094; doi: https://doi.org/10.1101/2021.07.12.452094
+    [Submitted to Frontiers Pharmacology, 2021-08-03]'
+  preprint: false
+  pubmed: '35280254'
+  qualiperf_funding: true
+  title: 'Pharmacokinetics of caffeine: A systematic analysis of reported data for
+    application in metabolic phenotyping and liver function testing'
+- abstract: The angiotensin-converting enzyme 2 (ACE2) receptor has been 
+    identified as the entry receptor for the severe acute respiratory syndrome 
+    coronavirus 2 (SARS-CoV-2) that is abundantly expressed in many organs. With
+    respect to the role of circulating ACE2 and its receptor expression in the 
+    pathogenesis of the SARS-CoV-2 infection, it is still debated whether 
+    diseases such as hypertension or pharmacotherapies, including ACE inhibitors
+    and angiotensin receptor blockers that affect ACE2 receptor expression, may 
+    modulate the severity and outcome of the coronavirus disease 2019 
+    (COVID-19). We therefore tested the hypothesis that treatment with the ACE 
+    inhibitor Ramipril affects organ-specific ACE2 receptor mRNA and protein 
+    expression as well as the serum metabolome in BioBreeding (BB) rats. Twelve 
+    male BioBreeding rats were randomly divided into a Ramipril (10 mg/kg body 
+    weight) treatment group or a control group (N = 12; n = 6 per group) over a 
+    period of seven days. Ramipril treatment resulted in the reduction of 
+    acylcarnitines (C3–C6) out of 64 metabolites. Among the different organs 
+    studied, only in the lungs did Ramipril treatment significantly increase 
+    both Ace2 mRNA and ACE2 receptor membrane protein levels. Increased ACE2 
+    receptor lung expression after Ramipril treatment was not associated with 
+    differences in ACE2 serum concentrations between experimental groups. Our 
+    data provide experimental in vivo evidence that the ACE inhibitor Ramipril 
+    selectively increases pulmonary ACE2 receptor mRNA and protein levels and 
+    reduces acylcarnitines.
   authors: Kosacka J*, Berger C, Ceglarek U, Hoffmann A, Blüher M, Klöting N
   doi: 10.3390/metabo12040293
   journal: 'Metabolites. 2022 Mar 26;12(4):293. doi: 10.3390/metabo12040293. PMID:
     35448480; PMCID: PMC9028516.'
   preprint: false
-  pubmed: '35448480.0'
+  pubmed: '35448480'
   qualiperf_funding: false
-  title: Ramipril Reduces Acylcarnitines and Distinctly Increases Angiotensin-Converting
-    Enzyme 2 Expression in Lungs of Rats
+  title: Ramipril Reduces Acylcarnitines and Distinctly Increases 
+    Angiotensin-Converting Enzyme 2 Expression in Lungs of Rats
 - abstract: 'This special issue of the Journal of Integrative Bioinformatics contains
     updated specifications of COMBINE standards in systems and synthetic biology.
     The 2021 special issue presents four updates of standards: Synthetic Biology Open
@@ -266,14 +414,14 @@ items:
     Simulation Experiment Description Markup Language Level 1 Version 4, and OMEX
     Metadata specification Version 1.2. This document can also be consulted to identify
     the latest specifications of all COMBINE standards.'
-  authors: Falk Schreiber, Padraig Gleeson, Martin Golebiewski, Thomas E. Gorochowski,
-    Michael Hucka, Sarah M. Keating, Matthias König, Chris J. Myers, David P. Nickerson,
-    Björn Sommer, Dagmar Waltemath
+  authors: Falk Schreiber, Padraig Gleeson, Martin Golebiewski, Thomas E. 
+    Gorochowski, Michael Hucka, Sarah M. Keating, Matthias König, Chris J. 
+    Myers, David P. Nickerson, Björn Sommer, Dagmar Waltemath
   doi: 10.1515/jib-2021-0026
   journal: "J Integr Bioinform. 2021 Oct 22;18(3):20210026. doi: 10.1515/jib-2021-0026.
     PMID: 34674411; PMCID: PMC8573232.\nhttps://doi.org/10.1515/jib-2021-0026"
   preprint: false
-  pubmed: '34674411.0'
+  pubmed: '34674411'
   qualiperf_funding: true
   title: 'Specifications of standards in systems and synthetic biology: status and
     developments in 2021'
@@ -283,31 +431,31 @@ items:
   journal: 'Front Physiol. 2022 Feb 15;13:859522. doi: 10.3389/fphys.2022.859522.
     PMID: 35242057; PMCID: PMC8886156'
   preprint: false
-  pubmed: '35242057.0'
+  pubmed: '35242057'
   qualiperf_funding: false
   title: 'Editorial: Computational Modeling for Liver Surgery and Interventions'
 - abstract: "In this paper we present the objectives regarding\nmulti-X liver modelling
-    of the recently DFG-funded research\nunit QuaLiPerF (Quantifying Liver Perfusion-\n
+    of the recently DFG-funded research\nunit QuaLiPerF (Quantifying Liver Perfusion-\n\
     Function Relationship in Complex Resection { A Systems\nMedicine Approach). The
-    aim of the research\nunit (RU) is to elucidate the interactions between the\n
+    aim of the research\nunit (RU) is to elucidate the interactions between the\n\
     changes in blood \now in the liver, also called perfusion,\nwhen normalized on
     liver volume, and the metabolic\nfunction of the liver. It will be investigated
     how this\nfunction-perfusion interaction will be in\nuenced by a\nliver resection
     operation and how this knowledge can\nbe used in the clinical practise. On this
     basis, a model\nof the perfusion of the liver and its function is to be\ndeveloped,
     which in the long term will make it possible\nto better predict liver function
-    and regeneration after\nsurgery and thus minimize the risk of liver failure, see\n
+    and regeneration after\nsurgery and thus minimize the risk of liver failure, see\n\
     Figure 1. The challenge of modelling biological systems\nis that they are by nature
     highly complex and often\ndicult to understand. Two main reasons are that\nbiological
     systems\ni) are developed in an evolutionary process in contrast\nto deliberate
     design on a white-board, and that\nii) they are inherently multiscale and consist
-    of specialized\ncells that form tissues capable of performing\nmultiple functions.\n
+    of specialized\ncells that form tissues capable of performing\nmultiple functions.\n\
     Thus, multiscale modelling including evolutionary\noptimisation can contribute
-    to a better understanding\nof the biology underlying these complex systems.\n
+    to a better understanding\nof the biology underlying these complex systems.\n\
     The simulation can potentially support clinical\ndecision-making based on predictions
-    obtained as\nsimulation output.\nTwo scenarios are clinically important: to predict\n
+    obtained as\nsimulation output.\nTwo scenarios are clinically important: to predict\n\
     the progression of liver disease with and without a\ngiven treatment, and to predict
-    the outcome after major\nremoval of liver mass as needed in case of hepatic\n
+    the outcome after major\nremoval of liver mass as needed in case of hepatic\n\
     malignancies. The outcome is dependent on the individual\nrisk of liver failure
     and the putative course of\nliver regeneration which is related to the planned
     type\nand extent of liver resection and the severity of an eventually\nunderlying
@@ -320,7 +468,7 @@ items:
   doi: '-'
   journal: GACM-Report
   preprint: false
-  pubmed: nan
+  pubmed: '-'
   qualiperf_funding: true
   title: QuaLiPerF - Multi-X Liver Modelling
 - abstract: "Serotonin (5-hydroxytryptamine or 5-HT) is an important neurotransmitter
@@ -349,138 +497,46 @@ items:
   journal: 'Int J Mol Sci. 2022 Apr 20;23(9):4564. doi: 10.3390/ijms23094564. PMID:
     35562954; PMCID: PMC9099899'
   preprint: false
-  pubmed: '35562954.0'
+  pubmed: '35562954'
   qualiperf_funding: false
   title: "Streptozotocin-Induced Diabetes Causes Changes in\nSerotonin-Positive Neurons
     in the Small Intestine in Pig Model"
-- abstract: Computational models have great potential to accelerate bioscience, bioengineering,
-    and medicine. However, it remains challenging to reproduce and reuse simulations,
-    in part, because the numerous formats and methods for simulating various subsystems
-    and scales remain siloed by different software tools. For example, each tool must
-    be executed through a distinct interface. To help investigators find and use simulation
-    tools, we developed BioSimulators (https://biosimulators.org), a central registry
-    of the capabilities of simulation tools and consistent Python, command-line and
-    containerized interfaces to each version of each tool. The foundation of BioSimulators
-    is standards, such as CellML, SBML, SED-ML and the COMBINE archive format, and
-    validation tools for simulation projects and simulation tools that ensure these
-    standards are used consistently. To help modelers find tools for particular projects,
-    we have also used the registry to develop recommendation services. We anticipate
-    that BioSimulators will help modelers exchange, reproduce, and combine simulations.
-  authors: Shaikh B, Smith LP, Vasilescu D, Marupilla G, Wilson M, Agmon E, Agnew
-    H, Andrews SS, Anwar A, Beber ME, Bergmann FT, Brooks D, Brusch L, Calzone L,
-    Choi K, Cooper J, Detloff J, Drawert B, Dumontier M, Ermentrout GB, Faeder JR,
-    Freiburger AP, Fröhlich F, Funahashi A, Garny A, Gennari JH, Gleeson P, Goelzer
-    A, Haiman Z, Hasenauer J, Hellerstein JL, Hermjakob H, Hoops S, Ison JC, Jahn
-    D, Jakubowski HV, Jordan R, Kalaš M, <b>König M</b>, Liebermeister W, Sheriff
-    RSM, Mandal S, McDougal R, Medley JK, Mendes P, Müller R, Myers CJ, Naldi A, Nguyen
-    TVN, Nickerson DP, Olivier BG, Patoliya D, Paulevé L, Petzold LR, Priya A, Rampadarath
-    AK, Rohwer JM, Saglam AS, Singh D, Sinha A, Snoep J, Sorby H, Spangler R, Starruß
-    J, Thomas PJ, van Niekerk D, Weindl D, Zhang F, Zhukova A, Goldberg AP, Schaff
-    JC, Blinov ML, Sauro HM, Moraru II, Karr JR.
+- abstract: Computational models have great potential to accelerate bioscience, 
+    bioengineering, and medicine. However, it remains challenging to reproduce 
+    and reuse simulations, in part, because the numerous formats and methods for
+    simulating various subsystems and scales remain siloed by different software
+    tools. For example, each tool must be executed through a distinct interface.
+    To help investigators find and use simulation tools, we developed 
+    BioSimulators (https://biosimulators.org), a central registry of the 
+    capabilities of simulation tools and consistent Python, command-line and 
+    containerized interfaces to each version of each tool. The foundation of 
+    BioSimulators is standards, such as CellML, SBML, SED-ML and the COMBINE 
+    archive format, and validation tools for simulation projects and simulation 
+    tools that ensure these standards are used consistently. To help modelers 
+    find tools for particular projects, we have also used the registry to 
+    develop recommendation services. We anticipate that BioSimulators will help 
+    modelers exchange, reproduce, and combine simulations.
+  authors: Shaikh B, Smith LP, Vasilescu D, Marupilla G, Wilson M, Agmon E, 
+    Agnew H, Andrews SS, Anwar A, Beber ME, Bergmann FT, Brooks D, Brusch L, 
+    Calzone L, Choi K, Cooper J, Detloff J, Drawert B, Dumontier M, Ermentrout 
+    GB, Faeder JR, Freiburger AP, Fröhlich F, Funahashi A, Garny A, Gennari JH, 
+    Gleeson P, Goelzer A, Haiman Z, Hasenauer J, Hellerstein JL, Hermjakob H, 
+    Hoops S, Ison JC, Jahn D, Jakubowski HV, Jordan R, Kalaš M, König M, 
+    Liebermeister W, Sheriff RSM, Mandal S, McDougal R, Medley JK, Mendes P, 
+    Müller R, Myers CJ, Naldi A, Nguyen TVN, Nickerson DP, Olivier BG, Patoliya 
+    D, Paulevé L, Petzold LR, Priya A, Rampadarath AK, Rohwer JM, Saglam AS, 
+    Singh D, Sinha A, Snoep J, Sorby H, Spangler R, Starruß J, Thomas PJ, van 
+    Niekerk D, Weindl D, Zhang F, Zhukova A, Goldberg AP, Schaff JC, Blinov ML, 
+    Sauro HM, Moraru II, Karr JR.
   doi: 10.1093/nar/gkac331
   journal: 'Nucleic Acids Res. 2022 Jul 5;50(W1):W108-W114. doi: 10.1093/nar/gkac331.
     PMID: 35524558; PMCID: PMC9252793'
   preprint: false
-  pubmed: '35524558.0'
+  pubmed: '35524558'
   qualiperf_funding: false
   title: 'BioSimulators: a central registry of simulation engines and services for
     recommending specific tools'
-- abstract: Mesenchymal stromal cells (MSC) increasingly emerge as an option to ameliorate
-    non-alcoholic steatohepatitis (NASH), a serious disease, which untreated may progress
-    to liver cirrhosis and cancer. Before clinical translation, the mode of action
-    of MSC needs to be established. Here, we established NASH in an immune-deficient
-    mouse model by feeding a high fat diet. Human bone-marrow-derived MSC were delivered
-    to the liver via intrasplenic transplantation. As verified by biochemical and
-    image analyses, human mesenchymal stromal cells improved high-fat-diet-induced
-    NASH in the mouse liver by decreasing hepatic lipid content and inflammation,
-    as well as by restoring tissue homeostasis. MSC-mediated changes in gene expression
-    indicated the switch from lipid storage to lipid utilization. It was obvious that
-    host mouse hepatocytes harbored human mitochondria. Thus, it is feasible that
-    resolution of NASH in mouse livers involved the donation of human mitochondria
-    to the mouse hepatocytes. Therefore, human MSC might provide oxidative capacity
-    for lipid breakdown followed by restoration of metabolic and tissue homeostasis.
-  authors: "Sandra Nickel, Madlen Christ, Sandra Schmidt, Joanna Kosacka, Hagen Kühne,
-    Martin Roderfeld,\nThomas Longerich, Lysann Tietze, Ina Bosse, Mei‐Ju Hsu, Peggy
-    Stock, Elke Roeb, Bruno Christ"
-  doi: 10.3390/cells11111829
-  journal: 'Cells. 2022 Jun 2;11(11):1829. doi: 10.3390/cells11111829. PMID: 35681524;
-    PMCID: PMC9180625'
-  preprint: false
-  pubmed: '35681524.0'
-  qualiperf_funding: true
-  title: Human Mesenchymal Stromal Cells Resolve Lipid Load in High Fat Diet‐Induced
-    Non‐Alcoholic  Steatohepatitis in Mice by Mitochondria Donation
-- abstract: Oscillations are an important component in biological systems; grasping
-    their mechanisms and regulation, however, is difficult. Here, we use the theory
-    of dynamical systems to support the design of oscillatory systems based on epigenetic
-    control elements. Specifically, we use results that extend the Poincaré-Bendixson
-    theorem for monotone control systems that are coupled to a negative feedback circuit.
-    The methodology is applied to a synthetic epigenetic memory system based on DNA
-    methylation that serves as a monotone control system, which is coupled to a negative
-    feedback. This system is generally able to show sustained oscillations according
-    to its structure; however, a first experimental implementation showed that fine-tuning
-    of several parameters is required. We provide design support by exploring the
-    experimental design space using systems-theoretic analysis of a computational
-    model.
-  authors: Viviane Klingel, Dimitri Graf, Sara Weirich, Albert Jeltsch, Nicole E.
-    Radde
-  doi: 10.1021/acssynbio.2c00118
-  journal: 'ACS Synth Biol. 2022 Jul 15;11(7):2445-2455. doi: 10.1021/acssynbio.2c00118.
-    Epub 2022 Jun 24. PMID: 35749318; PMCID: PMC9295699'
-  preprint: false
-  pubmed: '35749318.0'
-  qualiperf_funding: true
-  title: Model-based design of a synthetic oscillator based on an epigenetic methylation
-    memory system
-- abstract: Population snapshot data can be used to study heterogeneity in cell populations.
-    Various approaches to integrating such data into computational models have been
-    published, which enable new treatment strategies for cancer therapy, by exploiting
-    the intra-tumor heterogeneity. A precision medicine approach for the cure of cancer
-    could benefit from the combination of single-cell data and respective analytical
-    methods. Here, we introduce the inverse transformation algorithm, which transforms
-    population snapshot data to parameter distributions that are consistent with the
-    underlying data given a dynamic model with distributed parameters. Therefore,
-    it enables the assessment of the heterogeneity in and behavior of the whole underlying
-    cell population. In contrast to the frequently used Approximate Bayesian Computation
-    methods for population matching, our algorithm is a non-parametric likelihood-free
-    approach. It directly computes a density function value for a single parameter
-    based on density transformation methods. If the model can be described as a one-to-one
-    map that invertibly maps parameters to measurable outputs, the inverse transformation
-    algorithm asymptotically returns the true underlying parameter distribution.
-  authors: Vincent Wagner, Sebastian Höpfl, Viviane Klingel, Maria C. Pop, Nicole
-    E. Radde
-  doi: 10.1016/j.ifacol.2023.01.020
-  journal: IFAC-PapersOnLine, 9th IFAC Conference on Foundations of Systems Biology
-    in Engineering FOSBE 2022, https://doi.org/10.1016/j.ifacol.2023.01.020
-  preprint: false
-  pubmed: nan
-  qualiperf_funding: true
-  title: An inverse transformation algorithm to infer parameter distributions from
-    population snapshot data
-- abstract: Depending on the patient's constitution, the biological conditions of
-    the primary tumor, the metastases and the liver function and perfusion, a variety
-    of therapeutic options are available. The basis of metastatic surgery of the liver
-    is partial liver resection. Multimodal therapies with local and systemic approaches
-    are used in functionally or oncologically borderline situations. They are intended
-    to improve long-term success and allow curative treatment in more patients. In
-    recent years, for isolated lesions that cannot be removed by partial liver resection,
-    an R0 situation is achieved in selected patients by liver transplantation with
-    good long-term success. The large number of treatment options and the increasing
-    individualization of therapy require treatment planning in the interdisciplinary
-    tumor board. Also, in view of promising studies, for example, in the field of
-    liver transplantation as well as regional therapy methods, the range of treatment
-    options has not yet been exhausted.
-  authors: PD Dr. med. Hans-Michael Tautenhahn, Sandra Nickel, Eva Maria Kindler,
-    Utz Settmacher
-  doi: 10.1007/s00104-022-01665-0
-  journal: 'Chirurgie (Heidelb). 2022 Jul;93(7):652-658. German. doi: 10.1007/s00104-022-01665-0.
-    Epub 2022 Jun 8. PMID: 35771270'
-  preprint: false
-  pubmed: '35771270.0'
-  qualiperf_funding: false
-  title: Multimodale Therapie bei Lebermetastasen kolorektaler Karzinome in kurativer
-    Intention
-- abstract: Motivation The Chemical Master Equation is the most comprehensive stochastic
+- abstract: "Motivation The Chemical Master Equation is the most comprehensive stochastic
     approach to describe the evolution of a (bio-)chemical reaction system. Its solution
     is a time-dependent probability distribution on all possible configurations of
     the system. As the number of possible configurations is typically very large,
@@ -491,22 +547,192 @@ items:
     schemes have been suggested to solve this problem, with different advantages and
     limitations. Two major problems with these approaches are first that they are
     open loop systems, which can diverge from the true solution, and second, some
-    of them are computationally expensive.
+    of them are computationally expensive.\n\nResults Here we introduce Quasi-Entropy
+    Closure, a moment closure scheme for the Method of Moments which estimates higher
+    order moments by reconstructing the distribution that minimizes the distance to
+    a uniform distribution subject to lower order moment constraints. Quasi-Entropy
+    closure is similar to Zero-Information closure, which maximizes the information
+    entropy. Results show that both approaches outperform truncation schemes. Moreover,
+    Quasi-Entropy Closure is computationally much faster than Zero-Information Closure.
+    Finally, our scheme includes a plausibility check for the existence of a distribution
+    satisfying a given set of moments on the feasible set of configurations. Results
+    are evaluated on different benchmark problems."
+  authors: Vincent Wagner, Benjamin Castellaz, Marco Oesting, Nicole Radde
+  doi: 10.1093/bioinformatics/btac501
+  journal: 'BioRxiv 2021.12.01.470753 doi: https://doi.org/10.1101/2021.12.01.470753'
+  preprint: false
+  pubmed: '35916726'
+  qualiperf_funding: true
+  title: 'Quasi-Entropy Closure: A Fast and Reliable Approach to Close the Moment
+    Equations of the Chemical Master Equation'
+- abstract: The cytochrome P450 2D6 (CYP2D6) is a key xenobiotic-metabolizing 
+    enzyme involved in the clearance of many drugs. Genetic polymorphisms in 
+    CYP2D6 contribute to the large inter-individual variability in drug 
+    metabolism and could affect metabolic phenotyping of CYP2D6 probe substances
+    such as dextromethorphan (DXM). To study this question, we (i) established 
+    an extensive pharmacokinetics dataset for DXM; and (ii) developed and 
+    validated a physiologically based pharmacokinetic (PBPK) model of 
+    dextromethorphan (DXM) and its metabolites dextrorphan (DXO) and dextrorphan
+    O-glucuronide (DXO-Glu) based on the data. Drug-gene interactions (DGI) were
+    introduced by accounting for changes in CYP2D6 enzyme kinetics depending on 
+    activity score (AS), which in combination with AS for individual 
+    polymorphisms allowed us to model of CYP2D6 gene variants. Variability in 
+    CYP3A4 and CYP2D6 activity was modeled based on in vitro data from human 
+    liver microsomes. Model predictions are in very good agreement with 
+    pharmacokinetics data for CYP2D6 polymorphisms, CYP2D6 activity as measured 
+    by AS, and CYP2D6 metabolic phenotypes (UM, EM, IM, PM). The model was 
+    applied to investigate the genotype-phenotype association and the role of 
+    CYP2D6 polymorphisms for metabolic phenotyping with dextromethorphan using 
+    the urinary cumulative metabolic ratio DXM/(DXO+DXO-Glu) (UCMR). The effect 
+    of parameters on UCMR was studied via sensitivity analysis. Model 
+    predictions indicate very good robustness against the intervention protocol 
+    (i.e. application form, dosing amount, dissolution rate, and sampling time) 
+    and good robustness against physiological variation. The model is capable of
+    estimating the UCMR dispersion within and across populations depending on 
+    activity scores. Moreover, the distribution of UCMR and the risk of 
+    genotype-phenotype mismatch could be estimated for populations with known 
+    CYP2D6 genotype frequencies. The model can be applied as a tool for 
+    individual prediction of UCMR and metabolic phenotype based on CYP2D6 
+    genotype. Both, model and database are freely available for reuse.
+  authors: Grzegorzewski J., Brandhorst J., König M.
+  doi: 10.3389/fphar.2022.1029073
+  journal: 'bioRxiv 2022.08.23.504981; doi: https://doi.org/10.1101/2022.08.23.504981'
+  preprint: false
+  pubmed: '36353484'
+  qualiperf_funding: true
+  title: Physiologically based pharmacokinetic (PBPK) modeling of the role of 
+    CYP2D6 polymorphism for metabolic phenotyping with dextromethorphan
+- abstract: Mesenchymal stromal cells (MSC) increasingly emerge as an option to 
+    ameliorate non-alcoholic steatohepatitis (NASH), a serious disease, which 
+    untreated may progress to liver cirrhosis and cancer. Before clinical 
+    translation, the mode of action of MSC needs to be established. Here, we 
+    established NASH in an immune-deficient mouse model by feeding a high fat 
+    diet. Human bone-marrow-derived MSC were delivered to the liver via 
+    intrasplenic transplantation. As verified by biochemical and image analyses,
+    human mesenchymal stromal cells improved high-fat-diet-induced NASH in the 
+    mouse liver by decreasing hepatic lipid content and inflammation, as well as
+    by restoring tissue homeostasis. MSC-mediated changes in gene expression 
+    indicated the switch from lipid storage to lipid utilization. It was obvious
+    that host mouse hepatocytes harbored human mitochondria. Thus, it is 
+    feasible that resolution of NASH in mouse livers involved the donation of 
+    human mitochondria to the mouse hepatocytes. Therefore, human MSC might 
+    provide oxidative capacity for lipid breakdown followed by restoration of 
+    metabolic and tissue homeostasis.
+  authors: "Sandra Nickel, Madlen Christ, Sandra Schmidt, Joanna Kosacka, Hagen Kühne,
+    Martin Roderfeld,\nThomas Longerich, Lysann Tietze, Ina Bosse, Mei‐Ju Hsu, Peggy
+    Stock, Elke Roeb, Bruno Christ"
+  doi: 10.3390/cells11111829
+  journal: 'Cells. 2022 Jun 2;11(11):1829. doi: 10.3390/cells11111829. PMID: 35681524;
+    PMCID: PMC9180625'
+  preprint: false
+  pubmed: '35681524'
+  qualiperf_funding: true
+  title: Human Mesenchymal Stromal Cells Resolve Lipid Load in High Fat 
+    Diet‐Induced Non‐Alcoholic  Steatohepatitis in Mice by Mitochondria Donation
+- abstract: Oscillations are an important component in biological systems; 
+    grasping their mechanisms and regulation, however, is difficult. Here, we 
+    use the theory of dynamical systems to support the design of oscillatory 
+    systems based on epigenetic control elements. Specifically, we use results 
+    that extend the Poincaré-Bendixson theorem for monotone control systems that
+    are coupled to a negative feedback circuit. The methodology is applied to a 
+    synthetic epigenetic memory system based on DNA methylation that serves as a
+    monotone control system, which is coupled to a negative feedback. This 
+    system is generally able to show sustained oscillations according to its 
+    structure; however, a first experimental implementation showed that 
+    fine-tuning of several parameters is required. We provide design support by 
+    exploring the experimental design space using systems-theoretic analysis of 
+    a computational model.
+  authors: Viviane Klingel, Dimitri Graf, Sara Weirich, Albert Jeltsch, Nicole 
+    E. Radde
+  doi: 10.1021/acssynbio.2c00118
+  journal: 'ACS Synth Biol. 2022 Jul 15;11(7):2445-2455. doi: 10.1021/acssynbio.2c00118.
+    Epub 2022 Jun 24. PMID: 35749318; PMCID: PMC9295699'
+  preprint: false
+  pubmed: '35749318'
+  qualiperf_funding: true
+  title: Model-based design of a synthetic oscillator based on an epigenetic 
+    methylation memory system
+- abstract: Population snapshot data can be used to study heterogeneity in cell 
+    populations. Various approaches to integrating such data into computational 
+    models have been published, which enable new treatment strategies for cancer
+    therapy, by exploiting the intra-tumor heterogeneity. A precision medicine 
+    approach for the cure of cancer could benefit from the combination of 
+    single-cell data and respective analytical methods. Here, we introduce the 
+    inverse transformation algorithm, which transforms population snapshot data 
+    to parameter distributions that are consistent with the underlying data 
+    given a dynamic model with distributed parameters. Therefore, it enables the
+    assessment of the heterogeneity in and behavior of the whole underlying cell
+    population. In contrast to the frequently used Approximate Bayesian 
+    Computation methods for population matching, our algorithm is a 
+    non-parametric likelihood-free approach. It directly computes a density 
+    function value for a single parameter based on density transformation 
+    methods. If the model can be described as a one-to-one map that invertibly 
+    maps parameters to measurable outputs, the inverse transformation algorithm 
+    asymptotically returns the true underlying parameter distribution.
+  authors: Vincent Wagner, Sebastian Höpfl, Viviane Klingel, Maria C. Pop, 
+    Nicole E. Radde
+  doi: 10.1016/j.ifacol.2023.01.020
+  journal: IFAC-PapersOnLine, 9th IFAC Conference on Foundations of Systems 
+    Biology in Engineering FOSBE 2022, 
+    https://doi.org/10.1016/j.ifacol.2023.01.020
+  preprint: false
+  pubmed: nan
+  qualiperf_funding: true
+  title: An inverse transformation algorithm to infer parameter distributions 
+    from population snapshot data
+- abstract: Depending on the patient's constitution, the biological conditions 
+    of the primary tumor, the metastases and the liver function and perfusion, a
+    variety of therapeutic options are available. The basis of metastatic 
+    surgery of the liver is partial liver resection. Multimodal therapies with 
+    local and systemic approaches are used in functionally or oncologically 
+    borderline situations. They are intended to improve long-term success and 
+    allow curative treatment in more patients. In recent years, for isolated 
+    lesions that cannot be removed by partial liver resection, an R0 situation 
+    is achieved in selected patients by liver transplantation with good 
+    long-term success. The large number of treatment options and the increasing 
+    individualization of therapy require treatment planning in the 
+    interdisciplinary tumor board. Also, in view of promising studies, for 
+    example, in the field of liver transplantation as well as regional therapy 
+    methods, the range of treatment options has not yet been exhausted.
+  authors: PD Dr. med. Hans-Michael Tautenhahn, Sandra Nickel, Eva Maria 
+    Kindler, Utz Settmacher
+  doi: 10.1007/s00104-022-01665-0
+  journal: 'Chirurgie (Heidelb). 2022 Jul;93(7):652-658. German. doi: 10.1007/s00104-022-01665-0.
+    Epub 2022 Jun 8. PMID: 35771270'
+  preprint: false
+  pubmed: '35771270'
+  qualiperf_funding: false
+  title: Multimodale Therapie bei Lebermetastasen kolorektaler Karzinome in 
+    kurativer Intention
+- abstract: Motivation The Chemical Master Equation is the most comprehensive 
+    stochastic approach to describe the evolution of a (bio-)chemical reaction 
+    system. Its solution is a time-dependent probability distribution on all 
+    possible configurations of the system. As the number of possible 
+    configurations is typically very large, the Master Equation is often 
+    practically unsolvable. The Method of Moments reduces the system to the 
+    evolution of a few moments of this distribution, which are described by a 
+    system of ordinary differential equations. Those equations are not closed, 
+    since lower order moments generally depend on higher order moments. Various 
+    closure schemes have been suggested to solve this problem, with different 
+    advantages and limitations. Two major problems with these approaches are 
+    first that they are open loop systems, which can diverge from the true 
+    solution, and second, some of them are computationally expensive.
   authors: Wagner V, Castellaz B, Oesting M, Radde N
   doi: 10.1093/bioinformatics/btac501
   journal: 'Bioinformatics. 2022 Sep 15;38(18):4352-4359. doi: 10.1093/bioinformatics/btac501.
     PMID: 35916726'
   preprint: false
-  pubmed: '35916726.0'
+  pubmed: '35916726'
   qualiperf_funding: true
   title: 'Quasi-Entropy Closure: A Fast and Reliable Approach to Close the Moment
     Equations of the Chemical Master Equation'
-- abstract: Finite element approximations of poroelastic materials are nowadays used
-    within multiple applications. Due to wide variation of possible material parameters,
-    robustness of the considered discretization is important. Within this contribution
-    robust of discretization schemes, initially developed for Biot’s theory, will
-    be applied within the Theory of Porous Media. Selected numerical test-cases, special
-    attention will be paid to incompressible and impermeable regimes, are conducted.
+- abstract: Finite element approximations of poroelastic materials are nowadays 
+    used within multiple applications. Due to wide variation of possible 
+    material parameters, robustness of the considered discretization is 
+    important. Within this contribution robust of discretization schemes, 
+    initially developed for Biot’s theory, will be applied within the Theory of 
+    Porous Media. Selected numerical test-cases, special attention will be paid 
+    to incompressible and impermeable regimes, are conducted.
   authors: Fleurianne Bertrand ,Maximilian Brodbeck, Tim Ricken
   doi: 10.1016/j.exco.2022.100087
   journal: "Examples and Counterexamples, \nhttps://doi.org/10.1016/j.exco.2022.100087"
@@ -515,6 +741,44 @@ items:
   qualiperf_funding: true
   title: 'On robust discretization methods for poroelastic problems: Numerical examples
     and counter-examples'
+- abstract: "Accurate evaluation of liver function is a central task in hepatology.
+    Dynamic liver function tests (DLFT) based on the time-dependent elimination of
+    a test substance provide an important tool for such a functional assessment. These
+    tests are used in the diagnosis and monitoring of liver disease as well as in
+    the planning of hepatobiliary surgery. A key challenge in the evaluation of liver
+    function with DLFTs is the large inter-individual variability. Indocyanine green
+    (ICG) is a widely applied test compound used for the evaluation of liver function.
+    After an intravenous administration, pharmacokinetic (PK) parameters are calculated
+    from the plasma disappearance curve of ICG which provide an estimate of liver
+    function. The hepatic elimination of ICG is affected by physiological factors
+    such as hepatic blood flow or binding of ICG to plasma proteins, anthropometric
+    factors such as body weight, age, and sex, or the protein amount of the organic
+    anion-transporting polypeptide 1B3 (OATP1B3) mediating the hepatic uptake of ICG.
+    Being able to account for and better understand these various sources of inter-individual
+    variability would allow to improve the power of ICG based DLFTs and move towards
+    an individualized evaluation of liver function.\nWithin this work we systematically
+    analyzed the effect of various factors on ICG elimination by the means of computational
+    modeling. For the analysis, a recently developed and validated physiologically
+    based pharmacokinetics (PBPK) model of ICG distribution and hepatic elimination
+    was utilized. Key results are (i) a systematic analysis of the variability in
+    ICG elimination due to hepatic blood flow, cardiac output, OATP1B3 abundance,
+    liver volume, body weight and plasma bilirubin level; (ii) the evaluation of the
+    inter-individual variability in ICG elimination via a large \\emph{in silico}
+    cohort of n=100000 subjects based on the NHANES cohort with special focus on stratification
+    by age, sex, and body weight; (iii) the evaluation of the effect of various degrees
+    of cirrhosis on variability in ICG elimination.\nThe presented results are an
+    important step towards individualizing liver function tests by elucidating the
+    effects of confounding physiological and anthropometric parameters in the evaluation
+    of liver function via ICG."
+  authors: Adrian Köller, Jan Grzegorzewski and Matthias König
+  doi: 10.1101/2021.08.11.455999
+  journal: 'bioRxiv 2021.08.11.455999; doi: https://doi.org/10.1101/2021.08.11.455999
+    [Submitted to Frontiers Physiology 2021-08-12]'
+  preprint: false
+  pubmed: '34880776'
+  qualiperf_funding: true
+  title: Physiologically based modeling of the effect of physiological and 
+    anthropometric variability on indocyanine green based liver function tests
 - abstract: 'Motivation: This paper presents libRoadRunner 2.0, an extensible, high-performance,
     cross-platform, open-source software library for the simulation and analysis of
     models expressed using the Systems Biology Markup Language (SBML). Results: libRoadRunner
@@ -535,45 +799,47 @@ items:
     systems as well as in principle any system supported by LLVM-13, such as ARM-based
     computers like the Raspberry Pi. The library is licensed under the Apache License
     Version 2.0.'
-  authors: Ciaran Welsh, Jin Xu, Lucian Smith, Matthias König, Kiri Choi, Herbert
-    M. Sauro
+  authors: Ciaran Welsh, Jin Xu, Lucian Smith, Matthias König, Kiri Choi, 
+    Herbert M. Sauro
   doi: 10.1093/bioinformatics/btac770
   journal: 'Bioinformatics. 2022 Dec 8:btac770. doi: 10.1093/bioinformatics/btac770.
     Epub ahead of print. PMID: 36478036.'
   preprint: false
-  pubmed: '36478036.0'
+  pubmed: '36478036'
   qualiperf_funding: true
   title: 'libRoadRunner 2.0: A High-Performance SBML Simulation and Analysis Library'
-- abstract: Little is known about the impact of morphological disorders in distinct
-    zones on metabolic zonation. It was described recently that periportal fibrosis
-    did affect the expression of CYP proteins, a set of pericentrally located drug-metabolizing
-    enzymes. Here, we investigated whether periportal steatosis might have a similar
-    effect. Periportal steatosis was induced in C57BL6/J mice by feeding a high-fat
-    diet with low methionine/choline content for either two or four weeks. Steatosis
-    severity was quantified using image analysis. Triglycerides and CYP activity were
-    quantified in photometric or fluorometric assay. The distribution of CYP3A4, CYP1A2,
-    CYP2D6, and CYP2E1 was visualized by immunohistochemistry. Pharmacokinetic parameters
-    of test drugs were determined after injecting a drug cocktail (caffeine, codeine,
-    and midazolam). The dietary model resulted in moderate to severe mixed steatosis
-    confined to periportal and midzonal areas. Periportal steatosis did not affect
-    the zonal distribution of CYP expression but the activity of selected CYPs was
-    associated with steatosis severity. Caffeine elimination was accelerated by microvesicular
-    steatosis, whereas midazolam elimination was delayed in macrovesicular steatosis.
-    In summary, periportal steatosis affected parameters of pericentrally located
-    drug metabolism. This observation calls for further investigations of the highly
-    complex interrelationship between steatosis and drug metabolism and underlying
-    signaling mechanisms.
-  authors: Albadry M.,  Höpfl, S., Ehteshamzad, N., König, M., Böttcher, M., Neumann,
-    J., Lupp, A., Dirsch, O., Radde, N., Christ, B., Christ, M., Schwen, L. O., Laue,
-    H., Klopfleisch, R., Dahmen, U.
+- abstract: Little is known about the impact of morphological disorders in 
+    distinct zones on metabolic zonation. It was described recently that 
+    periportal fibrosis did affect the expression of CYP proteins, a set of 
+    pericentrally located drug-metabolizing enzymes. Here, we investigated 
+    whether periportal steatosis might have a similar effect. Periportal 
+    steatosis was induced in C57BL6/J mice by feeding a high-fat diet with low 
+    methionine/choline content for either two or four weeks. Steatosis severity 
+    was quantified using image analysis. Triglycerides and CYP activity were 
+    quantified in photometric or fluorometric assay. The distribution of CYP3A4,
+    CYP1A2, CYP2D6, and CYP2E1 was visualized by immunohistochemistry. 
+    Pharmacokinetic parameters of test drugs were determined after injecting a 
+    drug cocktail (caffeine, codeine, and midazolam). The dietary model resulted
+    in moderate to severe mixed steatosis confined to periportal and midzonal 
+    areas. Periportal steatosis did not affect the zonal distribution of CYP 
+    expression but the activity of selected CYPs was associated with steatosis 
+    severity. Caffeine elimination was accelerated by microvesicular steatosis, 
+    whereas midazolam elimination was delayed in macrovesicular steatosis. In 
+    summary, periportal steatosis affected parameters of pericentrally located 
+    drug metabolism. This observation calls for further investigations of the 
+    highly complex interrelationship between steatosis and drug metabolism and 
+    underlying signaling mechanisms.
+  authors: Albadry M.,  Höpfl, S., Ehteshamzad, N., König, M., Böttcher, M., 
+    Neumann, J., Lupp, A., Dirsch, O., Radde, N., Christ, B., Christ, M., 
+    Schwen, L. O., Laue, H., Klopfleisch, R., Dahmen, U.
   doi: 10.1038/s41598-022-26483-6
   journal: 'Sci Rep. 2022 Dec 17;12(1):21825. doi: 10.1038/s41598-022-26483-6. PMID:
     36528753; PMCID: PMC9759570'
   preprint: false
-  pubmed: '36528753.0'
+  pubmed: '36528753'
   qualiperf_funding: true
-  title: Periportal steatosis in mice affects distinct parameters of pericentral drug
-    metabolism
+  title: Periportal steatosis in mice affects distinct parameters of pericentral
+    drug metabolism
 - abstract: "To maximize the usefulness of groundwater flow models for the protection
     of aquifers and\nabstraction wells, it is necessary to identify and decrease the
     uncertainty associated with the major parameters such as permeability. To do this,
@@ -620,30 +886,32 @@ items:
   title: "Simulation of Contaminant Transport through the Vadose Zone:\nA Continuum
     Mechanical Approach within the Framework of\nthe Extended Theory of Porous Media
     (eTPM)"
-- abstract: The Systems Biology community has taken numerous actions to develop data
-    and modeling standards towards FAIR data and model handling. Nevertheless, the
-    debate about incentives and rewards for individual researchers to make their results
-    reproducible is ongoing. Here, we pose the specific question of whether reproducible
-    models have a higher impact in terms of citations. Therefore, we statistically
-    analyze 328 published models recently classified by Tiwari et al. based on their
-    reproducibility. For hypothesis testing, we use a flexible Bayesian approach that
-    provides complete distributional information for all quantities of interest and
-    can handle outliers. The results show that in the period from 2013, i.e., 10 years
-    after the introduction of SBML, to 2020, the group of reproducible models is significantly
-    more cited than the non-reproducible group. We show that differences in journal
-    impact factors do not explain this effect and that this effect increases with
-    additional standardization of data and error model integration via PEtab. Overall,
-    our statistical analysis demonstrates the long-term merits of reproducible modeling
-    for the individual researcher in terms of citations. Moreover, it provides evidence
-    for the increased use of reproducible models in the scientific community.
+- abstract: The Systems Biology community has taken numerous actions to develop 
+    data and modeling standards towards FAIR data and model handling. 
+    Nevertheless, the debate about incentives and rewards for individual 
+    researchers to make their results reproducible is ongoing. Here, we pose the
+    specific question of whether reproducible models have a higher impact in 
+    terms of citations. Therefore, we statistically analyze 328 published models
+    recently classified by Tiwari et al. based on their reproducibility. For 
+    hypothesis testing, we use a flexible Bayesian approach that provides 
+    complete distributional information for all quantities of interest and can 
+    handle outliers. The results show that in the period from 2013, i.e., 10 
+    years after the introduction of SBML, to 2020, the group of reproducible 
+    models is significantly more cited than the non-reproducible group. We show 
+    that differences in journal impact factors do not explain this effect and 
+    that this effect increases with additional standardization of data and error
+    model integration via PEtab. Overall, our statistical analysis demonstrates 
+    the long-term merits of reproducible modeling for the individual researcher 
+    in terms of citations. Moreover, it provides evidence for the increased use 
+    of reproducible models in the scientific community.
   authors: Höpfl Sebastian, Pleiss Jürgen, Radde Nicole
   doi: 10.1038/s41598-023-29340-2
   journal: Sci Rep 13, 2695 (2023). https://doi.org/10.1038/s41598-023-29340-2
   preprint: false
-  pubmed: '36792648.0'
+  pubmed: '36792648'
   qualiperf_funding: true
-  title: Bayesian estimation reveals that reproducible models in Systems Biology get
-    more citations
+  title: Bayesian estimation reveals that reproducible models in Systems Biology
+    get more citations
 - abstract: "There are still many offered donor livers that are declined during the
     allocation process. Machine perfusion offers the option to evaluate (especially
     marginal) donor organs and to better decide whether a graft has the potential
@@ -657,18 +925,18 @@ items:
     There were 904 (66.6%) donor livers with potential to be evaluated as suitable
     grafts in machine perfusion, \nwhereas 417 (30.8%) organs were definitely not-transplantable,
     mainly due to liver cirrhosis, (untreated) donor malignancy, cardiac diseases
-    of the donor leading to a hepatic congestion, and/or systemic infections in \n
+    of the donor leading to a hepatic congestion, and/or systemic infections in \n\
     the donor. Donors in blood group “AB” were disproportionally often rejected. Due
     to missing data, 35 (2.6%) \norgans could not be sufficiently evaluated.\nConclusions:
     Our data suggest that many declined donor livers have potential of being evaluated
     by machine perfusion. \nComprehensive use of machine perfusion is necessary and
     useful to improve the current organ shortage."
-  authors: Falk Rauchfuß, Hans-Michael Tautenhahn, Felix Dondorf, Aladdin Ali-Deeb,
-    Utz Settmacher on behalf of the ELIAC
+  authors: Falk Rauchfuß, Hans-Michael Tautenhahn, Felix Dondorf, Aladdin 
+    Ali-Deeb, Utz Settmacher on behalf of the ELIAC
   doi: 10.12659/AOT.938132
   journal: "e-ISSN 2329-0358\n© Ann Transplant, 2023; 28: e938132\nDOI: 10.12659/AOT.938132"
   preprint: false
-  pubmed: '36927714.0'
+  pubmed: '36927714'
   qualiperf_funding: false
   title: "Critical Evaluation of Discarded Donor Livers \nin the Eurotransplant Region:
     Potential \nImplications for Machine Perfusion"
@@ -679,24 +947,65 @@ items:
     Open Language (SBOL) Version 3.1.0. This document can also be used to identify
     the latest specifications for all COMBINE standards. In addition, this editorial
     provides a brief overview of the COMBINE 2022 meeting in Berlin.'
-  authors: M. König, P. Gleeson, M. Golebiewski, T. Gorochowski, M. Hucka, S. Keating,
-    C. Myers, D. Nickerson, F. Schreiber
+  authors: M. König, P. Gleeson, M. Golebiewski, T. Gorochowski, M. Hucka, S. 
+    Keating, C. Myers, D. Nickerson, F. Schreiber
   doi: 10.1515/jib-2023-0004
   journal: 'J Integr Bioinform. 2023 Mar 29;20(1):20230004. doi: 10.1515/jib-2023-0004.
     PMID: 36989443; PMCID: PMC10063176'
   preprint: false
-  pubmed: '36989443.0'
+  pubmed: '36989443'
   qualiperf_funding: true
   title: 'Specifications of Standards in Systems and Synthetic Biology: Status and
     Developments in 2022 and the COMBINE meeting 2022'
 - abstract: Multiscale modeling for the liver
   authors: Ho H, Rezania V, Schwen LO
   doi: 10.3389/fbioe.2023.1179980
-  journal: Front. Bioeng. Biotechnol. 2023 Apr 13;1179980. doi:10.3389/fbioe.2023.1179980
+  journal: Front. Bioeng. Biotechnol. 2023 Apr 13;1179980. 
+    doi:10.3389/fbioe.2023.1179980
   preprint: false
-  pubmed: '37122862.0'
+  pubmed: '37122862'
   qualiperf_funding: false
   title: 'Editorial: Multiscale modeling for the liver'
+- abstract: 'Across disciplines, researchers increasingly recognize that open science
+    and reproducible research practices may accelerate scientific progress by allowing
+    others to reuse research outputs and by promoting rigorous research that is more
+    likely to yield trustworthy results. While initiatives, training programs, and
+    funder policies encourage researchers to adopt reproducible research and open
+    science practices, these practices are uncommon in many fields. Researchers need
+    training to integrate these practices into their daily work. We organized a virtual
+    brainstorming event, in collaboration with the German Reproducibility Network,
+    to discuss strategies for making reproducible research and open science training
+    the norm at research institutions. Here, we outline eleven strategies, concentrated
+    in three areas: (1) offering training, (2) adapting research assessment criteria
+    and program requirements, and (3) building communities. We provide a brief overview
+    of each strategy, offer tips for implementation, and provide links to resources.
+    Our goal is to encourage members of the research community to think creatively
+    about the many ways they can contribute and collaborate to build communities,
+    and make reproducible research and open science training the norm. Researchers
+    may act in their roles as scientists, supervisors, mentors, instructors, and members
+    of curriculum, hiring or evaluation committees. Institutional leadership and research
+    administration and support staff can accelerate progress by implementing change
+    across their institutions.'
+  authors: Friederike E. Kohrs, Susann Auer, Alexandra Bannach-Brown, Susann 
+    Fiedler, Tamarinde Haven, Verena Heise, Constance Holman, Flavio Azevedo, 
+    René Bernard, Arnim Bleier, Nicole Bössel, Brian Cahill, Leyla Jael Castro, 
+    Adrian Ehrenhofer, Kristina Eichel, Maximilian Frank, Claudia Frick, Malte 
+    Friese, Anne Gärtner, Kerstin Gierend, David Joachim Grüning, Lena Hahn, 
+    Maren Hülsemann, Malika Ihle, Sabrina Illius, Laura König, Matthias König, 
+    Louisa Kulke, Anton Kutlin, Fritjof Lammers, David M.A. Mehler, Christoph 
+    Miehl, Anett Müller-Alcazar, Claudia Neuendorf, Helen Niemeyer, Florian 
+    Pargent, Aaron Peikert, Christina U. Pfeuffer, Robert Reinecke, Jan Philipp 
+    Röer, Jessica L. Rohmann, Alfredo Sánchez-Tójar, Stefan Scherbaum, Elena 
+    Sixtus, Lisa Spitzer, Vera Maren Straßburger, Marcel Weber, Clarissa 
+    Whitmire, Josephine Zerna, Dilara Zorbek, Philipp Zumstein, Tracey L. 
+    Weissgerber
+  doi: 10.7554/eLife.89736
+  journal: 'osfpreprints 2023.04.12.536571 doi: 10.7554/eLife.89736'
+  preprint: false
+  pubmed: '37994903'
+  qualiperf_funding: false
+  title: Eleven Strategies for Making Reproducible Research and Open Science 
+    Training the Norm at Research Institutions
 - abstract: 'Many physiological processes and pathological phenomena in the liver
     tissue are spatially heterogeneous. At a local scale, biomarkers can be quantified
     along the axis of the blood flow, from portal fields (PFs) to central veins (CVs),
@@ -721,15 +1030,15 @@ items:
     a more robust and automated assessment of zonation from whole-slide images will
     be valuable for parameterizing spatially resolved models of liver metabolism and
     to provide diagnostic information.'
-  authors: Budelmann D, Laue H, Weis N, Dahmen U, D’Alessandro LA, Biermayer I, Klingmüller
-    U, Ghallab A, Hassan R, Begher-Tibbe B, Hengstler JG, Schwen LO
+  authors: Budelmann D, Laue H, Weis N, Dahmen U, D’Alessandro LA, Biermayer I, 
+    Klingmüller U, Ghallab A, Hassan R, Begher-Tibbe B, Hengstler JG, Schwen LO
   doi: 10.1016/j.jpi.2022.100001
   journal: 'Journal of Pathology Informatics 2022 13:100001, doi: 10.1016/j.jpi.2022.100001'
   preprint: false
-  pubmed: '35242441.0'
+  pubmed: '35242441'
   qualiperf_funding: false
-  title: Automated Detection of Portal Fields and Central Veins in Whole-Slide Images
-    of Liver Tissue
+  title: Automated Detection of Portal Fields and Central Veins in Whole-Slide 
+    Images of Liver Tissue
 - abstract: "Background: Preventing sepsis-associated acute kidney injury (S-AKI)
     can be challenging because it develops rapidly and is often asymptomatic. Probability
     assessment of disease progression for therapeutic follow-up and outcome are important
@@ -743,7 +1052,7 @@ items:
     and 35 sepsis). Experiment 2: Animals underwent mpMRI (T1 , T2 , perfusion) 18
     hours postsepsis. A subgroup of animals was immediately sacrificed for histology
     examination (nine control and seven sepsis). Result of mpMRI in follow-up subgroup
-    (25 control and 33 sepsis) was used to predict survival outcomes at 96 hours.\n
+    (25 control and 33 sepsis) was used to predict survival outcomes at 96 hours.\n\
     Statistical tests: Mann-Whitney U test, Spearman/Pearson correlation (r), P <
     0.05 was considered statistically significant.\nResults: Severely ill septic animals
     exhibited significantly increased serum creatinine levels compared to controls
@@ -758,79 +1067,475 @@ items:
     as first line diagnostic tool for treatment planning.\nLevel of evidence: 2 TECHNICAL
     EFFICACY STAGE: 2.\n\nKeywords: S-AKI; T1 and T2 relaxation time; multiparametric
     MRI; perfusion; sepsis."
-  authors: Zhao, W.-T, Herrmann, K.-H., Sibgatulin R., Nahardani A., Krämer M., Heitplatz
-    B., Van Marck V. , Reuter S., Reichenbach J.R., Hoerr V.
+  authors: Zhao, W.-T, Herrmann, K.-H., Sibgatulin R., Nahardani A., Krämer M., 
+    Heitplatz B., Van Marck V. , Reuter S., Reichenbach J.R., Hoerr V.
   doi: 10.1002/jmri.28698
   journal: 'J Magn Reson Imaging 2023 Apr 7. doi: 10.1002/jmri.28698'
   preprint: false
-  pubmed: '37026419.0'
+  pubmed: '37026419'
   qualiperf_funding: false
   title: 'Perfusion and T2 Relaxation Time as Predictors of Severity and Outcome in
     Sepsis-Associated Acute Kidney Injury: A Preclinical MRI Study'
-- abstract: The pancreas plays a critical role in maintaining glucose homeostasis
-    through the secretion of hormones from the islets of Langerhans. Glucose-stimulated
-    insulin secretion (GSIS) by the pancreatic β-cell is the main mechanism for reducing
-    elevated plasma glucose. Here we present a systematic modeling workflow for the
-    development of kinetic pathway models using the Systems Biology Markup Language
-    (SBML). Steps include retrieval of information from databases, curation of experimental
-    and clinical data for model calibration and validation, integration of heterogeneous
-    data including absolute and relative measurements, unit normalization, data normalization,
-    and model annotation. An important factor was the reproducibility and exchangeability
-    of the model, which allowed the use of various existing tools. The workflow was
-    applied to construct a novel data-driven kinetic model of GSIS in the pancreatic
-    β-cell based on experimental and clinical data from 39 studies spanning 50 years
-    of pancreatic, islet, and β-cell research in humans, rats, mice, and cell lines.
-    The model consists of detailed glycolysis and phenomenological equations for insulin
-    secretion coupled to cellular energy state, ATP dynamics and (ATP/ADP ratio).
-    Key findings of our work are that in GSIS there is a glucose-dependent increase
-    in almost all intermediates of glycolysis. This increase in glycolytic metabolites
-    is accompanied by an increase in energy metabolites, especially ATP and NADH.
-    One of the few decreasing metabolites is ADP, which, in combination with the increase
-    in ATP, results in a large increase in ATP/ADP ratios in the β-cell with increasing
-    glucose. Insulin secretion is dependent on ATP/ADP, resulting in glucose-stimulated
-    insulin secretion. The observed glucose-dependent increase in glycolytic intermediates
-    and the resulting change in ATP/ADP ratios and insulin secretion is a robust phenomenon
-    observed across data sets, experimental systems and species. Model predictions
-    of the glucose-dependent response of glycolytic intermediates and biphasic insulin
-    secretion are in good agreement with experimental measurements. Our model predicts
-    that factors affecting ATP consumption, ATP formation, hexokinase, phosphofructokinase,
-    and ATP/ADP-dependent insulin secretion have a major effect on GSIS. In conclusion,
-    we have developed and applied a systematic modeling workflow for pathway models
-    that allowed us to gain insight into key mechanisms in GSIS in the pancreatic
-    β-cell.
-  authors: Maheshvare MD., Raha S., König M.*, and Pal D.* (* equal contribution)
+- abstract: The pancreas plays a critical role in maintaining glucose 
+    homeostasis through the secretion of hormones from the islets of Langerhans.
+    Glucose-stimulated insulin secretion (GSIS) by the pancreatic β-cell is the 
+    main mechanism for reducing elevated plasma glucose. Here we present a 
+    systematic modeling workflow for the development of kinetic pathway models 
+    using the Systems Biology Markup Language (SBML). Steps include retrieval of
+    information from databases, curation of experimental and clinical data for 
+    model calibration and validation, integration of heterogeneous data 
+    including absolute and relative measurements, unit normalization, data 
+    normalization, and model annotation. An important factor was the 
+    reproducibility and exchangeability of the model, which allowed the use of 
+    various existing tools. The workflow was applied to construct a novel 
+    data-driven kinetic model of GSIS in the pancreatic β-cell based on 
+    experimental and clinical data from 39 studies spanning 50 years of 
+    pancreatic, islet, and β-cell research in humans, rats, mice, and cell 
+    lines. The model consists of detailed glycolysis and phenomenological 
+    equations for insulin secretion coupled to cellular energy state, ATP 
+    dynamics and (ATP/ADP ratio). Key findings of our work are that in GSIS 
+    there is a glucose-dependent increase in almost all intermediates of 
+    glycolysis. This increase in glycolytic metabolites is accompanied by an 
+    increase in energy metabolites, especially ATP and NADH. One of the few 
+    decreasing metabolites is ADP, which, in combination with the increase in 
+    ATP, results in a large increase in ATP/ADP ratios in the β-cell with 
+    increasing glucose. Insulin secretion is dependent on ATP/ADP, resulting in 
+    glucose-stimulated insulin secretion. The observed glucose-dependent 
+    increase in glycolytic intermediates and the resulting change in ATP/ADP 
+    ratios and insulin secretion is a robust phenomenon observed across data 
+    sets, experimental systems and species. Model predictions of the 
+    glucose-dependent response of glycolytic intermediates and biphasic insulin 
+    secretion are in good agreement with experimental measurements. Our model 
+    predicts that factors affecting ATP consumption, ATP formation, hexokinase, 
+    phosphofructokinase, and ATP/ADP-dependent insulin secretion have a major 
+    effect on GSIS. In conclusion, we have developed and applied a systematic 
+    modeling workflow for pathway models that allowed us to gain insight into 
+    key mechanisms in GSIS in the pancreatic β-cell.
+  authors: Maheshvare MD., Raha S., König M.*, and Pal D.* (* equal 
+    contribution)
   doi: 10.3389/fendo.2023.1185656
   journal: 'Front. Endocrinol. 14:1185656, doi: 10.3389/fendo.2023.1185656'
   preprint: false
-  pubmed: '37600713.0'
+  pubmed: '37600713'
   qualiperf_funding: true
-  title: A pathway model of glucose-stimulated insulin secretion in the pancreatic
-    β-cell
-- abstract: Physics-informed neural networks (PINNs) leverage data and knowledge about
-    a problem. They provide a nonnumerical pathway to solving partial differential
-    equations by expressing the field solution as an artificial neural network. This
-    approach has been applied successfully to various types of differential equations.
-    A major area of research on PINNs is the application to coupled partial differential
-    equations in particular, and a general breakthrough is still lacking. In coupled
-    equations, the optimization operates in a critical conflict between boundary conditions
-    and the underlying equations, which often requires either many iterations or complex
-    schemes to avoid trivial solutions and to achieve convergence. We provide empirical
-    evidence for the mitigation of bad initial conditioning in PINNs for solving one-dimensional
-    consolidation problems of porous media through the introduction of affine transformations
-    after the classical output layer of artificial neural network architectures, effectively
-    accelerating the training process. These affine physics-informed neural networks
-    (AfPINNs) then produce nontrivial and accurate field solutions even in parameter
-    spaces with diverging orders of magnitude. On average, AfPINNs show the ability
-    to improve the L2 relative error by 64.84% after 25,000 epochs for a one-dimensional
-    consolidation problem based on Biot’s theory, and an average improvement by 58.80%
-    with a transfer approach to the theory of porous media.
+  title: A pathway model of glucose-stimulated insulin secretion in the 
+    pancreatic β-cell
+- abstract: Physics-informed neural networks (PINNs) leverage data and knowledge
+    about a problem. They provide a nonnumerical pathway to solving partial 
+    differential equations by expressing the field solution as an artificial 
+    neural network. This approach has been applied successfully to various types
+    of differential equations. A major area of research on PINNs is the 
+    application to coupled partial differential equations in particular, and a 
+    general breakthrough is still lacking. In coupled equations, the 
+    optimization operates in a critical conflict between boundary conditions and
+    the underlying equations, which often requires either many iterations or 
+    complex schemes to avoid trivial solutions and to achieve convergence. We 
+    provide empirical evidence for the mitigation of bad initial conditioning in
+    PINNs for solving one-dimensional consolidation problems of porous media 
+    through the introduction of affine transformations after the classical 
+    output layer of artificial neural network architectures, effectively 
+    accelerating the training process. These affine physics-informed neural 
+    networks (AfPINNs) then produce nontrivial and accurate field solutions even
+    in parameter spaces with diverging orders of magnitude. On average, AfPINNs 
+    show the ability to improve the L2 relative error by 64.84% after 25,000 
+    epochs for a one-dimensional consolidation problem based on Biot’s theory, 
+    and an average improvement by 58.80% with a transfer approach to the theory 
+    of porous media.
   authors: Luis Mandl, André Mielke, Seyed Morteza Seyedpour, Tim Ricken
   doi: 10.1038/s41598-023-42141-x
-  journal: Mandl, L., Mielke, A., Seyedpour, S.M. et al. Affine transformations accelerate
-    the training of physics-informed neural networks of a one-dimensional consolidation
-    problem. Sci Rep 13, 15566 (2023). https://doi.org/10.1038/s41598-023-42141-x
+  journal: Mandl, L., Mielke, A., Seyedpour, S.M. et al. Affine transformations 
+    accelerate the training of physics-informed neural networks of a 
+    one-dimensional consolidation problem. Sci Rep 13, 15566 (2023). 
+    https://doi.org/10.1038/s41598-023-42141-x
   preprint: false
-  pubmed: '37730743.0'
+  pubmed: '37730743'
   qualiperf_funding: true
-  title: Affine transformations accelerate the training of physics-informed neural
-    networks of a one-dimensional consolidation problem
+  title: Affine transformations accelerate the training of physics-informed 
+    neural networks of a one-dimensional consolidation problem
+- abstract: 'Reproducible research and open science practices have the potential to
+    accelerate scientific progress by allowing others to reuse research outputs, and
+    by promoting rigorous research that is more likely to yield trustworthy results.
+    However, these practices are uncommon in many fields, so there is a clear need
+    for training that helps and encourages researchers to integrate reproducible research
+    and open science practices into their daily work. Here, we outline eleven strategies
+    for making training in these practices the norm at research institutions. The
+    strategies, which emerged from a virtual brainstorming event organized in collaboration
+    with the German Reproducibility Network, are concentrated in three areas: (i)
+    adapting research assessment criteria and program requirements; (ii) training;
+    (iii) building communities. We provide a brief overview of each strategy, offer
+    tips for implementation, and provide links to resources. We also highlight the
+    importance of allocating resources and monitoring impact. Our goal is to encourage
+    researchers – in their roles as scientists, supervisors, mentors, instructors,
+    and members of curriculum, hiring or evaluation committees – to think creatively
+    about the many ways they can promote reproducible research and open science practices
+    in their institutions.'
+  authors: Friederike E Kohrs, Susann Auer, Alexandra Bannach-Brown, Susann 
+    Fiedler, Tamarinde Laura Haven, Verena Heise, Constance Holman, Flavio 
+    Azevedo, René Bernard, Armin Bleier, Nicole Bössel, Brian Patrick Cahill, 
+    Leyla Jael Castro, Adrian Ehrenhofer, Kristina Eichel, Maximillian Frank, 
+    Claudia Frick, Malte Friese, Anne Gärtner, Kerstin Gierend, David Joachim 
+    Grüning, Lena Hahn, Maren Hülsemann, Malika Ihle, Sabrina Illius, Laura 
+    König, Matthias König, Louisa Kulke, Anton Kutlin, Fritjof Lammers, David MA
+    Mehler, Christoph Miehl, Anett Müller-Alcazar, Claudia Neuendorf, Helen 
+    Niemeyer, Florian Pargent, Aaron Peikert, Christina U Pfeuffer, Robert 
+    Reinecke, Jan Philipp Röer, Jessica L Rohmann, Alfredo Sánchez-Tójar, Stefan
+    Scherbaum, Elena Sixtus, Lisa Spitzer, Vera Maren Straßburger, Marcel Weber,
+    Clarissa J Whitmire, Josephine Zerna, Dilara Zorbek, Philipp Zumstein, 
+    Tracey L Weissgerber
+  doi: 10.7554/eLife.89736
+  journal: eLife (2023) 12:e89736.
+  preprint: false
+  pubmed: '37994903'
+  qualiperf_funding: true
+  title: Eleven Strategies for Making Reproducible Research and Open Science 
+    Training the Norm at Research Institutions
+- abstract: 'The SIMulation supported LIVer Assessment for donor organs (SimLivA)
+    project aims to develop a mathematical model to accurately simulate the influence
+    of mechanical alterations in marginal liver grafts (specifically steatotic ones)
+    and cold ischemia on early ischemia-reperfusion injury (IRI) during liver transplantation.
+    Our project tackles significant research challenges, including the co-development
+    of computational methodologies, experimental studies, clinical processes, and
+    technical workflows. We aim to refine a continuum-biomechanical model for enhanced
+    IRI prediction, collect pivotal experimental and clinical data, and assess the
+    clinical applicability of our model. Our efforts involve augmenting and tailoring
+    a coupled continuum-biomechanical, multiphase, and multi-scale partial differential
+    equation-ordinary differential equation (PDE-ODE) model of the liver lobule, allowing
+    us to numerically simulate IRI depending on the degree of steatosis and the duration
+    of ischemia. The envisaged model will intertwine the structure, perfusion, and
+    function of the liver, serving as a crucial aid in clinical decision-making processes.
+    We view this as the initial step towards an in-silico clinical decision support
+    tool aimed at enhancing the outcomes of liver transplantation. In this paper,
+    we provide an overview of the SimLivA project and our preliminary findings, which
+    include: a cellular model that delineates critical processes in the context of
+    IRI during transplantation; and the integration of this model into a multi-scale
+    PDE-ODE model using a homogenized, multi-scale, multi-component approach within
+    the Theory of Porous Media (TPM) framework. The model has successfully simulated
+    the interconnected relationship between structure, perfusion, and function—all
+    of which are integral to IRI. Initial results show simulations at the cellular
+    scale that describe critical processes related to IRI during transplantation.
+    After integrating this model into a multiscale PDE-ODE model, first simulations
+    were performed on the spatial distribution of key functions during warm and cold
+    ischaemia. In addition, we were able to study the effect of tissue perfusion and
+    temperature, two critical parameters in the context of liver transplantation and
+    IRI.'
+  authors: Hans-Michael Tautenhahn, Tim Ricken, Uta Dahmen, Luis Mandl, Laura 
+    Bütow, Steffen Gerhäusser, Lena Lambers, Xinpei Chen, Elina Lehmann, Olaf 
+    Dirsch, Matthias König
+  doi: 10.1002/gamm.202370003
+  journal: GAMM-Mitteilungen. (2024), e202370003, 10.1002/gamm.202370003
+  preprint: false
+  pubmed: '-'
+  qualiperf_funding: true
+  title: 'SimLivA – Modelling ischemia reperfusion injury in the liver: A first step
+    towards a clinical decision support tool.'
+- abstract: 'There is a lack of systematic research exploring cross-species variation
+    in liver lobular geometry and zonation patterns of critical drug-metabolizing
+    enzymes, a knowledge gap essential for translational studies. This study investigated
+    the critical interplay between lobular geometry and key cytochrome P450 (CYP)
+    zonation in four species: mouse, rat, pig, and human. We developed an automated
+    pipeline based on whole slide images (WSI) of hematoxylin-eosin-stained liver
+    sections and immunohistochemistry. This pipeline allows accurate quantification
+    of both lobular geometry and zonation patterns of essential CYP proteins. Our
+    analysis of CYP zonal expression shows that all CYP enzymes (besides CYP2D6 with
+    panlobular expression) were observed in the pericentral region in all species,
+    but with distinct differences. Comparison of normalized gradient intensity shows
+    a high similarity between mice and humans, followed by rats. Specifically, CYP1A2
+    was expressed throughout the pericentral region in mice and humans, whereas it
+    was restricted to a narrow pericentral rim in rats and showed a panlobular pattern
+    in pigs. Similarly, CYP3A4 is present in the pericentral region, but its extent
+    varies considerably in rats and appears panlobular in pigs. CYP2D6 zonal expression
+    consistently shows a panlobular pattern in all species, although the intensity
+    varies. CYP2E1 zonal expression covered the entire pericentral region with extension
+    into the midzone in all four species, suggesting its potential for further cross-species
+    analysis. Analysis of lobular geometry revealed an increase in lobular size with
+    increasing species size, whereas lobular compactness was similar. Based on our
+    results, zonated CYP expression in mice is most similar to humans. Therefore,
+    mice appear to be the most appropriate species for drug metabolism studies unless
+    larger species are required for other purposes, e.g., surgical reasons. CYP selection
+    should be based on species, with CYP2E1 and CYP2D6 being the most preferable to
+    compare four species. CYP1A2 could be considered as an additional CYP for rodent
+    versus human comparisons, and CYP3A4 for mouse/human comparisons. In conclusion,
+    our image analysis pipeline together with suggestions for species and CYP selection
+    can serve to improve future cross-species and translational drug metabolism studies.'
+  authors: Mohamed Albadry, Jonas Kuettner, Jan Grzegorzewski, Olaf Dirsch, Eva 
+    Kindler, Robert Klopfleisch, Vaclav Liska, Vladimira Moulisova, Sandra 
+    Nickel, Richard Palek, Jachym Rosendorf, Sylvia Saalfeld, Utz Settmacher, 
+    Hans-Michael Tautenhahn, Matthias König, Uta Dahmen
+  doi: 10.3389/fphar.2024.1404938
+  journal: Front Pharmacol. 2024 May 16;15:1404938
+  preprint: false
+  pubmed: '38818378'
+  qualiperf_funding: true
+  title: 'Cross-Species Variability in Lobular Geometry and Cytochrome P450 Hepatic
+    Zonation: Insights into CYP1A2, CYP2E1, CYP2D6 and CYP3A4'
+- abstract: "Motivation: Systems biology aims to better understand living systems
+    through mathematical modelling of experimental and clinical data. A pervasive
+    challenge in quantitative dynamical modelling is the integration of time series
+    measurements, which often have high variability and low sampling resolution. Approaches
+    are required to utilize such information while consistently handling uncertainties.\n\
+    Results: We present BayModTS (Bayesian modelling of time series data), a new FAIR
+    (findable, accessible, interoperable, and reusable) workflow for processing and
+    analysing sparse and highly variable time series data. BayModTS consistently transfers
+    uncertainties from data to model predictions, including process knowledge via
+    parameterized models. Further, credible differences in the dynamics of different
+    conditions can be identified by filtering noise. To demonstrate the power and
+    versatility of BayModTS, we applied it to three hepatic datasets gathered from
+    three different species and with different measurement techniques: (i) blood perfusion
+    measurements by magnetic resonance imaging in rat livers after portal vein ligation,
+    (ii) pharmacokinetic time series of different drugs in normal and steatotic mice,
+    and (iii) CT-based volumetric assessment of human liver remnants after clinical
+    liver resection.\nAvailability and implementation: The BayModTS codebase is available
+    on GitHub at https://github.com/Systems-Theory-in-Systems-Biology/BayModTS. The
+    repository contains a Python script for the executable BayModTS workflow and a
+    widely applicable SBML (systems biology markup language) model for retarded transient
+    functions. In addition, all examples from the paper are included in the repository.
+    Data and code of the application examples are stored on DaRUS: https://doi.org/10.18419/darus-3876.
+    The raw MRI ROI voxel data were uploaded to DaRUS: https://doi.org/10.18419/darus-3878.
+    The steatosis metabolite data are published on FairdomHub: 10.15490/fairdomhub.1.study.1070.1."
+  authors: Höpfl S, Albadry M, Dahmen U, Herrmann KH, Kindler EM, König M, 
+    Reichenbach JR, Tautenhahn HM, Wei W, Zhao WT, Radde NE.
+  doi: 10.1093/bioinformatics/btae312
+  journal: Bioinformatics. 2024 May 2;40(5):btae312
+  preprint: false
+  pubmed: '38741151'
+  qualiperf_funding: true
+  title: Bayesian modelling of time series data (BayModTS)-a FAIR workflow to 
+    process sparse and highly variable data
+- abstract: Modern biological research is increasingly informed by computational
+    simulation experiments, which necessitate the development of methods for 
+    annotating, archiving, sharing, and reproducing the conducted experiments. 
+    These simulations increasingly require extensive collaboration among 
+    modelers, experimentalists, and engineers. The Minimum Information About a 
+    Simulation Experiment (MIASE) guidelines outline the information needed to 
+    share simulation experiments. SED-ML is a computer-readable format for the 
+    information outlined by MIASE, created as a community project and supported 
+    by many investigators and software tools. Level 1 Version 5 of SED-ML 
+    expands the ability of modelers to define simulations in SED-ML using the 
+    Kinetic Simulation Algorithm Onotoloy (KiSAO). While it was possible in 
+    Version 4 to define a simulation entirely using KiSAO, Version 5 now allows 
+    users to define tasks, model changes, ranges, and outputs using the ontology
+    as well. SED-ML is supported by a growing ecosystem of investigators, model 
+    languages, and software tools, including various languages for 
+    constraint-based, kinetic, qualitative, rule-based, and spatial models, and 
+    many simulation tools, visual editors, model repositories, and validators. 
+    Additional information about SED-ML is available at https://sed-ml.org/.
+  authors: Smith LP, Bergmann FT, Garny A, Helikar T, Karr J, Nickerson D, Sauro
+    H, Waltemath D, König M.
+  doi: 10.1515/jib-2024-0008
+  journal: J Integr Bioinform. 2024 Apr 15
+  preprint: false
+  pubmed: '38613325'
+  qualiperf_funding: true
+  title: 'The simulation experiment description markup language (SED-ML): language
+    specification for level 1 version 5'
+- abstract: Extended liver resection carries the risk of post-surgery liver 
+    failure involving throm-bospondin-1-mediated aggravation of hepatic 
+    epithelial plasticity and function. Mesenchymal stromal cells (MSC) by 
+    interfering with thrombospondin-1 (THBS1) counteract hepatic dysfunc-tion, 
+    though associated mechanisms remain unknown. Here, two-thirds partial 
+    hepatectomy in the mouse increases hepatic THBS1, downstream transforming 
+    growth factor-β, and perturbation of liver tissue homeostasis, all of which 
+    is ameliorated by hepatic transfusion of human bone mar-row-derived MSC. 
+    Treatment attenuates platelet and macrophage recruitment to the liver, both 
+    major sources of THBS1. By mitigating THBS1, MSC mute surgery-induced tissue
+    deterioration and dysfunction, and thus support post-hepatectomy 
+    regeneration. After liver surgery, patients display increased tissue THBS1, 
+    which is associated with functional impairment and may indicate a higher 
+    risk of post-surgery complications. Since liver dysfunction involving THBS1 
+    improves by MSC treatment in various animal models, it seems feasible to 
+    modulate THBS1 also in humans to impede post-surgery acute liver failure.
+  authors: Tietze L*, Christ M*, Yu J, Stock P, Nickel S, Schulze A, Bartels M, 
+    Tautenhahn H-M*, Christ B*
+  doi: 10.3390/cells13060529
+  journal: 'Cells 2024, 13, doi: 10.3390/cells13060529'
+  preprint: false
+  pubmed: '38534373'
+  qualiperf_funding: true
+  title: Approaching thrombospondin-1 as a potential target for mesenchymal 
+    stromal cells to support liver regeneration after partial hepatectomy in 
+    mouse and humans
+- abstract: 'Metabolic zonation refers to the spatial separation of metabolic functions
+    along the sinusoidal axes of the liver. This phenomenon forms the foundation for
+    adjusting hepatic metabolism to physiological requirements in health and disease
+    (e.g., metabolic dysfunction-associated steatotic liver disease/MASLD). Zonated
+    metabolic functions are influenced by zonal morphological abnormalities in the
+    liver, such as periportal fibrosis and pericentral steatosis. We aim to analyze
+    the interplay between microperfusion, oxygen gradient, fat metabolism and resulting
+    zonated fat accumulation in a liver lobule. Therefore we developed a continuum
+    biomechanical, tri-phasic, bi-scale, and multicomponent in silico model, which
+    allows to numerically simulate coupled perfusion-function-growth interactions
+    two-dimensionally in liver lobules. The developed homogenized model has the following
+    specifications: (i) thermodynamically consistent, (ii) tri-phase model (tissue,
+    fat, blood), (iii) penta-substances (glycogen, glucose, lactate, FFA, and oxygen),
+    and (iv) bi-scale approach (lobule, cell). Our presented in silico model accounts
+    for the mutual coupling between spatial and time-dependent liver perfusion, metabolic
+    pathways and fat accumulation. The model thus allows the prediction of fat development
+    in the liver lobule, depending on perfusion, oxygen and plasma concentration of
+    free fatty acids (FFA), oxidative processes, the synthesis and the secretion of
+    triglycerides (TGs). The use of a bi-scale approach allows in addition to focus
+    on scale bridging processes. Thus, we will investigate how changes at the cellular
+    scale affect perfusion at the lobular scale and vice versa. This allows to predict
+    the zonation of fat distribution (periportal or pericentral) depending on initial
+    conditions, as well as external and internal boundary value conditions.'
+  authors: Lena Lambers, Navina Waschinsky, Jana Schleicher, Matthias König, 
+    Hans-Michael Tautenhahn, Mohamed Albadry, Uta Dahmen, Tim Ricken
+  doi: 10.1007/s10237-023-01797-0
+  journal: Biomech Model Mechanobiol
+  preprint: false
+  pubmed: '38402347'
+  qualiperf_funding: true
+  title: 'Quantifying fat zonation in liver lobules: an integrated multiscale in silico
+    model combining disturbed microperfusion and fat metabolism via a continuum biomechanical
+    bi-scale, tri-phasic approach'
+- abstract: 'Metabolic zonation refers to the spatial separation of metabolic functions
+    along the sinusoidal axes of the liver. This phenomenon forms the foundation for
+    adjusting hepatic metabolism to physiological requirements in health and disease
+    (e.g., metabolic dysfunction-associated steatotic liver disease/MASLD). Zonated
+    metabolic functions are influenced by zonal morphological abnormalities in the
+    liver, such as periportal fibrosis and pericentral steatosis. We aim to analyze
+    the interplay between microperfusion, oxygen gradient, fat metabolism and resulting
+    zonated fat accumulation in a liver lobule. Therefore we developed a continuum
+    biomechanical, tri-phasic, bi-scale, and multicomponent in silico model, which
+    allows to numerically simulate coupled perfusion-function-growth interactions
+    two-dimensionally in liver lobules. The developed homogenized model has the following
+    specifications: (i) thermodynamically consistent, (ii) tri-phase model (tissue,
+    fat, blood), (iii) penta-substances (glycogen, glucose, lactate, FFA, and oxygen),
+    and (iv) bi-scale approach (lobule, cell). Our presented in silico model accounts
+    for the mutual coupling between spatial and time-dependent liver perfusion, metabolic
+    pathways and fat accumulation. The model thus allows the prediction of fat development
+    in the liver lobule, depending on perfusion, oxygen and plasma concentration of
+    free fatty acids (FFA), oxidative processes, the synthesis and the secretion of
+    triglycerides (TGs). The use of a bi-scale approach allows in addition to focus
+    on scale bridging processes. Thus, we will investigate how changes at the cellular
+    scale affect perfusion at the lobular scale and vice versa. This allows to predict
+    the zonation of fat distribution (periportal or pericentral) depending on initial
+    conditions, as well as external and internal boundary value conditions.'
+  authors: Lena Lambers, Navina Waschinsky, Jana Schleicher, Matthias König, 
+    Hans-Michael Tautenhahn, Mohamed Albadry, Uta Dahmen and Tim Ricken
+  doi: 10.1007/s10237-023-01797-0
+  journal: Biomech Model Mechanobiol
+  preprint: false
+  pubmed: '38402347'
+  qualiperf_funding: true
+  title: 'Quantifying Fat Zonation in Liver Lobules: An Integrated Multiscale In-silico
+    Model Combining Disturbed Microperfusion and Fat Metabolism via a Continuum-Biomechanical
+    Bi-scale, Tri-phasic Approach'
+- abstract: This study explores the critical interplay between lobular geometry 
+    and the zonated distribution of cytochrome P450 (CYP) enzymes across 
+    species. We present an innovative approach to assess lobular geometry and 
+    zonation patterns using whole slide imaging (WSI). This method allows a 
+    detailed, systematic comparison of lobular structures and spatial 
+    distribution of key CYP450 enzymes and glutamine synthetase in four 
+    different species (mouse, rat, pig, and human). Our results shed light on 
+    species differences in lobular geometry and enzymatic zonation, providing 
+    critical insights for drug metabolism research. Based on our approach we 
+    could determine the minimum number of lobules required for a statistically 
+    representative analysis, an important piece of information when evaluating 
+    liver biopsies and deriving information from WSI.
+  authors: Mohamed Albadry, Jonas Kuettner, Jan Grzegorzewski, Olaf Dirsch, Eva 
+    Kindler, Robert Klopfleisch, Vaclav Liska, Vladimira Moulisova, Sandra 
+    Nickel, Richard Palek, Jachym Rosendorf, Sylvia Saalfeld, Utz Settmacher, 
+    Hans-Michael Tautenhahn, Matthias König, Uta Dahmen
+  doi: 10.3389/fphar.2024.1404938
+  journal: 'bioRxiv 2023.12.28.573567, doi: https://doi.org/10.1101/2023.12.28.573567'
+  preprint: false
+  pubmed: '38818378'
+  qualiperf_funding: true
+  title: 'Cross-Species Variability in Lobular Geometry and Cytochrome P450 Hepatic
+    Zonation: Insights into CYP1A2, CYP2E1, CYP2D6 and CYP3A4'
+- abstract: No Abstract.
+  authors: Meyer D., Kosacka J., von Bergen M., Christ B., Marz M.
+  doi: 10.3389/fgene.2024.1421955
+  journal: Frontiers in Genetics
+  preprint: false
+  pubmed: '39233735'
+  qualiperf_funding: true
+  title: Data report on gene expression after hepatic portal vein ligation (PVL)
+    in rats
+- abstract: "In Bayesian statistics, Highest Posterior Density Regions (HPDR) measure
+    the\nuncertainty of parameter estimates at a given credibility level. HPDRs are
+    the Bayesian\nversion of Highest Density Intervals (HDI) based on the posterior
+    probability. The calculation\nof Percentile Intervals (PI) is a common method
+    for approximating HDIs in many popular\nPython toolboxes. The PI calculation differs
+    from the HPDR calculation as it ignores the\nposterior probability by simply cutting
+    the lower and upper values of the marginalized posterior distribution symmetrically.
+    Here, we use the phenomenological retarded transient functions to infer the posterior
+    distribution of a clinical dataset. The one-dimensional HPDR projections were
+    compared to the PIs for all inferred parameters. The direct comparison revealed
+    that the one-dimensional HPDR projections of all inferred parameter posteriors
+    exceeded the percentile-based intervals, demonstrating that the PIs were overconfident.
+    Overall, we argue that only HPDRs can be interpreted in terms of probability."
+  authors: Höpfl Sebastian, Tautenhahn Hans-Michael, Wagner Vincent, Radde 
+    Nicole
+  doi: '-'
+  journal: nan
+  preprint: false
+  pubmed: '-'
+  qualiperf_funding: true
+  title: Marginal Percentile Intervals in Bayesian Inference are Overconfident
+- abstract: The “COmputational Modeling in BIology NEtwork” (COMBINE) initiative
+    aims to harmonise the development of diverse community standards for 
+    computational models in biology. It coordinates standard development to 
+    support the associated projects towards establishing a suite of compatible, 
+    interoperable and comprehensive standards that address the full spectrum of 
+    modeling in systems and synthetic biology.
+  authors: Martin Golebiewski, Gary Bader, Padraig Gleeson, Thomas E 
+    Gorochowski, Sarah M Keating, Matthias König, Chris J Myers, David P 
+    Nickerson, Björn Sommer, Dagmar Waltemath, Falk Schreiber
+  doi: 10.1515/jib-2024-0015
+  journal: 'J Integr Bioinform. 2024 Jul 22. doi: 10.1515/jib-2024-0015'
+  preprint: false
+  pubmed: '39026464'
+  qualiperf_funding: true
+  title: 'Specifications of standards in systems and synthetic biology: status, developments,
+    and tools in 2024'
+- abstract: Evasion of cell death is a hallmark of cancer, and consequently the 
+    induction of cell death is a common strategy in cancer treatment. However, 
+    the molecular mechanisms regulating different types of cell death are poorly
+    understood. We have formerly shown that in the epidermis of hypomorphic 
+    zebrafish hai1a mutant embryos, pre-neoplastic transformations of 
+    keratinocytes caused by unrestrained activity of the type II transmembrane 
+    serine protease Matriptase-1 heal spontaneously. This healing is driven by 
+    Matriptase-dependent increased sphingosine kinase (SphK) activity and 
+    sphingosine-1-phosphate (S1P)-mediated keratinocyte loss via apical cell 
+    extrusion. In contrast, amorphic hai1afr26 mutants with even higher 
+    Matriptase-1 and SphK activity die within a few days. Here we show that this
+    lethality is not due to epidermal carcinogenesis, but to aberrant 
+    tp53-independent apoptosis of keratinocytes caused by increased levels of 
+    pro-apoptotic C16 ceramides, sphingolipid counterparts to S1P within the 
+    sphingolipid rheostat, which severely compromises the epidermal barrier. 
+    Mathematical modelling of sphingolipid rheostat homeostasis, combined with 
+    in vivo manipulations of components of the rheostat or the ceramide de novo 
+    synthesis pathway, indicate that this unexpected overproduction of ceramides
+    is caused by a negative feedback loop sensing ceramide levels and 
+    controlling ceramide replenishment via de novo synthesis. Therefore, despite
+    their initial decrease due to increased conversion to S1P, ceramides 
+    eventually reach cell death-inducing levels, making transformed 
+    pre-neoplastic keratinocytes die even before they are extruded, thereby 
+    abrogating the normally barrier-preserving mode of apical live cell 
+    extrusion. Our results offer an in vivo perspective of the dynamics of 
+    sphingolipid homeostasis and its relevance for epithelial cell survival 
+    versus cell death, linking apical cell extrusion and apoptosis. Implications
+    for human carcinomas and their treatments are discussed.
+  authors: Armistead Joy, Höpfl Sebastian, Goldhausen Pierre, Müller-Hartmann 
+    Andrea, Fahle Evelin, Hatzold Julia, Franzen Rainer, Brodesser Susanne, 
+    Radde Nicole E, Hammerschmidt Matthias
+  doi: 10.1038/s41419-024-07134-2
+  journal: Cell Death and Disease
+  preprint: false
+  pubmed: '39397024'
+  qualiperf_funding: true
+  title: A sphingolipid rheostat controls apoptosis versus apical cell extrusion
+    as alternative tumour-suppressive mechanisms
+- abstract: Establish an arterial spin labeling (ASL) protocol for rat livers 
+    that improves data reliability and reproducibility for perfusion 
+    quantification.
+  authors: Wan-Ting Zhao, Karl-Heinz Herrmann, Weiwei Wei, Martin Krämer, Uta 
+    Dahmen & Jürgen R. Reichenbach
+  doi: 10.1007/s10334-024-01223-1
+  journal: "Magnetic Resonance Materials in Physics, Biology and Medicine,\nDOI:10.1007/s10334-024-01223-1"
+  preprint: false
+  pubmed: '39754650'
+  qualiperf_funding: true
+  title: A quality assurance protocol for reliable and reproducible multi-TI 
+    arterial spin labeling perfusion imaging in rat livers

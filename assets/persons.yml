@@ -1,9 +1,9 @@
 items:
 - affiliations:
-  - Experimental Transplantation Surgery, Department of General, Visceral and Vascular
-    Surgery, University Hospital Jena, Jena, Germany
-  - Department of Pathology, Faculty of Veterinary Medicine, Menoufia University,
-    Shebin Elkom, Menoufia, Egypt
+  - Experimental Transplantation Surgery, Department of General, Visceral and 
+    Vascular Surgery, University Hospital Jena, Jena, Germany
+  - Department of Pathology, Faculty of Veterinary Medicine, Menoufia 
+    University, Shebin Elkom, Menoufia, Egypt
   description: 'I am working on two different projects. (A) Stea-Pk Mod: we study
     the impact of steatosis on Drug metabolism in mouse. (B) QuaLiPerf: We are interested
     in studying the impact of hepatic perfusion on drug metabolism in different species
@@ -30,8 +30,8 @@ items:
   websites:
   - https://https://www.uniklinikum-jena.de/avc/Team.html
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery,
-    Experimental Transplantation Surgery
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery, Experimental Transplantation Surgery
   description: Data Manager
   firstname: Mehul
   groups:
@@ -54,9 +54,10 @@ items:
   websites:
   - https://github.com/MehulBafna
 - affiliations:
-  - Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin
-  description: Development of pharmacokinetic Models for the quantification of liver
-    function.
+  - Institute for Theoretical Biology, Institute of Biology, Humboldt-University
+    Berlin
+  description: Development of pharmacokinetic Models for the quantification of 
+    liver function.
   firstname: Florian
   groups:
   - Koenig
@@ -74,13 +75,14 @@ items:
   title: B. Sc.
   websites: null
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery,
-    AG Gerontosurgery
-  description: Laura Bütow is a medical student in the 4th year of her studies at
-    the Friedrich Schiller University of Jena. She is a fellow within a structured
-    doctoral thesis funding program called JSAM (Jena School for Ageing Medicine of
-    Else Kröner-Promotionskolleg). She works on the CYP enzyme expression and activity
-    in Ischemia reperfusion injury in the setting of liver transplantations.
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery, AG Gerontosurgery
+  description: Laura Bütow is a medical student in the 4th year of her studies 
+    at the Friedrich Schiller University of Jena. She is a fellow within a 
+    structured doctoral thesis funding program called JSAM (Jena School for 
+    Ageing Medicine of Else Kröner-Promotionskolleg). She works on the CYP 
+    enzyme expression and activity in Ischemia reperfusion injury in the setting
+    of liver transplantations.
   firstname: Laura
   groups:
   - Tautenhahn
@@ -99,13 +101,15 @@ items:
   title: ''
   websites: null
 - affiliations:
-  - Leipzig University Medical Center, Department of Visceral, Transplant, Thoracic
-    and Vascular Surgery, Cell Transplantation/Molecular Hepatology
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery
-  description: Bruno Christ is the PI in the project P1. His research focusses on
-    metabolic regulation of liver zonation on the cellular and molecular level. His
-    translational research aims at establishing mesenchymal stromal cells as therapeutic
-    support after complex liver surgery and in metabolic liver diseases.
+  - Leipzig University Medical Center, Department of Visceral, Transplant, 
+    Thoracic and Vascular Surgery, Cell Transplantation/Molecular Hepatology
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery
+  description: Bruno Christ is the PI in the project P1. His research focusses 
+    on metabolic regulation of liver zonation on the cellular and molecular 
+    level. His translational research aims at establishing mesenchymal stromal 
+    cells as therapeutic support after complex liver surgery and in metabolic 
+    liver diseases.
   firstname: Bruno
   groups:
   - Christ
@@ -134,11 +138,12 @@ items:
   websites:
   - https://www.uniklinikum-leipzig.de/einrichtungen/vttg/forschung/zelltransplantation-molekulare-hepatologie
 - affiliations:
-  - Leipzig University Medical Center, Department of Visceral, Transplant, Thoracic
-    and Vascular Surgery, Cell Transplantation/Molecular Hepatology
-  description: Madlen Christ is the technician in the project P1. She conducts biochemical,
-    molecular biology, and histological analyses and curation of data. Further, she
-    is involved in the performance of small animal surgical procedures.
+  - Leipzig University Medical Center, Department of Visceral, Transplant, 
+    Thoracic and Vascular Surgery, Cell Transplantation/Molecular Hepatology
+  description: Madlen Christ is the technician in the project P1. She conducts 
+    biochemical, molecular biology, and histological analyses and curation of 
+    data. Further, she is involved in the performance of small animal surgical 
+    procedures.
   firstname: Madlen
   groups:
   - Christ
@@ -161,8 +166,8 @@ items:
   websites:
   - https://www.uniklinikum-leipzig.de/einrichtungen/vttg/forschung/zelltransplantation-molekulare-hepatologie
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery,
-    Experimental Transplantation Surgery
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery, Experimental Transplantation Surgery
   description: 'Uta Dahmen is the spokesperson of the research group and thus responsible
     for the scientific and administrative management of the research group and serves
     as the central contact person for all projects. In addition, in subproject P2
@@ -204,15 +209,16 @@ items:
   websites:
   - https://www.uniklinikum-jena.de/avc/Team.html
 - affiliations:
-  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace
-    Engineering, Digital Liver Lab
-  description: Steffen Gerhäusser is a doctoral researcher of the project P7 - "Modeling
-    of function-perfusion-deformation interaction on liver lobulus and cellular scale
-    based on a bi-scale continuum FEM model". He is working under the guidance of
-    Prof. Dr.-Ing Tim Ricken on numercial simulation of liver tissue based on the
-    theory of porous media (TPM). His main research topic is the coupling of macro
-    perfusion processes on the lobule scale using the Finite Element Method (FEM )
-    with reaction networks on the cell scale using an SBML based ODE solver.
+  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in 
+    Aerospace Engineering, Digital Liver Lab
+  description: Steffen Gerhäusser is a doctoral researcher of the project P7 - 
+    "Modeling of function-perfusion-deformation interaction on liver lobulus and
+    cellular scale based on a bi-scale continuum FEM model". He is working under
+    the guidance of Prof. Dr.-Ing Tim Ricken on numercial simulation of liver 
+    tissue based on the theory of porous media (TPM). His main research topic is
+    the coupling of macro perfusion processes on the lobule scale using the 
+    Finite Element Method (FEM ) with reaction networks on the cell scale using 
+    an SBML based ODE solver.
   firstname: Steffen
   groups:
   - Ricken
@@ -233,14 +239,16 @@ items:
   - https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/
   - https://scholar.google.de/citations?user=06FexVMAAAAJ&hl=en
 - affiliations:
-  - Institute for Theoretical Biology, Humboldt-University Berlin, Berlin, Germany
-  description: Jan Grzegorzewski is a physicist who specializes in mathematical modelling
-    particularly in the field of systems biology. Within "Qualiperf", he has been
-    developing individualized physiological based pharmacokinetic models for rats,
-    swine, and humans, as well as, processing and analyzing histological images of
-    the liver tissue, in order to study various aspects affecting liver function.
-    Additionally, he is interested in machine learning, data science, systematic reviews,
-    data management, and bioinformatics.
+  - Institute for Theoretical Biology, Humboldt-University Berlin, Berlin, 
+    Germany
+  description: Jan Grzegorzewski is a physicist who specializes in mathematical 
+    modelling particularly in the field of systems biology. Within "Qualiperf", 
+    he has been developing individualized physiological based pharmacokinetic 
+    models for rats, swine, and humans, as well as, processing and analyzing 
+    histological images of the liver tissue, in order to study various aspects 
+    affecting liver function. Additionally, he is interested in machine 
+    learning, data science, systematic reviews, data management, and 
+    bioinformatics.
   firstname: Jan
   groups:
   - König
@@ -267,15 +275,16 @@ items:
   - https://livermetabolism.com/
   - https://github.com/janekg89
 - affiliations:
-  - Jena University Hospital, Institute of Diagnostic and Interventional Radiology,
-    Medical Physics Group
-  description: Within the research unit QuaLiPerF this project aims for  multi-scale
-    understanding of the interplay between hepatic perfusion and function after extended
-    hepatectomy (ePHx) in rats.  A comprehensive MRI toolbox at 9.4T will provide
-    spatially resolved, multi-parametric quantitative in vivo information under various
-    experimental conditions. The collected data, together with the iterative computational
-    modeling and data integration, will allow a better prediction of the recovery
-    of liver function.
+  - Jena University Hospital, Institute of Diagnostic and Interventional 
+    Radiology, Medical Physics Group
+  description: Within the research unit QuaLiPerF this project aims for  
+    multi-scale understanding of the interplay between hepatic perfusion and 
+    function after extended hepatectomy (ePHx) in rats.  A comprehensive MRI 
+    toolbox at 9.4T will provide spatially resolved, multi-parametric 
+    quantitative in vivo information under various experimental conditions. The 
+    collected data, together with the iterative computational modeling and data 
+    integration, will allow a better prediction of the recovery of liver 
+    function.
   firstname: Karl-Heinz
   groups:
   - Reichenbach
@@ -308,12 +317,14 @@ items:
   websites:
   - https://www.uniklinikum-jena.de/idir/Arbeitsgruppen+im+IDIR/AG+Medizinische+Physik/Mitarbeiter/Dr_+Karl_Heinz+Herrmann-p-2370.html
 - affiliations:
-  - University of Stuttgart, Faculty of Engineering Design, Production Engineering
-    and Automotive Engineering, Institute for Systems Theory and Automatic Control
-  description: My focus in the research unit QuaLiPerF is to apply statistical methods
-    for data integration into multi-scale models and uncertainty tracking. To achieve
-    this, statistical methods like Markov chain Monte Carlo (MCMC) sampling, Maximum
-    Likelihood parameter estimation and machine learning will be applied.
+  - University of Stuttgart, Faculty of Engineering Design, Production 
+    Engineering and Automotive Engineering, Institute for Systems Theory and 
+    Automatic Control
+  description: My focus in the research unit QuaLiPerF is to apply statistical 
+    methods for data integration into multi-scale models and uncertainty 
+    tracking. To achieve this, statistical methods like Markov chain Monte Carlo
+    (MCMC) sampling, Maximum Likelihood parameter estimation and machine 
+    learning will be applied.
   firstname: Sebastian
   groups:
   - Radde
@@ -338,9 +349,10 @@ items:
   - https://www.ist.uni-stuttgart.de/de/institut/team/Hoepfl/
   - https://github.com/shoepfl
 - affiliations:
-  - Institute for Theoretical Biology, Institute of Biology, Humboldt-University Berlin
-  description: Development of pharmacokinetic Models for the quantification of liver
-    function.
+  - Institute for Theoretical Biology, Institute of Biology, Humboldt-University
+    Berlin
+  description: Development of pharmacokinetic Models for the quantification of 
+    liver function.
   firstname: Adrian
   groups:
   - Koenig
@@ -360,21 +372,23 @@ items:
   title: B. Sc.
   websites: null
 - affiliations:
-  - Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology,
-    Systems Medicine of the Liver Lab
-  description: The König lab uses Systems Medicine and Systems Biology to study drug
-    metabolism and liver function. We apply computational modeling, data science,
-    data management, bioinformatics analysis and machine learning on biological, medical
-    and clinical data. The main research topics are (i) predictive modeling of biomedical
-    systems with a special focus on the liver, (ii) development of digital twins using
-    physiologically based pharmacokinetic (PBPK) models, (iii) reproducible and open
-    research, and (iv) FAIR data and workflows. Key projects include personalized
-    assessment of liver function tests, multi-scale modeling of the liver, and development
-    of databases and workflows to support reproducible, open and FAIR research. As
-    part of our research, we generate predictive digital twins of individual human
-    physiology. Such models can provide important insights into inter-individual differences
-    and personalized treatments, such as individualized drug dosing or the effect
-    of lifestyle factors on drug metabolism.
+  - Humboldt-University Berlin, Institute for Theoretical Biology, Institute for
+    Biology, Systems Medicine of the Liver Lab
+  description: The König lab uses Systems Medicine and Systems Biology to study 
+    drug metabolism and liver function. We apply computational modeling, data 
+    science, data management, bioinformatics analysis and machine learning on 
+    biological, medical and clinical data. The main research topics are (i) 
+    predictive modeling of biomedical systems with a special focus on the liver,
+    (ii) development of digital twins using physiologically based 
+    pharmacokinetic (PBPK) models, (iii) reproducible and open research, and 
+    (iv) FAIR data and workflows. Key projects include personalized assessment 
+    of liver function tests, multi-scale modeling of the liver, and development 
+    of databases and workflows to support reproducible, open and FAIR research. 
+    As part of our research, we generate predictive digital twins of individual 
+    human physiology. Such models can provide important insights into 
+    inter-individual differences and personalized treatments, such as 
+    individualized drug dosing or the effect of lifestyle factors on drug 
+    metabolism.
   firstname: Matthias
   groups:
   - Koenig
@@ -406,17 +420,18 @@ items:
   - https://livermetabolism.com/cv/
   - https://github.com/matthiaskoenig/
 - affiliations:
-  - Department of Visceral, Transplant, Thoracic and Vascular Surgery, University
-    of Leipzig Medical Center, Liebigstr. 21, 04103 Leipzig, Germany
-  description: Joanna Kosacka is a scientist at the Department of Visceral, Transplant,
-    Thoracic and Vascular Surgery, University of Leipzig. She is a neuroscientist
-    and is interested in pathological changes of peripheral nerves as well as new
-    therapies for peripheral neuropathy. She also actively participates in endocrinology
-    and hepatological research. In the current QuaLiPerF project, she performs all
-    operations on animals, including PVL and hepatectomy, and works in collaboration
-    with the Department of Clinical Chemistry on the analysis of oxygen consumption
-    rate of isolated mitochondria. In addition, she co-supervises the doctoral student
-    and the doctoral thesis within the framework of the project.
+  - Department of Visceral, Transplant, Thoracic and Vascular Surgery, 
+    University of Leipzig Medical Center, Liebigstr. 21, 04103 Leipzig, Germany
+  description: Joanna Kosacka is a scientist at the Department of Visceral, 
+    Transplant, Thoracic and Vascular Surgery, University of Leipzig. She is a 
+    neuroscientist and is interested in pathological changes of peripheral 
+    nerves as well as new therapies for peripheral neuropathy. She also actively
+    participates in endocrinology and hepatological research. In the current 
+    QuaLiPerF project, she performs all operations on animals, including PVL and
+    hepatectomy, and works in collaboration with the Department of Clinical 
+    Chemistry on the analysis of oxygen consumption rate of isolated 
+    mitochondria. In addition, she co-supervises the doctoral student and the 
+    doctoral thesis within the framework of the project.
   firstname: Joanna
   groups:
   - Christ
@@ -472,16 +487,17 @@ items:
   websites:
   - https://www.researchgate.net/profile/Joanna-Kosacka
 - affiliations:
-  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace
-    Engineering, Digital Liver Lab
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery,
-    Experimental Transplantation Surgery
-  description: Lena Lambers is working as the scientific coordinator of QuaLiPerF
-    and is providing a bridge between the different disciplines and administration.
-    She supports the achievement of the joint scientific objects, manages the doctoral
-    program and budget administration and organizes the annual workshops and status
-    reports. Furthermore she is a doctoral researcher working on the continuum-biomechanical
-    modelling of liver lobules and supports the subproject P7.
+  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in 
+    Aerospace Engineering, Digital Liver Lab
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery, Experimental Transplantation Surgery
+  description: Lena Lambers is working as the scientific coordinator of 
+    QuaLiPerF and is providing a bridge between the different disciplines and 
+    administration. She supports the achievement of the joint scientific 
+    objects, manages the doctoral program and budget administration and 
+    organizes the annual workshops and status reports. Furthermore she is a 
+    doctoral researcher working on the continuum-biomechanical modelling of 
+    liver lobules and supports the subproject P7.
   firstname: Lena
   groups:
   - Ricken
@@ -510,10 +526,10 @@ items:
   - https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/
   - https://scholar.google.de/citations?user=QoL0pwoAAAAJ
 - affiliations:
-  - Humboldt-University Berlin, Institute for Theoretical Biology, Institute for Biology,
-    Systems Medicine of the Liver Lab
-  description: Helena Leal Pujol is a student assistant in the Koenig group. She works
-    on data curation and on a physiologically based model of pravastatin.
+  - Humboldt-University Berlin, Institute for Theoretical Biology, Institute for
+    Biology, Systems Medicine of the Liver Lab
+  description: Helena Leal Pujol is a student assistant in the Koenig group. She
+    works on data curation and on a physiologically based model of pravastatin.
   firstname: Helena Leal
   groups:
   - Koenig
@@ -533,14 +549,15 @@ items:
   websites:
   - https://github.com/lepujolh/
 - affiliations:
-  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace
-    Engineering, Digital Liver Lab
-  description: Luis Mandl is a doctoral researcher for physics-informed machine learning
-    in biomechanics of the liver. He is currently working within the associated project
-    “SIMulation supported LIVer Assessment for donor organs (SimLivA) - Continuum-biomechanical
-    modeling for staging of ischemia reperfusion injury during liver transplantation”
-    and supports QuaLiPerF in image analysis for modeling purposes using methods from
-    the field of machine learning.
+  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in 
+    Aerospace Engineering, Digital Liver Lab
+  description: Luis Mandl is a doctoral researcher for physics-informed machine 
+    learning in biomechanics of the liver. He is currently working within the 
+    associated project “SIMulation supported LIVer Assessment for donor organs 
+    (SimLivA) - Continuum-biomechanical modeling for staging of ischemia 
+    reperfusion injury during liver transplantation” and supports QuaLiPerF in 
+    image analysis for modeling purposes using methods from the field of machine
+    learning.
   firstname: Luis
   groups:
   - Ricken
@@ -561,8 +578,8 @@ items:
   - https://www.isd.uni-stuttgart.de/research/biomechanics/dililab/
   - https://scholar.google.de/citations?user=sieD_UMAAAAJ
 - affiliations:
-  - Friedrich Schiller University Jena, Faculty of Mathematics and Computer Science,
-    RNA Bioinformatics and High-Throughput Analysis
+  - Friedrich Schiller University Jena, Faculty of Mathematics and Computer 
+    Science, RNA Bioinformatics and High-Throughput Analysis
   description: ''
   firstname: Manja
   groups:
@@ -591,13 +608,13 @@ items:
   title: Prof. Dr.
   websites: null
 - affiliations:
-  - Friedrich Schiller University Jena, Faculty of Mathematics and Computer Science,
-    RNA Bioinformatics and High-Throughput Analysis
+  - Friedrich Schiller University Jena, Faculty of Mathematics and Computer 
+    Science, RNA Bioinformatics and High-Throughput Analysis
   - Oncgnostics GmbH, Löbstedter Straße 41, Jena, 07749, Germany
-  description: In QuaLiPerF I am analyzing liver transcriptome data, to detect differences
-    in gene expression between healthy, steatotic and venous ligated liver samples.
-    Additionally I am trying to computationally detect non-coding RNAs showing differences
-    between the analyzed liver conditions.
+  description: In QuaLiPerF I am analyzing liver transcriptome data, to detect 
+    differences in gene expression between healthy, steatotic and venous ligated
+    liver samples. Additionally I am trying to computationally detect non-coding
+    RNAs showing differences between the analyzed liver conditions.
   firstname: Daria
   groups:
   - Marz
@@ -617,11 +634,13 @@ items:
   websites:
   - https://www.rna.uni-jena.de/members/daria-meyer/
 - affiliations:
-  - University of Stuttgart, Faculty of Engineering Design, Production Engineering
-    and Automotive Engineering, Institute for Systems Theory and Automatic Control
-  description: Within the research unit QuaLiPerF, I am interested in advanced statistical
-    methods for data integration into kinetic models on different scales. Moreover,
-    I aim to contribute to FAIR model and data principles in a Bayesian framework.
+  - University of Stuttgart, Faculty of Engineering Design, Production 
+    Engineering and Automotive Engineering, Institute for Systems Theory and 
+    Automatic Control
+  description: Within the research unit QuaLiPerF, I am interested in advanced 
+    statistical methods for data integration into kinetic models on different 
+    scales. Moreover, I aim to contribute to FAIR model and data principles in a
+    Bayesian framework.
   firstname: Nicole Erika
   groups:
   - Radde
@@ -652,7 +671,8 @@ items:
   - https://scholar.google.de/citations?user=KMqju5UAAAAJ&hl=de
   - https://www.ist.uni-stuttgart.de/de/institut/team/Radde-00007/
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery
   description: ''
   firstname: Falk
   groups:
@@ -678,8 +698,8 @@ items:
   title: PD Dr. med., M.Sc.
   websites: []
 - affiliations:
-  - Jena University Hospital, Institute of Diagnostic and Interventional Radiology,
-    Medical Physics Group
+  - Jena University Hospital, Institute of Diagnostic and Interventional 
+    Radiology, Medical Physics Group
   description: ''
   firstname: Jürgen R.
   groups:
@@ -708,16 +728,17 @@ items:
   title: Prof. Dr. rer. nat. med. habil.
   websites: []
 - affiliations:
-  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in Aerospace
-    Engineering, Digital Liver Lab
-  description: Tim Ricken is PI of the project P7 - "Modeling of function-perfusion-deformation
-    interaction on liver lobulus and cellular scale based on a bi-scale continuum
-    FEM model". He is working on multiscale and multiphase continuum-biomechanical
-    modeling of liver tissue using the theory of porous media (TPM). The modeling
-    includes perfusion processes on the lobule scale coupled to systems biology models
-    on the cell scale. To enhance the prognosis of the model, hybrid knowledge-and
-    data driven approaches are developed including experimental, clinical, and in
-    silico data.
+  - University of Stuttgart, Institute of Structural Mechanics and Dynamics in 
+    Aerospace Engineering, Digital Liver Lab
+  description: Tim Ricken is PI of the project P7 - "Modeling of 
+    function-perfusion-deformation interaction on liver lobulus and cellular 
+    scale based on a bi-scale continuum FEM model". He is working on multiscale 
+    and multiphase continuum-biomechanical modeling of liver tissue using the 
+    theory of porous media (TPM). The modeling includes perfusion processes on 
+    the lobule scale coupled to systems biology models on the cell scale. To 
+    enhance the prognosis of the model, hybrid knowledge-and data driven 
+    approaches are developed including experimental, clinical, and in silico 
+    data.
   firstname: Tim
   groups:
   - Ricken
@@ -751,10 +772,10 @@ items:
   - https://scholar.google.de/citations?user=TcWVyg8AAAAJ
 - affiliations:
   - Fraunhofer-Institut für Digitale Medizin MEVIS
-  description: Ole is a postdoctoral researcher at Fraunhofer MEVIS, working in the
-    fields of Computational Pathology as well as Modeling and Simulation. His research
-    interests include multiscale liver modeling and spatially resolved pharmacokinetics
-    simulations.
+  description: Ole is a postdoctoral researcher at Fraunhofer MEVIS, working in 
+    the fields of Computational Pathology as well as Modeling and Simulation. 
+    His research interests include multiscale liver modeling and spatially 
+    resolved pharmacokinetics simulations.
   firstname: Lars Ole
   groups:
   - Schwen
@@ -780,7 +801,8 @@ items:
   websites:
   - http://www.mevis-research.de/~oschwen/index.html
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery
   description: ''
   firstname: Utz
   groups:
@@ -829,7 +851,8 @@ items:
   websites:
   - https://djps.github.io/
 - affiliations:
-  - Jena University Hospital, Department of General, Visceral and Vascular Surgery
+  - Jena University Hospital, Department of General, Visceral and Vascular 
+    Surgery
   description: ''
   firstname: Hans-Michael
   groups:
@@ -859,14 +882,15 @@ items:
   title: PD Dr. med.
   websites: []
 - affiliations:
-  - University of Leipzig Medical Center, Department of Visceral, Transplant, Thoracic
-    and Vascular Surgery, Cell Transplantation/ Molecular Hepatology Lab
-  description: Lysann Tietze received a degree in nutritional sciences and completed
-    her PhD studies on the topic of stem cell therapies for liver diseases. Since
-    2021, she works as a post-doctoral researcher with Prof. Dr. Bruno Christ at the
-    University of Leipzig. Dr. Tietze is responsible for data management, data analysis
-    and the transfer of P1 project results to other research groups of the QuaLiPerF
-    project.
+  - University of Leipzig Medical Center, Department of Visceral, Transplant, 
+    Thoracic and Vascular Surgery, Cell Transplantation/ Molecular Hepatology 
+    Lab
+  description: Lysann Tietze received a degree in nutritional sciences and 
+    completed her PhD studies on the topic of stem cell therapies for liver 
+    diseases. Since 2021, she works as a post-doctoral researcher with Prof. Dr.
+    Bruno Christ at the University of Leipzig. Dr. Tietze is responsible for 
+    data management, data analysis and the transfer of P1 project results to 
+    other research groups of the QuaLiPerF project.
   firstname: Lysann
   groups:
   - Christ
@@ -888,8 +912,8 @@ items:
   title: Dr. rer. med.
   websites: []
 - affiliations:
-  - Jena University Hospital, Institute of Diagnostic and Interventional Radiology,
-    Medical Physics Group
+  - Jena University Hospital, Institute of Diagnostic and Interventional 
+    Radiology, Medical Physics Group
   description: 'Within the research unit QuaLiPerF this project aims for a multi-scale
     understanding of the interplay between hepatic perfusion and function after extended
     hepatectomy (ePHx) in rats.  My role in the project is to develop and perform
